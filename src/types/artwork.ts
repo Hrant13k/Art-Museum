@@ -1,0 +1,87 @@
+// Shared domain types. Imported by both the data scripts and the app.
+
+/** A block of enriched, human-readable content about an artwork. */
+export interface EnrichedContent {
+  /** 2-3 sentence plain-language introduction. */
+  overview: string;
+  /** How and why the work was created. */
+  creationStory: string;
+  /** Who or what is depicted, and why it matters. */
+  whoIsDepicted: string;
+  /** The historical / cultural moment around the work. */
+  historicalContext: string;
+  /** A few short, surprising-but-factual notes. */
+  interestingFacts: string[];
+}
+
+/** Marks which enriched fields are genuinely sourced vs. unavailable. */
+export type EnrichmentStatus = 'enriched' | 'metadata-fallback' | 'unavailable';
+
+export interface SourceLink {
+  label: string;
+  url: string;
+}
+
+export interface Artwork extends EnrichedContent {
+  /** Stable internal id: `${source}-${sourceId}`. */
+  id: string;
+  source: string; // e.g. "met", "aic", "cma"
+  sourceId: string;
+
+  title: string;
+  artist: string;
+  artistId: string; // slug, links to an Artist
+  year: string; // display string, e.g. "1889" or "c. 1503-1506"
+  yearValue: number | null; // numeric sort key (best-effort)
+
+  museum: string;
+  museumId: string; // slug, links to a Museum
+  museumLocation: string;
+
+  image: string; // full-size image URL
+  thumbnail: string; // smaller image URL for grids/lists
+
+  movement: string;
+  medium: string;
+  culture: string;
+  department: string;
+
+  /** Lowercased tags used by Explore categories and search. */
+  tags: string[];
+
+  enrichmentStatus: EnrichmentStatus;
+  sourceLinks: SourceLink[];
+}
+
+export interface Artist {
+  id: string; // slug
+  name: string;
+  portrait: string | null;
+  birthYear: string | null;
+  deathYear: string | null;
+  nationality: string | null;
+  bio: string | null;
+  bioStatus: EnrichmentStatus;
+  movement: string | null;
+  artworkIds: string[];
+  relatedArtistIds: string[];
+}
+
+export interface Museum {
+  id: string; // slug
+  name: string;
+  location: string;
+  foundedYear: string | null;
+  history: string | null;
+  historyStatus: EnrichmentStatus;
+  artworkIds: string[];
+  mapUrl: string | null;
+}
+
+/** A browsable Explore category. */
+export interface Category {
+  id: string;
+  label: string;
+  /** Predicate keys matched against an artwork's tags/movement/medium. */
+  match: string[];
+}

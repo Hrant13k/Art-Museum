@@ -1,0 +1,1000 @@
+[
+  {
+    "id": "botticelli-alessandro-di-mariano-filipepi",
+    "name": "Botticelli (Alessandro di Mariano Filipepi)",
+    "portrait": null,
+    "birthYear": null,
+    "deathYear": null,
+    "nationality": null,
+    "bio": null,
+    "bioStatus": "unavailable",
+    "movement": "Renaissance",
+    "artworkIds": [
+      "met-459016",
+      "met-435729"
+    ],
+    "relatedArtistIds": [
+      "wenceslaus-hollar",
+      "raphael",
+      "albrecht-durer",
+      "titian",
+      "titian-tiziano-vecellio"
+    ]
+  },
+  {
+    "id": "wenceslaus-hollar",
+    "name": "Wenceslaus Hollar",
+    "portrait": null,
+    "birthYear": null,
+    "deathYear": null,
+    "nationality": null,
+    "bio": null,
+    "bioStatus": "unavailable",
+    "movement": "Renaissance",
+    "artworkIds": [
+      "met-361524"
+    ],
+    "relatedArtistIds": [
+      "botticelli-alessandro-di-mariano-filipepi",
+      "raphael",
+      "albrecht-durer",
+      "titian",
+      "titian-tiziano-vecellio"
+    ]
+  },
+  {
+    "id": "raphael",
+    "name": "Raphael",
+    "portrait": null,
+    "birthYear": null,
+    "deathYear": null,
+    "nationality": null,
+    "bio": null,
+    "bioStatus": "unavailable",
+    "movement": "Renaissance",
+    "artworkIds": [
+      "met-437373"
+    ],
+    "relatedArtistIds": [
+      "botticelli-alessandro-di-mariano-filipepi",
+      "wenceslaus-hollar",
+      "albrecht-durer",
+      "titian",
+      "titian-tiziano-vecellio"
+    ]
+  },
+  {
+    "id": "albrecht-durer",
+    "name": "Albrecht Dürer",
+    "portrait": null,
+    "birthYear": null,
+    "deathYear": null,
+    "nationality": null,
+    "bio": null,
+    "bioStatus": "unavailable",
+    "movement": "Renaissance",
+    "artworkIds": [
+      "met-436243",
+      "met-436244",
+      "met-459211"
+    ],
+    "relatedArtistIds": [
+      "botticelli-alessandro-di-mariano-filipepi",
+      "wenceslaus-hollar",
+      "raphael",
+      "titian",
+      "titian-tiziano-vecellio"
+    ]
+  },
+  {
+    "id": "titian",
+    "name": "Titian",
+    "portrait": null,
+    "birthYear": null,
+    "deathYear": null,
+    "nationality": null,
+    "bio": null,
+    "bioStatus": "unavailable",
+    "movement": "Renaissance",
+    "artworkIds": [
+      "met-437827"
+    ],
+    "relatedArtistIds": [
+      "botticelli-alessandro-di-mariano-filipepi",
+      "wenceslaus-hollar",
+      "raphael",
+      "albrecht-durer",
+      "titian-tiziano-vecellio"
+    ]
+  },
+  {
+    "id": "titian-tiziano-vecellio",
+    "name": "Titian (Tiziano Vecellio)",
+    "portrait": null,
+    "birthYear": null,
+    "deathYear": null,
+    "nationality": null,
+    "bio": null,
+    "bioStatus": "unavailable",
+    "movement": "Renaissance",
+    "artworkIds": [
+      "met-437826",
+      "met-437823"
+    ],
+    "relatedArtistIds": [
+      "botticelli-alessandro-di-mariano-filipepi",
+      "wenceslaus-hollar",
+      "raphael",
+      "albrecht-durer",
+      "titian"
+    ]
+  },
+  {
+    "id": "rembrandt",
+    "name": "Rembrandt",
+    "portrait": null,
+    "birthYear": null,
+    "deathYear": null,
+    "nationality": null,
+    "bio": null,
+    "bioStatus": "unavailable",
+    "movement": "Baroque",
+    "artworkIds": [
+      "met-437406"
+    ],
+    "relatedArtistIds": [
+      "rembrandt-rembrandt-van-rijn",
+      "johannes-vermeer",
+      "peter-paul-rubens",
+      "caravaggio",
+      "anthony-van-dyck",
+      "andrea-del-sarto"
+    ]
+  },
+  {
+    "id": "rembrandt-rembrandt-van-rijn",
+    "name": "Rembrandt (Rembrandt van Rijn)",
+    "portrait": null,
+    "birthYear": null,
+    "deathYear": null,
+    "nationality": null,
+    "bio": null,
+    "bioStatus": "unavailable",
+    "movement": "Baroque",
+    "artworkIds": [
+      "met-459082",
+      "met-437392",
+      "met-437397",
+      "met-437394"
+    ],
+    "relatedArtistIds": [
+      "rembrandt",
+      "johannes-vermeer",
+      "peter-paul-rubens",
+      "caravaggio",
+      "anthony-van-dyck",
+      "andrea-del-sarto"
+    ]
+  },
+  {
+    "id": "johannes-vermeer",
+    "name": "Johannes Vermeer",
+    "portrait": null,
+    "birthYear": null,
+    "deathYear": null,
+    "nationality": null,
+    "bio": null,
+    "bioStatus": "unavailable",
+    "movement": "Baroque",
+    "artworkIds": [
+      "met-437881",
+      "met-437877"
+    ],
+    "relatedArtistIds": [
+      "rembrandt",
+      "rembrandt-rembrandt-van-rijn",
+      "peter-paul-rubens",
+      "caravaggio",
+      "anthony-van-dyck",
+      "andrea-del-sarto"
+    ]
+  },
+  {
+    "id": "peter-paul-rubens",
+    "name": "Peter Paul Rubens",
+    "portrait": null,
+    "birthYear": null,
+    "deathYear": null,
+    "nationality": null,
+    "bio": null,
+    "bioStatus": "unavailable",
+    "movement": "Baroque",
+    "artworkIds": [
+      "met-437530",
+      "met-437534",
+      "met-437532"
+    ],
+    "relatedArtistIds": [
+      "rembrandt",
+      "rembrandt-rembrandt-van-rijn",
+      "johannes-vermeer",
+      "caravaggio",
+      "anthony-van-dyck",
+      "andrea-del-sarto"
+    ]
+  },
+  {
+    "id": "caravaggio",
+    "name": "Caravaggio",
+    "portrait": null,
+    "birthYear": null,
+    "deathYear": null,
+    "nationality": null,
+    "bio": null,
+    "bioStatus": "unavailable",
+    "movement": "Baroque",
+    "artworkIds": [
+      "cma-148758"
+    ],
+    "relatedArtistIds": [
+      "rembrandt",
+      "rembrandt-rembrandt-van-rijn",
+      "johannes-vermeer",
+      "peter-paul-rubens",
+      "anthony-van-dyck",
+      "andrea-del-sarto"
+    ]
+  },
+  {
+    "id": "anthony-van-dyck",
+    "name": "Anthony van Dyck",
+    "portrait": null,
+    "birthYear": null,
+    "deathYear": null,
+    "nationality": null,
+    "bio": null,
+    "bioStatus": "unavailable",
+    "movement": "Baroque",
+    "artworkIds": [
+      "cma-131819"
+    ],
+    "relatedArtistIds": [
+      "rembrandt",
+      "rembrandt-rembrandt-van-rijn",
+      "johannes-vermeer",
+      "peter-paul-rubens",
+      "caravaggio",
+      "andrea-del-sarto"
+    ]
+  },
+  {
+    "id": "andrea-del-sarto",
+    "name": "Andrea del Sarto",
+    "portrait": null,
+    "birthYear": null,
+    "deathYear": null,
+    "nationality": null,
+    "bio": null,
+    "bioStatus": "unavailable",
+    "movement": "Baroque",
+    "artworkIds": [
+      "cma-117032"
+    ],
+    "relatedArtistIds": [
+      "rembrandt",
+      "rembrandt-rembrandt-van-rijn",
+      "johannes-vermeer",
+      "peter-paul-rubens",
+      "caravaggio",
+      "anthony-van-dyck"
+    ]
+  },
+  {
+    "id": "eugene-delacroix",
+    "name": "Eugène Delacroix",
+    "portrait": null,
+    "birthYear": null,
+    "deathYear": null,
+    "nationality": null,
+    "bio": null,
+    "bioStatus": "unavailable",
+    "movement": "Romanticism",
+    "artworkIds": [
+      "met-438814",
+      "met-436175",
+      "met-336046"
+    ],
+    "relatedArtistIds": [
+      "goya-francisco-de-goya-y-lucientes",
+      "joseph-mallord-william-turner"
+    ]
+  },
+  {
+    "id": "goya-francisco-de-goya-y-lucientes",
+    "name": "Goya (Francisco de Goya y Lucientes)",
+    "portrait": null,
+    "birthYear": null,
+    "deathYear": null,
+    "nationality": null,
+    "bio": null,
+    "bioStatus": "unavailable",
+    "movement": "Romanticism",
+    "artworkIds": [
+      "met-436544",
+      "met-436546",
+      "met-436541"
+    ],
+    "relatedArtistIds": [
+      "eugene-delacroix",
+      "joseph-mallord-william-turner"
+    ]
+  },
+  {
+    "id": "joseph-mallord-william-turner",
+    "name": "Joseph Mallord William Turner",
+    "portrait": null,
+    "birthYear": null,
+    "deathYear": null,
+    "nationality": null,
+    "bio": null,
+    "bioStatus": "unavailable",
+    "movement": "Romanticism",
+    "artworkIds": [
+      "met-437853",
+      "met-437854"
+    ],
+    "relatedArtistIds": [
+      "eugene-delacroix",
+      "goya-francisco-de-goya-y-lucientes"
+    ]
+  },
+  {
+    "id": "auguste-renoir",
+    "name": "Auguste Renoir",
+    "portrait": null,
+    "birthYear": null,
+    "deathYear": null,
+    "nationality": null,
+    "bio": null,
+    "bioStatus": "unavailable",
+    "movement": "Impressionism",
+    "artworkIds": [
+      "met-459112",
+      "met-438815",
+      "met-438011"
+    ],
+    "relatedArtistIds": [
+      "edgar-degas",
+      "camille-pissarro"
+    ]
+  },
+  {
+    "id": "edgar-degas",
+    "name": "Edgar Degas",
+    "portrait": null,
+    "birthYear": null,
+    "deathYear": null,
+    "nationality": null,
+    "bio": null,
+    "bioStatus": "unavailable",
+    "movement": "Impressionism",
+    "artworkIds": [
+      "met-436155",
+      "met-438817",
+      "met-436135",
+      "met-436122"
+    ],
+    "relatedArtistIds": [
+      "auguste-renoir",
+      "camille-pissarro"
+    ]
+  },
+  {
+    "id": "camille-pissarro",
+    "name": "Camille Pissarro",
+    "portrait": null,
+    "birthYear": null,
+    "deathYear": null,
+    "nationality": null,
+    "bio": null,
+    "bioStatus": "unavailable",
+    "movement": "Impressionism",
+    "artworkIds": [
+      "met-438738",
+      "met-459108"
+    ],
+    "relatedArtistIds": [
+      "auguste-renoir",
+      "edgar-degas"
+    ]
+  },
+  {
+    "id": "vincent-van-gogh",
+    "name": "Vincent van Gogh",
+    "portrait": null,
+    "birthYear": null,
+    "deathYear": null,
+    "nationality": null,
+    "bio": null,
+    "bioStatus": "unavailable",
+    "movement": "Post-Impressionism",
+    "artworkIds": [
+      "met-459123",
+      "met-436533",
+      "met-436528",
+      "met-436532",
+      "met-436535",
+      "met-436529"
+    ],
+    "relatedArtistIds": [
+      "paul-cezanne",
+      "georges-seurat",
+      "paul-gauguin"
+    ]
+  },
+  {
+    "id": "paul-cezanne",
+    "name": "Paul Cézanne",
+    "portrait": null,
+    "birthYear": null,
+    "deathYear": null,
+    "nationality": null,
+    "bio": null,
+    "bioStatus": "unavailable",
+    "movement": "Post-Impressionism",
+    "artworkIds": [
+      "met-435882",
+      "met-435868",
+      "met-459092",
+      "met-435876"
+    ],
+    "relatedArtistIds": [
+      "vincent-van-gogh",
+      "georges-seurat",
+      "paul-gauguin"
+    ]
+  },
+  {
+    "id": "georges-seurat",
+    "name": "Georges Seurat",
+    "portrait": null,
+    "birthYear": null,
+    "deathYear": null,
+    "nationality": null,
+    "bio": null,
+    "bioStatus": "unavailable",
+    "movement": "Post-Impressionism",
+    "artworkIds": [
+      "met-437654",
+      "met-459116"
+    ],
+    "relatedArtistIds": [
+      "vincent-van-gogh",
+      "paul-cezanne",
+      "paul-gauguin"
+    ]
+  },
+  {
+    "id": "paul-gauguin",
+    "name": "Paul Gauguin",
+    "portrait": null,
+    "birthYear": null,
+    "deathYear": null,
+    "nationality": null,
+    "bio": null,
+    "bioStatus": "unavailable",
+    "movement": "Post-Impressionism",
+    "artworkIds": [
+      "met-438821",
+      "met-436449",
+      "met-459100"
+    ],
+    "relatedArtistIds": [
+      "vincent-van-gogh",
+      "paul-cezanne",
+      "georges-seurat"
+    ]
+  },
+  {
+    "id": "gustav-klimt",
+    "name": "Gustav Klimt",
+    "portrait": null,
+    "birthYear": null,
+    "deathYear": null,
+    "nationality": null,
+    "bio": null,
+    "bioStatus": "unavailable",
+    "movement": "Modernism",
+    "artworkIds": [
+      "met-436819"
+    ],
+    "relatedArtistIds": [
+      "amedeo-modigliani",
+      "auguste-rodin",
+      "victor-peter"
+    ]
+  },
+  {
+    "id": "amedeo-modigliani",
+    "name": "Amedeo Modigliani",
+    "portrait": null,
+    "birthYear": null,
+    "deathYear": null,
+    "nationality": null,
+    "bio": null,
+    "bioStatus": "unavailable",
+    "movement": "Modernism",
+    "artworkIds": [
+      "met-486837",
+      "met-488927"
+    ],
+    "relatedArtistIds": [
+      "gustav-klimt",
+      "auguste-rodin",
+      "victor-peter"
+    ]
+  },
+  {
+    "id": "katsushika-hokusai",
+    "name": "Katsushika Hokusai",
+    "portrait": null,
+    "birthYear": null,
+    "deathYear": null,
+    "nationality": null,
+    "bio": null,
+    "bioStatus": "unavailable",
+    "movement": "Japanese Art",
+    "artworkIds": [
+      "met-39799",
+      "met-48886"
+    ],
+    "relatedArtistIds": [
+      "gorham-manufacturing-company",
+      "utagawa-hiroshige",
+      "kitagawa-utamaro"
+    ]
+  },
+  {
+    "id": "gorham-manufacturing-company",
+    "name": "Gorham Manufacturing Company",
+    "portrait": null,
+    "birthYear": null,
+    "deathYear": null,
+    "nationality": null,
+    "bio": null,
+    "bioStatus": "unavailable",
+    "movement": "Japanese Art",
+    "artworkIds": [
+      "met-21586"
+    ],
+    "relatedArtistIds": [
+      "katsushika-hokusai",
+      "utagawa-hiroshige",
+      "kitagawa-utamaro"
+    ]
+  },
+  {
+    "id": "utagawa-hiroshige",
+    "name": "Utagawa Hiroshige",
+    "portrait": null,
+    "birthYear": null,
+    "deathYear": null,
+    "nationality": null,
+    "bio": null,
+    "bioStatus": "unavailable",
+    "movement": "Japanese Art",
+    "artworkIds": [
+      "met-53449",
+      "met-37031",
+      "met-460331",
+      "met-460337"
+    ],
+    "relatedArtistIds": [
+      "katsushika-hokusai",
+      "gorham-manufacturing-company",
+      "kitagawa-utamaro"
+    ]
+  },
+  {
+    "id": "kitagawa-utamaro",
+    "name": "Kitagawa Utamaro",
+    "portrait": null,
+    "birthYear": null,
+    "deathYear": null,
+    "nationality": null,
+    "bio": null,
+    "bioStatus": "unavailable",
+    "movement": "Japanese Art",
+    "artworkIds": [
+      "met-54871",
+      "met-37338"
+    ],
+    "relatedArtistIds": [
+      "katsushika-hokusai",
+      "gorham-manufacturing-company",
+      "utagawa-hiroshige"
+    ]
+  },
+  {
+    "id": "unknown-artist",
+    "name": "Unknown artist",
+    "portrait": null,
+    "birthYear": null,
+    "deathYear": null,
+    "nationality": null,
+    "bio": null,
+    "bioStatus": "unavailable",
+    "movement": "Armenian Art",
+    "artworkIds": [
+      "met-478665",
+      "met-478391",
+      "cma-171307",
+      "cma-125575",
+      "met-248140",
+      "met-251929",
+      "met-243594",
+      "met-245500",
+      "met-244462",
+      "met-453576"
+    ],
+    "relatedArtistIds": [
+      "illuminator-minas",
+      "toros-the-deacon"
+    ]
+  },
+  {
+    "id": "illuminator-minas",
+    "name": "Illuminator Minas (?)",
+    "portrait": null,
+    "birthYear": null,
+    "deathYear": null,
+    "nationality": null,
+    "bio": null,
+    "bioStatus": "unavailable",
+    "movement": "Armenian Art",
+    "artworkIds": [
+      "met-662941"
+    ],
+    "relatedArtistIds": [
+      "unknown-artist",
+      "toros-the-deacon"
+    ]
+  },
+  {
+    "id": "toros-the-deacon",
+    "name": "T'oros the Deacon",
+    "portrait": null,
+    "birthYear": null,
+    "deathYear": null,
+    "nationality": null,
+    "bio": null,
+    "bioStatus": "unavailable",
+    "movement": "Armenian Art",
+    "artworkIds": [
+      "met-751462"
+    ],
+    "relatedArtistIds": [
+      "unknown-artist",
+      "illuminator-minas"
+    ]
+  },
+  {
+    "id": "auguste-rodin",
+    "name": "Auguste Rodin",
+    "portrait": null,
+    "birthYear": null,
+    "deathYear": null,
+    "nationality": null,
+    "bio": null,
+    "bioStatus": "unavailable",
+    "movement": "Modernism",
+    "artworkIds": [
+      "met-191843",
+      "met-191803"
+    ],
+    "relatedArtistIds": [
+      "gustav-klimt",
+      "amedeo-modigliani",
+      "victor-peter"
+    ]
+  },
+  {
+    "id": "victor-peter",
+    "name": "Victor Peter",
+    "portrait": null,
+    "birthYear": null,
+    "deathYear": null,
+    "nationality": null,
+    "bio": null,
+    "bioStatus": "unavailable",
+    "movement": "Modernism",
+    "artworkIds": [
+      "met-208069"
+    ],
+    "relatedArtistIds": [
+      "gustav-klimt",
+      "amedeo-modigliani",
+      "auguste-rodin"
+    ]
+  },
+  {
+    "id": "martin-carlin",
+    "name": "Martin Carlin",
+    "portrait": null,
+    "birthYear": null,
+    "deathYear": null,
+    "nationality": null,
+    "bio": null,
+    "bioStatus": "unavailable",
+    "movement": "Classical",
+    "artworkIds": [
+      "met-206499"
+    ],
+    "relatedArtistIds": [
+      "kephisodotos"
+    ]
+  },
+  {
+    "id": "kephisodotos",
+    "name": "Kephisodotos",
+    "portrait": null,
+    "birthYear": null,
+    "deathYear": null,
+    "nationality": null,
+    "bio": null,
+    "bioStatus": "unavailable",
+    "movement": "Classical",
+    "artworkIds": [
+      "met-247173"
+    ],
+    "relatedArtistIds": [
+      "martin-carlin"
+    ]
+  },
+  {
+    "id": "john-i-smart",
+    "name": "John I Smart",
+    "portrait": null,
+    "birthYear": null,
+    "deathYear": null,
+    "nationality": null,
+    "bio": null,
+    "bioStatus": "unavailable",
+    "movement": "Photography",
+    "artworkIds": [
+      "cma-120846"
+    ],
+    "relatedArtistIds": [
+      "robert-demachy",
+      "camille-dolard",
+      "adrien-tournachon",
+      "henry-white",
+      "john-burke",
+      "william-b-post"
+    ]
+  },
+  {
+    "id": "robert-demachy",
+    "name": "Robert Demachy",
+    "portrait": null,
+    "birthYear": null,
+    "deathYear": null,
+    "nationality": null,
+    "bio": null,
+    "bioStatus": "unavailable",
+    "movement": "Photography",
+    "artworkIds": [
+      "cma-152349"
+    ],
+    "relatedArtistIds": [
+      "john-i-smart",
+      "camille-dolard",
+      "adrien-tournachon",
+      "henry-white",
+      "john-burke",
+      "william-b-post"
+    ]
+  },
+  {
+    "id": "camille-dolard",
+    "name": "Camille Dolard",
+    "portrait": null,
+    "birthYear": null,
+    "deathYear": null,
+    "nationality": null,
+    "bio": null,
+    "bioStatus": "unavailable",
+    "movement": "Photography",
+    "artworkIds": [
+      "cma-160087"
+    ],
+    "relatedArtistIds": [
+      "john-i-smart",
+      "robert-demachy",
+      "adrien-tournachon",
+      "henry-white",
+      "john-burke",
+      "william-b-post"
+    ]
+  },
+  {
+    "id": "adrien-tournachon",
+    "name": "Adrien Tournachon",
+    "portrait": null,
+    "birthYear": null,
+    "deathYear": null,
+    "nationality": null,
+    "bio": null,
+    "bioStatus": "unavailable",
+    "movement": "Photography",
+    "artworkIds": [
+      "cma-161864"
+    ],
+    "relatedArtistIds": [
+      "john-i-smart",
+      "robert-demachy",
+      "camille-dolard",
+      "henry-white",
+      "john-burke",
+      "william-b-post"
+    ]
+  },
+  {
+    "id": "henry-white",
+    "name": "Henry White",
+    "portrait": null,
+    "birthYear": null,
+    "deathYear": null,
+    "nationality": null,
+    "bio": null,
+    "bioStatus": "unavailable",
+    "movement": "Photography",
+    "artworkIds": [
+      "cma-157013"
+    ],
+    "relatedArtistIds": [
+      "john-i-smart",
+      "robert-demachy",
+      "camille-dolard",
+      "adrien-tournachon",
+      "john-burke",
+      "william-b-post"
+    ]
+  },
+  {
+    "id": "john-burke",
+    "name": "John Burke",
+    "portrait": null,
+    "birthYear": null,
+    "deathYear": null,
+    "nationality": null,
+    "bio": null,
+    "bioStatus": "unavailable",
+    "movement": "Photography",
+    "artworkIds": [
+      "cma-667960"
+    ],
+    "relatedArtistIds": [
+      "john-i-smart",
+      "robert-demachy",
+      "camille-dolard",
+      "adrien-tournachon",
+      "henry-white",
+      "william-b-post"
+    ]
+  },
+  {
+    "id": "william-b-post",
+    "name": "William B. Post",
+    "portrait": null,
+    "birthYear": null,
+    "deathYear": null,
+    "nationality": null,
+    "bio": null,
+    "bioStatus": "unavailable",
+    "movement": "Photography",
+    "artworkIds": [
+      "cma-157126"
+    ],
+    "relatedArtistIds": [
+      "john-i-smart",
+      "robert-demachy",
+      "camille-dolard",
+      "adrien-tournachon",
+      "henry-white",
+      "john-burke"
+    ]
+  },
+  {
+    "id": "carleton-e-watkins",
+    "name": "Carleton E. Watkins",
+    "portrait": null,
+    "birthYear": null,
+    "deathYear": null,
+    "nationality": null,
+    "bio": null,
+    "bioStatus": "unavailable",
+    "movement": "Photography",
+    "artworkIds": [
+      "met-262612",
+      "met-266133"
+    ],
+    "relatedArtistIds": [
+      "john-i-smart",
+      "robert-demachy",
+      "camille-dolard",
+      "adrien-tournachon",
+      "henry-white",
+      "john-burke"
+    ]
+  },
+  {
+    "id": "sultan-muhammad-nur",
+    "name": "Sultan Muhammad Nur",
+    "portrait": null,
+    "birthYear": null,
+    "deathYear": null,
+    "nationality": null,
+    "bio": null,
+    "bioStatus": "unavailable",
+    "movement": "Islamic",
+    "artworkIds": [
+      "met-453167"
+    ],
+    "relatedArtistIds": [
+      "abd-al-qadir-hisari"
+    ]
+  },
+  {
+    "id": "abd-al-qadir-hisari",
+    "name": "'Abd al-Qadir Hisari",
+    "portrait": null,
+    "birthYear": null,
+    "deathYear": null,
+    "nationality": null,
+    "bio": null,
+    "bioStatus": "unavailable",
+    "movement": "Islamic",
+    "artworkIds": [
+      "met-454611"
+    ],
+    "relatedArtistIds": [
+      "sultan-muhammad-nur"
+    ]
+  },
+  {
+    "id": "xiao-yuncong",
+    "name": "Xiao Yuncong",
+    "portrait": null,
+    "birthYear": null,
+    "deathYear": null,
+    "nationality": null,
+    "bio": null,
+    "bioStatus": "unavailable",
+    "movement": "Chinese Art",
+    "artworkIds": [
+      "cma-132837",
+      "cma-132841"
+    ],
+    "relatedArtistIds": [
+      "bada-shanren"
+    ]
+  },
+  {
+    "id": "bada-shanren",
+    "name": "Bada Shanren",
+    "portrait": null,
+    "birthYear": null,
+    "deathYear": null,
+    "nationality": null,
+    "bio": null,
+    "bioStatus": "unavailable",
+    "movement": "Chinese Art",
+    "artworkIds": [
+      "cma-132908"
+    ],
+    "relatedArtistIds": [
+      "xiao-yuncong"
+    ]
+  }
+]

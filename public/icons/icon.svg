@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-label="Art Museum">
+  <rect width="512" height="512" rx="112" fill="#1c1a17"/>
+  <g fill="none" stroke="#f6f4ef" stroke-width="26" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M176 372 V256 A80 80 0 0 1 336 256 V372"/>
+    <path d="M150 372 H362"/>
+  </g>
+  <circle cx="256" cy="276" r="34" fill="#9a3b2e"/>
+</svg>

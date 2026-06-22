@@ -1,0 +1,35 @@
+{
+  "name": "art-museum",
+  "version": "0.1.0",
+  "private": true,
+  "description": "A calm, mobile-first digital museum PWA for meaningful art discovery.",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "data:collect": "tsx scripts/collect.ts",
+    "data:enrich": "tsx scripts/enrich.ts",
+    "data:build": "tsx scripts/collect.ts && tsx scripts/enrich.ts"
+  },
+  "dependencies": {
+    "framer-motion": "^11.11.0",
+    "fuse.js": "^7.0.0",
+    "idb": "^8.0.0",
+    "next": "^15.1.6",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0"
+  },
+  "devDependencies": {
+    "@anthropic-ai/sdk": "^0.39.0",
+    "@types/node": "^22.10.0",
+    "@types/react": "^19.0.0",
+    "@types/react-dom": "^19.0.0",
+    "autoprefixer": "^10.4.20",
+    "postcss": "^8.4.49",
+    "sharp": "^0.35.2",
+    "tailwindcss": "^3.4.17",
+    "tsx": "^4.19.2",
+    "typescript": "^5.7.0"
+  }
+}
