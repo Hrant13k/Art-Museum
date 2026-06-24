@@ -44,6 +44,19 @@ export function ArtworkViewer({ startId }: { startId: string }) {
     window.scrollTo({ top: 0, behavior: 'auto' });
   }, [index, list]);
 
+  // Preload the neighbouring images so swiping in either direction is instant.
+  useEffect(() => {
+    const neighbours = [index - 1, index + 1, index + 2].map(
+      (i) => list[(i + list.length) % list.length],
+    );
+    const imgs = neighbours.map((a) => {
+      const img = new window.Image();
+      img.src = a.thumbnail;
+      return img;
+    });
+    return () => imgs.forEach((img) => (img.src = ''));
+  }, [index, list]);
+
   const onDragEnd = (_: unknown, info: PanInfo) => {
     if (info.offset.x < -SWIPE_THRESHOLD) go(1);
     else if (info.offset.x > SWIPE_THRESHOLD) go(-1);
@@ -99,7 +112,7 @@ export function ArtworkViewer({ startId }: { startId: string }) {
             transition={{ duration: 0.32, ease: [0.22, 1, 0.36, 1] }}
           >
             <ArtworkImage
-              src={artwork.image}
+              src={artwork.thumbnail}
               alt={artwork.title}
               priority
               fit="contain"

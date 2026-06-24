@@ -46,7 +46,7 @@ export function HomeDaily() {
       >
         <div className="overflow-hidden rounded-xl bg-paper-deep shadow-[0_10px_40px_-12px_rgba(28,26,23,0.35)]">
           <ArtworkImage
-            src={artwork.image}
+            src={artwork.thumbnail}
             alt={artwork.title}
             priority
             fit="cover"
