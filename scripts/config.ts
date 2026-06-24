@@ -19,7 +19,8 @@ export interface FetchPlan {
 }
 
 // Target ceiling after de-duplication. Raise this to scale the collection.
-export const TARGET_SIZE = 120;
+// Override per-run with TARGET_SIZE=40 npm run data:collect
+export const TARGET_SIZE = Number(process.env.TARGET_SIZE) || 120;
 
 export const PLANS: FetchPlan[] = [
   // — Renaissance —
@@ -74,6 +75,12 @@ export const PLANS: FetchPlan[] = [
   { source: 'cma', query: 'photograph portrait', limit: 4, movement: 'Photography', tags: ['photography'] },
   { source: 'cma', query: 'photograph landscape', limit: 3, movement: 'Photography', tags: ['photography'] },
   { source: 'met', query: 'Carleton Watkins photograph', limit: 2, movement: 'Photography', tags: ['photography'] },
+
+  // — Art Institute of Chicago (metadata-rich; images resolved via Wikimedia Commons) —
+  { source: 'aic', query: 'Claude Monet', limit: 3, movement: 'Impressionism', tags: ['impressionism'] },
+  { source: 'aic', query: 'Georges Seurat', limit: 2, movement: 'Post-Impressionism', tags: ['post-impressionism'] },
+  { source: 'aic', query: 'Gustave Caillebotte', limit: 2, movement: 'Impressionism', tags: ['impressionism'] },
+  { source: 'aic', query: 'Vincent van Gogh', limit: 2, movement: 'Post-Impressionism', tags: ['post-impressionism'] },
 
   // — Cross-cultural breadth —
   { source: 'met', query: 'Egyptian sculpture', limit: 3, movement: 'Ancient', tags: ['ancient', 'egyptian'] },

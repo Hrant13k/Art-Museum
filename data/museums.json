@@ -108,15 +108,35 @@
       "cma-125575",
       "cma-120846",
       "cma-152349",
-      "cma-160087",
       "cma-161864",
+      "cma-160087",
       "cma-157013",
       "cma-667960",
       "cma-157126",
       "cma-132837",
       "cma-132908",
-      "cma-132841"
+      "cma-149603"
     ],
     "mapUrl": "https://maps.google.com/?q=Cleveland+Museum+of+Art"
+  },
+  {
+    "id": "art-institute-of-chicago",
+    "name": "Art Institute of Chicago",
+    "location": "Chicago, USA",
+    "foundedYear": "1879",
+    "history": "Home to one of the finest collections of Impressionist and American art, the Art Institute of Chicago is renowned for masterpieces such as Grant Wood’s American Gothic and Seurat’s A Sunday on La Grande Jatte.",
+    "historyStatus": "enriched",
+    "artworkIds": [
+      "aic-16568",
+      "aic-16571",
+      "aic-64818",
+      "aic-27992",
+      "aic-61616",
+      "aic-20684",
+      "aic-154121",
+      "aic-28560",
+      "aic-80607"
+    ],
+    "mapUrl": "https://maps.google.com/?q=Art+Institute+of+Chicago"
   }
 ]

@@ -15,4 +15,6 @@ export interface NormalizedRaw {
   classification: string;
   styles: string[]; // movement candidates
   sourceUrl: string;
+  accession: string; // inventory number, for Wikidata matching
+  qid: string | null; // Wikidata QID when the source provides it (the Met does)
 }

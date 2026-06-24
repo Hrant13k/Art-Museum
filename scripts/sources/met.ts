@@ -1,6 +1,7 @@
 // Metropolitan Museum of Art — open API, no key required.
 // Docs: https://metmuseum.github.io/
 import { fetchJson, sleep } from '../lib/util.js';
+import { qidFromUrl } from '../lib/wikidata.js';
 import type { NormalizedRaw } from '../lib/normalized.js';
 
 const BASE = 'https://collectionapi.metmuseum.org/public/collection/v1';
@@ -18,6 +19,8 @@ interface MetObject {
   department: string;
   classification: string;
   objectURL: string;
+  accessionNumber: string;
+  objectWikidata_URL?: string;
   GalleryNumber?: string;
 }
 
@@ -39,6 +42,8 @@ function toNormalized(o: MetObject): NormalizedRaw | null {
     classification: o.classification || '',
     styles: [],
     sourceUrl: o.objectURL || `https://www.metmuseum.org/art/collection/search/${o.objectID}`,
+    accession: o.accessionNumber || '',
+    qid: qidFromUrl(o.objectWikidata_URL),
   };
 }
 

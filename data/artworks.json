@@ -13,7 +13,7 @@
     "museumLocation": "New York, USA",
     "image": "https://images.metmuseum.org/CRDImages/rl/original/DP267397.jpg",
     "thumbnail": "https://images.metmuseum.org/CRDImages/rl/web-large/DP267397.jpg",
-    "movement": "Renaissance",
+    "movement": "Early Renaissance",
     "medium": "Tempera and gold on wood",
     "culture": "",
     "department": "Robert Lehman Collection",
@@ -21,20 +21,49 @@
       "renaissance",
       "paintings",
       "robert-lehman-collection",
-      "painting"
+      "painting",
+      "early-renaissance",
+      "religious-art",
+      "mary",
+      "woman",
+      "bedroom",
+      "gabriel",
+      "annunciation"
     ],
     "enrichmentStatus": "metadata-fallback",
     "sourceLinks": [
       {
         "label": "View at The Metropolitan Museum of Art",
         "url": "https://www.metmuseum.org/art/collection/search/459016"
+      },
+      {
+        "label": "Wikidata",
+        "url": "https://www.wikidata.org/wiki/Q3202069"
       }
     ],
+    "externalIds": {
+      "wikidata": "Q3202069",
+      "met": "459016"
+    },
+    "provenance": {
+      "title": "met",
+      "artist": "met",
+      "movement": "wikidata"
+    },
     "overview": "The Annunciation by Botticelli (Alessandro di Mariano Filipepi), ca. 1490. Tempera and gold on wood. Held by The Metropolitan Museum of Art.",
     "creationStory": "A detailed creation story is not yet available for this work.",
-    "whoIsDepicted": "Information about the subject is not yet available for this work.",
+    "whoIsDepicted": "Depicts Mary, woman, bedroom, Gabriel, Annunciation.",
     "historicalContext": "Associated with Renaissance.",
-    "interestingFacts": []
+    "interestingFacts": [],
+    "depicts": [
+      "Mary",
+      "woman",
+      "bedroom",
+      "Gabriel",
+      "Annunciation"
+    ],
+    "imageSource": "met",
+    "imageLicense": "Public Domain"
   },
   {
     "id": "met-435729",
@@ -50,7 +79,7 @@
     "museumLocation": "New York, USA",
     "image": "https://images.metmuseum.org/CRDImages/ep/original/DP-18875-001.jpg",
     "thumbnail": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-18875-001.jpg",
-    "movement": "Renaissance",
+    "movement": "Early Renaissance",
     "medium": "Tempera on wood",
     "culture": "",
     "department": "European Paintings",
@@ -58,20 +87,49 @@
       "renaissance",
       "paintings",
       "european-paintings",
-      "painting"
+      "painting",
+      "early-renaissance",
+      "religious-art",
+      "miracle",
+      "resurrection",
+      "man",
+      "horse",
+      "zenobius-of-florence"
     ],
     "enrichmentStatus": "metadata-fallback",
     "sourceLinks": [
       {
         "label": "View at The Metropolitan Museum of Art",
         "url": "https://www.metmuseum.org/art/collection/search/435729"
+      },
+      {
+        "label": "Wikidata",
+        "url": "https://www.wikidata.org/wiki/Q3998131"
       }
     ],
+    "externalIds": {
+      "wikidata": "Q3998131",
+      "met": "435729"
+    },
+    "provenance": {
+      "title": "met",
+      "artist": "met",
+      "movement": "wikidata"
+    },
     "overview": "Three Miracles of Saint Zenobius by Botticelli (Alessandro di Mariano Filipepi), ca. 1500. Tempera on wood. Held by The Metropolitan Museum of Art.",
     "creationStory": "A detailed creation story is not yet available for this work.",
-    "whoIsDepicted": "Information about the subject is not yet available for this work.",
+    "whoIsDepicted": "Depicts miracle, resurrection, man, horse, Zenobius of Florence.",
     "historicalContext": "Associated with Renaissance.",
-    "interestingFacts": []
+    "interestingFacts": [],
+    "depicts": [
+      "miracle",
+      "resurrection",
+      "man",
+      "horse",
+      "Zenobius of Florence"
+    ],
+    "imageSource": "met",
+    "imageLicense": "Public Domain"
   },
   {
     "id": "met-361524",
@@ -104,11 +162,21 @@
         "url": "https://www.metmuseum.org/art/collection/search/361524"
       }
     ],
+    "externalIds": {
+      "met": "361524"
+    },
+    "provenance": {
+      "title": "met",
+      "artist": "met",
+      "movement": "curation"
+    },
     "overview": "Raphael by Wenceslaus Hollar, 1651. Etching, second state of two (NH). Held by The Metropolitan Museum of Art.",
     "creationStory": "A detailed creation story is not yet available for this work.",
     "whoIsDepicted": "Information about the subject is not yet available for this work.",
     "historicalContext": "Associated with Renaissance.",
-    "interestingFacts": []
+    "interestingFacts": [],
+    "imageSource": "met",
+    "imageLicense": "Public Domain"
   },
   {
     "id": "met-437373",
@@ -117,8 +185,8 @@
     "title": "Giuliano de' Medici (1479–1516), Duke of Nemours",
     "artist": "Raphael",
     "artistId": "raphael",
-    "year": "Date unknown",
-    "yearValue": null,
+    "year": "1513",
+    "yearValue": 1513,
     "museum": "The Metropolitan Museum of Art",
     "museumId": "the-metropolitan-museum-of-art",
     "museumLocation": "New York, USA",
@@ -132,20 +200,41 @@
       "renaissance",
       "paintings",
       "european-paintings",
-      "painting"
+      "painting",
+      "portrait",
+      "giuliano-de-medici-duke-of-nemours"
     ],
     "enrichmentStatus": "metadata-fallback",
     "sourceLinks": [
       {
         "label": "View at The Metropolitan Museum of Art",
         "url": "https://www.metmuseum.org/art/collection/search/437373"
+      },
+      {
+        "label": "Wikidata",
+        "url": "https://www.wikidata.org/wiki/Q19911650"
       }
     ],
+    "externalIds": {
+      "wikidata": "Q19911650",
+      "met": "437373"
+    },
+    "provenance": {
+      "title": "met",
+      "artist": "met",
+      "movement": "curation",
+      "year": "wikidata"
+    },
     "overview": "Giuliano de' Medici (1479–1516), Duke of Nemours by Raphael. Tempera and oil on canvas. Held by The Metropolitan Museum of Art.",
     "creationStory": "A detailed creation story is not yet available for this work.",
-    "whoIsDepicted": "Information about the subject is not yet available for this work.",
+    "whoIsDepicted": "Depicts Giuliano de' Medici, Duke of Nemours.",
     "historicalContext": "Associated with Renaissance.",
-    "interestingFacts": []
+    "interestingFacts": [],
+    "depicts": [
+      "Giuliano de' Medici, Duke of Nemours"
+    ],
+    "imageSource": "met",
+    "imageLicense": "Public Domain"
   },
   {
     "id": "met-436243",
@@ -170,20 +259,42 @@
       "print",
       "paintings",
       "european-paintings",
-      "painting"
+      "painting",
+      "religious-art",
+      "salvator-mundi",
+      "christ"
     ],
     "enrichmentStatus": "metadata-fallback",
     "sourceLinks": [
       {
         "label": "View at The Metropolitan Museum of Art",
         "url": "https://www.metmuseum.org/art/collection/search/436243"
+      },
+      {
+        "label": "Wikidata",
+        "url": "https://www.wikidata.org/wiki/Q19911432"
       }
     ],
+    "externalIds": {
+      "wikidata": "Q19911432",
+      "met": "436243"
+    },
+    "provenance": {
+      "title": "met",
+      "artist": "met",
+      "movement": "curation"
+    },
     "overview": "Salvator Mundi by Albrecht Dürer, ca. 1505. Oil on linden. Held by The Metropolitan Museum of Art.",
     "creationStory": "A detailed creation story is not yet available for this work.",
-    "whoIsDepicted": "Information about the subject is not yet available for this work.",
+    "whoIsDepicted": "Depicts Salvator Mundi, Christ.",
     "historicalContext": "Associated with Renaissance.",
-    "interestingFacts": []
+    "interestingFacts": [],
+    "depicts": [
+      "Salvator Mundi",
+      "Christ"
+    ],
+    "imageSource": "met",
+    "imageLicense": "Public Domain"
   },
   {
     "id": "met-436244",
@@ -199,7 +310,7 @@
     "museumLocation": "New York, USA",
     "image": "https://images.metmuseum.org/CRDImages/ep/original/DP280846.jpg",
     "thumbnail": "https://images.metmuseum.org/CRDImages/ep/web-large/DP280846.jpg",
-    "movement": "Renaissance",
+    "movement": "German Renaissance",
     "medium": "Oil on linden",
     "culture": "",
     "department": "European Paintings",
@@ -208,20 +319,49 @@
       "print",
       "paintings",
       "european-paintings",
-      "painting"
+      "painting",
+      "german-renaissance",
+      "religious-art",
+      "mary",
+      "saint-anne",
+      "christ-child",
+      "sleep",
+      "madonna-and-child"
     ],
     "enrichmentStatus": "metadata-fallback",
     "sourceLinks": [
       {
         "label": "View at The Metropolitan Museum of Art",
         "url": "https://www.metmuseum.org/art/collection/search/436244"
+      },
+      {
+        "label": "Wikidata",
+        "url": "https://www.wikidata.org/wiki/Q3948737"
       }
     ],
+    "externalIds": {
+      "wikidata": "Q3948737",
+      "met": "436244"
+    },
+    "provenance": {
+      "title": "met",
+      "artist": "met",
+      "movement": "wikidata"
+    },
     "overview": "Virgin and Child with Saint Anne by Albrecht Dürer, probably 1519. Oil on linden. Held by The Metropolitan Museum of Art.",
     "creationStory": "A detailed creation story is not yet available for this work.",
-    "whoIsDepicted": "Information about the subject is not yet available for this work.",
+    "whoIsDepicted": "Depicts Mary, Saint Anne, Christ Child, sleep, Madonna and Child.",
     "historicalContext": "Associated with Renaissance.",
-    "interestingFacts": []
+    "interestingFacts": [],
+    "depicts": [
+      "Mary",
+      "Saint Anne",
+      "Christ Child",
+      "sleep",
+      "Madonna and Child"
+    ],
+    "imageSource": "met",
+    "imageLicense": "Public Domain"
   },
   {
     "id": "met-459211",
@@ -245,20 +385,42 @@
       "renaissance",
       "print",
       "drawings",
-      "robert-lehman-collection"
+      "robert-lehman-collection",
+      "portrait",
+      "woman",
+      "human-head"
     ],
     "enrichmentStatus": "metadata-fallback",
     "sourceLinks": [
       {
         "label": "View at The Metropolitan Museum of Art",
         "url": "https://www.metmuseum.org/art/collection/search/459211"
+      },
+      {
+        "label": "Wikidata",
+        "url": "https://www.wikidata.org/wiki/Q20187871"
       }
     ],
+    "externalIds": {
+      "wikidata": "Q20187871",
+      "met": "459211"
+    },
+    "provenance": {
+      "title": "met",
+      "artist": "met",
+      "movement": "curation"
+    },
     "overview": "Head of a Young Woman by Albrecht Dürer, 1522. Black chalk highlighted with white chalk (abraded) on green prepared paper.. Held by The Metropolitan Museum of Art.",
     "creationStory": "A detailed creation story is not yet available for this work.",
-    "whoIsDepicted": "Information about the subject is not yet available for this work.",
+    "whoIsDepicted": "Depicts woman, human head.",
     "historicalContext": "Associated with Renaissance.",
-    "interestingFacts": []
+    "interestingFacts": [],
+    "depicts": [
+      "woman",
+      "human head"
+    ],
+    "imageSource": "met",
+    "imageLicense": "Public Domain"
   },
   {
     "id": "met-437827",
@@ -274,7 +436,7 @@
     "museumLocation": "New York, USA",
     "image": "https://images.metmuseum.org/CRDImages/ep/original/DP-28918-001.jpg",
     "thumbnail": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-28918-001.jpg",
-    "movement": "Renaissance",
+    "movement": "Venetian school",
     "medium": "Oil on canvas",
     "culture": "",
     "department": "European Paintings",
@@ -282,20 +444,53 @@
       "renaissance",
       "paintings",
       "european-paintings",
-      "painting"
+      "painting",
+      "venetian-school",
+      "mythological-painting",
+      "lute",
+      "venus",
+      "cupid",
+      "musician",
+      "nudity",
+      "putto",
+      "curtain"
     ],
     "enrichmentStatus": "metadata-fallback",
     "sourceLinks": [
       {
         "label": "View at The Metropolitan Museum of Art",
         "url": "https://www.metmuseum.org/art/collection/search/437827"
+      },
+      {
+        "label": "Wikidata",
+        "url": "https://www.wikidata.org/wiki/Q19911412"
       }
     ],
+    "externalIds": {
+      "wikidata": "Q19911412",
+      "met": "437827"
+    },
+    "provenance": {
+      "title": "met",
+      "artist": "met",
+      "movement": "wikidata"
+    },
     "overview": "Venus and the Lute Player by Titian, ca. 1565–70. Oil on canvas. Held by The Metropolitan Museum of Art.",
     "creationStory": "A detailed creation story is not yet available for this work.",
-    "whoIsDepicted": "Information about the subject is not yet available for this work.",
+    "whoIsDepicted": "Depicts lute, Venus, Cupid, musician, nudity, putto.",
     "historicalContext": "Associated with Renaissance.",
-    "interestingFacts": []
+    "interestingFacts": [],
+    "depicts": [
+      "lute",
+      "Venus",
+      "Cupid",
+      "musician",
+      "nudity",
+      "putto",
+      "curtain"
+    ],
+    "imageSource": "met",
+    "imageLicense": "Public Domain"
   },
   {
     "id": "met-437826",
@@ -303,7 +498,7 @@
     "sourceId": "437826",
     "title": "Venus and Adonis",
     "artist": "Titian (Tiziano Vecellio)",
-    "artistId": "titian-tiziano-vecellio",
+    "artistId": "titian",
     "year": "1550s",
     "yearValue": 1550,
     "museum": "The Metropolitan Museum of Art",
@@ -311,7 +506,7 @@
     "museumLocation": "New York, USA",
     "image": "https://images.metmuseum.org/CRDImages/ep/original/DP-19299-001.jpg",
     "thumbnail": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-19299-001.jpg",
-    "movement": "Renaissance",
+    "movement": "Venetian school",
     "medium": "Oil on canvas",
     "culture": "",
     "department": "European Paintings",
@@ -319,20 +514,55 @@
       "renaissance",
       "paintings",
       "european-paintings",
-      "painting"
+      "painting",
+      "venetian-school",
+      "mythological-painting",
+      "adonis",
+      "venus",
+      "clothed-male-naked-female",
+      "venus-and-adonis",
+      "titian-hair",
+      "nudity",
+      "sitting",
+      "back"
     ],
     "enrichmentStatus": "metadata-fallback",
     "sourceLinks": [
       {
         "label": "View at The Metropolitan Museum of Art",
         "url": "https://www.metmuseum.org/art/collection/search/437826"
+      },
+      {
+        "label": "Wikidata",
+        "url": "https://www.wikidata.org/wiki/Q4009570"
       }
     ],
+    "externalIds": {
+      "wikidata": "Q4009570",
+      "met": "437826"
+    },
+    "provenance": {
+      "title": "met",
+      "artist": "met",
+      "movement": "wikidata"
+    },
     "overview": "Venus and Adonis by Titian (Tiziano Vecellio), 1550s. Oil on canvas. Held by The Metropolitan Museum of Art.",
     "creationStory": "A detailed creation story is not yet available for this work.",
-    "whoIsDepicted": "Information about the subject is not yet available for this work.",
+    "whoIsDepicted": "Depicts Adonis, Venus, clothed male, naked female, Venus and Adonis, titian hair, nudity.",
     "historicalContext": "Associated with Renaissance.",
-    "interestingFacts": []
+    "interestingFacts": [],
+    "depicts": [
+      "Adonis",
+      "Venus",
+      "clothed male, naked female",
+      "Venus and Adonis",
+      "titian hair",
+      "nudity",
+      "sitting",
+      "back"
+    ],
+    "imageSource": "met",
+    "imageLicense": "Public Domain"
   },
   {
     "id": "met-437823",
@@ -340,7 +570,7 @@
     "sourceId": "437823",
     "title": "Filippo Archinto (born about 1500, died 1558), Archbishop of Milan",
     "artist": "Titian (Tiziano Vecellio)",
-    "artistId": "titian-tiziano-vecellio",
+    "artistId": "titian",
     "year": "mid-1550s",
     "yearValue": -1550,
     "museum": "The Metropolitan Museum of Art",
@@ -356,20 +586,40 @@
       "renaissance",
       "paintings",
       "european-paintings",
-      "painting"
+      "painting",
+      "portrait",
+      "filippo-archinto"
     ],
     "enrichmentStatus": "metadata-fallback",
     "sourceLinks": [
       {
         "label": "View at The Metropolitan Museum of Art",
         "url": "https://www.metmuseum.org/art/collection/search/437823"
+      },
+      {
+        "label": "Wikidata",
+        "url": "https://www.wikidata.org/wiki/Q19904807"
       }
     ],
+    "externalIds": {
+      "wikidata": "Q19904807",
+      "met": "437823"
+    },
+    "provenance": {
+      "title": "met",
+      "artist": "met",
+      "movement": "curation"
+    },
     "overview": "Filippo Archinto (born about 1500, died 1558), Archbishop of Milan by Titian (Tiziano Vecellio), mid-1550s. Oil on canvas. Held by The Metropolitan Museum of Art.",
     "creationStory": "A detailed creation story is not yet available for this work.",
-    "whoIsDepicted": "Information about the subject is not yet available for this work.",
+    "whoIsDepicted": "Depicts Filippo Archinto.",
     "historicalContext": "Associated with Renaissance.",
-    "interestingFacts": []
+    "interestingFacts": [],
+    "depicts": [
+      "Filippo Archinto"
+    ],
+    "imageSource": "met",
+    "imageLicense": "Public Domain"
   },
   {
     "id": "met-437406",
@@ -393,20 +643,41 @@
       "baroque",
       "painting",
       "paintings",
-      "european-paintings"
+      "european-paintings",
+      "portrait",
+      "man"
     ],
     "enrichmentStatus": "metadata-fallback",
     "sourceLinks": [
       {
         "label": "View at The Metropolitan Museum of Art",
         "url": "https://www.metmuseum.org/art/collection/search/437406"
+      },
+      {
+        "label": "Wikidata",
+        "url": "https://www.wikidata.org/wiki/Q19905155"
       }
     ],
+    "externalIds": {
+      "wikidata": "Q19905155",
+      "met": "437406"
+    },
+    "provenance": {
+      "title": "met",
+      "artist": "met",
+      "movement": "curation"
+    },
     "overview": "Portrait of a Man (\"The Auctioneer\") by Rembrandt, probably ca. 1658–62. Oil on canvas. Held by The Metropolitan Museum of Art.",
     "creationStory": "A detailed creation story is not yet available for this work.",
-    "whoIsDepicted": "Information about the subject is not yet available for this work.",
+    "whoIsDepicted": "Depicts man, portrait.",
     "historicalContext": "Associated with Baroque.",
-    "interestingFacts": []
+    "interestingFacts": [],
+    "depicts": [
+      "man",
+      "portrait"
+    ],
+    "imageSource": "met",
+    "imageLicense": "Public Domain"
   },
   {
     "id": "met-459082",
@@ -414,7 +685,7 @@
     "sourceId": "459082",
     "title": "Portrait of Gerard de Lairesse",
     "artist": "Rembrandt (Rembrandt van Rijn)",
-    "artistId": "rembrandt-rembrandt-van-rijn",
+    "artistId": "rembrandt",
     "year": "1665–67",
     "yearValue": 1665,
     "museum": "The Metropolitan Museum of Art",
@@ -430,20 +701,42 @@
       "baroque",
       "painting",
       "paintings",
-      "robert-lehman-collection"
+      "robert-lehman-collection",
+      "portrait",
+      "gerard-de-lairesse",
+      "man"
     ],
     "enrichmentStatus": "metadata-fallback",
     "sourceLinks": [
       {
         "label": "View at The Metropolitan Museum of Art",
         "url": "https://www.metmuseum.org/art/collection/search/459082"
+      },
+      {
+        "label": "Wikidata",
+        "url": "https://www.wikidata.org/wiki/Q20183551"
       }
     ],
+    "externalIds": {
+      "wikidata": "Q20183551",
+      "met": "459082"
+    },
+    "provenance": {
+      "title": "met",
+      "artist": "met",
+      "movement": "curation"
+    },
     "overview": "Portrait of Gerard de Lairesse by Rembrandt (Rembrandt van Rijn), 1665–67. Oil on canvas. Held by The Metropolitan Museum of Art.",
     "creationStory": "A detailed creation story is not yet available for this work.",
-    "whoIsDepicted": "Information about the subject is not yet available for this work.",
+    "whoIsDepicted": "Depicts Gerard de Lairesse, man.",
     "historicalContext": "Associated with Baroque.",
-    "interestingFacts": []
+    "interestingFacts": [],
+    "depicts": [
+      "Gerard de Lairesse",
+      "man"
+    ],
+    "imageSource": "met",
+    "imageLicense": "Public Domain"
   },
   {
     "id": "met-437392",
@@ -451,7 +744,7 @@
     "sourceId": "437392",
     "title": "Herman Doomer (ca. 1595–1650)",
     "artist": "Rembrandt (Rembrandt van Rijn)",
-    "artistId": "rembrandt-rembrandt-van-rijn",
+    "artistId": "rembrandt",
     "year": "1640",
     "yearValue": 1640,
     "museum": "The Metropolitan Museum of Art",
@@ -467,20 +760,43 @@
       "baroque",
       "painting",
       "paintings",
-      "european-paintings"
+      "european-paintings",
+      "portrait",
+      "herman-doomer",
+      "man"
     ],
     "enrichmentStatus": "metadata-fallback",
     "sourceLinks": [
       {
         "label": "View at The Metropolitan Museum of Art",
         "url": "https://www.metmuseum.org/art/collection/search/437392"
+      },
+      {
+        "label": "Wikidata",
+        "url": "https://www.wikidata.org/wiki/Q18760265"
       }
     ],
+    "externalIds": {
+      "wikidata": "Q18760265",
+      "met": "437392"
+    },
+    "provenance": {
+      "title": "met",
+      "artist": "met",
+      "movement": "curation"
+    },
     "overview": "Herman Doomer (ca. 1595–1650) by Rembrandt (Rembrandt van Rijn), 1640. Oil on wood. Held by The Metropolitan Museum of Art.",
     "creationStory": "A detailed creation story is not yet available for this work.",
-    "whoIsDepicted": "Information about the subject is not yet available for this work.",
+    "whoIsDepicted": "Depicts Herman Doomer, man, portrait.",
     "historicalContext": "Associated with Baroque.",
-    "interestingFacts": []
+    "interestingFacts": [],
+    "depicts": [
+      "Herman Doomer",
+      "man",
+      "portrait"
+    ],
+    "imageSource": "met",
+    "imageLicense": "Public Domain"
   },
   {
     "id": "met-437397",
@@ -488,7 +804,7 @@
     "sourceId": "437397",
     "title": "Self-Portrait",
     "artist": "Rembrandt (Rembrandt van Rijn)",
-    "artistId": "rembrandt-rembrandt-van-rijn",
+    "artistId": "rembrandt",
     "year": "1660",
     "yearValue": 1660,
     "museum": "The Metropolitan Museum of Art",
@@ -496,7 +812,7 @@
     "museumLocation": "New York, USA",
     "image": "https://images.metmuseum.org/CRDImages/ep/original/DP-16323-001.jpg",
     "thumbnail": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-16323-001.jpg",
-    "movement": "Baroque",
+    "movement": "Dutch Golden Age painting",
     "medium": "Oil on canvas",
     "culture": "",
     "department": "European Paintings",
@@ -504,20 +820,44 @@
       "baroque",
       "painting",
       "paintings",
-      "european-paintings"
+      "european-paintings",
+      "dutch-golden-age-painting",
+      "self-portrait",
+      "rembrandt",
+      "man"
     ],
     "enrichmentStatus": "metadata-fallback",
     "sourceLinks": [
       {
         "label": "View at The Metropolitan Museum of Art",
         "url": "https://www.metmuseum.org/art/collection/search/437397"
+      },
+      {
+        "label": "Wikidata",
+        "url": "https://www.wikidata.org/wiki/Q7311573"
       }
     ],
+    "externalIds": {
+      "wikidata": "Q7311573",
+      "met": "437397"
+    },
+    "provenance": {
+      "title": "met",
+      "artist": "met",
+      "movement": "wikidata"
+    },
     "overview": "Self-Portrait by Rembrandt (Rembrandt van Rijn), 1660. Oil on canvas. Held by The Metropolitan Museum of Art.",
     "creationStory": "A detailed creation story is not yet available for this work.",
-    "whoIsDepicted": "Information about the subject is not yet available for this work.",
+    "whoIsDepicted": "Depicts Rembrandt, man, self-portrait.",
     "historicalContext": "Associated with Baroque.",
-    "interestingFacts": []
+    "interestingFacts": [],
+    "depicts": [
+      "Rembrandt",
+      "man",
+      "self-portrait"
+    ],
+    "imageSource": "met",
+    "imageLicense": "Public Domain"
   },
   {
     "id": "met-437394",
@@ -525,7 +865,7 @@
     "sourceId": "437394",
     "title": "Aristotle with a Bust of Homer",
     "artist": "Rembrandt (Rembrandt van Rijn)",
-    "artistId": "rembrandt-rembrandt-van-rijn",
+    "artistId": "rembrandt",
     "year": "1653",
     "yearValue": 1653,
     "museum": "The Metropolitan Museum of Art",
@@ -533,7 +873,7 @@
     "museumLocation": "New York, USA",
     "image": "https://images.metmuseum.org/CRDImages/ep/original/DP-30758-001.jpg",
     "thumbnail": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-30758-001.jpg",
-    "movement": "Baroque",
+    "movement": "Dutch Golden Age painting",
     "medium": "Oil on canvas",
     "culture": "",
     "department": "European Paintings",
@@ -541,20 +881,55 @@
       "baroque",
       "painting",
       "paintings",
-      "european-paintings"
+      "european-paintings",
+      "dutch-golden-age-painting",
+      "history-painting",
+      "aristotle",
+      "homer",
+      "bust",
+      "statue",
+      "belt",
+      "robe",
+      "man",
+      "portrait"
     ],
     "enrichmentStatus": "metadata-fallback",
     "sourceLinks": [
       {
         "label": "View at The Metropolitan Museum of Art",
         "url": "https://www.metmuseum.org/art/collection/search/437394"
+      },
+      {
+        "label": "Wikidata",
+        "url": "https://www.wikidata.org/wiki/Q2404992"
       }
     ],
+    "externalIds": {
+      "wikidata": "Q2404992",
+      "met": "437394"
+    },
+    "provenance": {
+      "title": "met",
+      "artist": "met",
+      "movement": "wikidata"
+    },
     "overview": "Aristotle with a Bust of Homer by Rembrandt (Rembrandt van Rijn), 1653. Oil on canvas. Held by The Metropolitan Museum of Art.",
     "creationStory": "A detailed creation story is not yet available for this work.",
-    "whoIsDepicted": "Information about the subject is not yet available for this work.",
+    "whoIsDepicted": "Depicts Aristotle, Homer, bust, statue, belt, robe.",
     "historicalContext": "Associated with Baroque.",
-    "interestingFacts": []
+    "interestingFacts": [],
+    "depicts": [
+      "Aristotle",
+      "Homer",
+      "bust",
+      "statue",
+      "belt",
+      "robe",
+      "man",
+      "portrait"
+    ],
+    "imageSource": "met",
+    "imageLicense": "Public Domain"
   },
   {
     "id": "met-437881",
@@ -570,7 +945,7 @@
     "museumLocation": "New York, USA",
     "image": "https://images.metmuseum.org/CRDImages/ep/original/DP353257.jpg",
     "thumbnail": "https://images.metmuseum.org/CRDImages/ep/web-large/DP353257.jpg",
-    "movement": "Baroque",
+    "movement": "Dutch Golden Age painting",
     "medium": "Oil on canvas",
     "culture": "",
     "department": "European Paintings",
@@ -578,20 +953,53 @@
       "baroque",
       "paintings",
       "european-paintings",
-      "painting"
+      "painting",
+      "dutch-golden-age-painting",
+      "genre-art",
+      "woman",
+      "jug",
+      "window",
+      "the-seventeen-provinces-of-the-netherlands",
+      "interior",
+      "map",
+      "pitcher"
     ],
     "enrichmentStatus": "metadata-fallback",
     "sourceLinks": [
       {
         "label": "View at The Metropolitan Museum of Art",
         "url": "https://www.metmuseum.org/art/collection/search/437881"
+      },
+      {
+        "label": "Wikidata",
+        "url": "https://www.wikidata.org/wiki/Q386453"
       }
     ],
+    "externalIds": {
+      "wikidata": "Q386453",
+      "met": "437881"
+    },
+    "provenance": {
+      "title": "met",
+      "artist": "met",
+      "movement": "wikidata"
+    },
     "overview": "Young Woman with a Water Pitcher by Johannes Vermeer, ca. 1662. Oil on canvas. Held by The Metropolitan Museum of Art.",
     "creationStory": "A detailed creation story is not yet available for this work.",
-    "whoIsDepicted": "Information about the subject is not yet available for this work.",
+    "whoIsDepicted": "Depicts woman, jug, window, The Seventeen Provinces of the Netherlands, interior, map.",
     "historicalContext": "Associated with Baroque.",
-    "interestingFacts": []
+    "interestingFacts": [],
+    "depicts": [
+      "woman",
+      "jug",
+      "window",
+      "The Seventeen Provinces of the Netherlands",
+      "interior",
+      "map",
+      "pitcher"
+    ],
+    "imageSource": "met",
+    "imageLicense": "Public Domain"
   },
   {
     "id": "met-437877",
@@ -607,7 +1015,7 @@
     "museumLocation": "New York, USA",
     "image": "https://images.metmuseum.org/CRDImages/ep/original/DP145924.jpg",
     "thumbnail": "https://images.metmuseum.org/CRDImages/ep/web-large/DP145924.jpg",
-    "movement": "Baroque",
+    "movement": "Dutch Golden Age painting",
     "medium": "Oil on canvas",
     "culture": "",
     "department": "European Paintings",
@@ -615,20 +1023,54 @@
       "baroque",
       "paintings",
       "european-paintings",
-      "painting"
+      "painting",
+      "dutch-golden-age-painting",
+      "allegory",
+      "terrestrial-globe",
+      "woman",
+      "book",
+      "crucifixion-of-jesus",
+      "crucifix",
+      "tapestry",
+      "globe"
     ],
     "enrichmentStatus": "metadata-fallback",
     "sourceLinks": [
       {
         "label": "View at The Metropolitan Museum of Art",
         "url": "https://www.metmuseum.org/art/collection/search/437877"
+      },
+      {
+        "label": "Wikidata",
+        "url": "https://www.wikidata.org/wiki/Q467359"
       }
     ],
+    "externalIds": {
+      "wikidata": "Q467359",
+      "met": "437877"
+    },
+    "provenance": {
+      "title": "met",
+      "artist": "met",
+      "movement": "wikidata"
+    },
     "overview": "Allegory of the Catholic Faith by Johannes Vermeer, ca. 1670–72. Oil on canvas. Held by The Metropolitan Museum of Art.",
     "creationStory": "A detailed creation story is not yet available for this work.",
-    "whoIsDepicted": "Information about the subject is not yet available for this work.",
+    "whoIsDepicted": "Depicts allegory, terrestrial globe, woman, book, crucifixion of Jesus, crucifix.",
     "historicalContext": "Associated with Baroque.",
-    "interestingFacts": []
+    "interestingFacts": [],
+    "depicts": [
+      "allegory",
+      "terrestrial globe",
+      "woman",
+      "book",
+      "crucifixion of Jesus",
+      "crucifix",
+      "tapestry",
+      "globe"
+    ],
+    "imageSource": "met",
+    "imageLicense": "Public Domain"
   },
   {
     "id": "met-437530",
@@ -652,20 +1094,41 @@
       "baroque",
       "paintings",
       "european-paintings",
-      "painting"
+      "painting",
+      "portrait",
+      "man"
     ],
     "enrichmentStatus": "metadata-fallback",
     "sourceLinks": [
       {
         "label": "View at The Metropolitan Museum of Art",
         "url": "https://www.metmuseum.org/art/collection/search/437530"
+      },
+      {
+        "label": "Wikidata",
+        "url": "https://www.wikidata.org/wiki/Q19905161"
       }
     ],
+    "externalIds": {
+      "wikidata": "Q19905161",
+      "met": "437530"
+    },
+    "provenance": {
+      "title": "met",
+      "artist": "met",
+      "movement": "curation"
+    },
     "overview": "Portrait of a Man, Possibly an Architect or Geographer by Peter Paul Rubens, 1597. Oil on copper. Held by The Metropolitan Museum of Art.",
     "creationStory": "A detailed creation story is not yet available for this work.",
-    "whoIsDepicted": "Information about the subject is not yet available for this work.",
+    "whoIsDepicted": "Depicts man, portrait.",
     "historicalContext": "Associated with Baroque.",
-    "interestingFacts": []
+    "interestingFacts": [],
+    "depicts": [
+      "man",
+      "portrait"
+    ],
+    "imageSource": "met",
+    "imageLicense": "Public Domain"
   },
   {
     "id": "met-437534",
@@ -689,20 +1152,41 @@
       "baroque",
       "paintings",
       "european-paintings",
-      "painting"
+      "painting",
+      "horse",
+      "man"
     ],
     "enrichmentStatus": "metadata-fallback",
     "sourceLinks": [
       {
         "label": "View at The Metropolitan Museum of Art",
         "url": "https://www.metmuseum.org/art/collection/search/437534"
+      },
+      {
+        "label": "Wikidata",
+        "url": "https://www.wikidata.org/wiki/Q20166993"
       }
     ],
+    "externalIds": {
+      "wikidata": "Q20166993",
+      "met": "437534"
+    },
+    "provenance": {
+      "title": "met",
+      "artist": "met",
+      "movement": "curation"
+    },
     "overview": "The Triumph of Henry IV by Peter Paul Rubens, ca. 1630. Oil on wood. Held by The Metropolitan Museum of Art.",
     "creationStory": "A detailed creation story is not yet available for this work.",
-    "whoIsDepicted": "Information about the subject is not yet available for this work.",
+    "whoIsDepicted": "Depicts horse, man.",
     "historicalContext": "Associated with Baroque.",
-    "interestingFacts": []
+    "interestingFacts": [],
+    "depicts": [
+      "horse",
+      "man"
+    ],
+    "imageSource": "met",
+    "imageLicense": "Public Domain"
   },
   {
     "id": "met-437532",
@@ -726,20 +1210,54 @@
       "baroque",
       "paintings",
       "european-paintings",
-      "painting"
+      "painting",
+      "family-portrait",
+      "helena-fourment",
+      "peter-paul-rubens",
+      "man",
+      "child",
+      "baby-bumper",
+      "leading-strings",
+      "boy",
+      "portrait"
     ],
     "enrichmentStatus": "metadata-fallback",
     "sourceLinks": [
       {
         "label": "View at The Metropolitan Museum of Art",
         "url": "https://www.metmuseum.org/art/collection/search/437532"
+      },
+      {
+        "label": "Wikidata",
+        "url": "https://www.wikidata.org/wiki/Q19547185"
       }
     ],
+    "externalIds": {
+      "wikidata": "Q19547185",
+      "met": "437532"
+    },
+    "provenance": {
+      "title": "met",
+      "artist": "met",
+      "movement": "curation"
+    },
     "overview": "Rubens, Helena Fourment (1614–1673), and Their Son Frans (1633–1678) by Peter Paul Rubens, ca. 1635. Oil on wood. Held by The Metropolitan Museum of Art.",
     "creationStory": "A detailed creation story is not yet available for this work.",
-    "whoIsDepicted": "Information about the subject is not yet available for this work.",
+    "whoIsDepicted": "Depicts Helena Fourment, Peter Paul Rubens, man, child, baby bumper, leading strings.",
     "historicalContext": "Associated with Baroque.",
-    "interestingFacts": []
+    "interestingFacts": [],
+    "depicts": [
+      "Helena Fourment",
+      "Peter Paul Rubens",
+      "man",
+      "child",
+      "baby bumper",
+      "leading strings",
+      "boy",
+      "portrait"
+    ],
+    "imageSource": "met",
+    "imageLicense": "Public Domain"
   },
   {
     "id": "cma-148758",
@@ -762,20 +1280,48 @@
     "tags": [
       "baroque",
       "painting",
-      "european-painting-and-sculpture"
+      "european-painting-and-sculpture",
+      "religious-art",
+      "andrew-the-apostle",
+      "latin-cross",
+      "crucifixion",
+      "crucifixion-of-andrew",
+      "bystander"
     ],
     "enrichmentStatus": "metadata-fallback",
     "sourceLinks": [
       {
         "label": "View at Cleveland Museum of Art",
         "url": "https://clevelandart.org/art/1976.2"
+      },
+      {
+        "label": "Wikidata",
+        "url": "https://www.wikidata.org/wiki/Q3221991"
       }
     ],
+    "externalIds": {
+      "cma": "148758",
+      "wikidata": "Q3221991"
+    },
+    "provenance": {
+      "title": "cma",
+      "artist": "cma",
+      "movement": "wikidata"
+    },
     "overview": "The Crucifixion of Saint Andrew by Caravaggio, 1606–7. oil on canvas, Italy, Naples. Held by Cleveland Museum of Art.",
     "creationStory": "A detailed creation story is not yet available for this work.",
-    "whoIsDepicted": "Information about the subject is not yet available for this work.",
+    "whoIsDepicted": "Depicts Andrew the Apostle, Latin cross, crucifixion, crucifixion of Andrew, bystander.",
     "historicalContext": "Associated with Baroque.",
-    "interestingFacts": []
+    "interestingFacts": [],
+    "depicts": [
+      "Andrew the Apostle",
+      "Latin cross",
+      "crucifixion",
+      "crucifixion of Andrew",
+      "bystander"
+    ],
+    "imageSource": "cma",
+    "imageLicense": "CC0"
   },
   {
     "id": "cma-131819",
@@ -798,20 +1344,36 @@
     "tags": [
       "baroque",
       "painting",
-      "european-painting-and-sculpture"
+      "european-painting-and-sculpture",
+      "portrait"
     ],
     "enrichmentStatus": "metadata-fallback",
     "sourceLinks": [
       {
         "label": "View at Cleveland Museum of Art",
         "url": "https://clevelandart.org/art/1954.392"
+      },
+      {
+        "label": "Wikidata",
+        "url": "https://www.wikidata.org/wiki/Q60516477"
       }
     ],
+    "externalIds": {
+      "cma": "131819",
+      "wikidata": "Q60516477"
+    },
+    "provenance": {
+      "title": "cma",
+      "artist": "cma",
+      "movement": "curation"
+    },
     "overview": "A Genoese Lady with Her Child by Anthony van Dyck, c. 1623–25. oil on canvas, Flanders. Held by Cleveland Museum of Art.",
     "creationStory": "A detailed creation story is not yet available for this work.",
     "whoIsDepicted": "Information about the subject is not yet available for this work.",
     "historicalContext": "Associated with Baroque.",
-    "interestingFacts": []
+    "interestingFacts": [],
+    "imageSource": "cma",
+    "imageLicense": "CC0"
   },
   {
     "id": "cma-117032",
@@ -834,20 +1396,36 @@
     "tags": [
       "baroque",
       "painting",
-      "european-painting-and-sculpture"
+      "european-painting-and-sculpture",
+      "religious-art"
     ],
     "enrichmentStatus": "metadata-fallback",
     "sourceLinks": [
       {
         "label": "View at Cleveland Museum of Art",
         "url": "https://clevelandart.org/art/1937.577"
+      },
+      {
+        "label": "Wikidata",
+        "url": "https://www.wikidata.org/wiki/Q59115342"
       }
     ],
+    "externalIds": {
+      "cma": "117032",
+      "wikidata": "Q59115342"
+    },
+    "provenance": {
+      "title": "cma",
+      "artist": "cma",
+      "movement": "curation"
+    },
     "overview": "The Sacrifice of Isaac by Andrea del Sarto, c. 1527. oil on wood, Italy, Florence, 16th century. Held by Cleveland Museum of Art.",
     "creationStory": "A detailed creation story is not yet available for this work.",
     "whoIsDepicted": "Information about the subject is not yet available for this work.",
     "historicalContext": "Associated with Baroque.",
-    "interestingFacts": []
+    "interestingFacts": [],
+    "imageSource": "cma",
+    "imageLicense": "CC0"
   },
   {
     "id": "met-438814",
@@ -863,7 +1441,7 @@
     "museumLocation": "New York, USA",
     "image": "https://images.metmuseum.org/CRDImages/ep/original/DP-14344-001.jpg",
     "thumbnail": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-14344-001.jpg",
-    "movement": "Romanticism",
+    "movement": "academic art",
     "medium": "Oil on canvas",
     "culture": "",
     "department": "European Paintings",
@@ -871,20 +1449,46 @@
       "romanticism",
       "paintings",
       "european-paintings",
-      "painting"
+      "painting",
+      "academic-art",
+      "woman",
+      "man",
+      "battle",
+      "equestrianism"
     ],
     "enrichmentStatus": "metadata-fallback",
     "sourceLinks": [
       {
         "label": "View at The Metropolitan Museum of Art",
         "url": "https://www.metmuseum.org/art/collection/search/438814"
+      },
+      {
+        "label": "Wikidata",
+        "url": "https://www.wikidata.org/wiki/Q19911594"
       }
     ],
+    "externalIds": {
+      "wikidata": "Q19911594",
+      "met": "438814"
+    },
+    "provenance": {
+      "title": "met",
+      "artist": "met",
+      "movement": "wikidata"
+    },
     "overview": "The Abduction of Rebecca by Eugène Delacroix, 1846. Oil on canvas. Held by The Metropolitan Museum of Art.",
     "creationStory": "A detailed creation story is not yet available for this work.",
-    "whoIsDepicted": "Information about the subject is not yet available for this work.",
+    "whoIsDepicted": "Depicts woman, man, battle, equestrianism.",
     "historicalContext": "Associated with Romanticism.",
-    "interestingFacts": []
+    "interestingFacts": [],
+    "depicts": [
+      "woman",
+      "man",
+      "battle",
+      "equestrianism"
+    ],
+    "imageSource": "met",
+    "imageLicense": "Public Domain"
   },
   {
     "id": "met-436175",
@@ -908,20 +1512,43 @@
       "romanticism",
       "paintings",
       "european-paintings",
-      "painting"
+      "painting",
+      "still-life",
+      "leaf",
+      "flower"
     ],
     "enrichmentStatus": "metadata-fallback",
     "sourceLinks": [
       {
         "label": "View at The Metropolitan Museum of Art",
         "url": "https://www.metmuseum.org/art/collection/search/436175"
+      },
+      {
+        "label": "Wikidata",
+        "url": "https://www.wikidata.org/wiki/Q19904813"
       }
     ],
+    "externalIds": {
+      "wikidata": "Q19904813",
+      "met": "436175"
+    },
+    "provenance": {
+      "title": "met",
+      "artist": "met",
+      "movement": "curation"
+    },
     "overview": "Basket of Flowers by Eugène Delacroix, 1848–49. Oil on canvas. Held by The Metropolitan Museum of Art.",
     "creationStory": "A detailed creation story is not yet available for this work.",
-    "whoIsDepicted": "Information about the subject is not yet available for this work.",
+    "whoIsDepicted": "Depicts leaf, flower, still life.",
     "historicalContext": "Associated with Romanticism.",
-    "interestingFacts": []
+    "interestingFacts": [],
+    "depicts": [
+      "leaf",
+      "flower",
+      "still life"
+    ],
+    "imageSource": "met",
+    "imageLicense": "Public Domain"
   },
   {
     "id": "met-336046",
@@ -944,20 +1571,39 @@
     "tags": [
       "romanticism",
       "drawings",
-      "drawings-and-prints"
+      "drawings-and-prints",
+      "woman"
     ],
     "enrichmentStatus": "metadata-fallback",
     "sourceLinks": [
       {
         "label": "View at The Metropolitan Museum of Art",
         "url": "https://www.metmuseum.org/art/collection/search/336046"
+      },
+      {
+        "label": "Wikidata",
+        "url": "https://www.wikidata.org/wiki/Q29384684"
       }
     ],
+    "externalIds": {
+      "wikidata": "Q29384684",
+      "met": "336046"
+    },
+    "provenance": {
+      "title": "met",
+      "artist": "met",
+      "movement": "curation"
+    },
     "overview": "Saada, the Wife of Abraham Ben-Chimol, and Préciada, One of Their Daughters by Eugène Delacroix, 1832. Watercolor over graphite on wove paper. Held by The Metropolitan Museum of Art.",
     "creationStory": "A detailed creation story is not yet available for this work.",
-    "whoIsDepicted": "Information about the subject is not yet available for this work.",
+    "whoIsDepicted": "Depicts woman.",
     "historicalContext": "Associated with Romanticism.",
-    "interestingFacts": []
+    "interestingFacts": [],
+    "depicts": [
+      "woman"
+    ],
+    "imageSource": "met",
+    "imageLicense": "Public Domain"
   },
   {
     "id": "met-436544",
@@ -973,7 +1619,7 @@
     "museumLocation": "New York, USA",
     "image": "https://images.metmuseum.org/CRDImages/ep/original/DP295718.jpg",
     "thumbnail": "https://images.metmuseum.org/CRDImages/ep/web-large/DP295718.jpg",
-    "movement": "Romanticism",
+    "movement": "academic art",
     "medium": "Oil on canvas",
     "culture": "",
     "department": "European Paintings",
@@ -981,20 +1627,46 @@
       "romanticism",
       "paintings",
       "european-paintings",
-      "painting"
+      "painting",
+      "academic-art",
+      "portrait",
+      "tiburcio-perez-cuervo",
+      "man",
+      "architect"
     ],
     "enrichmentStatus": "metadata-fallback",
     "sourceLinks": [
       {
         "label": "View at The Metropolitan Museum of Art",
         "url": "https://www.metmuseum.org/art/collection/search/436544"
+      },
+      {
+        "label": "Wikidata",
+        "url": "https://www.wikidata.org/wiki/Q19911709"
       }
     ],
+    "externalIds": {
+      "wikidata": "Q19911709",
+      "met": "436544"
+    },
+    "provenance": {
+      "title": "met",
+      "artist": "met",
+      "movement": "wikidata"
+    },
     "overview": "Tiburcio Pérez y Cuervo (1785/86–1841), the Architect by Goya (Francisco de Goya y Lucientes), 1820. Oil on canvas. Held by The Metropolitan Museum of Art.",
     "creationStory": "A detailed creation story is not yet available for this work.",
-    "whoIsDepicted": "Information about the subject is not yet available for this work.",
+    "whoIsDepicted": "Depicts Tiburcio Pérez Cuervo, man, portrait, architect.",
     "historicalContext": "Associated with Romanticism.",
-    "interestingFacts": []
+    "interestingFacts": [],
+    "depicts": [
+      "Tiburcio Pérez Cuervo",
+      "man",
+      "portrait",
+      "architect"
+    ],
+    "imageSource": "met",
+    "imageLicense": "Public Domain"
   },
   {
     "id": "met-436546",
@@ -1018,20 +1690,47 @@
       "romanticism",
       "paintings",
       "european-paintings",
-      "painting"
+      "painting",
+      "portrait",
+      "drum",
+      "toy",
+      "boy",
+      "horse"
     ],
     "enrichmentStatus": "metadata-fallback",
     "sourceLinks": [
       {
         "label": "View at The Metropolitan Museum of Art",
         "url": "https://www.metmuseum.org/art/collection/search/436546"
+      },
+      {
+        "label": "Wikidata",
+        "url": "https://www.wikidata.org/wiki/Q19911764"
       }
     ],
+    "externalIds": {
+      "wikidata": "Q19911764",
+      "met": "436546"
+    },
+    "provenance": {
+      "title": "met",
+      "artist": "met",
+      "movement": "curation"
+    },
     "overview": "José Costa y Bonells (died l870), Called Pepito by Goya (Francisco de Goya y Lucientes), ca. 1810. Oil on canvas. Held by The Metropolitan Museum of Art.",
     "creationStory": "A detailed creation story is not yet available for this work.",
-    "whoIsDepicted": "Information about the subject is not yet available for this work.",
+    "whoIsDepicted": "Depicts drum, toy, boy, horse, portrait.",
     "historicalContext": "Associated with Romanticism.",
-    "interestingFacts": []
+    "interestingFacts": [],
+    "depicts": [
+      "drum",
+      "toy",
+      "boy",
+      "horse",
+      "portrait"
+    ],
+    "imageSource": "met",
+    "imageLicense": "Public Domain"
   },
   {
     "id": "met-436541",
@@ -1055,20 +1754,54 @@
       "romanticism",
       "paintings",
       "european-paintings",
-      "painting"
+      "painting",
+      "portrait",
+      "sebastian-martinez-y-perez",
+      "breeches",
+      "stocking",
+      "jacket",
+      "necktie",
+      "wig",
+      "letter",
+      "reading"
     ],
     "enrichmentStatus": "metadata-fallback",
     "sourceLinks": [
       {
         "label": "View at The Metropolitan Museum of Art",
         "url": "https://www.metmuseum.org/art/collection/search/436541"
+      },
+      {
+        "label": "Wikidata",
+        "url": "https://www.wikidata.org/wiki/Q9638626"
       }
     ],
+    "externalIds": {
+      "wikidata": "Q9638626",
+      "met": "436541"
+    },
+    "provenance": {
+      "title": "met",
+      "artist": "met",
+      "movement": "curation"
+    },
     "overview": "Sebastián Martínez y Pérez (1747–1800) by Goya (Francisco de Goya y Lucientes), 1792. Oil on canvas. Held by The Metropolitan Museum of Art.",
     "creationStory": "A detailed creation story is not yet available for this work.",
-    "whoIsDepicted": "Information about the subject is not yet available for this work.",
+    "whoIsDepicted": "Depicts Sebastián Martínez y Pérez, breeches, stocking, jacket, necktie, wig.",
     "historicalContext": "Associated with Romanticism.",
-    "interestingFacts": []
+    "interestingFacts": [],
+    "depicts": [
+      "Sebastián Martínez y Pérez",
+      "breeches",
+      "stocking",
+      "jacket",
+      "necktie",
+      "wig",
+      "letter",
+      "reading"
+    ],
+    "imageSource": "met",
+    "imageLicense": "Public Domain"
   },
   {
     "id": "met-437853",
@@ -1084,7 +1817,7 @@
     "museumLocation": "New York, USA",
     "image": "https://images.metmuseum.org/CRDImages/ep/original/DP169568.jpg",
     "thumbnail": "https://images.metmuseum.org/CRDImages/ep/web-large/DP169568.jpg",
-    "movement": "Romanticism",
+    "movement": "academic art",
     "medium": "Oil on canvas",
     "culture": "",
     "department": "European Paintings",
@@ -1093,20 +1826,55 @@
       "landscape",
       "paintings",
       "european-paintings",
-      "painting"
+      "painting",
+      "academic-art",
+      "cityscape",
+      "venice",
+      "sky",
+      "grand-canal",
+      "gondola",
+      "boat",
+      "building",
+      "city",
+      "canal"
     ],
     "enrichmentStatus": "metadata-fallback",
     "sourceLinks": [
       {
         "label": "View at The Metropolitan Museum of Art",
         "url": "https://www.metmuseum.org/art/collection/search/437853"
+      },
+      {
+        "label": "Wikidata",
+        "url": "https://www.wikidata.org/wiki/Q20018653"
       }
     ],
+    "externalIds": {
+      "wikidata": "Q20018653",
+      "met": "437853"
+    },
+    "provenance": {
+      "title": "met",
+      "artist": "met",
+      "movement": "wikidata"
+    },
     "overview": "Venice, from the Porch of Madonna della Salute by Joseph Mallord William Turner, ca. 1835. Oil on canvas. Held by The Metropolitan Museum of Art.",
     "creationStory": "A detailed creation story is not yet available for this work.",
-    "whoIsDepicted": "Information about the subject is not yet available for this work.",
+    "whoIsDepicted": "Depicts Venice, sky, Grand Canal, gondola, boat, building.",
     "historicalContext": "Associated with Romanticism.",
-    "interestingFacts": []
+    "interestingFacts": [],
+    "depicts": [
+      "Venice",
+      "sky",
+      "Grand Canal",
+      "gondola",
+      "boat",
+      "building",
+      "city",
+      "canal"
+    ],
+    "imageSource": "met",
+    "imageLicense": "Public Domain"
   },
   {
     "id": "met-437854",
@@ -1122,7 +1890,7 @@
     "museumLocation": "New York, USA",
     "image": "https://images.metmuseum.org/CRDImages/ep/original/DP-13360-001.jpg",
     "thumbnail": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-13360-001.jpg",
-    "movement": "Romanticism",
+    "movement": "academic art",
     "medium": "Oil on canvas",
     "culture": "",
     "department": "European Paintings",
@@ -1131,20 +1899,44 @@
       "landscape",
       "paintings",
       "european-paintings",
-      "painting"
+      "painting",
+      "academic-art",
+      "marine-art",
+      "boat",
+      "whale"
     ],
     "enrichmentStatus": "metadata-fallback",
     "sourceLinks": [
       {
         "label": "View at The Metropolitan Museum of Art",
         "url": "https://www.metmuseum.org/art/collection/search/437854"
+      },
+      {
+        "label": "Wikidata",
+        "url": "https://www.wikidata.org/wiki/Q19904831"
       }
     ],
+    "externalIds": {
+      "wikidata": "Q19904831",
+      "met": "437854"
+    },
+    "provenance": {
+      "title": "met",
+      "artist": "met",
+      "movement": "wikidata"
+    },
     "overview": "Whalers by Joseph Mallord William Turner, ca. 1845. Oil on canvas. Held by The Metropolitan Museum of Art.",
     "creationStory": "A detailed creation story is not yet available for this work.",
-    "whoIsDepicted": "Information about the subject is not yet available for this work.",
+    "whoIsDepicted": "Depicts boat, whale, marine art.",
     "historicalContext": "Associated with Romanticism.",
-    "interestingFacts": []
+    "interestingFacts": [],
+    "depicts": [
+      "boat",
+      "whale",
+      "marine art"
+    ],
+    "imageSource": "met",
+    "imageLicense": "Public Domain"
   },
   {
     "id": "met-459112",
@@ -1168,20 +1960,41 @@
       "impressionism",
       "paintings",
       "robert-lehman-collection",
-      "painting"
+      "painting",
+      "girl",
+      "piano"
     ],
     "enrichmentStatus": "metadata-fallback",
     "sourceLinks": [
       {
         "label": "View at The Metropolitan Museum of Art",
         "url": "https://www.metmuseum.org/art/collection/search/459112"
+      },
+      {
+        "label": "Wikidata",
+        "url": "https://www.wikidata.org/wiki/Q20183500"
       }
     ],
+    "externalIds": {
+      "wikidata": "Q20183500",
+      "met": "459112"
+    },
+    "provenance": {
+      "title": "met",
+      "artist": "met",
+      "movement": "curation"
+    },
     "overview": "Two Young Girls at the Piano by Auguste Renoir, 1892. Oil on canvas. Held by The Metropolitan Museum of Art.",
     "creationStory": "A detailed creation story is not yet available for this work.",
-    "whoIsDepicted": "Information about the subject is not yet available for this work.",
+    "whoIsDepicted": "Depicts girl, piano.",
     "historicalContext": "Associated with Impressionism.",
-    "interestingFacts": []
+    "interestingFacts": [],
+    "depicts": [
+      "girl",
+      "piano"
+    ],
+    "imageSource": "met",
+    "imageLicense": "Public Domain"
   },
   {
     "id": "met-438815",
@@ -1205,20 +2018,54 @@
       "impressionism",
       "paintings",
       "european-paintings",
-      "painting"
+      "painting",
+      "genre-art",
+      "marguerite-charpentier",
+      "family",
+      "sitting",
+      "georgette-charpentier",
+      "paul-charpentier",
+      "mother",
+      "boy",
+      "girl"
     ],
     "enrichmentStatus": "metadata-fallback",
     "sourceLinks": [
       {
         "label": "View at The Metropolitan Museum of Art",
         "url": "https://www.metmuseum.org/art/collection/search/438815"
+      },
+      {
+        "label": "Wikidata",
+        "url": "https://www.wikidata.org/wiki/Q686105"
       }
     ],
+    "externalIds": {
+      "wikidata": "Q686105",
+      "met": "438815"
+    },
+    "provenance": {
+      "title": "met",
+      "artist": "met",
+      "movement": "curation"
+    },
     "overview": "Madame Georges Charpentier (Marguerite-Louise Lemonnier, 1848–1904) and Her Children, Georgette-Berthe (1872–1945) and Paul-Emile-Charles (1875–1895) by Auguste Renoir, 1878. Oil on canvas. Held by The Metropolitan Museum of Art.",
     "creationStory": "A detailed creation story is not yet available for this work.",
-    "whoIsDepicted": "Information about the subject is not yet available for this work.",
+    "whoIsDepicted": "Depicts Marguerite Charpentier, family, sitting, Georgette Charpentier, Paul Charpentier, mother.",
     "historicalContext": "Associated with Impressionism.",
-    "interestingFacts": []
+    "interestingFacts": [],
+    "depicts": [
+      "Marguerite Charpentier",
+      "family",
+      "sitting",
+      "Georgette Charpentier",
+      "Paul Charpentier",
+      "mother",
+      "boy",
+      "girl"
+    ],
+    "imageSource": "met",
+    "imageLicense": "Public Domain"
   },
   {
     "id": "met-438011",
@@ -1242,20 +2089,43 @@
       "impressionism",
       "paintings",
       "european-paintings",
-      "painting"
+      "painting",
+      "portrait",
+      "eugene-murer",
+      "man"
     ],
     "enrichmentStatus": "metadata-fallback",
     "sourceLinks": [
       {
         "label": "View at The Metropolitan Museum of Art",
         "url": "https://www.metmuseum.org/art/collection/search/438011"
+      },
+      {
+        "label": "Wikidata",
+        "url": "https://www.wikidata.org/wiki/Q19912240"
       }
     ],
+    "externalIds": {
+      "wikidata": "Q19912240",
+      "met": "438011"
+    },
+    "provenance": {
+      "title": "met",
+      "artist": "met",
+      "movement": "curation"
+    },
     "overview": "Eugène Murer (Hyacinthe-Eugène Meunier, 1841–1906) by Auguste Renoir, 1877. Oil on canvas. Held by The Metropolitan Museum of Art.",
     "creationStory": "A detailed creation story is not yet available for this work.",
-    "whoIsDepicted": "Information about the subject is not yet available for this work.",
+    "whoIsDepicted": "Depicts Eugène Murer, man, portrait.",
     "historicalContext": "Associated with Impressionism.",
-    "interestingFacts": []
+    "interestingFacts": [],
+    "depicts": [
+      "Eugène Murer",
+      "man",
+      "portrait"
+    ],
+    "imageSource": "met",
+    "imageLicense": "Public Domain"
   },
   {
     "id": "met-436155",
@@ -1279,20 +2149,48 @@
       "impressionism",
       "drawings",
       "european-paintings",
-      "painting"
+      "painting",
+      "genre-art",
+      "woman",
+      "man",
+      "ballet",
+      "dance",
+      "dancer"
     ],
     "enrichmentStatus": "metadata-fallback",
     "sourceLinks": [
       {
         "label": "View at The Metropolitan Museum of Art",
         "url": "https://www.metmuseum.org/art/collection/search/436155"
+      },
+      {
+        "label": "Wikidata",
+        "url": "https://www.wikidata.org/wiki/Q19911722"
       }
     ],
+    "externalIds": {
+      "wikidata": "Q19911722",
+      "met": "436155"
+    },
+    "provenance": {
+      "title": "met",
+      "artist": "met",
+      "movement": "curation"
+    },
     "overview": "The Rehearsal of the Ballet Onstage by Edgar Degas, ca. 1874. Oil colors freely mixed with turpentine, with traces of watercolor and pastel over pen-and-ink drawing on cream-colored wove paper, laid down on bristol board and mounted on canvas. Held by The Metropolitan Museum of Art.",
     "creationStory": "A detailed creation story is not yet available for this work.",
-    "whoIsDepicted": "Information about the subject is not yet available for this work.",
+    "whoIsDepicted": "Depicts woman, man, ballet, dance, dancer.",
     "historicalContext": "Associated with Impressionism.",
-    "interestingFacts": []
+    "interestingFacts": [],
+    "depicts": [
+      "woman",
+      "man",
+      "ballet",
+      "dance",
+      "dancer"
+    ],
+    "imageSource": "met",
+    "imageLicense": "Public Domain"
   },
   {
     "id": "met-438817",
@@ -1316,20 +2214,49 @@
       "impressionism",
       "paintings",
       "european-paintings",
-      "painting"
+      "painting",
+      "woman",
+      "man",
+      "girl",
+      "ballet",
+      "student",
+      "dancer"
     ],
     "enrichmentStatus": "metadata-fallback",
     "sourceLinks": [
       {
         "label": "View at The Metropolitan Museum of Art",
         "url": "https://www.metmuseum.org/art/collection/search/438817"
+      },
+      {
+        "label": "Wikidata",
+        "url": "https://www.wikidata.org/wiki/Q18758802"
       }
     ],
+    "externalIds": {
+      "wikidata": "Q18758802",
+      "met": "438817"
+    },
+    "provenance": {
+      "title": "met",
+      "artist": "met",
+      "movement": "wikidata"
+    },
     "overview": "The Dance Class by Edgar Degas, 1874. Oil on canvas. Held by The Metropolitan Museum of Art.",
     "creationStory": "A detailed creation story is not yet available for this work.",
-    "whoIsDepicted": "Information about the subject is not yet available for this work.",
+    "whoIsDepicted": "Depicts woman, man, girl, ballet, student, dancer.",
     "historicalContext": "Associated with Impressionism.",
-    "interestingFacts": []
+    "interestingFacts": [],
+    "depicts": [
+      "woman",
+      "man",
+      "girl",
+      "ballet",
+      "student",
+      "dancer"
+    ],
+    "imageSource": "met",
+    "imageLicense": "Public Domain"
   },
   {
     "id": "met-436135",
@@ -1352,20 +2279,45 @@
     "tags": [
       "impressionism",
       "drawings",
-      "european-paintings"
+      "european-paintings",
+      "hand-fan",
+      "girl",
+      "ballet",
+      "dancer"
     ],
     "enrichmentStatus": "metadata-fallback",
     "sourceLinks": [
       {
         "label": "View at The Metropolitan Museum of Art",
         "url": "https://www.metmuseum.org/art/collection/search/436135"
+      },
+      {
+        "label": "Wikidata",
+        "url": "https://www.wikidata.org/wiki/Q19913212"
       }
     ],
+    "externalIds": {
+      "wikidata": "Q19913212",
+      "met": "436135"
+    },
+    "provenance": {
+      "title": "met",
+      "artist": "met",
+      "movement": "curation"
+    },
     "overview": "Dancer with a Fan by Edgar Degas, ca. 1880. Pastel on gray-green laid paper. Held by The Metropolitan Museum of Art.",
     "creationStory": "A detailed creation story is not yet available for this work.",
-    "whoIsDepicted": "Information about the subject is not yet available for this work.",
+    "whoIsDepicted": "Depicts hand fan, girl, ballet, dancer.",
     "historicalContext": "Associated with Impressionism.",
-    "interestingFacts": []
+    "interestingFacts": [],
+    "depicts": [
+      "hand fan",
+      "girl",
+      "ballet",
+      "dancer"
+    ],
+    "imageSource": "met",
+    "imageLicense": "Public Domain"
   },
   {
     "id": "met-436122",
@@ -1389,20 +2341,41 @@
       "impressionism",
       "paintings",
       "european-paintings",
-      "painting"
+      "painting",
+      "portrait",
+      "man"
     ],
     "enrichmentStatus": "metadata-fallback",
     "sourceLinks": [
       {
         "label": "View at The Metropolitan Museum of Art",
         "url": "https://www.metmuseum.org/art/collection/search/436122"
+      },
+      {
+        "label": "Wikidata",
+        "url": "https://www.wikidata.org/wiki/Q19911849"
       }
     ],
+    "externalIds": {
+      "wikidata": "Q19911849",
+      "met": "436122"
+    },
+    "provenance": {
+      "title": "met",
+      "artist": "met",
+      "movement": "curation"
+    },
     "overview": "The Collector of Prints by Edgar Degas, 1866. Oil on canvas. Held by The Metropolitan Museum of Art.",
     "creationStory": "A detailed creation story is not yet available for this work.",
-    "whoIsDepicted": "Information about the subject is not yet available for this work.",
+    "whoIsDepicted": "Depicts man, portrait.",
     "historicalContext": "Associated with Impressionism.",
-    "interestingFacts": []
+    "interestingFacts": [],
+    "depicts": [
+      "man",
+      "portrait"
+    ],
+    "imageSource": "met",
+    "imageLicense": "Public Domain"
   },
   {
     "id": "met-438738",
@@ -1426,20 +2399,49 @@
       "impressionism",
       "paintings",
       "european-paintings",
-      "painting"
+      "painting",
+      "landscape-painting",
+      "haymaking",
+      "man",
+      "tree",
+      "morning",
+      "haystack"
     ],
     "enrichmentStatus": "metadata-fallback",
     "sourceLinks": [
       {
         "label": "View at The Metropolitan Museum of Art",
         "url": "https://www.metmuseum.org/art/collection/search/438738"
+      },
+      {
+        "label": "Wikidata",
+        "url": "https://www.wikidata.org/wiki/Q19912659"
       }
     ],
+    "externalIds": {
+      "wikidata": "Q19912659",
+      "met": "438738"
+    },
+    "provenance": {
+      "title": "met",
+      "artist": "met",
+      "movement": "curation"
+    },
     "overview": "Haystacks, Morning, Eragny by Camille Pissarro, 1899. Oil on canvas. Held by The Metropolitan Museum of Art.",
     "creationStory": "A detailed creation story is not yet available for this work.",
-    "whoIsDepicted": "Information about the subject is not yet available for this work.",
+    "whoIsDepicted": "Depicts haymaking, man, tree, landscape painting, morning, haystack.",
     "historicalContext": "Associated with Impressionism.",
-    "interestingFacts": []
+    "interestingFacts": [],
+    "depicts": [
+      "haymaking",
+      "man",
+      "tree",
+      "landscape painting",
+      "morning",
+      "haystack"
+    ],
+    "imageSource": "met",
+    "imageLicense": "Public Domain"
   },
   {
     "id": "met-459108",
@@ -1463,20 +2465,48 @@
       "impressionism",
       "paintings",
       "robert-lehman-collection",
-      "painting"
+      "painting",
+      "landscape-painting",
+      "bag",
+      "man",
+      "woman",
+      "tree",
+      "work"
     ],
     "enrichmentStatus": "metadata-fallback",
     "sourceLinks": [
       {
         "label": "View at The Metropolitan Museum of Art",
         "url": "https://www.metmuseum.org/art/collection/search/459108"
+      },
+      {
+        "label": "Wikidata",
+        "url": "https://www.wikidata.org/wiki/Q20183472"
       }
     ],
+    "externalIds": {
+      "wikidata": "Q20183472",
+      "met": "459108"
+    },
+    "provenance": {
+      "title": "met",
+      "artist": "met",
+      "movement": "curation"
+    },
     "overview": "The Harvest, Pontoise (La Récolte, Pontoise) by Camille Pissarro, 1881. Oil on canvas. Held by The Metropolitan Museum of Art.",
     "creationStory": "A detailed creation story is not yet available for this work.",
-    "whoIsDepicted": "Information about the subject is not yet available for this work.",
+    "whoIsDepicted": "Depicts bag, man, woman, tree, work.",
     "historicalContext": "Associated with Impressionism.",
-    "interestingFacts": []
+    "interestingFacts": [],
+    "depicts": [
+      "bag",
+      "man",
+      "woman",
+      "tree",
+      "work"
+    ],
+    "imageSource": "met",
+    "imageLicense": "Public Domain"
   },
   {
     "id": "met-459123",
@@ -1500,20 +2530,50 @@
       "post-impressionism",
       "paintings",
       "robert-lehman-collection",
-      "painting"
+      "painting",
+      "double-portrait",
+      "marcelle-roulin",
+      "augustine-roulin",
+      "woman",
+      "infant",
+      "portrait",
+      "mother"
     ],
     "enrichmentStatus": "metadata-fallback",
     "sourceLinks": [
       {
         "label": "View at The Metropolitan Museum of Art",
         "url": "https://www.metmuseum.org/art/collection/search/459123"
+      },
+      {
+        "label": "Wikidata",
+        "url": "https://www.wikidata.org/wiki/Q17024776"
       }
     ],
+    "externalIds": {
+      "wikidata": "Q17024776",
+      "met": "459123"
+    },
+    "provenance": {
+      "title": "met",
+      "artist": "met",
+      "movement": "curation"
+    },
     "overview": "Madame Roulin and Her Baby by Vincent van Gogh, 1888. Oil on canvas. Held by The Metropolitan Museum of Art.",
     "creationStory": "A detailed creation story is not yet available for this work.",
-    "whoIsDepicted": "Information about the subject is not yet available for this work.",
+    "whoIsDepicted": "Depicts Marcelle Roulin, Augustine Roulin, woman, infant, portrait, mother.",
     "historicalContext": "Associated with Post-Impressionism.",
-    "interestingFacts": []
+    "interestingFacts": [],
+    "depicts": [
+      "Marcelle Roulin",
+      "Augustine Roulin",
+      "woman",
+      "infant",
+      "portrait",
+      "mother"
+    ],
+    "imageSource": "met",
+    "imageLicense": "Public Domain"
   },
   {
     "id": "met-436533",
@@ -1537,20 +2597,41 @@
       "post-impressionism",
       "paintings",
       "european-paintings",
-      "painting"
+      "painting",
+      "still-life",
+      "shoe"
     ],
     "enrichmentStatus": "metadata-fallback",
     "sourceLinks": [
       {
         "label": "View at The Metropolitan Museum of Art",
         "url": "https://www.metmuseum.org/art/collection/search/436533"
+      },
+      {
+        "label": "Wikidata",
+        "url": "https://www.wikidata.org/wiki/Q19911520"
       }
     ],
+    "externalIds": {
+      "wikidata": "Q19911520",
+      "met": "436533"
+    },
+    "provenance": {
+      "title": "met",
+      "artist": "met",
+      "movement": "curation"
+    },
     "overview": "Shoes by Vincent van Gogh, 1888. Oil on canvas. Held by The Metropolitan Museum of Art.",
     "creationStory": "A detailed creation story is not yet available for this work.",
-    "whoIsDepicted": "Information about the subject is not yet available for this work.",
+    "whoIsDepicted": "Depicts shoe, still life.",
     "historicalContext": "Associated with Post-Impressionism.",
-    "interestingFacts": []
+    "interestingFacts": [],
+    "depicts": [
+      "shoe",
+      "still life"
+    ],
+    "imageSource": "met",
+    "imageLicense": "Public Domain"
   },
   {
     "id": "met-436528",
@@ -1574,20 +2655,43 @@
       "post-impressionism",
       "paintings",
       "european-paintings",
-      "painting"
+      "painting",
+      "still-life",
+      "iris",
+      "flower"
     ],
     "enrichmentStatus": "metadata-fallback",
     "sourceLinks": [
       {
         "label": "View at The Metropolitan Museum of Art",
         "url": "https://www.metmuseum.org/art/collection/search/436528"
+      },
+      {
+        "label": "Wikidata",
+        "url": "https://www.wikidata.org/wiki/Q19911667"
       }
     ],
+    "externalIds": {
+      "wikidata": "Q19911667",
+      "met": "436528"
+    },
+    "provenance": {
+      "title": "met",
+      "artist": "met",
+      "movement": "curation"
+    },
     "overview": "Irises by Vincent van Gogh, 1890. Oil on canvas. Held by The Metropolitan Museum of Art.",
     "creationStory": "A detailed creation story is not yet available for this work.",
-    "whoIsDepicted": "Information about the subject is not yet available for this work.",
+    "whoIsDepicted": "Depicts Iris, flower, still life.",
     "historicalContext": "Associated with Post-Impressionism.",
-    "interestingFacts": []
+    "interestingFacts": [],
+    "depicts": [
+      "Iris",
+      "flower",
+      "still life"
+    ],
+    "imageSource": "met",
+    "imageLicense": "Public Domain"
   },
   {
     "id": "met-436532",
@@ -1611,20 +2715,46 @@
       "post-impressionism",
       "paintings",
       "european-paintings",
-      "painting"
+      "painting",
+      "portrait",
+      "vincent-van-gogh",
+      "hat",
+      "man",
+      "self-portrait"
     ],
     "enrichmentStatus": "metadata-fallback",
     "sourceLinks": [
       {
         "label": "View at The Metropolitan Museum of Art",
         "url": "https://www.metmuseum.org/art/collection/search/436532"
+      },
+      {
+        "label": "Wikidata",
+        "url": "https://www.wikidata.org/wiki/Q19911684"
       }
     ],
+    "externalIds": {
+      "wikidata": "Q19911684",
+      "met": "436532"
+    },
+    "provenance": {
+      "title": "met",
+      "artist": "met",
+      "movement": "curation"
+    },
     "overview": "Self-Portrait with a Straw Hat (obverse: The Potato Peeler) by Vincent van Gogh, 1887. Oil on canvas. Held by The Metropolitan Museum of Art.",
     "creationStory": "A detailed creation story is not yet available for this work.",
-    "whoIsDepicted": "Information about the subject is not yet available for this work.",
+    "whoIsDepicted": "Depicts Vincent van Gogh, hat, man, self-portrait.",
     "historicalContext": "Associated with Post-Impressionism.",
-    "interestingFacts": []
+    "interestingFacts": [],
+    "depicts": [
+      "Vincent van Gogh",
+      "hat",
+      "man",
+      "self-portrait"
+    ],
+    "imageSource": "met",
+    "imageLicense": "Public Domain"
   },
   {
     "id": "met-436535",
@@ -1648,20 +2778,43 @@
       "post-impressionism",
       "paintings",
       "european-paintings",
-      "painting"
+      "painting",
+      "landscape-painting",
+      "summer",
+      "cupressus"
     ],
     "enrichmentStatus": "metadata-fallback",
     "sourceLinks": [
       {
         "label": "View at The Metropolitan Museum of Art",
         "url": "https://www.metmuseum.org/art/collection/search/436535"
+      },
+      {
+        "label": "Wikidata",
+        "url": "https://www.wikidata.org/wiki/Q18689458"
       }
     ],
+    "externalIds": {
+      "wikidata": "Q18689458",
+      "met": "436535"
+    },
+    "provenance": {
+      "title": "met",
+      "artist": "met",
+      "movement": "curation"
+    },
     "overview": "Wheat Field with Cypresses by Vincent van Gogh, 1889. Oil on canvas. Held by The Metropolitan Museum of Art.",
     "creationStory": "A detailed creation story is not yet available for this work.",
-    "whoIsDepicted": "Information about the subject is not yet available for this work.",
+    "whoIsDepicted": "Depicts summer, Cupressus, landscape painting.",
     "historicalContext": "Associated with Post-Impressionism.",
-    "interestingFacts": []
+    "interestingFacts": [],
+    "depicts": [
+      "summer",
+      "Cupressus",
+      "landscape painting"
+    ],
+    "imageSource": "met",
+    "imageLicense": "Public Domain"
   },
   {
     "id": "met-436529",
@@ -1685,20 +2838,54 @@
       "post-impressionism",
       "paintings",
       "european-paintings",
-      "painting"
+      "painting",
+      "portrait",
+      "book",
+      "marie-ginoux",
+      "woman",
+      "sitting",
+      "table",
+      "black-hair",
+      "coif",
+      "waist-length-hair"
     ],
     "enrichmentStatus": "metadata-fallback",
     "sourceLinks": [
       {
         "label": "View at The Metropolitan Museum of Art",
         "url": "https://www.metmuseum.org/art/collection/search/436529"
+      },
+      {
+        "label": "Wikidata",
+        "url": "https://www.wikidata.org/wiki/Q17519173"
       }
     ],
+    "externalIds": {
+      "wikidata": "Q17519173",
+      "met": "436529"
+    },
+    "provenance": {
+      "title": "met",
+      "artist": "met",
+      "movement": "curation"
+    },
     "overview": "L'Arlésienne: Madame Joseph-Michel Ginoux (Marie Julien, 1848–1911) by Vincent van Gogh, 1888–89. Oil on canvas. Held by The Metropolitan Museum of Art.",
     "creationStory": "A detailed creation story is not yet available for this work.",
-    "whoIsDepicted": "Information about the subject is not yet available for this work.",
+    "whoIsDepicted": "Depicts book, Marie Ginoux, woman, sitting, table, black hair.",
     "historicalContext": "Associated with Post-Impressionism.",
-    "interestingFacts": []
+    "interestingFacts": [],
+    "depicts": [
+      "book",
+      "Marie Ginoux",
+      "woman",
+      "sitting",
+      "table",
+      "black hair",
+      "coif",
+      "waist-length hair"
+    ],
+    "imageSource": "met",
+    "imageLicense": "Public Domain"
   },
   {
     "id": "met-435882",
@@ -1722,20 +2909,45 @@
       "post-impressionism",
       "paintings",
       "european-paintings",
-      "painting"
+      "painting",
+      "still-life",
+      "flower",
+      "fruit",
+      "apple"
     ],
     "enrichmentStatus": "metadata-fallback",
     "sourceLinks": [
       {
         "label": "View at The Metropolitan Museum of Art",
         "url": "https://www.metmuseum.org/art/collection/search/435882"
+      },
+      {
+        "label": "Wikidata",
+        "url": "https://www.wikidata.org/wiki/Q19904841"
       }
     ],
+    "externalIds": {
+      "wikidata": "Q19904841",
+      "met": "435882"
+    },
+    "provenance": {
+      "title": "met",
+      "artist": "met",
+      "movement": "curation"
+    },
     "overview": "Still Life with Apples and a Pot of Primroses by Paul Cézanne, ca. 1890. Oil on canvas. Held by The Metropolitan Museum of Art.",
     "creationStory": "A detailed creation story is not yet available for this work.",
-    "whoIsDepicted": "Information about the subject is not yet available for this work.",
+    "whoIsDepicted": "Depicts flower, fruit, apple, still life.",
     "historicalContext": "Associated with Post-Impressionism.",
-    "interestingFacts": []
+    "interestingFacts": [],
+    "depicts": [
+      "flower",
+      "fruit",
+      "apple",
+      "still life"
+    ],
+    "imageSource": "met",
+    "imageLicense": "Public Domain"
   },
   {
     "id": "met-435868",
@@ -1759,20 +2971,54 @@
       "post-impressionism",
       "paintings",
       "european-paintings",
-      "painting"
+      "painting",
+      "genre-art",
+      "peasant",
+      "card-game",
+      "pipe",
+      "table",
+      "man",
+      "playing-card",
+      "game",
+      "smoking"
     ],
     "enrichmentStatus": "metadata-fallback",
     "sourceLinks": [
       {
         "label": "View at The Metropolitan Museum of Art",
         "url": "https://www.metmuseum.org/art/collection/search/435868"
+      },
+      {
+        "label": "Wikidata",
+        "url": "https://www.wikidata.org/wiki/Q19911459"
       }
     ],
+    "externalIds": {
+      "wikidata": "Q19911459",
+      "met": "435868"
+    },
+    "provenance": {
+      "title": "met",
+      "artist": "met",
+      "movement": "curation"
+    },
     "overview": "The Card Players by Paul Cézanne, 1890–92. Oil on canvas. Held by The Metropolitan Museum of Art.",
     "creationStory": "A detailed creation story is not yet available for this work.",
-    "whoIsDepicted": "Information about the subject is not yet available for this work.",
+    "whoIsDepicted": "Depicts peasant, card game, pipe, table, man, playing card.",
     "historicalContext": "Associated with Post-Impressionism.",
-    "interestingFacts": []
+    "interestingFacts": [],
+    "depicts": [
+      "peasant",
+      "card game",
+      "pipe",
+      "table",
+      "man",
+      "playing card",
+      "game",
+      "smoking"
+    ],
+    "imageSource": "met",
+    "imageLicense": "Public Domain"
   },
   {
     "id": "met-459092",
@@ -1796,20 +3042,43 @@
       "post-impressionism",
       "paintings",
       "robert-lehman-collection",
-      "painting"
+      "painting",
+      "landscape-painting",
+      "house",
+      "tree"
     ],
     "enrichmentStatus": "metadata-fallback",
     "sourceLinks": [
       {
         "label": "View at The Metropolitan Museum of Art",
         "url": "https://www.metmuseum.org/art/collection/search/459092"
+      },
+      {
+        "label": "Wikidata",
+        "url": "https://www.wikidata.org/wiki/Q20183245"
       }
     ],
+    "externalIds": {
+      "wikidata": "Q20183245",
+      "met": "459092"
+    },
+    "provenance": {
+      "title": "met",
+      "artist": "met",
+      "movement": "curation"
+    },
     "overview": "Trees and Houses Near the Jas de Bouffan by Paul Cézanne, 1885–86. Oil on canvas. Held by The Metropolitan Museum of Art.",
     "creationStory": "A detailed creation story is not yet available for this work.",
-    "whoIsDepicted": "Information about the subject is not yet available for this work.",
+    "whoIsDepicted": "Depicts house, tree, landscape painting.",
     "historicalContext": "Associated with Post-Impressionism.",
-    "interestingFacts": []
+    "interestingFacts": [],
+    "depicts": [
+      "house",
+      "tree",
+      "landscape painting"
+    ],
+    "imageSource": "met",
+    "imageLicense": "Public Domain"
   },
   {
     "id": "met-435876",
@@ -1833,20 +3102,43 @@
       "post-impressionism",
       "paintings",
       "european-paintings",
-      "painting"
+      "painting",
+      "portrait",
+      "woman",
+      "marie-hortense-fiquet"
     ],
     "enrichmentStatus": "metadata-fallback",
     "sourceLinks": [
       {
         "label": "View at The Metropolitan Museum of Art",
         "url": "https://www.metmuseum.org/art/collection/search/435876"
+      },
+      {
+        "label": "Wikidata",
+        "url": "https://www.wikidata.org/wiki/Q20167086"
       }
     ],
+    "externalIds": {
+      "wikidata": "Q20167086",
+      "met": "435876"
+    },
+    "provenance": {
+      "title": "met",
+      "artist": "met",
+      "movement": "curation"
+    },
     "overview": "Madame Cézanne (Hortense Fiquet, 1850–1922) in a Red Dress by Paul Cézanne, 1888–90. Oil on canvas. Held by The Metropolitan Museum of Art.",
     "creationStory": "A detailed creation story is not yet available for this work.",
-    "whoIsDepicted": "Information about the subject is not yet available for this work.",
+    "whoIsDepicted": "Depicts woman, woman, Marie-Hortense Fiquet.",
     "historicalContext": "Associated with Post-Impressionism.",
-    "interestingFacts": []
+    "interestingFacts": [],
+    "depicts": [
+      "woman",
+      "woman",
+      "Marie-Hortense Fiquet"
+    ],
+    "imageSource": "met",
+    "imageLicense": "Public Domain"
   },
   {
     "id": "met-437654",
@@ -1862,7 +3154,7 @@
     "museumLocation": "New York, USA",
     "image": "https://images.metmuseum.org/CRDImages/ep/original/DP375450_cropped.jpg",
     "thumbnail": "https://images.metmuseum.org/CRDImages/ep/web-large/DP375450_cropped.jpg",
-    "movement": "Post-Impressionism",
+    "movement": "Neo-impressionism",
     "medium": "Oil on canvas",
     "culture": "",
     "department": "European Paintings",
@@ -1870,20 +3162,49 @@
       "post-impressionism",
       "paintings",
       "european-paintings",
-      "painting"
+      "painting",
+      "neo-impressionism",
+      "genre-art",
+      "circus",
+      "musician",
+      "musical-instrument",
+      "man",
+      "woman"
     ],
     "enrichmentStatus": "metadata-fallback",
     "sourceLinks": [
       {
         "label": "View at The Metropolitan Museum of Art",
         "url": "https://www.metmuseum.org/art/collection/search/437654"
+      },
+      {
+        "label": "Wikidata",
+        "url": "https://www.wikidata.org/wiki/Q3823444"
       }
     ],
+    "externalIds": {
+      "wikidata": "Q3823444",
+      "met": "437654"
+    },
+    "provenance": {
+      "title": "met",
+      "artist": "met",
+      "movement": "wikidata"
+    },
     "overview": "Circus Sideshow (Parade de cirque) by Georges Seurat, 1887–88. Oil on canvas. Held by The Metropolitan Museum of Art.",
     "creationStory": "A detailed creation story is not yet available for this work.",
-    "whoIsDepicted": "Information about the subject is not yet available for this work.",
+    "whoIsDepicted": "Depicts circus, musician, musical instrument, man, woman.",
     "historicalContext": "Associated with Post-Impressionism.",
-    "interestingFacts": []
+    "interestingFacts": [],
+    "depicts": [
+      "circus",
+      "musician",
+      "musical instrument",
+      "man",
+      "woman"
+    ],
+    "imageSource": "met",
+    "imageLicense": "Public Domain"
   },
   {
     "id": "met-459116",
@@ -1907,20 +3228,41 @@
       "post-impressionism",
       "paintings",
       "robert-lehman-collection",
-      "painting"
+      "painting",
+      "man",
+      "work"
     ],
     "enrichmentStatus": "metadata-fallback",
     "sourceLinks": [
       {
         "label": "View at The Metropolitan Museum of Art",
         "url": "https://www.metmuseum.org/art/collection/search/459116"
+      },
+      {
+        "label": "Wikidata",
+        "url": "https://www.wikidata.org/wiki/Q20186434"
       }
     ],
+    "externalIds": {
+      "wikidata": "Q20186434",
+      "met": "459116"
+    },
+    "provenance": {
+      "title": "met",
+      "artist": "met",
+      "movement": "curation"
+    },
     "overview": "The Mower by Georges Seurat, 1881–82. Oil on wood. Held by The Metropolitan Museum of Art.",
     "creationStory": "A detailed creation story is not yet available for this work.",
-    "whoIsDepicted": "Information about the subject is not yet available for this work.",
+    "whoIsDepicted": "Depicts man, work.",
     "historicalContext": "Associated with Post-Impressionism.",
-    "interestingFacts": []
+    "interestingFacts": [],
+    "depicts": [
+      "man",
+      "work"
+    ],
+    "imageSource": "met",
+    "imageLicense": "Public Domain"
   },
   {
     "id": "met-438821",
@@ -1936,7 +3278,7 @@
     "museumLocation": "New York, USA",
     "image": "https://images.metmuseum.org/CRDImages/ep/original/DT1025.jpg",
     "thumbnail": "https://images.metmuseum.org/CRDImages/ep/web-large/DT1025.jpg",
-    "movement": "Post-Impressionism",
+    "movement": "Les Nabis",
     "medium": "Oil on canvas",
     "culture": "",
     "department": "European Paintings",
@@ -1944,20 +3286,55 @@
       "post-impressionism",
       "paintings",
       "european-paintings",
-      "painting"
+      "painting",
+      "les-nabis",
+      "religious-art",
+      "mary",
+      "angel",
+      "woman",
+      "christ-child",
+      "boy",
+      "mother",
+      "vegetation",
+      "jesus-christ"
     ],
     "enrichmentStatus": "metadata-fallback",
     "sourceLinks": [
       {
         "label": "View at The Metropolitan Museum of Art",
         "url": "https://www.metmuseum.org/art/collection/search/438821"
+      },
+      {
+        "label": "Wikidata",
+        "url": "https://www.wikidata.org/wiki/Q1118465"
       }
     ],
+    "externalIds": {
+      "wikidata": "Q1118465",
+      "met": "438821"
+    },
+    "provenance": {
+      "title": "met",
+      "artist": "met",
+      "movement": "wikidata"
+    },
     "overview": "Ia Orana Maria (Hail Mary) by Paul Gauguin, 1891. Oil on canvas. Held by The Metropolitan Museum of Art.",
     "creationStory": "A detailed creation story is not yet available for this work.",
-    "whoIsDepicted": "Information about the subject is not yet available for this work.",
+    "whoIsDepicted": "Depicts Mary, angel, woman, Christ Child, boy, mother.",
     "historicalContext": "Associated with Post-Impressionism.",
-    "interestingFacts": []
+    "interestingFacts": [],
+    "depicts": [
+      "Mary",
+      "angel",
+      "woman",
+      "Christ Child",
+      "boy",
+      "mother",
+      "vegetation",
+      "Jesus Christ"
+    ],
+    "imageSource": "met",
+    "imageLicense": "Public Domain"
   },
   {
     "id": "met-436449",
@@ -1981,20 +3358,54 @@
       "post-impressionism",
       "paintings",
       "european-paintings",
-      "painting"
+      "painting",
+      "genre-art",
+      "woman",
+      "terrace",
+      "picnic",
+      "hat",
+      "basket",
+      "grass",
+      "flower",
+      "skirt"
     ],
     "enrichmentStatus": "metadata-fallback",
     "sourceLinks": [
       {
         "label": "View at The Metropolitan Museum of Art",
         "url": "https://www.metmuseum.org/art/collection/search/436449"
+      },
+      {
+        "label": "Wikidata",
+        "url": "https://www.wikidata.org/wiki/Q3212828"
       }
     ],
+    "externalIds": {
+      "wikidata": "Q3212828",
+      "met": "436449"
+    },
+    "provenance": {
+      "title": "met",
+      "artist": "met",
+      "movement": "curation"
+    },
     "overview": "The Siesta by Paul Gauguin, ca. 1892–94. Oil on canvas. Held by The Metropolitan Museum of Art.",
     "creationStory": "A detailed creation story is not yet available for this work.",
-    "whoIsDepicted": "Information about the subject is not yet available for this work.",
+    "whoIsDepicted": "Depicts woman, terrace, picnic, hat, basket, grass.",
     "historicalContext": "Associated with Post-Impressionism.",
-    "interestingFacts": []
+    "interestingFacts": [],
+    "depicts": [
+      "woman",
+      "terrace",
+      "picnic",
+      "hat",
+      "basket",
+      "grass",
+      "flower",
+      "skirt"
+    ],
+    "imageSource": "met",
+    "imageLicense": "Public Domain"
   },
   {
     "id": "met-459100",
@@ -2018,20 +3429,42 @@
       "post-impressionism",
       "paintings",
       "robert-lehman-collection",
-      "painting"
+      "painting",
+      "nude",
+      "bathing"
     ],
     "enrichmentStatus": "metadata-fallback",
     "sourceLinks": [
       {
         "label": "View at The Metropolitan Museum of Art",
         "url": "https://www.metmuseum.org/art/collection/search/459100"
+      },
+      {
+        "label": "Wikidata",
+        "url": "https://www.wikidata.org/wiki/Q20181331"
       }
     ],
+    "externalIds": {
+      "wikidata": "Q20181331",
+      "met": "459100"
+    },
+    "provenance": {
+      "title": "met",
+      "artist": "met",
+      "movement": "curation"
+    },
     "overview": "Tahitian Women Bathing by Paul Gauguin, 1892. Oil on paper, laid down on canvas. Held by The Metropolitan Museum of Art.",
     "creationStory": "A detailed creation story is not yet available for this work.",
-    "whoIsDepicted": "Information about the subject is not yet available for this work.",
+    "whoIsDepicted": "Depicts nude, bathing, nude.",
     "historicalContext": "Associated with Post-Impressionism.",
-    "interestingFacts": []
+    "interestingFacts": [],
+    "depicts": [
+      "nude",
+      "bathing",
+      "nude"
+    ],
+    "imageSource": "met",
+    "imageLicense": "Public Domain"
   },
   {
     "id": "met-436819",
@@ -2055,20 +3488,41 @@
       "modernism",
       "paintings",
       "european-paintings",
-      "painting"
+      "painting",
+      "portrait",
+      "girl"
     ],
     "enrichmentStatus": "metadata-fallback",
     "sourceLinks": [
       {
         "label": "View at The Metropolitan Museum of Art",
         "url": "https://www.metmuseum.org/art/collection/search/436819"
+      },
+      {
+        "label": "Wikidata",
+        "url": "https://www.wikidata.org/wiki/Q19912225"
       }
     ],
+    "externalIds": {
+      "wikidata": "Q19912225",
+      "met": "436819"
+    },
+    "provenance": {
+      "title": "met",
+      "artist": "met",
+      "movement": "curation"
+    },
     "overview": "Mäda Primavesi (1903–2000) by Gustav Klimt, 1912–13. Oil on canvas. Held by The Metropolitan Museum of Art.",
     "creationStory": "A detailed creation story is not yet available for this work.",
-    "whoIsDepicted": "Information about the subject is not yet available for this work.",
+    "whoIsDepicted": "Depicts girl, portrait.",
     "historicalContext": "Associated with Modernism.",
-    "interestingFacts": []
+    "interestingFacts": [],
+    "depicts": [
+      "girl",
+      "portrait"
+    ],
+    "imageSource": "met",
+    "imageLicense": "Public Domain"
   },
   {
     "id": "met-486837",
@@ -2091,20 +3545,41 @@
     "tags": [
       "modernism",
       "sculpture",
-      "modern-and-contemporary-art"
+      "modern-and-contemporary-art",
+      "woman",
+      "human-head"
     ],
     "enrichmentStatus": "metadata-fallback",
     "sourceLinks": [
       {
         "label": "View at The Metropolitan Museum of Art",
         "url": "https://www.metmuseum.org/art/collection/search/486837"
+      },
+      {
+        "label": "Wikidata",
+        "url": "https://www.wikidata.org/wiki/Q20198899"
       }
     ],
+    "externalIds": {
+      "wikidata": "Q20198899",
+      "met": "486837"
+    },
+    "provenance": {
+      "title": "met",
+      "artist": "met",
+      "movement": "curation"
+    },
     "overview": "Woman's Head by Amedeo Modigliani, 1912. Limestone. Held by The Metropolitan Museum of Art.",
     "creationStory": "A detailed creation story is not yet available for this work.",
-    "whoIsDepicted": "Information about the subject is not yet available for this work.",
+    "whoIsDepicted": "Depicts woman, human head.",
     "historicalContext": "Associated with Modernism.",
-    "interestingFacts": []
+    "interestingFacts": [],
+    "depicts": [
+      "woman",
+      "human head"
+    ],
+    "imageSource": "met",
+    "imageLicense": "Public Domain"
   },
   {
     "id": "met-488927",
@@ -2128,20 +3603,41 @@
       "modernism",
       "paintings",
       "modern-and-contemporary-art",
-      "painting"
+      "painting",
+      "portrait",
+      "woman"
     ],
     "enrichmentStatus": "metadata-fallback",
     "sourceLinks": [
       {
         "label": "View at The Metropolitan Museum of Art",
         "url": "https://www.metmuseum.org/art/collection/search/488927"
+      },
+      {
+        "label": "Wikidata",
+        "url": "https://www.wikidata.org/wiki/Q20190474"
       }
     ],
+    "externalIds": {
+      "wikidata": "Q20190474",
+      "met": "488927"
+    },
+    "provenance": {
+      "title": "met",
+      "artist": "met",
+      "movement": "curation"
+    },
     "overview": "The Italian Woman by Amedeo Modigliani, ca. 1918–19. Oil on canvas. Held by The Metropolitan Museum of Art.",
     "creationStory": "A detailed creation story is not yet available for this work.",
-    "whoIsDepicted": "Information about the subject is not yet available for this work.",
+    "whoIsDepicted": "Depicts woman, portrait.",
     "historicalContext": "Associated with Modernism.",
-    "interestingFacts": []
+    "interestingFacts": [],
+    "depicts": [
+      "woman",
+      "portrait"
+    ],
+    "imageSource": "met",
+    "imageLicense": "Public Domain"
   },
   {
     "id": "met-39799",
@@ -2176,11 +3672,21 @@
         "url": "https://www.metmuseum.org/art/collection/search/39799"
       }
     ],
+    "externalIds": {
+      "met": "39799"
+    },
+    "provenance": {
+      "title": "met",
+      "artist": "met",
+      "movement": "curation"
+    },
     "overview": "Under the Wave off Kanagawa (Kanagawa oki nami ura), or The Great Wave, from the series Thirty-six Views of Mount Fuji (Fugaku sanjūrokkei) by Katsushika Hokusai, ca. 1830–32. Woodblock print; ink and color on paper, Japan. Held by The Metropolitan Museum of Art.",
     "creationStory": "A detailed creation story is not yet available for this work.",
     "whoIsDepicted": "Information about the subject is not yet available for this work.",
     "historicalContext": "Associated with Japanese Art.",
-    "interestingFacts": []
+    "interestingFacts": [],
+    "imageSource": "met",
+    "imageLicense": "Public Domain"
   },
   {
     "id": "met-48886",
@@ -2207,20 +3713,39 @@
       "japanese-art",
       "paintings",
       "asian-art",
-      "painting"
+      "painting",
+      "chicken"
     ],
     "enrichmentStatus": "metadata-fallback",
     "sourceLinks": [
       {
         "label": "View at The Metropolitan Museum of Art",
         "url": "https://www.metmuseum.org/art/collection/search/48886"
+      },
+      {
+        "label": "Wikidata",
+        "url": "https://www.wikidata.org/wiki/Q78835991"
       }
     ],
+    "externalIds": {
+      "wikidata": "Q78835991",
+      "met": "48886"
+    },
+    "provenance": {
+      "title": "met",
+      "artist": "met",
+      "movement": "curation"
+    },
     "overview": "Album of Sketches by Katsushika Hokusai and His Disciples by Katsushika Hokusai, 19th century. Album of one hundred and nine leaves; ink on paper, ink and color on paper, Japan. Held by The Metropolitan Museum of Art.",
     "creationStory": "A detailed creation story is not yet available for this work.",
-    "whoIsDepicted": "Information about the subject is not yet available for this work.",
+    "whoIsDepicted": "Depicts chicken.",
     "historicalContext": "Associated with Japanese Art.",
-    "interestingFacts": []
+    "interestingFacts": [],
+    "depicts": [
+      "chicken"
+    ],
+    "imageSource": "met",
+    "imageLicense": "Public Domain"
   },
   {
     "id": "met-21586",
@@ -2245,20 +3770,39 @@
       "ukiyo-e",
       "print",
       "japanese-art",
-      "the-american-wing"
+      "the-american-wing",
+      "fish"
     ],
     "enrichmentStatus": "metadata-fallback",
     "sourceLinks": [
       {
         "label": "View at The Metropolitan Museum of Art",
         "url": "https://www.metmuseum.org/art/collection/search/21586"
+      },
+      {
+        "label": "Wikidata",
+        "url": "https://www.wikidata.org/wiki/Q116325078"
       }
     ],
+    "externalIds": {
+      "wikidata": "Q116325078",
+      "met": "21586"
+    },
+    "provenance": {
+      "title": "met",
+      "artist": "met",
+      "movement": "curation"
+    },
     "overview": "Pitcher by Gorham Manufacturing Company, 1882. Silver, American. Held by The Metropolitan Museum of Art.",
     "creationStory": "A detailed creation story is not yet available for this work.",
-    "whoIsDepicted": "Information about the subject is not yet available for this work.",
+    "whoIsDepicted": "Depicts fish.",
     "historicalContext": "Associated with Japanese Art.",
-    "interestingFacts": []
+    "interestingFacts": [],
+    "depicts": [
+      "fish"
+    ],
+    "imageSource": "met",
+    "imageLicense": "Public Domain"
   },
   {
     "id": "met-53449",
@@ -2293,11 +3837,21 @@
         "url": "https://www.metmuseum.org/art/collection/search/53449"
       }
     ],
+    "externalIds": {
+      "met": "53449"
+    },
+    "provenance": {
+      "title": "met",
+      "artist": "met",
+      "movement": "curation"
+    },
     "overview": "Six Jewel Rivers from Various Provinces by Utagawa Hiroshige, 1857. Six woodblock prints; ink and color on paper, Japan. Held by The Metropolitan Museum of Art.",
     "creationStory": "A detailed creation story is not yet available for this work.",
     "whoIsDepicted": "Information about the subject is not yet available for this work.",
     "historicalContext": "Associated with Japanese Art.",
-    "interestingFacts": []
+    "interestingFacts": [],
+    "imageSource": "met",
+    "imageLicense": "Public Domain"
   },
   {
     "id": "met-37031",
@@ -2332,11 +3886,21 @@
         "url": "https://www.metmuseum.org/art/collection/search/37031"
       }
     ],
+    "externalIds": {
+      "met": "37031"
+    },
+    "provenance": {
+      "title": "met",
+      "artist": "met",
+      "movement": "curation"
+    },
     "overview": "Ōtsu, from the series The Fifty-Three Stations of the Tōkaidō Road (Tōkaidō gojūsan tsugi, Ōtsu) by Utagawa Hiroshige, 1841–44. Woodblock print (nishiki-e); ink and color on paper, Japan. Held by The Metropolitan Museum of Art.",
     "creationStory": "A detailed creation story is not yet available for this work.",
     "whoIsDepicted": "Information about the subject is not yet available for this work.",
     "historicalContext": "Associated with Japanese Art.",
-    "interestingFacts": []
+    "interestingFacts": [],
+    "imageSource": "met",
+    "imageLicense": "Public Domain"
   },
   {
     "id": "met-460331",
@@ -2371,11 +3935,21 @@
         "url": "https://www.metmuseum.org/art/collection/search/460331"
       }
     ],
+    "externalIds": {
+      "met": "460331"
+    },
+    "provenance": {
+      "title": "met",
+      "artist": "met",
+      "movement": "curation"
+    },
     "overview": "Small View of Yedo by Utagawa Hiroshige, 1817–58. Print, Japanese. Held by The Metropolitan Museum of Art.",
     "creationStory": "A detailed creation story is not yet available for this work.",
     "whoIsDepicted": "Information about the subject is not yet available for this work.",
     "historicalContext": "Associated with Japanese Art.",
-    "interestingFacts": []
+    "interestingFacts": [],
+    "imageSource": "met",
+    "imageLicense": "Public Domain"
   },
   {
     "id": "met-460337",
@@ -2410,11 +3984,21 @@
         "url": "https://www.metmuseum.org/art/collection/search/460337"
       }
     ],
+    "externalIds": {
+      "met": "460337"
+    },
+    "provenance": {
+      "title": "met",
+      "artist": "met",
+      "movement": "curation"
+    },
     "overview": "Boat on the Sumida by Utagawa Hiroshige, 1817–58. Print, Japanese. Held by The Metropolitan Museum of Art.",
     "creationStory": "A detailed creation story is not yet available for this work.",
     "whoIsDepicted": "Information about the subject is not yet available for this work.",
     "historicalContext": "Associated with Japanese Art.",
-    "interestingFacts": []
+    "interestingFacts": [],
+    "imageSource": "met",
+    "imageLicense": "Public Domain"
   },
   {
     "id": "met-54871",
@@ -2440,20 +4024,45 @@
       "print",
       "japanese-art",
       "prints",
-      "asian-art"
+      "asian-art",
+      "child",
+      "game",
+      "playing",
+      "woman"
     ],
     "enrichmentStatus": "metadata-fallback",
     "sourceLinks": [
       {
         "label": "View at The Metropolitan Museum of Art",
         "url": "https://www.metmuseum.org/art/collection/search/54871"
+      },
+      {
+        "label": "Wikidata",
+        "url": "https://www.wikidata.org/wiki/Q60591845"
       }
     ],
+    "externalIds": {
+      "wikidata": "Q60591845",
+      "met": "54871"
+    },
+    "provenance": {
+      "title": "met",
+      "artist": "met",
+      "movement": "curation"
+    },
     "overview": "Kiyomizu Komachi, from the series Futabagusa nana Komachi by Kitagawa Utamaro, 1790s. Woodblock print (nishiki-e); ink and color on paper, Japan. Held by The Metropolitan Museum of Art.",
     "creationStory": "A detailed creation story is not yet available for this work.",
-    "whoIsDepicted": "Information about the subject is not yet available for this work.",
+    "whoIsDepicted": "Depicts child, game, playing, woman.",
     "historicalContext": "Associated with Japanese Art.",
-    "interestingFacts": []
+    "interestingFacts": [],
+    "depicts": [
+      "child",
+      "game",
+      "playing",
+      "woman"
+    ],
+    "imageSource": "met",
+    "imageLicense": "Public Domain"
   },
   {
     "id": "met-37338",
@@ -2488,11 +4097,21 @@
         "url": "https://www.metmuseum.org/art/collection/search/37338"
       }
     ],
+    "externalIds": {
+      "met": "37338"
+    },
+    "provenance": {
+      "title": "met",
+      "artist": "met",
+      "movement": "curation"
+    },
     "overview": "In the Kitchen by Kitagawa Utamaro, ca. 1794–95. Right-hand sheet of a diptych of woodblock prints; ink and color on paper, Japan. Held by The Metropolitan Museum of Art.",
     "creationStory": "A detailed creation story is not yet available for this work.",
     "whoIsDepicted": "Information about the subject is not yet available for this work.",
     "historicalContext": "Associated with Japanese Art.",
-    "interestingFacts": []
+    "interestingFacts": [],
+    "imageSource": "met",
+    "imageLicense": "Public Domain"
   },
   {
     "id": "met-478665",
@@ -2526,11 +4145,21 @@
         "url": "https://www.metmuseum.org/art/collection/search/478665"
       }
     ],
+    "externalIds": {
+      "met": "478665"
+    },
+    "provenance": {
+      "title": "met",
+      "artist": "met",
+      "movement": "curation"
+    },
     "overview": "Four Gospels in Armenian by Unknown artist, 1434/35. Tempera and gold on paper; stamped leather binding, Armenian. Held by The Metropolitan Museum of Art.",
     "creationStory": "A detailed creation story is not yet available for this work.",
     "whoIsDepicted": "Information about the subject is not yet available for this work.",
     "historicalContext": "Associated with Armenian Art.",
-    "interestingFacts": []
+    "interestingFacts": [],
+    "imageSource": "met",
+    "imageLicense": "Public Domain"
   },
   {
     "id": "met-662941",
@@ -2564,11 +4193,21 @@
         "url": "https://www.metmuseum.org/art/collection/search/662941"
       }
     ],
+    "externalIds": {
+      "met": "662941"
+    },
+    "provenance": {
+      "title": "met",
+      "artist": "met",
+      "movement": "curation"
+    },
     "overview": "Armenian Manuscript Bifolium by Illuminator Minas (?), 15th century. Tempera and gold leaf on paper, Armenian. Held by The Metropolitan Museum of Art.",
     "creationStory": "A detailed creation story is not yet available for this work.",
     "whoIsDepicted": "Information about the subject is not yet available for this work.",
     "historicalContext": "Associated with Armenian Art.",
-    "interestingFacts": []
+    "interestingFacts": [],
+    "imageSource": "met",
+    "imageLicense": "Public Domain"
   },
   {
     "id": "met-751462",
@@ -2599,13 +4238,28 @@
       {
         "label": "View at The Metropolitan Museum of Art",
         "url": "https://www.metmuseum.org/art/collection/search/751462"
+      },
+      {
+        "label": "Wikidata",
+        "url": "https://www.wikidata.org/wiki/Q116444913"
       }
     ],
+    "externalIds": {
+      "wikidata": "Q116444913",
+      "met": "751462"
+    },
+    "provenance": {
+      "title": "met",
+      "artist": "met",
+      "movement": "curation"
+    },
     "overview": "Four miniatures of the life of Christ from a gospel book of 1311 (Presentation, Baptism, Transfiguration, Entry into Jerusalem) by T'oros the Deacon, 1311. Ink and pigments on oriental paper, Armenian. Held by The Metropolitan Museum of Art.",
     "creationStory": "A detailed creation story is not yet available for this work.",
     "whoIsDepicted": "Information about the subject is not yet available for this work.",
     "historicalContext": "Associated with Armenian Art.",
-    "interestingFacts": []
+    "interestingFacts": [],
+    "imageSource": "met",
+    "imageLicense": "Public Domain"
   },
   {
     "id": "met-478391",
@@ -2637,13 +4291,28 @@
       {
         "label": "View at The Metropolitan Museum of Art",
         "url": "https://www.metmuseum.org/art/collection/search/478391"
+      },
+      {
+        "label": "Wikidata",
+        "url": "https://www.wikidata.org/wiki/Q116411570"
       }
     ],
+    "externalIds": {
+      "wikidata": "Q116411570",
+      "met": "478391"
+    },
+    "provenance": {
+      "title": "met",
+      "artist": "met",
+      "movement": "curation"
+    },
     "overview": "Egg-Shaped Ornament by Unknown artist, mid-18th century. Frit body with green, yellow, blue and brownish black underglaze painting, Armenian. Held by The Metropolitan Museum of Art.",
     "creationStory": "A detailed creation story is not yet available for this work.",
     "whoIsDepicted": "Information about the subject is not yet available for this work.",
     "historicalContext": "Associated with Armenian Art.",
-    "interestingFacts": []
+    "interestingFacts": [],
+    "imageSource": "met",
+    "imageLicense": "Public Domain"
   },
   {
     "id": "cma-171307",
@@ -2674,13 +4343,28 @@
       {
         "label": "View at Cleveland Museum of Art",
         "url": "https://clevelandart.org/art/2014.13"
+      },
+      {
+        "label": "Wikidata",
+        "url": "https://www.wikidata.org/wiki/Q80081495"
       }
     ],
+    "externalIds": {
+      "cma": "171307",
+      "wikidata": "Q80081495"
+    },
+    "provenance": {
+      "title": "cma",
+      "artist": "cma",
+      "movement": "curation"
+    },
     "overview": "Embroidered Armenian liturgical curtain by Unknown artist, 1763. twill weave: wool; embroidery, chain stitch: silk, gilt- and silver-metal thread, Turkey, Constantinople/Istanbul, Ottoman period (1299–1922). Held by Cleveland Museum of Art.",
     "creationStory": "A detailed creation story is not yet available for this work.",
     "whoIsDepicted": "Information about the subject is not yet available for this work.",
     "historicalContext": "Associated with Armenian Art.",
-    "interestingFacts": []
+    "interestingFacts": [],
+    "imageSource": "cma",
+    "imageLicense": "CC0"
   },
   {
     "id": "cma-125575",
@@ -2711,13 +4395,28 @@
       {
         "label": "View at Cleveland Museum of Art",
         "url": "https://clevelandart.org/art/1947.500.b"
+      },
+      {
+        "label": "Wikidata",
+        "url": "https://www.wikidata.org/wiki/Q60756610"
       }
     ],
+    "externalIds": {
+      "cma": "125575",
+      "wikidata": "Q60756610"
+    },
+    "provenance": {
+      "title": "cma",
+      "artist": "cma",
+      "movement": "curation"
+    },
     "overview": "An Episode from the Story of the Sasanian King Khusrau and His Beloved Shirin, from a Khamsa (Quintet) of Nizami (1141–1209) (verso) by Unknown artist, 1540–70. opaque watercolor, ink, gold, and silver on paper, Iran, probably Shiraz, Safavid period (1501-1722). Held by Cleveland Museum of Art.",
     "creationStory": "A detailed creation story is not yet available for this work.",
     "whoIsDepicted": "Information about the subject is not yet available for this work.",
     "historicalContext": "Associated with Armenian Art.",
-    "interestingFacts": []
+    "interestingFacts": [],
+    "imageSource": "cma",
+    "imageLicense": "CC0"
   },
   {
     "id": "met-191843",
@@ -2740,20 +4439,39 @@
     "tags": [
       "sculpture",
       "modernism",
-      "european-sculpture-and-decorative-arts"
+      "european-sculpture-and-decorative-arts",
+      "man"
     ],
     "enrichmentStatus": "metadata-fallback",
     "sourceLinks": [
       {
         "label": "View at The Metropolitan Museum of Art",
         "url": "https://www.metmuseum.org/art/collection/search/191843"
+      },
+      {
+        "label": "Wikidata",
+        "url": "https://www.wikidata.org/wiki/Q29383522"
       }
     ],
+    "externalIds": {
+      "wikidata": "Q29383522",
+      "met": "191843"
+    },
+    "provenance": {
+      "title": "met",
+      "artist": "met",
+      "movement": "curation"
+    },
     "overview": "Honoré de Balzac by Auguste Rodin, 1891. Terracotta. Held by The Metropolitan Museum of Art.",
     "creationStory": "A detailed creation story is not yet available for this work.",
-    "whoIsDepicted": "Information about the subject is not yet available for this work.",
+    "whoIsDepicted": "Depicts man.",
     "historicalContext": "Associated with Modernism.",
-    "interestingFacts": []
+    "interestingFacts": [],
+    "depicts": [
+      "man"
+    ],
+    "imageSource": "met",
+    "imageLicense": "Public Domain"
   },
   {
     "id": "met-208069",
@@ -2784,13 +4502,28 @@
       {
         "label": "View at The Metropolitan Museum of Art",
         "url": "https://www.metmuseum.org/art/collection/search/208069"
+      },
+      {
+        "label": "Wikidata",
+        "url": "https://www.wikidata.org/wiki/Q116308785"
       }
     ],
+    "externalIds": {
+      "wikidata": "Q116308785",
+      "met": "208069"
+    },
+    "provenance": {
+      "title": "met",
+      "artist": "met",
+      "movement": "curation"
+    },
     "overview": "Auguste Rodin by Victor Peter, cast after medal of 1887. Plaster, poinsted with graphite and bearing pencil notations. Held by The Metropolitan Museum of Art.",
     "creationStory": "A detailed creation story is not yet available for this work.",
     "whoIsDepicted": "Information about the subject is not yet available for this work.",
     "historicalContext": "Associated with Modernism.",
-    "interestingFacts": []
+    "interestingFacts": [],
+    "imageSource": "met",
+    "imageLicense": "Public Domain"
   },
   {
     "id": "met-191803",
@@ -2814,20 +4547,42 @@
       "sculpture",
       "modernism",
       "sculpture-bronze",
-      "european-sculpture-and-decorative-arts"
+      "european-sculpture-and-decorative-arts",
+      "nude",
+      "adam"
     ],
     "enrichmentStatus": "metadata-fallback",
     "sourceLinks": [
       {
         "label": "View at The Metropolitan Museum of Art",
         "url": "https://www.metmuseum.org/art/collection/search/191803"
+      },
+      {
+        "label": "Wikidata",
+        "url": "https://www.wikidata.org/wiki/Q29383519"
       }
     ],
+    "externalIds": {
+      "wikidata": "Q29383519",
+      "met": "191803"
+    },
+    "provenance": {
+      "title": "met",
+      "artist": "met",
+      "movement": "curation"
+    },
     "overview": "Adam by Auguste Rodin, modeled 1880 or 1881, cast 1910. Bronze. Held by The Metropolitan Museum of Art.",
     "creationStory": "A detailed creation story is not yet available for this work.",
-    "whoIsDepicted": "Information about the subject is not yet available for this work.",
+    "whoIsDepicted": "Depicts nude, nude, Adam.",
     "historicalContext": "Associated with Modernism.",
-    "interestingFacts": []
+    "interestingFacts": [],
+    "depicts": [
+      "nude",
+      "nude",
+      "Adam"
+    ],
+    "imageSource": "met",
+    "imageLicense": "Public Domain"
   },
   {
     "id": "met-206499",
@@ -2853,20 +4608,41 @@
       "classical",
       "woodwork-furniture",
       "european-sculpture-and-decorative-arts",
-      "painting"
+      "painting",
+      "flower",
+      "garland"
     ],
     "enrichmentStatus": "metadata-fallback",
     "sourceLinks": [
       {
         "label": "View at The Metropolitan Museum of Art",
         "url": "https://www.metmuseum.org/art/collection/search/206499"
+      },
+      {
+        "label": "Wikidata",
+        "url": "https://www.wikidata.org/wiki/Q29383641"
       }
     ],
+    "externalIds": {
+      "wikidata": "Q29383641",
+      "met": "206499"
+    },
+    "provenance": {
+      "title": "met",
+      "artist": "met",
+      "movement": "curation"
+    },
     "overview": "Drop-front desk (secrétaire à abattant or secrétaire en cabinet) by Martin Carlin, ca. 1776. Oak veneered with tulipwood, amaranth, holly, and sycamore; six Sèvres soft-paste porcelain plaques and two painted tin plaques; gilt-bronze mounts; marble shelves; moiré silk. Held by The Metropolitan Museum of Art.",
     "creationStory": "A detailed creation story is not yet available for this work.",
-    "whoIsDepicted": "Information about the subject is not yet available for this work.",
+    "whoIsDepicted": "Depicts flower, garland.",
     "historicalContext": "Associated with Classical.",
-    "interestingFacts": []
+    "interestingFacts": [],
+    "depicts": [
+      "flower",
+      "garland"
+    ],
+    "imageSource": "met",
+    "imageLicense": "Public Domain"
   },
   {
     "id": "met-248140",
@@ -2891,20 +4667,39 @@
       "ancient",
       "classical",
       "stone-sculpture",
-      "greek-and-roman-art"
+      "greek-and-roman-art",
+      "lion"
     ],
     "enrichmentStatus": "metadata-fallback",
     "sourceLinks": [
       {
         "label": "View at The Metropolitan Museum of Art",
         "url": "https://www.metmuseum.org/art/collection/search/248140"
+      },
+      {
+        "label": "Wikidata",
+        "url": "https://www.wikidata.org/wiki/Q29383755"
       }
     ],
+    "externalIds": {
+      "wikidata": "Q29383755",
+      "met": "248140"
+    },
+    "provenance": {
+      "title": "met",
+      "artist": "met",
+      "movement": "curation"
+    },
     "overview": "Marble statue of a lion by Unknown artist, ca. 400–390 BCE. Marble, Parian 2, Greek. Held by The Metropolitan Museum of Art.",
     "creationStory": "A detailed creation story is not yet available for this work.",
-    "whoIsDepicted": "Information about the subject is not yet available for this work.",
+    "whoIsDepicted": "Depicts lion.",
     "historicalContext": "Associated with Classical.",
-    "interestingFacts": []
+    "interestingFacts": [],
+    "depicts": [
+      "lion"
+    ],
+    "imageSource": "met",
+    "imageLicense": "Public Domain"
   },
   {
     "id": "met-251929",
@@ -2929,20 +4724,39 @@
       "ancient",
       "classical",
       "stone-sculpture",
-      "greek-and-roman-art"
+      "greek-and-roman-art",
+      "nude"
     ],
     "enrichmentStatus": "metadata-fallback",
     "sourceLinks": [
       {
         "label": "View at The Metropolitan Museum of Art",
         "url": "https://www.metmuseum.org/art/collection/search/251929"
+      },
+      {
+        "label": "Wikidata",
+        "url": "https://www.wikidata.org/wiki/Q29383831"
       }
     ],
+    "externalIds": {
+      "wikidata": "Q29383831",
+      "met": "251929"
+    },
+    "provenance": {
+      "title": "met",
+      "artist": "met",
+      "movement": "curation"
+    },
     "overview": "Marble statue of a wounded warrior by Unknown artist, ca. 138–181 CE. Marble, Roman. Held by The Metropolitan Museum of Art.",
     "creationStory": "A detailed creation story is not yet available for this work.",
-    "whoIsDepicted": "Information about the subject is not yet available for this work.",
+    "whoIsDepicted": "Depicts nude.",
     "historicalContext": "Associated with Classical.",
-    "interestingFacts": []
+    "interestingFacts": [],
+    "depicts": [
+      "nude"
+    ],
+    "imageSource": "met",
+    "imageLicense": "Public Domain"
   },
   {
     "id": "met-247173",
@@ -2967,20 +4781,39 @@
       "ancient",
       "classical",
       "stone-sculpture",
-      "greek-and-roman-art"
+      "greek-and-roman-art",
+      "woman"
     ],
     "enrichmentStatus": "metadata-fallback",
     "sourceLinks": [
       {
         "label": "View at The Metropolitan Museum of Art",
         "url": "https://www.metmuseum.org/art/collection/search/247173"
+      },
+      {
+        "label": "Wikidata",
+        "url": "https://www.wikidata.org/wiki/Q29383741"
       }
     ],
+    "externalIds": {
+      "wikidata": "Q29383741",
+      "met": "247173"
+    },
+    "provenance": {
+      "title": "met",
+      "artist": "met",
+      "movement": "curation"
+    },
     "overview": "Marble statue of Eirene (the personification of peace) by Kephisodotos, ca. 14–68 CE. Marble, Pentelic ?, Roman. Held by The Metropolitan Museum of Art.",
     "creationStory": "A detailed creation story is not yet available for this work.",
-    "whoIsDepicted": "Information about the subject is not yet available for this work.",
+    "whoIsDepicted": "Depicts woman.",
     "historicalContext": "Associated with Classical.",
-    "interestingFacts": []
+    "interestingFacts": [],
+    "depicts": [
+      "woman"
+    ],
+    "imageSource": "met",
+    "imageLicense": "Public Domain"
   },
   {
     "id": "cma-120846",
@@ -3003,20 +4836,40 @@
     "tags": [
       "photography",
       "portrait-miniature",
-      "drawings"
+      "drawings",
+      "portrait",
+      "woman"
     ],
     "enrichmentStatus": "metadata-fallback",
     "sourceLinks": [
       {
         "label": "View at Cleveland Museum of Art",
         "url": "https://clevelandart.org/art/1941.569"
+      },
+      {
+        "label": "Wikidata",
+        "url": "https://www.wikidata.org/wiki/Q80016510"
       }
     ],
+    "externalIds": {
+      "cma": "120846",
+      "wikidata": "Q80016510"
+    },
+    "provenance": {
+      "title": "cma",
+      "artist": "cma",
+      "movement": "curation"
+    },
     "overview": "Portrait of a Woman by John I Smart, c. 1772. graphite and wash on laid paper, England, 18th century. Held by Cleveland Museum of Art.",
     "creationStory": "A detailed creation story is not yet available for this work.",
-    "whoIsDepicted": "Information about the subject is not yet available for this work.",
+    "whoIsDepicted": "Depicts woman.",
     "historicalContext": "Associated with Photography.",
-    "interestingFacts": []
+    "interestingFacts": [],
+    "depicts": [
+      "woman"
+    ],
+    "imageSource": "cma",
+    "imageLicense": "CC0"
   },
   {
     "id": "cma-152349",
@@ -3046,48 +4899,28 @@
       {
         "label": "View at Cleveland Museum of Art",
         "url": "https://clevelandart.org/art/1985.203"
+      },
+      {
+        "label": "Wikidata",
+        "url": "https://www.wikidata.org/wiki/Q79936753"
       }
     ],
+    "externalIds": {
+      "cma": "152349",
+      "wikidata": "Q79936753"
+    },
+    "provenance": {
+      "title": "cma",
+      "artist": "cma",
+      "movement": "curation"
+    },
     "overview": "Untitled by Robert Demachy, c. 1900–1906. gum bichromate print, France, 20th century. Held by Cleveland Museum of Art.",
     "creationStory": "A detailed creation story is not yet available for this work.",
     "whoIsDepicted": "Information about the subject is not yet available for this work.",
     "historicalContext": "Associated with Photography.",
-    "interestingFacts": []
-  },
-  {
-    "id": "cma-160087",
-    "source": "cma",
-    "sourceId": "160087",
-    "title": "Self-Portrait in Painting Studio",
-    "artist": "Camille Dolard",
-    "artistId": "camille-dolard",
-    "year": "c. 1843",
-    "yearValue": 1843,
-    "museum": "Cleveland Museum of Art",
-    "museumId": "cleveland-museum-of-art",
-    "museumLocation": "Cleveland, USA",
-    "image": "https://openaccess-cdn.clevelandart.org/1997.56/1997.56_print.jpg",
-    "thumbnail": "https://openaccess-cdn.clevelandart.org/1997.56/1997.56_web.jpg",
-    "movement": "Photography",
-    "medium": "daguerreotype (full-plate)",
-    "culture": "France, 19th century",
-    "department": "Photography",
-    "tags": [
-      "photography",
-      "photograph"
-    ],
-    "enrichmentStatus": "metadata-fallback",
-    "sourceLinks": [
-      {
-        "label": "View at Cleveland Museum of Art",
-        "url": "https://clevelandart.org/art/1997.56"
-      }
-    ],
-    "overview": "Self-Portrait in Painting Studio by Camille Dolard, c. 1843. daguerreotype (full-plate), France, 19th century. Held by Cleveland Museum of Art.",
-    "creationStory": "A detailed creation story is not yet available for this work.",
-    "whoIsDepicted": "Information about the subject is not yet available for this work.",
-    "historicalContext": "Associated with Photography.",
-    "interestingFacts": []
+    "interestingFacts": [],
+    "imageSource": "cma",
+    "imageLicense": "CC0"
   },
   {
     "id": "cma-161864",
@@ -3117,13 +4950,78 @@
       {
         "label": "View at Cleveland Museum of Art",
         "url": "https://clevelandart.org/art/2001.151"
+      },
+      {
+        "label": "Wikidata",
+        "url": "https://www.wikidata.org/wiki/Q79985163"
       }
     ],
+    "externalIds": {
+      "cma": "161864",
+      "wikidata": "Q79985163"
+    },
+    "provenance": {
+      "title": "cma",
+      "artist": "cma",
+      "movement": "curation"
+    },
     "overview": "Portrait of Giacomo Meyerbeer (1791–1864) by Adrien Tournachon, 1857. salt print from wet collodion negative, France, 19th century. Held by Cleveland Museum of Art.",
     "creationStory": "A detailed creation story is not yet available for this work.",
     "whoIsDepicted": "Information about the subject is not yet available for this work.",
     "historicalContext": "Associated with Photography.",
-    "interestingFacts": []
+    "interestingFacts": [],
+    "imageSource": "cma",
+    "imageLicense": "CC0"
+  },
+  {
+    "id": "cma-160087",
+    "source": "cma",
+    "sourceId": "160087",
+    "title": "Self-Portrait in Painting Studio",
+    "artist": "Camille Dolard",
+    "artistId": "camille-dolard",
+    "year": "c. 1843",
+    "yearValue": 1843,
+    "museum": "Cleveland Museum of Art",
+    "museumId": "cleveland-museum-of-art",
+    "museumLocation": "Cleveland, USA",
+    "image": "https://openaccess-cdn.clevelandart.org/1997.56/1997.56_print.jpg",
+    "thumbnail": "https://openaccess-cdn.clevelandart.org/1997.56/1997.56_web.jpg",
+    "movement": "Photography",
+    "medium": "daguerreotype (full-plate)",
+    "culture": "France, 19th century",
+    "department": "Photography",
+    "tags": [
+      "photography",
+      "photograph"
+    ],
+    "enrichmentStatus": "metadata-fallback",
+    "sourceLinks": [
+      {
+        "label": "View at Cleveland Museum of Art",
+        "url": "https://clevelandart.org/art/1997.56"
+      },
+      {
+        "label": "Wikidata",
+        "url": "https://www.wikidata.org/wiki/Q79980733"
+      }
+    ],
+    "externalIds": {
+      "cma": "160087",
+      "wikidata": "Q79980733"
+    },
+    "provenance": {
+      "title": "cma",
+      "artist": "cma",
+      "movement": "curation"
+    },
+    "overview": "Self-Portrait in Painting Studio by Camille Dolard, c. 1843. daguerreotype (full-plate), France, 19th century. Held by Cleveland Museum of Art.",
+    "creationStory": "A detailed creation story is not yet available for this work.",
+    "whoIsDepicted": "Information about the subject is not yet available for this work.",
+    "historicalContext": "Associated with Photography.",
+    "interestingFacts": [],
+    "imageSource": "cma",
+    "imageLicense": "CC0"
   },
   {
     "id": "cma-157013",
@@ -3153,13 +5051,28 @@
       {
         "label": "View at Cleveland Museum of Art",
         "url": "https://clevelandart.org/art/1993.162"
+      },
+      {
+        "label": "Wikidata",
+        "url": "https://www.wikidata.org/wiki/Q79947168"
       }
     ],
+    "externalIds": {
+      "cma": "157013",
+      "wikidata": "Q79947168"
+    },
+    "provenance": {
+      "title": "cma",
+      "artist": "cma",
+      "movement": "curation"
+    },
     "overview": "Landscape by Henry White, 1856. albumen print from wet collodion negative, England, 19th century. Held by Cleveland Museum of Art.",
     "creationStory": "A detailed creation story is not yet available for this work.",
     "whoIsDepicted": "Information about the subject is not yet available for this work.",
     "historicalContext": "Associated with Photography.",
-    "interestingFacts": []
+    "interestingFacts": [],
+    "imageSource": "cma",
+    "imageLicense": "CC0"
   },
   {
     "id": "cma-667960",
@@ -3191,11 +5104,21 @@
         "url": "https://clevelandart.org/art/2024.6.yy"
       }
     ],
+    "externalIds": {
+      "cma": "667960"
+    },
+    "provenance": {
+      "title": "cma",
+      "artist": "cma",
+      "movement": "curation"
+    },
     "overview": "Untitled (Landscape Scene) by John Burke, 1878–80. albumen print, Ireland. Held by Cleveland Museum of Art.",
     "creationStory": "A detailed creation story is not yet available for this work.",
     "whoIsDepicted": "Information about the subject is not yet available for this work.",
     "historicalContext": "Associated with Photography.",
-    "interestingFacts": []
+    "interestingFacts": [],
+    "imageSource": "cma",
+    "imageLicense": "CC0"
   },
   {
     "id": "cma-157126",
@@ -3225,13 +5148,28 @@
       {
         "label": "View at Cleveland Museum of Art",
         "url": "https://clevelandart.org/art/1993.28"
+      },
+      {
+        "label": "Wikidata",
+        "url": "https://www.wikidata.org/wiki/Q79947461"
       }
     ],
+    "externalIds": {
+      "cma": "157126",
+      "wikidata": "Q79947461"
+    },
+    "provenance": {
+      "title": "cma",
+      "artist": "cma",
+      "movement": "curation"
+    },
     "overview": "Untitled (Winter Landscape) by William B. Post, c. 1900. platinum print, America. Held by Cleveland Museum of Art.",
     "creationStory": "A detailed creation story is not yet available for this work.",
     "whoIsDepicted": "Information about the subject is not yet available for this work.",
     "historicalContext": "Associated with Photography.",
-    "interestingFacts": []
+    "interestingFacts": [],
+    "imageSource": "cma",
+    "imageLicense": "CC0"
   },
   {
     "id": "met-262612",
@@ -3254,20 +5192,41 @@
     "tags": [
       "photography",
       "photographs",
-      "print"
+      "print",
+      "landscape-painting",
+      "river"
     ],
     "enrichmentStatus": "metadata-fallback",
     "sourceLinks": [
       {
         "label": "View at The Metropolitan Museum of Art",
         "url": "https://www.metmuseum.org/art/collection/search/262612"
+      },
+      {
+        "label": "Wikidata",
+        "url": "https://www.wikidata.org/wiki/Q29384012"
       }
     ],
+    "externalIds": {
+      "wikidata": "Q29384012",
+      "met": "262612"
+    },
+    "provenance": {
+      "title": "met",
+      "artist": "met",
+      "movement": "curation"
+    },
     "overview": "View on the Columbia, Cascades by Carleton E. Watkins, 1867. Albumen silver print from glass negative. Held by The Metropolitan Museum of Art.",
     "creationStory": "A detailed creation story is not yet available for this work.",
-    "whoIsDepicted": "Information about the subject is not yet available for this work.",
+    "whoIsDepicted": "Depicts river, landscape painting.",
     "historicalContext": "Associated with Photography.",
-    "interestingFacts": []
+    "interestingFacts": [],
+    "depicts": [
+      "river",
+      "landscape painting"
+    ],
+    "imageSource": "met",
+    "imageLicense": "Public Domain"
   },
   {
     "id": "met-266133",
@@ -3290,20 +5249,652 @@
     "tags": [
       "photography",
       "photographs",
-      "print"
+      "print",
+      "house",
+      "town",
+      "hill",
+      "landscape-painting"
     ],
     "enrichmentStatus": "metadata-fallback",
     "sourceLinks": [
       {
         "label": "View at The Metropolitan Museum of Art",
         "url": "https://www.metmuseum.org/art/collection/search/266133"
+      },
+      {
+        "label": "Wikidata",
+        "url": "https://www.wikidata.org/wiki/Q29384034"
       }
     ],
+    "externalIds": {
+      "wikidata": "Q29384034",
+      "met": "266133"
+    },
+    "provenance": {
+      "title": "met",
+      "artist": "met",
+      "movement": "curation"
+    },
     "overview": "The Town on the Hill, New Almaden by Carleton E. Watkins, 1863. Albumen silver print from glass negative. Held by The Metropolitan Museum of Art.",
     "creationStory": "A detailed creation story is not yet available for this work.",
-    "whoIsDepicted": "Information about the subject is not yet available for this work.",
+    "whoIsDepicted": "Depicts house, town, hill, landscape painting.",
     "historicalContext": "Associated with Photography.",
-    "interestingFacts": []
+    "interestingFacts": [],
+    "depicts": [
+      "house",
+      "town",
+      "hill",
+      "landscape painting"
+    ],
+    "imageSource": "met",
+    "imageLicense": "Public Domain"
+  },
+  {
+    "id": "aic-16568",
+    "source": "aic",
+    "sourceId": "16568",
+    "title": "Water Lilies",
+    "artist": "Claude Monet",
+    "artistId": "claude-monet",
+    "year": "1906",
+    "yearValue": 1906,
+    "museum": "Art Institute of Chicago",
+    "museumId": "art-institute-of-chicago",
+    "museumLocation": "Chicago, USA",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/aa/Claude_Monet_-_Water_Lilies_-_1906%2C_Ryerson.jpg/1280px-Claude_Monet_-_Water_Lilies_-_1906%2C_Ryerson.jpg",
+    "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/aa/Claude_Monet_-_Water_Lilies_-_1906%2C_Ryerson.jpg/500px-Claude_Monet_-_Water_Lilies_-_1906%2C_Ryerson.jpg",
+    "movement": "Impressionism",
+    "medium": "Oil on canvas",
+    "culture": "France",
+    "department": "Painting and Sculpture of Europe",
+    "tags": [
+      "impressionism",
+      "oil-on-canvas",
+      "painting-and-sculpture-of-europe",
+      "20th-century",
+      "painting",
+      "landscape-painting",
+      "water-lily"
+    ],
+    "enrichmentStatus": "metadata-fallback",
+    "sourceLinks": [
+      {
+        "label": "View at Art Institute of Chicago",
+        "url": "https://www.artic.edu/artworks/16568"
+      },
+      {
+        "label": "Wikidata",
+        "url": "https://www.wikidata.org/wiki/Q20267671"
+      },
+      {
+        "label": "Image via Wikimedia Commons",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/a/aa/Claude_Monet_-_Water_Lilies_-_1906%2C_Ryerson.jpg"
+      }
+    ],
+    "externalIds": {
+      "aic": "16568",
+      "wikidata": "Q20267671"
+    },
+    "provenance": {
+      "title": "aic",
+      "artist": "aic",
+      "movement": "aic",
+      "image": "commons"
+    },
+    "overview": "Water Lilies by Claude Monet, 1906. Oil on canvas, France. Held by Art Institute of Chicago.",
+    "creationStory": "A detailed creation story is not yet available for this work.",
+    "whoIsDepicted": "Depicts water lily.",
+    "historicalContext": "Associated with Impressionism.",
+    "interestingFacts": [],
+    "depicts": [
+      "water lily"
+    ],
+    "imageSource": "commons",
+    "imageLicense": "Public domain",
+    "imageAttribution": "Claude Monet"
+  },
+  {
+    "id": "aic-16571",
+    "source": "aic",
+    "sourceId": "16571",
+    "title": "Arrival of the Normandy Train, Gare Saint-Lazare",
+    "artist": "Claude Monet",
+    "artistId": "claude-monet",
+    "year": "1877",
+    "yearValue": 1877,
+    "museum": "Art Institute of Chicago",
+    "museumId": "art-institute-of-chicago",
+    "museumLocation": "Chicago, USA",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f2/Claude_Monet_-_Arrival_of_the_Normandy_Train%2C_Gare_Saint-Lazare_-_Google_Art_Project.jpg/1280px-Claude_Monet_-_Arrival_of_the_Normandy_Train%2C_Gare_Saint-Lazare_-_Google_Art_Project.jpg",
+    "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f2/Claude_Monet_-_Arrival_of_the_Normandy_Train%2C_Gare_Saint-Lazare_-_Google_Art_Project.jpg/500px-Claude_Monet_-_Arrival_of_the_Normandy_Train%2C_Gare_Saint-Lazare_-_Google_Art_Project.jpg",
+    "movement": "Impressionism",
+    "medium": "Oil on canvas",
+    "culture": "France",
+    "department": "Painting and Sculpture of Europe",
+    "tags": [
+      "impressionism",
+      "painting",
+      "painting-and-sculpture-of-europe",
+      "nineteenth-century",
+      "19th-century",
+      "gare-saint-lazare",
+      "steam-locomotive"
+    ],
+    "enrichmentStatus": "metadata-fallback",
+    "sourceLinks": [
+      {
+        "label": "View at Art Institute of Chicago",
+        "url": "https://www.artic.edu/artworks/16571"
+      },
+      {
+        "label": "Wikidata",
+        "url": "https://www.wikidata.org/wiki/Q20272169"
+      },
+      {
+        "label": "Image via Wikimedia Commons",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/f/f2/Claude_Monet_-_Arrival_of_the_Normandy_Train%2C_Gare_Saint-Lazare_-_Google_Art_Project.jpg"
+      }
+    ],
+    "externalIds": {
+      "aic": "16571",
+      "wikidata": "Q20272169"
+    },
+    "provenance": {
+      "title": "aic",
+      "artist": "aic",
+      "movement": "wikidata",
+      "image": "commons"
+    },
+    "overview": "Arrival of the Normandy Train, Gare Saint-Lazare by Claude Monet, 1877. Oil on canvas, France. Held by Art Institute of Chicago.",
+    "creationStory": "A detailed creation story is not yet available for this work.",
+    "whoIsDepicted": "Depicts Gare Saint-Lazare, steam locomotive.",
+    "historicalContext": "Associated with Impressionism.",
+    "interestingFacts": [],
+    "depicts": [
+      "Gare Saint-Lazare",
+      "steam locomotive"
+    ],
+    "imageSource": "commons",
+    "imageLicense": "Public domain",
+    "imageAttribution": "Claude Monet"
+  },
+  {
+    "id": "aic-64818",
+    "source": "aic",
+    "sourceId": "64818",
+    "title": "Stacks of Wheat (End of Summer)",
+    "artist": "Claude Monet",
+    "artistId": "claude-monet",
+    "year": "1890–91",
+    "yearValue": 1890,
+    "museum": "Art Institute of Chicago",
+    "museumId": "art-institute-of-chicago",
+    "museumLocation": "Chicago, USA",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/Claude_Monet_-_Stacks_of_Wheat_%28End_of_Summer%29_-_1985.1103_-_Art_Institute_of_Chicago.jpg/1280px-Claude_Monet_-_Stacks_of_Wheat_%28End_of_Summer%29_-_1985.1103_-_Art_Institute_of_Chicago.jpg",
+    "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/Claude_Monet_-_Stacks_of_Wheat_%28End_of_Summer%29_-_1985.1103_-_Art_Institute_of_Chicago.jpg/500px-Claude_Monet_-_Stacks_of_Wheat_%28End_of_Summer%29_-_1985.1103_-_Art_Institute_of_Chicago.jpg",
+    "movement": "Impressionism",
+    "medium": "Oil on canvas",
+    "culture": "France",
+    "department": "Painting and Sculpture of Europe",
+    "tags": [
+      "impressionism",
+      "oil-on-canvas",
+      "painting-and-sculpture-of-europe",
+      "nineteenth-century",
+      "19th-century",
+      "painting"
+    ],
+    "enrichmentStatus": "metadata-fallback",
+    "sourceLinks": [
+      {
+        "label": "View at Art Institute of Chicago",
+        "url": "https://www.artic.edu/artworks/64818"
+      },
+      {
+        "label": "Wikidata",
+        "url": "https://www.wikidata.org/wiki/Q47774422"
+      },
+      {
+        "label": "Image via Wikimedia Commons",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/6/68/Claude_Monet_-_Stacks_of_Wheat_%28End_of_Summer%29_-_1985.1103_-_Art_Institute_of_Chicago.jpg"
+      }
+    ],
+    "externalIds": {
+      "aic": "64818",
+      "wikidata": "Q47774422"
+    },
+    "provenance": {
+      "title": "aic",
+      "artist": "aic",
+      "movement": "aic",
+      "image": "commons"
+    },
+    "overview": "Stacks of Wheat (End of Summer) by Claude Monet, 1890–91. Oil on canvas, France. Held by Art Institute of Chicago.",
+    "creationStory": "A detailed creation story is not yet available for this work.",
+    "whoIsDepicted": "Information about the subject is not yet available for this work.",
+    "historicalContext": "Associated with Impressionism.",
+    "interestingFacts": [],
+    "imageSource": "commons",
+    "imageLicense": "Public domain",
+    "imageAttribution": "Claude Monet"
+  },
+  {
+    "id": "aic-27992",
+    "source": "aic",
+    "sourceId": "27992",
+    "title": "A Sunday on La Grande Jatte — 1884",
+    "artist": "Georges Seurat",
+    "artistId": "georges-seurat",
+    "year": "1884–86, border added 1888–89",
+    "yearValue": 1884,
+    "museum": "Art Institute of Chicago",
+    "museumId": "art-institute-of-chicago",
+    "museumLocation": "Chicago, USA",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7d/A_Sunday_on_La_Grande_Jatte%2C_Georges_Seurat%2C_1884.jpg/1280px-A_Sunday_on_La_Grande_Jatte%2C_Georges_Seurat%2C_1884.jpg",
+    "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7d/A_Sunday_on_La_Grande_Jatte%2C_Georges_Seurat%2C_1884.jpg/500px-A_Sunday_on_La_Grande_Jatte%2C_Georges_Seurat%2C_1884.jpg",
+    "movement": "pointillism",
+    "medium": "Oil on canvas",
+    "culture": "France",
+    "department": "Painting and Sculpture of Europe",
+    "tags": [
+      "post-impressionism",
+      "pointillism",
+      "oil-on-canvas",
+      "painting-and-sculpture-of-europe",
+      "nineteenth-century",
+      "19th-century",
+      "impressionism",
+      "painting",
+      "history-painting",
+      "bathing",
+      "ile-de-la-jatte",
+      "woman",
+      "man",
+      "umbrella",
+      "tree",
+      "dog",
+      "boat"
+    ],
+    "enrichmentStatus": "metadata-fallback",
+    "sourceLinks": [
+      {
+        "label": "View at Art Institute of Chicago",
+        "url": "https://www.artic.edu/artworks/27992"
+      },
+      {
+        "label": "Wikidata",
+        "url": "https://www.wikidata.org/wiki/Q1044742"
+      },
+      {
+        "label": "Image via Wikimedia Commons",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/7/7d/A_Sunday_on_La_Grande_Jatte%2C_Georges_Seurat%2C_1884.jpg"
+      }
+    ],
+    "externalIds": {
+      "aic": "27992",
+      "wikidata": "Q1044742"
+    },
+    "provenance": {
+      "title": "aic",
+      "artist": "aic",
+      "movement": "wikidata",
+      "image": "commons"
+    },
+    "overview": "A Sunday on La Grande Jatte — 1884 by Georges Seurat, 1884–86, border added 1888–89. Oil on canvas, France. Held by Art Institute of Chicago.",
+    "creationStory": "A detailed creation story is not yet available for this work.",
+    "whoIsDepicted": "Depicts bathing, île de la Jatte, woman, man, umbrella, tree.",
+    "historicalContext": "Associated with Pointillism.",
+    "interestingFacts": [],
+    "depicts": [
+      "bathing",
+      "île de la Jatte",
+      "woman",
+      "man",
+      "umbrella",
+      "tree",
+      "dog",
+      "boat"
+    ],
+    "imageSource": "commons",
+    "imageLicense": "Public domain",
+    "imageAttribution": "Georges Seurat"
+  },
+  {
+    "id": "aic-61616",
+    "source": "aic",
+    "sourceId": "61616",
+    "title": "Oil Sketch for \"A Sunday on La Grande Jatte — 1884\"",
+    "artist": "Georges Seurat",
+    "artistId": "georges-seurat",
+    "year": "1884",
+    "yearValue": 1884,
+    "museum": "Art Institute of Chicago",
+    "museumId": "art-institute-of-chicago",
+    "museumLocation": "Chicago, USA",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/63/Georges_Seurat_-_Oil_Sketch_for_%22La_Grande_Jatte%22_-_1981.15_-_Art_Institute_of_Chicago.jpg/1280px-Georges_Seurat_-_Oil_Sketch_for_%22La_Grande_Jatte%22_-_1981.15_-_Art_Institute_of_Chicago.jpg",
+    "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/63/Georges_Seurat_-_Oil_Sketch_for_%22La_Grande_Jatte%22_-_1981.15_-_Art_Institute_of_Chicago.jpg/500px-Georges_Seurat_-_Oil_Sketch_for_%22La_Grande_Jatte%22_-_1981.15_-_Art_Institute_of_Chicago.jpg",
+    "movement": "Post-Impressionism",
+    "medium": "Oil on panel",
+    "culture": "France",
+    "department": "Painting and Sculpture of Europe",
+    "tags": [
+      "post-impressionism",
+      "painting",
+      "painting-and-sculpture-of-europe",
+      "nineteenth-century",
+      "19th-century"
+    ],
+    "enrichmentStatus": "metadata-fallback",
+    "sourceLinks": [
+      {
+        "label": "View at Art Institute of Chicago",
+        "url": "https://www.artic.edu/artworks/61616"
+      },
+      {
+        "label": "Wikidata",
+        "url": "https://www.wikidata.org/wiki/Q20268413"
+      },
+      {
+        "label": "Image via Wikimedia Commons",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/6/63/Georges_Seurat_-_Oil_Sketch_for_%22La_Grande_Jatte%22_-_1981.15_-_Art_Institute_of_Chicago.jpg"
+      }
+    ],
+    "externalIds": {
+      "aic": "61616",
+      "wikidata": "Q20268413"
+    },
+    "provenance": {
+      "title": "aic",
+      "artist": "aic",
+      "movement": "aic",
+      "image": "commons"
+    },
+    "overview": "Oil Sketch for \"A Sunday on La Grande Jatte — 1884\" by Georges Seurat, 1884. Oil on panel, France. Held by Art Institute of Chicago.",
+    "creationStory": "A detailed creation story is not yet available for this work.",
+    "whoIsDepicted": "Information about the subject is not yet available for this work.",
+    "historicalContext": "Associated with Post-Impressionism.",
+    "interestingFacts": [],
+    "imageSource": "commons",
+    "imageLicense": "Public domain",
+    "imageAttribution": "Georges Seurat"
+  },
+  {
+    "id": "aic-20684",
+    "source": "aic",
+    "sourceId": "20684",
+    "title": "Paris Street; Rainy Day",
+    "artist": "Gustave Caillebotte",
+    "artistId": "gustave-caillebotte",
+    "year": "1877",
+    "yearValue": 1877,
+    "museum": "Art Institute of Chicago",
+    "museumId": "art-institute-of-chicago",
+    "museumLocation": "Chicago, USA",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Gustave_Caillebotte_-_Paris_Street%2C_Rainy_Day_-_1964.336_-_Art_Institute_of_Chicago.jpg/1280px-Gustave_Caillebotte_-_Paris_Street%2C_Rainy_Day_-_1964.336_-_Art_Institute_of_Chicago.jpg",
+    "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Gustave_Caillebotte_-_Paris_Street%2C_Rainy_Day_-_1964.336_-_Art_Institute_of_Chicago.jpg/500px-Gustave_Caillebotte_-_Paris_Street%2C_Rainy_Day_-_1964.336_-_Art_Institute_of_Chicago.jpg",
+    "movement": "Impressionism",
+    "medium": "Oil on canvas",
+    "culture": "Paris",
+    "department": "Painting and Sculpture of Europe",
+    "tags": [
+      "impressionism",
+      "oil-on-canvas",
+      "painting-and-sculpture-of-europe",
+      "19th-century",
+      "painting",
+      "cityscape",
+      "rue-de-turin",
+      "rue-clapeyron",
+      "rue-de-moscou",
+      "rain",
+      "man",
+      "woman"
+    ],
+    "enrichmentStatus": "metadata-fallback",
+    "sourceLinks": [
+      {
+        "label": "View at Art Institute of Chicago",
+        "url": "https://www.artic.edu/artworks/20684"
+      },
+      {
+        "label": "Wikidata",
+        "url": "https://www.wikidata.org/wiki/Q1452762"
+      },
+      {
+        "label": "Image via Wikimedia Commons",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/b/bf/Gustave_Caillebotte_-_Paris_Street%2C_Rainy_Day_-_1964.336_-_Art_Institute_of_Chicago.jpg"
+      }
+    ],
+    "externalIds": {
+      "aic": "20684",
+      "wikidata": "Q1452762"
+    },
+    "provenance": {
+      "title": "aic",
+      "artist": "aic",
+      "movement": "wikidata",
+      "image": "commons"
+    },
+    "overview": "Paris Street; Rainy Day by Gustave Caillebotte, 1877. Oil on canvas, Paris. Held by Art Institute of Chicago.",
+    "creationStory": "A detailed creation story is not yet available for this work.",
+    "whoIsDepicted": "Depicts rue de Turin, rue Clapeyron, rue de Moscou, rain, man, woman.",
+    "historicalContext": "Associated with Impressionism.",
+    "interestingFacts": [],
+    "depicts": [
+      "rue de Turin",
+      "rue Clapeyron",
+      "rue de Moscou",
+      "rain",
+      "man",
+      "woman"
+    ],
+    "imageSource": "commons",
+    "imageLicense": "Public domain",
+    "imageAttribution": "Gustave Caillebotte"
+  },
+  {
+    "id": "aic-154121",
+    "source": "aic",
+    "sourceId": "154121",
+    "title": "Calf's Head and Ox Tongue",
+    "artist": "Gustave Caillebotte",
+    "artistId": "gustave-caillebotte",
+    "year": "c. 1882",
+    "yearValue": 1882,
+    "museum": "Art Institute of Chicago",
+    "museumId": "art-institute-of-chicago",
+    "museumLocation": "Chicago, USA",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/60/Gustave_Caillebotte_-_Calf%27s_Head_and_Ox_Tongue_-_1999.561_-_Art_Institute_of_Chicago.jpg/1280px-Gustave_Caillebotte_-_Calf%27s_Head_and_Ox_Tongue_-_1999.561_-_Art_Institute_of_Chicago.jpg",
+    "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/60/Gustave_Caillebotte_-_Calf%27s_Head_and_Ox_Tongue_-_1999.561_-_Art_Institute_of_Chicago.jpg/500px-Gustave_Caillebotte_-_Calf%27s_Head_and_Ox_Tongue_-_1999.561_-_Art_Institute_of_Chicago.jpg",
+    "movement": "Impressionism",
+    "medium": "Oil on canvas",
+    "culture": "France",
+    "department": "Painting and Sculpture of Europe",
+    "tags": [
+      "impressionism",
+      "oil-on-canvas",
+      "painting-and-sculpture-of-europe",
+      "19th-century",
+      "painting",
+      "still-life"
+    ],
+    "enrichmentStatus": "metadata-fallback",
+    "sourceLinks": [
+      {
+        "label": "View at Art Institute of Chicago",
+        "url": "https://www.artic.edu/artworks/154121"
+      },
+      {
+        "label": "Wikidata",
+        "url": "https://www.wikidata.org/wiki/Q20268467"
+      },
+      {
+        "label": "Image via Wikimedia Commons",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/6/60/Gustave_Caillebotte_-_Calf%27s_Head_and_Ox_Tongue_-_1999.561_-_Art_Institute_of_Chicago.jpg"
+      }
+    ],
+    "externalIds": {
+      "aic": "154121",
+      "wikidata": "Q20268467"
+    },
+    "provenance": {
+      "title": "aic",
+      "artist": "aic",
+      "movement": "aic",
+      "image": "commons"
+    },
+    "overview": "Calf's Head and Ox Tongue by Gustave Caillebotte, c. 1882. Oil on canvas, France. Held by Art Institute of Chicago.",
+    "creationStory": "A detailed creation story is not yet available for this work.",
+    "whoIsDepicted": "Information about the subject is not yet available for this work.",
+    "historicalContext": "Associated with Impressionism.",
+    "interestingFacts": [],
+    "imageSource": "commons",
+    "imageLicense": "Public domain",
+    "imageAttribution": "Gustave Caillebotte"
+  },
+  {
+    "id": "aic-28560",
+    "source": "aic",
+    "sourceId": "28560",
+    "title": "The Bedroom",
+    "artist": "Vincent van Gogh",
+    "artistId": "vincent-van-gogh",
+    "year": "1889",
+    "yearValue": 1889,
+    "museum": "Art Institute of Chicago",
+    "museumId": "art-institute-of-chicago",
+    "museumLocation": "Chicago, USA",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0b/Vincent_van_Gogh_-_The_Bedroom_-_Google_Art_Project.jpg/1280px-Vincent_van_Gogh_-_The_Bedroom_-_Google_Art_Project.jpg",
+    "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0b/Vincent_van_Gogh_-_The_Bedroom_-_Google_Art_Project.jpg/500px-Vincent_van_Gogh_-_The_Bedroom_-_Google_Art_Project.jpg",
+    "movement": "Post-Impressionism",
+    "medium": "Oil on canvas",
+    "culture": "Saint-Rémy-de-Provence",
+    "department": "Painting and Sculpture of Europe",
+    "tags": [
+      "post-impressionism",
+      "oil-on-canvas",
+      "painting-and-sculpture-of-europe",
+      "19th-century",
+      "nineteenth-century",
+      "painting",
+      "bedroom",
+      "bed",
+      "chair",
+      "table",
+      "window",
+      "coat",
+      "pillow"
+    ],
+    "enrichmentStatus": "metadata-fallback",
+    "sourceLinks": [
+      {
+        "label": "View at Art Institute of Chicago",
+        "url": "https://www.artic.edu/artworks/28560"
+      },
+      {
+        "label": "Wikidata",
+        "url": "https://www.wikidata.org/wiki/Q18713076"
+      },
+      {
+        "label": "Image via Wikimedia Commons",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/0/0b/Vincent_van_Gogh_-_The_Bedroom_-_Google_Art_Project.jpg"
+      }
+    ],
+    "externalIds": {
+      "aic": "28560",
+      "wikidata": "Q18713076"
+    },
+    "provenance": {
+      "title": "aic",
+      "artist": "aic",
+      "movement": "aic",
+      "image": "commons"
+    },
+    "overview": "The Bedroom by Vincent van Gogh, 1889. Oil on canvas, Saint-Rémy-de-Provence. Held by Art Institute of Chicago.",
+    "creationStory": "A detailed creation story is not yet available for this work.",
+    "whoIsDepicted": "Depicts bedroom, bed, chair, table, window, painting.",
+    "historicalContext": "Associated with Post-Impressionism.",
+    "interestingFacts": [],
+    "depicts": [
+      "bedroom",
+      "bed",
+      "chair",
+      "table",
+      "window",
+      "painting",
+      "coat",
+      "pillow"
+    ],
+    "imageSource": "commons",
+    "imageLicense": "Public domain",
+    "imageAttribution": "Vincent van Gogh"
+  },
+  {
+    "id": "aic-80607",
+    "source": "aic",
+    "sourceId": "80607",
+    "title": "Self-Portrait",
+    "artist": "Vincent van Gogh",
+    "artistId": "vincent-van-gogh",
+    "year": "1887",
+    "yearValue": 1887,
+    "museum": "Art Institute of Chicago",
+    "museumId": "art-institute-of-chicago",
+    "museumLocation": "Chicago, USA",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/37/Vincent_van_Gogh_-_Self-Portrait_-_1954.326_-_Art_Institute_of_Chicago.jpg/1280px-Vincent_van_Gogh_-_Self-Portrait_-_1954.326_-_Art_Institute_of_Chicago.jpg",
+    "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/37/Vincent_van_Gogh_-_Self-Portrait_-_1954.326_-_Art_Institute_of_Chicago.jpg/500px-Vincent_van_Gogh_-_Self-Portrait_-_1954.326_-_Art_Institute_of_Chicago.jpg",
+    "movement": "Post-impressionism",
+    "medium": "Oil on artist's board, mounted on cradled panel",
+    "culture": "Netherlands",
+    "department": "Painting and Sculpture of Europe",
+    "tags": [
+      "post-impressionism",
+      "oil-on-board",
+      "painting-and-sculpture-of-europe",
+      "19th-century",
+      "nineteenth-century",
+      "painting",
+      "self-portrait",
+      "vincent-van-gogh",
+      "man"
+    ],
+    "enrichmentStatus": "metadata-fallback",
+    "sourceLinks": [
+      {
+        "label": "View at Art Institute of Chicago",
+        "url": "https://www.artic.edu/artworks/80607"
+      },
+      {
+        "label": "Wikidata",
+        "url": "https://www.wikidata.org/wiki/Q9162657"
+      },
+      {
+        "label": "Image via Wikimedia Commons",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/3/37/Vincent_van_Gogh_-_Self-Portrait_-_1954.326_-_Art_Institute_of_Chicago.jpg"
+      }
+    ],
+    "externalIds": {
+      "aic": "80607",
+      "wikidata": "Q9162657"
+    },
+    "provenance": {
+      "title": "aic",
+      "artist": "aic",
+      "movement": "wikidata",
+      "image": "commons"
+    },
+    "overview": "Self-Portrait by Vincent van Gogh, 1887. Oil on artist's board, mounted on cradled panel, Netherlands. Held by Art Institute of Chicago.",
+    "creationStory": "A detailed creation story is not yet available for this work.",
+    "whoIsDepicted": "Depicts Vincent van Gogh, man.",
+    "historicalContext": "Associated with Post-Impressionism.",
+    "interestingFacts": [],
+    "depicts": [
+      "Vincent van Gogh",
+      "man"
+    ],
+    "imageSource": "commons",
+    "imageLicense": "Public domain",
+    "imageAttribution": "Vincent van Gogh"
   },
   {
     "id": "met-243594",
@@ -3334,13 +5925,28 @@
       {
         "label": "View at The Metropolitan Museum of Art",
         "url": "https://www.metmuseum.org/art/collection/search/243594"
+      },
+      {
+        "label": "Wikidata",
+        "url": "https://www.wikidata.org/wiki/Q116291568"
       }
     ],
+    "externalIds": {
+      "wikidata": "Q116291568",
+      "met": "243594"
+    },
+    "provenance": {
+      "title": "met",
+      "artist": "met",
+      "movement": "curation"
+    },
     "overview": "Silver ring with \"Men-kheper-ra\" scarab by Unknown artist, 1303-1085 BCE. Silver, ivory, Egyptian. Held by The Metropolitan Museum of Art.",
     "creationStory": "A detailed creation story is not yet available for this work.",
     "whoIsDepicted": "Information about the subject is not yet available for this work.",
     "historicalContext": "Associated with Ancient.",
-    "interestingFacts": []
+    "interestingFacts": [],
+    "imageSource": "met",
+    "imageLicense": "Public Domain"
   },
   {
     "id": "met-245500",
@@ -3365,20 +5971,41 @@
       "egyptian",
       "bronzes",
       "greek-and-roman-art",
-      "sculpture"
+      "sculpture",
+      "horse",
+      "man"
     ],
     "enrichmentStatus": "metadata-fallback",
     "sourceLinks": [
       {
         "label": "View at The Metropolitan Museum of Art",
         "url": "https://www.metmuseum.org/art/collection/search/245500"
+      },
+      {
+        "label": "Wikidata",
+        "url": "https://www.wikidata.org/wiki/Q116291494"
       }
     ],
+    "externalIds": {
+      "wikidata": "Q116291494",
+      "met": "245500"
+    },
+    "provenance": {
+      "title": "met",
+      "artist": "met",
+      "movement": "curation"
+    },
     "overview": "Bronze statuette of a horseman by Unknown artist, 30 BCE–CE 364. Bronze, Egyptian. Held by The Metropolitan Museum of Art.",
     "creationStory": "A detailed creation story is not yet available for this work.",
-    "whoIsDepicted": "Information about the subject is not yet available for this work.",
+    "whoIsDepicted": "Depicts horse, man.",
     "historicalContext": "Associated with Ancient.",
-    "interestingFacts": []
+    "interestingFacts": [],
+    "depicts": [
+      "horse",
+      "man"
+    ],
+    "imageSource": "met",
+    "imageLicense": "Public Domain"
   },
   {
     "id": "met-244462",
@@ -3403,20 +6030,39 @@
       "egyptian",
       "bronzes",
       "greek-and-roman-art",
-      "sculpture"
+      "sculpture",
+      "osiris"
     ],
     "enrichmentStatus": "metadata-fallback",
     "sourceLinks": [
       {
         "label": "View at The Metropolitan Museum of Art",
         "url": "https://www.metmuseum.org/art/collection/search/244462"
+      },
+      {
+        "label": "Wikidata",
+        "url": "https://www.wikidata.org/wiki/Q116293097"
       }
     ],
+    "externalIds": {
+      "wikidata": "Q116293097",
+      "met": "244462"
+    },
+    "provenance": {
+      "title": "met",
+      "artist": "met",
+      "movement": "curation"
+    },
     "overview": "Bronze statuette of Osiris by Unknown artist, 664–31 BCE. Bronze, Egyptian. Held by The Metropolitan Museum of Art.",
     "creationStory": "A detailed creation story is not yet available for this work.",
-    "whoIsDepicted": "Information about the subject is not yet available for this work.",
+    "whoIsDepicted": "Depicts Osiris.",
     "historicalContext": "Associated with Ancient.",
-    "interestingFacts": []
+    "interestingFacts": [],
+    "depicts": [
+      "Osiris"
+    ],
+    "imageSource": "met",
+    "imageLicense": "Public Domain"
   },
   {
     "id": "met-453167",
@@ -3439,20 +6085,39 @@
     "tags": [
       "islamic",
       "codices",
-      "islamic-art"
+      "islamic-art",
+      "poetry"
     ],
     "enrichmentStatus": "metadata-fallback",
     "sourceLinks": [
       {
         "label": "View at The Metropolitan Museum of Art",
         "url": "https://www.metmuseum.org/art/collection/search/453167"
+      },
+      {
+        "label": "Wikidata",
+        "url": "https://www.wikidata.org/wiki/Q116236510"
       }
     ],
+    "externalIds": {
+      "wikidata": "Q116236510",
+      "met": "453167"
+    },
+    "provenance": {
+      "title": "met",
+      "artist": "met",
+      "movement": "curation"
+    },
     "overview": "Page of Calligraphy by Sultan Muhammad Nur, early 16th century. Ink, opaque watercolor, and gold on paper. Held by The Metropolitan Museum of Art.",
     "creationStory": "A detailed creation story is not yet available for this work.",
-    "whoIsDepicted": "Information about the subject is not yet available for this work.",
+    "whoIsDepicted": "Depicts poetry.",
     "historicalContext": "Associated with Islamic.",
-    "interestingFacts": []
+    "interestingFacts": [],
+    "depicts": [
+      "poetry"
+    ],
+    "imageSource": "met",
+    "imageLicense": "Public Domain"
   },
   {
     "id": "met-454611",
@@ -3475,20 +6140,41 @@
     "tags": [
       "islamic",
       "codices",
-      "islamic-art"
+      "islamic-art",
+      "ship",
+      "calligraphy"
     ],
     "enrichmentStatus": "metadata-fallback",
     "sourceLinks": [
       {
         "label": "View at The Metropolitan Museum of Art",
         "url": "https://www.metmuseum.org/art/collection/search/454611"
+      },
+      {
+        "label": "Wikidata",
+        "url": "https://www.wikidata.org/wiki/Q29385255"
       }
     ],
+    "externalIds": {
+      "wikidata": "Q29385255",
+      "met": "454611"
+    },
+    "provenance": {
+      "title": "met",
+      "artist": "met",
+      "movement": "curation"
+    },
     "overview": "Calligraphic Galleon by 'Abd al-Qadir Hisari, dated 1180 AH/1766–67 CE. Ink and gold on paper. Held by The Metropolitan Museum of Art.",
     "creationStory": "A detailed creation story is not yet available for this work.",
-    "whoIsDepicted": "Information about the subject is not yet available for this work.",
+    "whoIsDepicted": "Depicts ship, calligraphy.",
     "historicalContext": "Associated with Islamic.",
-    "interestingFacts": []
+    "interestingFacts": [],
+    "depicts": [
+      "ship",
+      "calligraphy"
+    ],
+    "imageSource": "met",
+    "imageLicense": "Public Domain"
   },
   {
     "id": "met-453576",
@@ -3512,20 +6198,39 @@
       "islamic",
       "ceramics",
       "islamic-art",
-      "painting"
+      "painting",
+      "arabic"
     ],
     "enrichmentStatus": "metadata-fallback",
     "sourceLinks": [
       {
         "label": "View at The Metropolitan Museum of Art",
         "url": "https://www.metmuseum.org/art/collection/search/453576"
+      },
+      {
+        "label": "Wikidata",
+        "url": "https://www.wikidata.org/wiki/Q29385244"
       }
     ],
+    "externalIds": {
+      "wikidata": "Q29385244",
+      "met": "453576"
+    },
+    "provenance": {
+      "title": "met",
+      "artist": "met",
+      "movement": "curation"
+    },
     "overview": "Pyxis (Cylindrical Container) by Unknown artist, late 11th–early 12th century. Stonepaste; luster-painted on incised, opaque white glaze. Held by The Metropolitan Museum of Art.",
     "creationStory": "A detailed creation story is not yet available for this work.",
-    "whoIsDepicted": "Information about the subject is not yet available for this work.",
+    "whoIsDepicted": "Depicts Arabic.",
     "historicalContext": "Associated with Islamic.",
-    "interestingFacts": []
+    "interestingFacts": [],
+    "depicts": [
+      "Arabic"
+    ],
+    "imageSource": "met",
+    "imageLicense": "Public Domain"
   },
   {
     "id": "cma-132837",
@@ -3548,20 +6253,42 @@
     "tags": [
       "chinese",
       "chinese-art",
-      "painting"
+      "painting",
+      "landscape-painting",
+      "house",
+      "tree"
     ],
     "enrichmentStatus": "metadata-fallback",
     "sourceLinks": [
       {
         "label": "View at Cleveland Museum of Art",
         "url": "https://clevelandart.org/art/1955.302.4"
+      },
+      {
+        "label": "Wikidata",
+        "url": "https://www.wikidata.org/wiki/Q60516729"
       }
     ],
+    "externalIds": {
+      "cma": "132837",
+      "wikidata": "Q60516729"
+    },
+    "provenance": {
+      "title": "cma",
+      "artist": "cma",
+      "movement": "curation"
+    },
     "overview": "Album of Seasonal Landscapes, Leaf A (previous leaf 4) by Xiao Yuncong, 1668. album leaf; ink and light color on paper, China, Qing dynasty (1644-1911). Held by Cleveland Museum of Art.",
     "creationStory": "A detailed creation story is not yet available for this work.",
-    "whoIsDepicted": "Information about the subject is not yet available for this work.",
+    "whoIsDepicted": "Depicts house, tree.",
     "historicalContext": "Associated with Chinese Art.",
-    "interestingFacts": []
+    "interestingFacts": [],
+    "depicts": [
+      "house",
+      "tree"
+    ],
+    "imageSource": "cma",
+    "imageLicense": "CC0"
   },
   {
     "id": "cma-132908",
@@ -3584,38 +6311,58 @@
     "tags": [
       "chinese",
       "chinese-art",
-      "painting"
+      "painting",
+      "landscape-painting",
+      "tree"
     ],
     "enrichmentStatus": "metadata-fallback",
     "sourceLinks": [
       {
         "label": "View at Cleveland Museum of Art",
         "url": "https://clevelandart.org/art/1955.36"
+      },
+      {
+        "label": "Wikidata",
+        "url": "https://www.wikidata.org/wiki/Q60516766"
       }
     ],
+    "externalIds": {
+      "cma": "132908",
+      "wikidata": "Q60516766"
+    },
+    "provenance": {
+      "title": "cma",
+      "artist": "cma",
+      "movement": "curation"
+    },
     "overview": "Landscape after Guo Zhongshu by Bada Shanren, c. 1680–1705. Hanging scroll; ink on paper, China, Qing dynasty (1644-1911). Held by Cleveland Museum of Art.",
     "creationStory": "A detailed creation story is not yet available for this work.",
-    "whoIsDepicted": "Information about the subject is not yet available for this work.",
+    "whoIsDepicted": "Depicts tree.",
     "historicalContext": "Associated with Chinese Art.",
-    "interestingFacts": []
+    "interestingFacts": [],
+    "depicts": [
+      "tree"
+    ],
+    "imageSource": "cma",
+    "imageLicense": "CC0"
   },
   {
-    "id": "cma-132841",
+    "id": "cma-149603",
     "source": "cma",
-    "sourceId": "132841",
-    "title": "Album of Seasonal Landscapes, Leaf H (previous leaf 8)",
-    "artist": "Xiao Yuncong",
-    "artistId": "xiao-yuncong",
-    "year": "1668",
-    "yearValue": 1668,
+    "sourceId": "149603",
+    "title": "Paintings after Ancient Masters",
+    "artist": "Chen Hongshou",
+    "artistId": "chen-hongshou",
+    "year": "1598–1652",
+    "yearValue": 1598,
     "museum": "Cleveland Museum of Art",
     "museumId": "cleveland-museum-of-art",
     "museumLocation": "Cleveland, USA",
-    "image": "https://openaccess-cdn.clevelandart.org/1955.302.8/1955.302.8_print.jpg",
-    "thumbnail": "https://openaccess-cdn.clevelandart.org/1955.302.8/1955.302.8_web.jpg",
+    "image": "https://openaccess-cdn.clevelandart.org/1979.27/1979.27_print.jpg",
+    "thumbnail": "https://openaccess-cdn.clevelandart.org/1979.27/1979.27_web.jpg",
     "movement": "Chinese Art",
-    "medium": "album leaf; ink and light color on paper",
-    "culture": "China, Qing dynasty (1644-1911)",
+    "medium": "Double album with twenty-two leaves; ink or ink and color on silk",
+    "culture": "China, Ming dynasty (1368–1644)",
     "department": "Chinese Art",
     "tags": [
       "chinese",
@@ -3626,13 +6373,28 @@
     "sourceLinks": [
       {
         "label": "View at Cleveland Museum of Art",
-        "url": "https://clevelandart.org/art/1955.302.8"
+        "url": "https://clevelandart.org/art/1979.27"
+      },
+      {
+        "label": "Wikidata",
+        "url": "https://www.wikidata.org/wiki/Q60473781"
       }
     ],
-    "overview": "Album of Seasonal Landscapes, Leaf H (previous leaf 8) by Xiao Yuncong, 1668. album leaf; ink and light color on paper, China, Qing dynasty (1644-1911). Held by Cleveland Museum of Art.",
+    "externalIds": {
+      "cma": "149603",
+      "wikidata": "Q60473781"
+    },
+    "provenance": {
+      "title": "cma",
+      "artist": "cma",
+      "movement": "curation"
+    },
+    "overview": "Paintings after Ancient Masters by Chen Hongshou, 1598–1652. Double album with twenty-two leaves; ink or ink and color on silk, China, Ming dynasty (1368–1644). Held by Cleveland Museum of Art.",
     "creationStory": "A detailed creation story is not yet available for this work.",
     "whoIsDepicted": "Information about the subject is not yet available for this work.",
     "historicalContext": "Associated with Chinese Art.",
-    "interestingFacts": []
+    "interestingFacts": [],
+    "imageSource": "cma",
+    "imageLicense": "CC0"
   }
 ]

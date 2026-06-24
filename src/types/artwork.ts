@@ -51,6 +51,18 @@ export interface Artwork extends EnrichedContent {
 
   enrichmentStatus: EnrichmentStatus;
   sourceLinks: SourceLink[];
+
+  // — Multi-source provenance & licensing (added by the merge pipeline) —
+  /** Cross-source identifiers, keyed by namespace: { wikidata, ulan, met, aic, cma }. */
+  externalIds?: Record<string, string>;
+  /** Where the displayed image came from, and under what terms. */
+  imageSource?: string; // e.g. "met", "cma", "commons"
+  imageLicense?: string; // e.g. "CC0", "Public Domain", "CC BY-SA 4.0"
+  imageAttribution?: string; // required credit string, when applicable
+  /** Subjects depicted, from Wikidata P180 (CC0). */
+  depicts?: string[];
+  /** Which source supplied each field — an audit trail. */
+  provenance?: Record<string, string>;
 }
 
 export interface Artist {
@@ -65,6 +77,9 @@ export interface Artist {
   movement: string | null;
   artworkIds: string[];
   relatedArtistIds: string[];
+
+  /** Cross-source identifiers: { wikidata, ulan }. */
+  externalIds?: Record<string, string>;
 }
 
 export interface Museum {

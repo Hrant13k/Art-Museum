@@ -3,23 +3,20 @@
     "id": "botticelli-alessandro-di-mariano-filipepi",
     "name": "Botticelli (Alessandro di Mariano Filipepi)",
     "portrait": null,
-    "birthYear": null,
-    "deathYear": null,
-    "nationality": null,
-    "bio": null,
-    "bioStatus": "unavailable",
-    "movement": "Renaissance",
+    "birthYear": "1445",
+    "deathYear": "1510",
+    "nationality": "Italy",
+    "bio": "Italian painter (1445–1510)",
+    "bioStatus": "metadata-fallback",
+    "movement": "Early Renaissance",
     "artworkIds": [
       "met-459016",
       "met-435729"
     ],
-    "relatedArtistIds": [
-      "wenceslaus-hollar",
-      "raphael",
-      "albrecht-durer",
-      "titian",
-      "titian-tiziano-vecellio"
-    ]
+    "relatedArtistIds": [],
+    "externalIds": {
+      "wikidata": "Q5669"
+    }
   },
   {
     "id": "wenceslaus-hollar",
@@ -29,17 +26,13 @@
     "deathYear": null,
     "nationality": null,
     "bio": null,
-    "bioStatus": "unavailable",
+    "bioStatus": "metadata-fallback",
     "movement": "Renaissance",
     "artworkIds": [
       "met-361524"
     ],
     "relatedArtistIds": [
-      "botticelli-alessandro-di-mariano-filipepi",
-      "raphael",
-      "albrecht-durer",
-      "titian",
-      "titian-tiziano-vecellio"
+      "raphael"
     ]
   },
   {
@@ -50,254 +43,183 @@
     "deathYear": null,
     "nationality": null,
     "bio": null,
-    "bioStatus": "unavailable",
+    "bioStatus": "metadata-fallback",
     "movement": "Renaissance",
     "artworkIds": [
       "met-437373"
     ],
     "relatedArtistIds": [
-      "botticelli-alessandro-di-mariano-filipepi",
-      "wenceslaus-hollar",
-      "albrecht-durer",
-      "titian",
-      "titian-tiziano-vecellio"
+      "wenceslaus-hollar"
     ]
   },
   {
     "id": "albrecht-durer",
     "name": "Albrecht Dürer",
     "portrait": null,
-    "birthYear": null,
-    "deathYear": null,
-    "nationality": null,
-    "bio": null,
-    "bioStatus": "unavailable",
-    "movement": "Renaissance",
+    "birthYear": "1471",
+    "deathYear": "1528",
+    "nationality": "Duchy of Bavaria",
+    "bio": "German painter, printmaker, mathematician, and theorist (1471-1528)",
+    "bioStatus": "metadata-fallback",
+    "movement": "German Renaissance",
     "artworkIds": [
       "met-436243",
       "met-436244",
       "met-459211"
     ],
-    "relatedArtistIds": [
-      "botticelli-alessandro-di-mariano-filipepi",
-      "wenceslaus-hollar",
-      "raphael",
-      "titian",
-      "titian-tiziano-vecellio"
-    ]
+    "relatedArtistIds": [],
+    "externalIds": {
+      "wikidata": "Q5580"
+    }
   },
   {
     "id": "titian",
     "name": "Titian",
     "portrait": null,
-    "birthYear": null,
-    "deathYear": null,
-    "nationality": null,
-    "bio": null,
-    "bioStatus": "unavailable",
-    "movement": "Renaissance",
+    "birthYear": "1488",
+    "deathYear": "1576",
+    "nationality": "Republic of Venice",
+    "bio": "Italian painter (c.1490–1576)",
+    "bioStatus": "metadata-fallback",
+    "movement": "Venetian school",
     "artworkIds": [
-      "met-437827"
-    ],
-    "relatedArtistIds": [
-      "botticelli-alessandro-di-mariano-filipepi",
-      "wenceslaus-hollar",
-      "raphael",
-      "albrecht-durer",
-      "titian-tiziano-vecellio"
-    ]
-  },
-  {
-    "id": "titian-tiziano-vecellio",
-    "name": "Titian (Tiziano Vecellio)",
-    "portrait": null,
-    "birthYear": null,
-    "deathYear": null,
-    "nationality": null,
-    "bio": null,
-    "bioStatus": "unavailable",
-    "movement": "Renaissance",
-    "artworkIds": [
+      "met-437827",
       "met-437826",
       "met-437823"
     ],
-    "relatedArtistIds": [
-      "botticelli-alessandro-di-mariano-filipepi",
-      "wenceslaus-hollar",
-      "raphael",
-      "albrecht-durer",
-      "titian"
-    ]
+    "relatedArtistIds": [],
+    "externalIds": {
+      "wikidata": "Q47551"
+    }
   },
   {
     "id": "rembrandt",
     "name": "Rembrandt",
     "portrait": null,
-    "birthYear": null,
-    "deathYear": null,
-    "nationality": null,
-    "bio": null,
-    "bioStatus": "unavailable",
-    "movement": "Baroque",
+    "birthYear": "1606",
+    "deathYear": "1669",
+    "nationality": "Dutch Republic",
+    "bio": "Dutch painter and printmaker (1606–1669)",
+    "bioStatus": "metadata-fallback",
+    "movement": "Dutch Golden Age painting",
     "artworkIds": [
-      "met-437406"
-    ],
-    "relatedArtistIds": [
-      "rembrandt-rembrandt-van-rijn",
-      "johannes-vermeer",
-      "peter-paul-rubens",
-      "caravaggio",
-      "anthony-van-dyck",
-      "andrea-del-sarto"
-    ]
-  },
-  {
-    "id": "rembrandt-rembrandt-van-rijn",
-    "name": "Rembrandt (Rembrandt van Rijn)",
-    "portrait": null,
-    "birthYear": null,
-    "deathYear": null,
-    "nationality": null,
-    "bio": null,
-    "bioStatus": "unavailable",
-    "movement": "Baroque",
-    "artworkIds": [
+      "met-437406",
       "met-459082",
       "met-437392",
       "met-437397",
       "met-437394"
     ],
     "relatedArtistIds": [
-      "rembrandt",
-      "johannes-vermeer",
-      "peter-paul-rubens",
-      "caravaggio",
-      "anthony-van-dyck",
-      "andrea-del-sarto"
-    ]
+      "johannes-vermeer"
+    ],
+    "externalIds": {
+      "wikidata": "Q5598"
+    }
   },
   {
     "id": "johannes-vermeer",
     "name": "Johannes Vermeer",
     "portrait": null,
-    "birthYear": null,
-    "deathYear": null,
-    "nationality": null,
-    "bio": null,
-    "bioStatus": "unavailable",
-    "movement": "Baroque",
+    "birthYear": "1632",
+    "deathYear": "1675",
+    "nationality": "Dutch Republic",
+    "bio": "Dutch painter (1632–1675)",
+    "bioStatus": "metadata-fallback",
+    "movement": "Dutch Golden Age painting",
     "artworkIds": [
       "met-437881",
       "met-437877"
     ],
     "relatedArtistIds": [
-      "rembrandt",
-      "rembrandt-rembrandt-van-rijn",
-      "peter-paul-rubens",
-      "caravaggio",
-      "anthony-van-dyck",
-      "andrea-del-sarto"
-    ]
+      "rembrandt"
+    ],
+    "externalIds": {
+      "wikidata": "Q41264"
+    }
   },
   {
     "id": "peter-paul-rubens",
     "name": "Peter Paul Rubens",
     "portrait": null,
-    "birthYear": null,
-    "deathYear": null,
-    "nationality": null,
-    "bio": null,
-    "bioStatus": "unavailable",
-    "movement": "Baroque",
+    "birthYear": "1577",
+    "deathYear": "1640",
+    "nationality": "Spanish Netherlands",
+    "bio": "Flemish painter (1577–1640)",
+    "bioStatus": "metadata-fallback",
+    "movement": "Flemish Baroque painting",
     "artworkIds": [
       "met-437530",
       "met-437534",
       "met-437532"
     ],
-    "relatedArtistIds": [
-      "rembrandt",
-      "rembrandt-rembrandt-van-rijn",
-      "johannes-vermeer",
-      "caravaggio",
-      "anthony-van-dyck",
-      "andrea-del-sarto"
-    ]
+    "relatedArtistIds": [],
+    "externalIds": {
+      "wikidata": "Q5599"
+    }
   },
   {
     "id": "caravaggio",
     "name": "Caravaggio",
     "portrait": null,
-    "birthYear": null,
-    "deathYear": null,
-    "nationality": null,
-    "bio": null,
-    "bioStatus": "unavailable",
+    "birthYear": "1571",
+    "deathYear": "1610",
+    "nationality": "Duchy of Milan",
+    "bio": "Italian painter (1571–1610)",
+    "bioStatus": "metadata-fallback",
     "movement": "Baroque",
     "artworkIds": [
       "cma-148758"
     ],
-    "relatedArtistIds": [
-      "rembrandt",
-      "rembrandt-rembrandt-van-rijn",
-      "johannes-vermeer",
-      "peter-paul-rubens",
-      "anthony-van-dyck",
-      "andrea-del-sarto"
-    ]
+    "relatedArtistIds": [],
+    "externalIds": {
+      "wikidata": "Q42207"
+    }
   },
   {
     "id": "anthony-van-dyck",
     "name": "Anthony van Dyck",
     "portrait": null,
-    "birthYear": null,
-    "deathYear": null,
-    "nationality": null,
-    "bio": null,
-    "bioStatus": "unavailable",
-    "movement": "Baroque",
+    "birthYear": "1599",
+    "deathYear": "1641",
+    "nationality": "Spanish Netherlands",
+    "bio": "Flemish Baroque artist (1599–1641)",
+    "bioStatus": "metadata-fallback",
+    "movement": "Baroque painting",
     "artworkIds": [
       "cma-131819"
     ],
-    "relatedArtistIds": [
-      "rembrandt",
-      "rembrandt-rembrandt-van-rijn",
-      "johannes-vermeer",
-      "peter-paul-rubens",
-      "caravaggio",
-      "andrea-del-sarto"
-    ]
+    "relatedArtistIds": [],
+    "externalIds": {
+      "wikidata": "Q150679"
+    }
   },
   {
     "id": "andrea-del-sarto",
     "name": "Andrea del Sarto",
     "portrait": null,
-    "birthYear": null,
-    "deathYear": null,
-    "nationality": null,
-    "bio": null,
-    "bioStatus": "unavailable",
-    "movement": "Baroque",
+    "birthYear": "1487",
+    "deathYear": "1530",
+    "nationality": "Italy",
+    "bio": "Italian painter (1486-1530)",
+    "bioStatus": "metadata-fallback",
+    "movement": "High Renaissance",
     "artworkIds": [
       "cma-117032"
     ],
-    "relatedArtistIds": [
-      "rembrandt",
-      "rembrandt-rembrandt-van-rijn",
-      "johannes-vermeer",
-      "peter-paul-rubens",
-      "caravaggio",
-      "anthony-van-dyck"
-    ]
+    "relatedArtistIds": [],
+    "externalIds": {
+      "wikidata": "Q5571"
+    }
   },
   {
     "id": "eugene-delacroix",
     "name": "Eugène Delacroix",
     "portrait": null,
-    "birthYear": null,
-    "deathYear": null,
-    "nationality": null,
-    "bio": null,
-    "bioStatus": "unavailable",
+    "birthYear": "1798",
+    "deathYear": "1863",
+    "nationality": "France",
+    "bio": "French painter (1798–1863)",
+    "bioStatus": "metadata-fallback",
     "movement": "Romanticism",
     "artworkIds": [
       "met-438814",
@@ -307,17 +229,20 @@
     "relatedArtistIds": [
       "goya-francisco-de-goya-y-lucientes",
       "joseph-mallord-william-turner"
-    ]
+    ],
+    "externalIds": {
+      "wikidata": "Q33477"
+    }
   },
   {
     "id": "goya-francisco-de-goya-y-lucientes",
     "name": "Goya (Francisco de Goya y Lucientes)",
     "portrait": null,
-    "birthYear": null,
-    "deathYear": null,
-    "nationality": null,
-    "bio": null,
-    "bioStatus": "unavailable",
+    "birthYear": "1746",
+    "deathYear": "1828",
+    "nationality": "Spain",
+    "bio": "Spanish painter and printmaker (1746–1828)",
+    "bioStatus": "metadata-fallback",
     "movement": "Romanticism",
     "artworkIds": [
       "met-436544",
@@ -327,17 +252,20 @@
     "relatedArtistIds": [
       "eugene-delacroix",
       "joseph-mallord-william-turner"
-    ]
+    ],
+    "externalIds": {
+      "wikidata": "Q5432"
+    }
   },
   {
     "id": "joseph-mallord-william-turner",
     "name": "Joseph Mallord William Turner",
     "portrait": null,
-    "birthYear": null,
-    "deathYear": null,
-    "nationality": null,
-    "bio": null,
-    "bioStatus": "unavailable",
+    "birthYear": "1775",
+    "deathYear": "1851",
+    "nationality": "Kingdom of Great Britain",
+    "bio": "English painter and draftsman (c.1775–1851)",
+    "bioStatus": "metadata-fallback",
     "movement": "Romanticism",
     "artworkIds": [
       "met-437853",
@@ -346,17 +274,20 @@
     "relatedArtistIds": [
       "eugene-delacroix",
       "goya-francisco-de-goya-y-lucientes"
-    ]
+    ],
+    "externalIds": {
+      "wikidata": "Q159758"
+    }
   },
   {
     "id": "auguste-renoir",
     "name": "Auguste Renoir",
     "portrait": null,
-    "birthYear": null,
-    "deathYear": null,
-    "nationality": null,
-    "bio": null,
-    "bioStatus": "unavailable",
+    "birthYear": "1841",
+    "deathYear": "1919",
+    "nationality": "France",
+    "bio": "French painter and sculptor (1841–1919)",
+    "bioStatus": "metadata-fallback",
     "movement": "Impressionism",
     "artworkIds": [
       "met-459112",
@@ -365,18 +296,23 @@
     ],
     "relatedArtistIds": [
       "edgar-degas",
-      "camille-pissarro"
-    ]
+      "camille-pissarro",
+      "claude-monet",
+      "gustave-caillebotte"
+    ],
+    "externalIds": {
+      "wikidata": "Q39931"
+    }
   },
   {
     "id": "edgar-degas",
     "name": "Edgar Degas",
     "portrait": null,
-    "birthYear": null,
-    "deathYear": null,
-    "nationality": null,
-    "bio": null,
-    "bioStatus": "unavailable",
+    "birthYear": "1834",
+    "deathYear": "1917",
+    "nationality": "France",
+    "bio": "French Impressionist artist (1834–1917)",
+    "bioStatus": "metadata-fallback",
     "movement": "Impressionism",
     "artworkIds": [
       "met-436155",
@@ -386,18 +322,23 @@
     ],
     "relatedArtistIds": [
       "auguste-renoir",
-      "camille-pissarro"
-    ]
+      "camille-pissarro",
+      "claude-monet",
+      "gustave-caillebotte"
+    ],
+    "externalIds": {
+      "wikidata": "Q46373"
+    }
   },
   {
     "id": "camille-pissarro",
     "name": "Camille Pissarro",
     "portrait": null,
-    "birthYear": null,
-    "deathYear": null,
-    "nationality": null,
-    "bio": null,
-    "bioStatus": "unavailable",
+    "birthYear": "1830",
+    "deathYear": "1903",
+    "nationality": "France",
+    "bio": "Danish-French painter (1830-1903)",
+    "bioStatus": "metadata-fallback",
     "movement": "Impressionism",
     "artworkIds": [
       "met-438738",
@@ -405,43 +346,52 @@
     ],
     "relatedArtistIds": [
       "auguste-renoir",
-      "edgar-degas"
-    ]
+      "edgar-degas",
+      "claude-monet",
+      "gustave-caillebotte"
+    ],
+    "externalIds": {
+      "wikidata": "Q134741"
+    }
   },
   {
     "id": "vincent-van-gogh",
     "name": "Vincent van Gogh",
     "portrait": null,
-    "birthYear": null,
-    "deathYear": null,
-    "nationality": null,
-    "bio": null,
-    "bioStatus": "unavailable",
-    "movement": "Post-Impressionism",
+    "birthYear": "1853",
+    "deathYear": "1890",
+    "nationality": "Kingdom of the Netherlands",
+    "bio": "Dutch painter (1853–1890)",
+    "bioStatus": "metadata-fallback",
+    "movement": "Post-impressionism",
     "artworkIds": [
       "met-459123",
       "met-436533",
       "met-436528",
       "met-436532",
       "met-436535",
-      "met-436529"
+      "met-436529",
+      "aic-28560",
+      "aic-80607"
     ],
     "relatedArtistIds": [
       "paul-cezanne",
-      "georges-seurat",
       "paul-gauguin"
-    ]
+    ],
+    "externalIds": {
+      "wikidata": "Q5582"
+    }
   },
   {
     "id": "paul-cezanne",
     "name": "Paul Cézanne",
     "portrait": null,
-    "birthYear": null,
-    "deathYear": null,
-    "nationality": null,
-    "bio": null,
-    "bioStatus": "unavailable",
-    "movement": "Post-Impressionism",
+    "birthYear": "1839",
+    "deathYear": "1906",
+    "nationality": "France",
+    "bio": "French painter (1839–1906)",
+    "bioStatus": "metadata-fallback",
+    "movement": "Post-impressionism",
     "artworkIds": [
       "met-435882",
       "met-435868",
@@ -450,40 +400,43 @@
     ],
     "relatedArtistIds": [
       "vincent-van-gogh",
-      "georges-seurat",
       "paul-gauguin"
-    ]
+    ],
+    "externalIds": {
+      "wikidata": "Q35548"
+    }
   },
   {
     "id": "georges-seurat",
     "name": "Georges Seurat",
     "portrait": null,
-    "birthYear": null,
-    "deathYear": null,
-    "nationality": null,
-    "bio": null,
-    "bioStatus": "unavailable",
-    "movement": "Post-Impressionism",
+    "birthYear": "1859",
+    "deathYear": "1891",
+    "nationality": "France",
+    "bio": "French painter (1859-1891)",
+    "bioStatus": "metadata-fallback",
+    "movement": "pointillism",
     "artworkIds": [
       "met-437654",
-      "met-459116"
+      "met-459116",
+      "aic-27992",
+      "aic-61616"
     ],
-    "relatedArtistIds": [
-      "vincent-van-gogh",
-      "paul-cezanne",
-      "paul-gauguin"
-    ]
+    "relatedArtistIds": [],
+    "externalIds": {
+      "wikidata": "Q34013"
+    }
   },
   {
     "id": "paul-gauguin",
     "name": "Paul Gauguin",
     "portrait": null,
-    "birthYear": null,
-    "deathYear": null,
-    "nationality": null,
-    "bio": null,
-    "bioStatus": "unavailable",
-    "movement": "Post-Impressionism",
+    "birthYear": "1848",
+    "deathYear": "1903",
+    "nationality": "France",
+    "bio": "French painter and printmaker (1848–1903)",
+    "bioStatus": "metadata-fallback",
+    "movement": "Post-impressionism",
     "artworkIds": [
       "met-438821",
       "met-436449",
@@ -491,68 +444,69 @@
     ],
     "relatedArtistIds": [
       "vincent-van-gogh",
-      "paul-cezanne",
-      "georges-seurat"
-    ]
+      "paul-cezanne"
+    ],
+    "externalIds": {
+      "wikidata": "Q37693"
+    }
   },
   {
     "id": "gustav-klimt",
     "name": "Gustav Klimt",
     "portrait": null,
-    "birthYear": null,
-    "deathYear": null,
-    "nationality": null,
-    "bio": null,
-    "bioStatus": "unavailable",
-    "movement": "Modernism",
+    "birthYear": "1862",
+    "deathYear": "1918",
+    "nationality": "Austrian Empire",
+    "bio": "Austrian symbolist painter (1862–1918)",
+    "bioStatus": "metadata-fallback",
+    "movement": "Symbolism",
     "artworkIds": [
       "met-436819"
     ],
-    "relatedArtistIds": [
-      "amedeo-modigliani",
-      "auguste-rodin",
-      "victor-peter"
-    ]
+    "relatedArtistIds": [],
+    "externalIds": {
+      "wikidata": "Q34661"
+    }
   },
   {
     "id": "amedeo-modigliani",
     "name": "Amedeo Modigliani",
     "portrait": null,
-    "birthYear": null,
-    "deathYear": null,
-    "nationality": null,
-    "bio": null,
-    "bioStatus": "unavailable",
-    "movement": "Modernism",
+    "birthYear": "1884",
+    "deathYear": "1920",
+    "nationality": "Kingdom of Italy",
+    "bio": "Italian painter and sculptor (1884–1920)",
+    "bioStatus": "metadata-fallback",
+    "movement": "modern art",
     "artworkIds": [
       "met-486837",
       "met-488927"
     ],
     "relatedArtistIds": [
-      "gustav-klimt",
-      "auguste-rodin",
-      "victor-peter"
-    ]
+      "auguste-rodin"
+    ],
+    "externalIds": {
+      "wikidata": "Q120993"
+    }
   },
   {
     "id": "katsushika-hokusai",
     "name": "Katsushika Hokusai",
     "portrait": null,
-    "birthYear": null,
-    "deathYear": null,
-    "nationality": null,
-    "bio": null,
-    "bioStatus": "unavailable",
-    "movement": "Japanese Art",
+    "birthYear": "1760",
+    "deathYear": "1849",
+    "nationality": "Japan",
+    "bio": "Japanese artist (1760-1849)",
+    "bioStatus": "metadata-fallback",
+    "movement": "Japonisme",
     "artworkIds": [
       "met-39799",
       "met-48886"
     ],
-    "relatedArtistIds": [
-      "gorham-manufacturing-company",
-      "utagawa-hiroshige",
-      "kitagawa-utamaro"
-    ]
+    "relatedArtistIds": [],
+    "externalIds": {
+      "wikidata": "Q5586"
+    }
   },
   {
     "id": "gorham-manufacturing-company",
@@ -562,15 +516,13 @@
     "deathYear": null,
     "nationality": null,
     "bio": null,
-    "bioStatus": "unavailable",
+    "bioStatus": "metadata-fallback",
     "movement": "Japanese Art",
     "artworkIds": [
       "met-21586"
     ],
     "relatedArtistIds": [
-      "katsushika-hokusai",
-      "utagawa-hiroshige",
-      "kitagawa-utamaro"
+      "utagawa-hiroshige"
     ]
   },
   {
@@ -581,7 +533,7 @@
     "deathYear": null,
     "nationality": null,
     "bio": null,
-    "bioStatus": "unavailable",
+    "bioStatus": "metadata-fallback",
     "movement": "Japanese Art",
     "artworkIds": [
       "met-53449",
@@ -590,30 +542,27 @@
       "met-460337"
     ],
     "relatedArtistIds": [
-      "katsushika-hokusai",
-      "gorham-manufacturing-company",
-      "kitagawa-utamaro"
+      "gorham-manufacturing-company"
     ]
   },
   {
     "id": "kitagawa-utamaro",
     "name": "Kitagawa Utamaro",
     "portrait": null,
-    "birthYear": null,
-    "deathYear": null,
-    "nationality": null,
-    "bio": null,
-    "bioStatus": "unavailable",
-    "movement": "Japanese Art",
+    "birthYear": "1753",
+    "deathYear": "1806",
+    "nationality": "Japan",
+    "bio": "175?-1806 Japanese artist",
+    "bioStatus": "metadata-fallback",
+    "movement": "ukiyo-e",
     "artworkIds": [
       "met-54871",
       "met-37338"
     ],
-    "relatedArtistIds": [
-      "katsushika-hokusai",
-      "gorham-manufacturing-company",
-      "utagawa-hiroshige"
-    ]
+    "relatedArtistIds": [],
+    "externalIds": {
+      "wikidata": "Q272045"
+    }
   },
   {
     "id": "unknown-artist",
@@ -623,7 +572,7 @@
     "deathYear": null,
     "nationality": null,
     "bio": null,
-    "bioStatus": "unavailable",
+    "bioStatus": "metadata-fallback",
     "movement": "Armenian Art",
     "artworkIds": [
       "met-478665",
@@ -650,7 +599,7 @@
     "deathYear": null,
     "nationality": null,
     "bio": null,
-    "bioStatus": "unavailable",
+    "bioStatus": "metadata-fallback",
     "movement": "Armenian Art",
     "artworkIds": [
       "met-662941"
@@ -668,7 +617,7 @@
     "deathYear": null,
     "nationality": null,
     "bio": null,
-    "bioStatus": "unavailable",
+    "bioStatus": "metadata-fallback",
     "movement": "Armenian Art",
     "artworkIds": [
       "met-751462"
@@ -682,21 +631,22 @@
     "id": "auguste-rodin",
     "name": "Auguste Rodin",
     "portrait": null,
-    "birthYear": null,
-    "deathYear": null,
-    "nationality": null,
-    "bio": null,
-    "bioStatus": "unavailable",
-    "movement": "Modernism",
+    "birthYear": "1840",
+    "deathYear": "1917",
+    "nationality": "France",
+    "bio": "French sculptor (1840–1917)",
+    "bioStatus": "metadata-fallback",
+    "movement": "modern art",
     "artworkIds": [
       "met-191843",
       "met-191803"
     ],
     "relatedArtistIds": [
-      "gustav-klimt",
-      "amedeo-modigliani",
-      "victor-peter"
-    ]
+      "amedeo-modigliani"
+    ],
+    "externalIds": {
+      "wikidata": "Q30755"
+    }
   },
   {
     "id": "victor-peter",
@@ -706,33 +656,32 @@
     "deathYear": null,
     "nationality": null,
     "bio": null,
-    "bioStatus": "unavailable",
+    "bioStatus": "metadata-fallback",
     "movement": "Modernism",
     "artworkIds": [
       "met-208069"
     ],
-    "relatedArtistIds": [
-      "gustav-klimt",
-      "amedeo-modigliani",
-      "auguste-rodin"
-    ]
+    "relatedArtistIds": []
   },
   {
     "id": "martin-carlin",
     "name": "Martin Carlin",
     "portrait": null,
-    "birthYear": null,
-    "deathYear": null,
-    "nationality": null,
-    "bio": null,
-    "bioStatus": "unavailable",
+    "birthYear": "1730",
+    "deathYear": "1785",
+    "nationality": "France",
+    "bio": "French master cabinetmaker of German origin (1730–1785)",
+    "bioStatus": "metadata-fallback",
     "movement": "Classical",
     "artworkIds": [
       "met-206499"
     ],
     "relatedArtistIds": [
       "kephisodotos"
-    ]
+    ],
+    "externalIds": {
+      "wikidata": "Q433205"
+    }
   },
   {
     "id": "kephisodotos",
@@ -742,7 +691,7 @@
     "deathYear": null,
     "nationality": null,
     "bio": null,
-    "bioStatus": "unavailable",
+    "bioStatus": "metadata-fallback",
     "movement": "Classical",
     "artworkIds": [
       "met-247173"
@@ -759,15 +708,15 @@
     "deathYear": null,
     "nationality": null,
     "bio": null,
-    "bioStatus": "unavailable",
+    "bioStatus": "metadata-fallback",
     "movement": "Photography",
     "artworkIds": [
       "cma-120846"
     ],
     "relatedArtistIds": [
       "robert-demachy",
-      "camille-dolard",
       "adrien-tournachon",
+      "camille-dolard",
       "henry-white",
       "john-burke",
       "william-b-post"
@@ -781,37 +730,15 @@
     "deathYear": null,
     "nationality": null,
     "bio": null,
-    "bioStatus": "unavailable",
+    "bioStatus": "metadata-fallback",
     "movement": "Photography",
     "artworkIds": [
       "cma-152349"
     ],
     "relatedArtistIds": [
       "john-i-smart",
+      "adrien-tournachon",
       "camille-dolard",
-      "adrien-tournachon",
-      "henry-white",
-      "john-burke",
-      "william-b-post"
-    ]
-  },
-  {
-    "id": "camille-dolard",
-    "name": "Camille Dolard",
-    "portrait": null,
-    "birthYear": null,
-    "deathYear": null,
-    "nationality": null,
-    "bio": null,
-    "bioStatus": "unavailable",
-    "movement": "Photography",
-    "artworkIds": [
-      "cma-160087"
-    ],
-    "relatedArtistIds": [
-      "john-i-smart",
-      "robert-demachy",
-      "adrien-tournachon",
       "henry-white",
       "john-burke",
       "william-b-post"
@@ -825,7 +752,7 @@
     "deathYear": null,
     "nationality": null,
     "bio": null,
-    "bioStatus": "unavailable",
+    "bioStatus": "metadata-fallback",
     "movement": "Photography",
     "artworkIds": [
       "cma-161864"
@@ -840,6 +767,28 @@
     ]
   },
   {
+    "id": "camille-dolard",
+    "name": "Camille Dolard",
+    "portrait": null,
+    "birthYear": null,
+    "deathYear": null,
+    "nationality": null,
+    "bio": null,
+    "bioStatus": "metadata-fallback",
+    "movement": "Photography",
+    "artworkIds": [
+      "cma-160087"
+    ],
+    "relatedArtistIds": [
+      "john-i-smart",
+      "robert-demachy",
+      "adrien-tournachon",
+      "henry-white",
+      "john-burke",
+      "william-b-post"
+    ]
+  },
+  {
     "id": "henry-white",
     "name": "Henry White",
     "portrait": null,
@@ -847,7 +796,7 @@
     "deathYear": null,
     "nationality": null,
     "bio": null,
-    "bioStatus": "unavailable",
+    "bioStatus": "metadata-fallback",
     "movement": "Photography",
     "artworkIds": [
       "cma-157013"
@@ -855,8 +804,8 @@
     "relatedArtistIds": [
       "john-i-smart",
       "robert-demachy",
-      "camille-dolard",
       "adrien-tournachon",
+      "camille-dolard",
       "john-burke",
       "william-b-post"
     ]
@@ -869,7 +818,7 @@
     "deathYear": null,
     "nationality": null,
     "bio": null,
-    "bioStatus": "unavailable",
+    "bioStatus": "metadata-fallback",
     "movement": "Photography",
     "artworkIds": [
       "cma-667960"
@@ -877,8 +826,8 @@
     "relatedArtistIds": [
       "john-i-smart",
       "robert-demachy",
-      "camille-dolard",
       "adrien-tournachon",
+      "camille-dolard",
       "henry-white",
       "william-b-post"
     ]
@@ -891,7 +840,7 @@
     "deathYear": null,
     "nationality": null,
     "bio": null,
-    "bioStatus": "unavailable",
+    "bioStatus": "metadata-fallback",
     "movement": "Photography",
     "artworkIds": [
       "cma-157126"
@@ -899,8 +848,8 @@
     "relatedArtistIds": [
       "john-i-smart",
       "robert-demachy",
-      "camille-dolard",
       "adrien-tournachon",
+      "camille-dolard",
       "henry-white",
       "john-burke"
     ]
@@ -909,11 +858,11 @@
     "id": "carleton-e-watkins",
     "name": "Carleton E. Watkins",
     "portrait": null,
-    "birthYear": null,
-    "deathYear": null,
-    "nationality": null,
-    "bio": null,
-    "bioStatus": "unavailable",
+    "birthYear": "1829",
+    "deathYear": "1916",
+    "nationality": "United States",
+    "bio": "American photographer (1829–1916)",
+    "bioStatus": "metadata-fallback",
     "movement": "Photography",
     "artworkIds": [
       "met-262612",
@@ -922,28 +871,83 @@
     "relatedArtistIds": [
       "john-i-smart",
       "robert-demachy",
-      "camille-dolard",
       "adrien-tournachon",
+      "camille-dolard",
       "henry-white",
       "john-burke"
-    ]
+    ],
+    "externalIds": {
+      "wikidata": "Q2939083"
+    }
+  },
+  {
+    "id": "claude-monet",
+    "name": "Claude Monet",
+    "portrait": null,
+    "birthYear": "1840",
+    "deathYear": "1926",
+    "nationality": "France",
+    "bio": "French painter (1840–1926)",
+    "bioStatus": "metadata-fallback",
+    "movement": "Impressionism",
+    "artworkIds": [
+      "aic-16568",
+      "aic-16571",
+      "aic-64818"
+    ],
+    "relatedArtistIds": [
+      "auguste-renoir",
+      "edgar-degas",
+      "camille-pissarro",
+      "gustave-caillebotte"
+    ],
+    "externalIds": {
+      "wikidata": "Q296"
+    }
+  },
+  {
+    "id": "gustave-caillebotte",
+    "name": "Gustave Caillebotte",
+    "portrait": null,
+    "birthYear": "1848",
+    "deathYear": "1894",
+    "nationality": "France",
+    "bio": "French painter (1848–1894)",
+    "bioStatus": "metadata-fallback",
+    "movement": "Impressionism",
+    "artworkIds": [
+      "aic-20684",
+      "aic-154121"
+    ],
+    "relatedArtistIds": [
+      "auguste-renoir",
+      "edgar-degas",
+      "camille-pissarro",
+      "claude-monet"
+    ],
+    "externalIds": {
+      "wikidata": "Q295144"
+    }
   },
   {
     "id": "sultan-muhammad-nur",
     "name": "Sultan Muhammad Nur",
     "portrait": null,
-    "birthYear": null,
-    "deathYear": null,
-    "nationality": null,
-    "bio": null,
-    "bioStatus": "unavailable",
+    "birthYear": "1472",
+    "deathYear": "1536",
+    "nationality": "Timurid Empire",
+    "bio": "Persian calligrapher, ca. 1472-1536 (1472–1534)",
+    "bioStatus": "metadata-fallback",
     "movement": "Islamic",
     "artworkIds": [
       "met-453167"
     ],
     "relatedArtistIds": [
       "abd-al-qadir-hisari"
-    ]
+    ],
+    "externalIds": {
+      "wikidata": "Q6488051"
+    }
   },
   {
     "id": "abd-al-qadir-hisari",
@@ -951,50 +955,81 @@
     "portrait": null,
     "birthYear": null,
     "deathYear": null,
-    "nationality": null,
-    "bio": null,
-    "bioStatus": "unavailable",
+    "nationality": "Ottoman Empire",
+    "bio": "Ottoman calligrapher, active 1766-1767",
+    "bioStatus": "metadata-fallback",
     "movement": "Islamic",
     "artworkIds": [
       "met-454611"
     ],
     "relatedArtistIds": [
       "sultan-muhammad-nur"
-    ]
+    ],
+    "externalIds": {
+      "wikidata": "Q59481365"
+    }
   },
   {
     "id": "xiao-yuncong",
     "name": "Xiao Yuncong",
     "portrait": null,
-    "birthYear": null,
-    "deathYear": null,
-    "nationality": null,
-    "bio": null,
-    "bioStatus": "unavailable",
+    "birthYear": "1596",
+    "deathYear": "1673",
+    "nationality": "Ming dynasty",
+    "bio": "Chinese painter (1596-1673)",
+    "bioStatus": "metadata-fallback",
     "movement": "Chinese Art",
     "artworkIds": [
-      "cma-132837",
-      "cma-132841"
+      "cma-132837"
     ],
     "relatedArtistIds": [
-      "bada-shanren"
-    ]
+      "bada-shanren",
+      "chen-hongshou"
+    ],
+    "externalIds": {
+      "wikidata": "Q3570964"
+    }
   },
   {
     "id": "bada-shanren",
     "name": "Bada Shanren",
     "portrait": null,
-    "birthYear": null,
-    "deathYear": null,
-    "nationality": null,
-    "bio": null,
-    "bioStatus": "unavailable",
+    "birthYear": "1626",
+    "deathYear": "1705",
+    "nationality": "Qing dynasty",
+    "bio": "Chinese artist (1626-1705)",
+    "bioStatus": "metadata-fallback",
     "movement": "Chinese Art",
     "artworkIds": [
       "cma-132908"
     ],
     "relatedArtistIds": [
-      "xiao-yuncong"
-    ]
+      "xiao-yuncong",
+      "chen-hongshou"
+    ],
+    "externalIds": {
+      "wikidata": "Q198097"
+    }
+  },
+  {
+    "id": "chen-hongshou",
+    "name": "Chen Hongshou",
+    "portrait": null,
+    "birthYear": "1598",
+    "deathYear": "1652",
+    "nationality": "Qing dynasty",
+    "bio": "Chinese artist (1598-1652)",
+    "bioStatus": "metadata-fallback",
+    "movement": "Chinese Art",
+    "artworkIds": [
+      "cma-149603"
+    ],
+    "relatedArtistIds": [
+      "xiao-yuncong",
+      "bada-shanren"
+    ],
+    "externalIds": {
+      "wikidata": "Q588110"
+    }
   }
 ]

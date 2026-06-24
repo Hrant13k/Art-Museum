@@ -18,12 +18,13 @@ interface AicArtwork {
   classification_title: string | null;
   style_titles: string[];
   image_id: string | null;
+  main_reference_number?: string;
 }
 
 const FIELDS = [
   'id', 'title', 'artist_display', 'artist_title', 'date_display',
   'medium_display', 'place_of_origin', 'department_title',
-  'classification_title', 'style_titles', 'image_id',
+  'classification_title', 'style_titles', 'image_id', 'main_reference_number',
 ].join(',');
 
 function toNormalized(a: AicArtwork): NormalizedRaw | null {
@@ -46,6 +47,8 @@ function toNormalized(a: AicArtwork): NormalizedRaw | null {
     classification: a.classification_title || '',
     styles: a.style_titles || [],
     sourceUrl: `https://www.artic.edu/artworks/${a.id}`,
+    accession: a.main_reference_number || '',
+    qid: null,
   };
 }
 

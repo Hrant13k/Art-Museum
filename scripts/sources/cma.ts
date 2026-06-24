@@ -7,6 +7,7 @@ const BASE = 'https://openaccess-api.clevelandart.org/api/artworks';
 
 interface CmaArtwork {
   id: number;
+  accession_number?: string;
   title: string;
   creators?: { description: string }[];
   creation_date: string | null;
@@ -38,6 +39,8 @@ function toNormalized(a: CmaArtwork): NormalizedRaw | null {
     classification: a.type || '',
     styles: [],
     sourceUrl: a.url || `https://www.clevelandart.org/art/${a.id}`,
+    accession: a.accession_number || '',
+    qid: null,
   };
 }
 

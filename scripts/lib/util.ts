@@ -41,7 +41,9 @@ export async function fetchJson<T = any>(
         return null;
       }
       const rateLimited = /rate-limited/.test((err as Error).message);
-      await sleep((rateLimited ? 2500 : 600) * (attempt + 1));
+      // Exponential backoff with jitter; back off hard on 429/403.
+      const base = rateLimited ? 5000 : 600;
+      await sleep(base * (attempt + 1) + Math.floor(Math.random() * 400));
     }
   }
   return null;

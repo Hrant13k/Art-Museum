@@ -77,18 +77,29 @@ scripts/
 npm run data:collect
 ```
 
-Fetches artworks from public museum APIs, normalizes them to a single shape, de-duplicates
-across sources, and **verifies every image loads cross-origin** before storing it — so no
-broken images ever reach the UI. Produces `data/artworks.json`, `data/artists.json`, and
-`data/museums.json`.
+A **multi-source merge pipeline** that produces `data/artworks.json`, `data/artists.json`,
+and `data/museums.json`:
 
-Sources: the **Metropolitan Museum of Art** and **Cleveland Museum of Art** open-access
-APIs (no key required). The Art Institute of Chicago adapter is included for reference but
-disabled by default, because its images sit behind Cloudflare hotlink protection.
+1. **Collect** candidates from the **Met**, **Cleveland**, and **Art Institute of Chicago**
+   open APIs (no key required).
+2. **Resolve a Wikidata QID** for each work (the Met supplies it directly; others via an
+   accession-number SPARQL lookup). The QID is the deduplication key and fact source.
+3. **Enrich** with CC0 **Wikidata** facts — movement, depicted subjects, inception year, and
+   authoritative artist data (dates, nationality, short bio). Artists are **merged by QID**
+   so one painter is never split across name spellings.
+4. **Resolve images** — museum image first; **Wikimedia Commons** fallback (with the AIC works
+   routed through Commons, since AIC images are Cloudflare-blocked cross-origin). Every image
+   is **verified to load** and its **license + attribution are recorded**.
+5. **Write** the normalized dataset with per-field **provenance**.
 
-**Scaling to 1,000+ artworks:** raise `TARGET_SIZE` and add/extend entries in
-[`scripts/config.ts`](scripts/config.ts), then re-run `npm run data:collect`. The script is
-polite to the APIs (rate-limit backoff) and de-duplicates automatically.
+Only **CC0 / public-domain** images are ingested, so the dataset is safe to store and serve
+offline. See the full source audit, licensing analysis, and rationale in
+[`docs/DATA_SOURCES.md`](docs/DATA_SOURCES.md).
+
+**Scaling to 1,000+ artworks:** raise `TARGET_SIZE` (or `TARGET_SIZE=1000 npm run data:collect`)
+and add/extend entries in [`scripts/config.ts`](scripts/config.ts). The script self-throttles
+(rate-limit backoff) and de-duplicates automatically. Optional museum keys (Rijksmuseum,
+Smithsonian) are documented in the audit.
 
 ### 2. Enrich
 
@@ -164,6 +175,10 @@ Artwork {
 ## Credits
 
 Artwork images and metadata courtesy of the open-access programs of
-[The Metropolitan Museum of Art](https://www.metmuseum.org/) and the
-[Cleveland Museum of Art](https://www.clevelandart.org/). Please respect each museum's
+[The Metropolitan Museum of Art](https://www.metmuseum.org/), the
+[Cleveland Museum of Art](https://www.clevelandart.org/), and the
+[Art Institute of Chicago](https://www.artic.edu/), enriched with CC0 data from
+[Wikidata](https://www.wikidata.org/) and images from
+[Wikimedia Commons](https://commons.wikimedia.org/) (per-file licenses recorded in the
+dataset). Please respect each museum's
 terms of use.
