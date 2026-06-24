@@ -27,7 +27,10 @@ function db(): Promise<IDBPDatabase> {
 export async function getFavoriteIds(): Promise<string[]> {
   try {
     const all = await (await db()).getAll(STORE);
+    if (!Array.isArray(all)) return [];
+    // Tolerate corrupted/legacy rows: keep only well-formed { id, addedAt }.
     return all
+      .filter((row) => row && typeof row.id === 'string')
       .sort((a, b) => (b.addedAt ?? 0) - (a.addedAt ?? 0))
       .map((row) => row.id as string);
   } catch {
@@ -43,17 +46,30 @@ export async function isFavorite(id: string): Promise<boolean> {
   }
 }
 
-export async function addFavorite(id: string): Promise<void> {
-  await (await db()).put(STORE, { id, addedAt: Date.now() });
+/** Returns true on success. Never throws — storage may be unavailable. */
+export async function addFavorite(id: string): Promise<boolean> {
+  try {
+    await (await db()).put(STORE, { id, addedAt: Date.now() });
+    return true;
+  } catch {
+    return false;
+  }
 }
 
-export async function removeFavorite(id: string): Promise<void> {
-  await (await db()).delete(STORE, id);
+/** Returns true on success. Never throws. */
+export async function removeFavorite(id: string): Promise<boolean> {
+  try {
+    await (await db()).delete(STORE, id);
+    return true;
+  } catch {
+    return false;
+  }
 }
 
-/** Returns the new favorite state (true = now a favorite). */
+/** Returns the new favorite state (true = now a favorite). Never throws. */
 export async function toggleFavorite(id: string): Promise<boolean> {
-  if (await isFavorite(id)) {
+  const currently = await isFavorite(id);
+  if (currently) {
     await removeFavorite(id);
     return false;
   }

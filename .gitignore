@@ -147,3 +147,7 @@ next-env.d.ts
 
 # Local scratch scripts (root-level, underscore-prefixed)
 /_*.mjs
+
+
+# Local-only deployment guide
+DEPLOY_TO_VERCEL.md

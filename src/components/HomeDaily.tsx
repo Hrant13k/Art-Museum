@@ -15,10 +15,27 @@ export function HomeDaily() {
   const [artwork, setArtwork] = useState<Artwork | null>(null);
   const [label, setLabel] = useState('');
 
+  const [failed, setFailed] = useState(false);
+
   useEffect(() => {
-    setArtwork(dailyArtwork());
-    setLabel(todayLabel());
+    try {
+      setArtwork(dailyArtwork());
+      setLabel(todayLabel());
+    } catch {
+      setFailed(true); // empty/unavailable collection — degrade gracefully
+    }
   }, []);
+
+  if (failed) {
+    return (
+      <div className="flex min-h-[60vh] flex-col items-center justify-center px-6 text-center">
+        <p className="font-serif text-2xl font-light text-linen">The collection is empty</p>
+        <p className="mt-2 max-w-xs text-sm text-linen-dim">
+          No artworks are available yet. Run the data collection step to populate the museum.
+        </p>
+      </div>
+    );
+  }
 
   if (!artwork) {
     return (

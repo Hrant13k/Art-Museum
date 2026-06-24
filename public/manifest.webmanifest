@@ -1,13 +1,16 @@
 {
+  "id": "/",
   "name": "Art Museum",
   "short_name": "Art Museum",
   "description": "A calm, beautiful pocket museum. Discover a remarkable artwork each day.",
+  "lang": "en",
+  "dir": "ltr",
   "start_url": "/",
   "scope": "/",
   "display": "standalone",
   "orientation": "portrait",
-  "background_color": "#f6f4ef",
-  "theme_color": "#f6f4ef",
+  "background_color": "#100e0c",
+  "theme_color": "#100e0c",
   "categories": ["education", "lifestyle", "entertainment"],
   "icons": [
     { "src": "/icons/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
