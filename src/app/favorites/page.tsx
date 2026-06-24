@@ -19,26 +19,26 @@ export default function FavoritesPage() {
           : null}
       </PageHeader>
 
-      <div className="px-5 pb-8 pt-5">
+      <div className="px-6 pb-10 pt-6">
         {!ready ? (
-          <div className="grid grid-cols-2 gap-4 sm:grid-cols-3">
+          <div className="grid grid-cols-2 gap-x-4 gap-y-8 sm:grid-cols-3">
             {[0, 1, 2, 3].map((i) => (
-              <div key={i} className="aspect-[3/4] animate-pulse rounded-lg bg-paper-deep" />
+              <div key={i} className="aspect-[4/5] animate-pulse rounded-md bg-gallery-raised" />
             ))}
           </div>
         ) : artworks.length === 0 ? (
-          <div className="flex flex-col items-center px-6 pt-20 text-center">
-            <span className="text-4xl text-ink-ghost">
+          <div className="flex flex-col items-center px-6 pt-24 text-center">
+            <span className="text-4xl text-linen-faint">
               <HeartIcon />
             </span>
-            <p className="mt-4 font-serif text-xl text-ink">Nothing saved yet</p>
-            <p className="mt-2 max-w-xs text-sm text-ink-faint">
-              Tap the heart on any artwork to keep it here. Your saved works stay on this device and
+            <p className="mt-5 font-serif text-2xl font-light text-linen">Nothing saved yet</p>
+            <p className="mt-3 max-w-xs text-sm leading-relaxed text-linen-dim">
+              Tap the mark on any artwork to keep it here. Your saved works stay on this device and
               are available offline.
             </p>
             <Link
               href="/explore"
-              className="mt-6 rounded-full border border-ink/20 px-5 py-2 text-sm text-ink hover:border-ink/40"
+              className="mt-7 rounded-full px-5 py-2.5 text-sm text-linen ring-1 ring-white/15 transition-colors hover:ring-white/30"
             >
               Explore the collection
             </Link>

@@ -2,6 +2,7 @@ import type { Metadata } from 'next';
 import { notFound } from 'next/navigation';
 import { museums, getMuseum, getArtworksByIds } from '@/lib/db';
 import { ArtworkGrid } from '@/components/ArtworkCard';
+import { ArtworkImage } from '@/components/ArtworkImage';
 import { BackButton } from '@/components/BackButton';
 
 export function generateStaticParams() {
@@ -24,51 +25,66 @@ export default async function MuseumPage({ params }: { params: Promise<{ id: str
   if (!museum) notFound();
 
   const works = getArtworksByIds(museum.artworkIds);
-  const featured = works.slice(0, 6);
+  const cover = works[0];
+  const rest = works.slice(1);
 
   return (
-    <div className="px-5 pb-10">
-      <div className="safe-top pt-6">
-        <BackButton />
-      </div>
-
-      <header className="mt-6">
-        <h1 className="font-serif text-3xl leading-tight text-ink">{museum.name}</h1>
-        <p className="mt-1.5 text-ink-faint">{museum.location}</p>
-        <div className="mt-3 flex flex-wrap gap-x-5 gap-y-1 text-sm text-ink-faint">
-          {museum.foundedYear && <span>Founded {museum.foundedYear}</span>}
-          <span>
-            {works.length} {works.length === 1 ? 'work' : 'works'} in collection
-          </span>
+    <div className="pb-12">
+      {/* Hero */}
+      <section className="relative">
+        {cover && (
+          <div className="relative h-[44vh] min-h-[300px] w-full overflow-hidden">
+            <ArtworkImage src={cover.thumbnail} alt={museum.name} priority fit="cover" className="h-full w-full" />
+            <div className="pointer-events-none absolute inset-0 scrim-b" />
+            <div className="pointer-events-none absolute inset-x-0 top-0 h-28 scrim-t" />
+          </div>
+        )}
+        <div className="safe-top absolute inset-x-0 top-0 px-6 pt-7">
+          <BackButton />
         </div>
-      </header>
-
-      {museum.history && (
-        <p className="mt-6 max-w-reading leading-relaxed text-ink-soft">{museum.history}</p>
-      )}
-
-      {museum.mapUrl && (
-        <a
-          href={museum.mapUrl}
-          target="_blank"
-          rel="noopener noreferrer"
-          className="mt-4 inline-flex items-center gap-1.5 text-sm text-accent underline-offset-2 hover:underline"
-        >
-          View on map ↗
-        </a>
-      )}
-
-      <section className="mt-9">
-        <h2 className="mb-4 font-serif text-lg text-ink">Featured works</h2>
-        <ArtworkGrid artworks={featured} />
+        <div className={cover ? 'absolute inset-x-0 bottom-0 px-6 pb-6' : 'px-6 pt-10'}>
+          <p className="eyebrow text-gilt/90">Museum</p>
+          <h1 className="mt-2 font-serif text-[2.2rem] font-light leading-[1.05] tracking-tight text-linen">
+            {museum.name}
+          </h1>
+          <p className="mt-2 text-sm text-linen-dim">{museum.location}</p>
+        </div>
       </section>
 
-      {works.length > featured.length && (
+      <div className="px-6">
+        <div className="mt-5 flex flex-wrap gap-x-6 gap-y-1 border-y border-white/[0.07] py-4 text-sm text-linen-dim">
+          {museum.foundedYear && (
+            <span>
+              <span className="text-linen-faint">Founded</span> {museum.foundedYear}
+            </span>
+          )}
+          <span>
+            <span className="text-linen-faint">Works</span> {works.length}
+          </span>
+        </div>
+
+        {museum.history && (
+          <p className="mt-6 max-w-reading text-[1.02rem] leading-[1.75] text-linen-dim">
+            {museum.history}
+          </p>
+        )}
+
+        {museum.mapUrl && (
+          <a
+            href={museum.mapUrl}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="mt-5 inline-flex items-center gap-1.5 text-sm text-gilt underline-offset-4 transition-colors hover:underline"
+          >
+            View on map ↗
+          </a>
+        )}
+
         <section className="mt-10">
-          <h2 className="mb-4 font-serif text-lg text-ink">More from this museum</h2>
-          <ArtworkGrid artworks={works.slice(6)} />
+          <h2 className="eyebrow mb-5">Works in this collection</h2>
+          <ArtworkGrid artworks={rest.length ? [cover, ...rest] : works} />
         </section>
-      )}
+      </div>
     </div>
   );
 }

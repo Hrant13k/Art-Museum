@@ -5,10 +5,12 @@ import { useRouter } from 'next/navigation';
 import Link from 'next/link';
 import { AnimatePresence, motion, type PanInfo } from 'framer-motion';
 import { orderedArtworks } from '@/lib/db';
+import { monogram } from '@/lib/format';
 import { ArtworkImage } from './ArtworkImage';
 import { ExpandableSection } from './ExpandableSection';
 import { FavoriteButton } from './FavoriteButton';
-import { ArrowLeftIcon, ChevronIcon } from './icons';
+import { ShareButton } from './ShareButton';
+import { ChevronIcon, CloseIcon } from './icons';
 
 const SWIPE_THRESHOLD = 70;
 
@@ -74,32 +76,35 @@ export function ArtworkViewer({ startId }: { startId: string }) {
   };
 
   return (
-    <div className="min-h-dvh">
+    <div className="min-h-dvh bg-gallery">
       {/* Top controls */}
-      <div className="safe-top sticky top-0 z-30">
-        <div className="flex items-center justify-between bg-gradient-to-b from-paper via-paper/90 to-transparent px-4 pb-6 pt-3">
+      <div className="safe-top fixed inset-x-0 top-0 z-30">
+        <div className="mx-auto flex max-w-2xl items-center justify-between px-3 pb-8 pt-3 scrim-t">
           <button
             type="button"
             onClick={() => router.back()}
-            aria-label="Back"
-            className="tap-clear inline-flex h-10 w-10 items-center justify-center rounded-full text-[1.3rem] text-ink hover:bg-ink/5"
+            aria-label="Close"
+            className="tap-clear inline-flex h-11 w-11 items-center justify-center rounded-full bg-black/25 text-[1.25rem] text-linen ring-1 ring-white/10 backdrop-blur-md transition-colors hover:bg-black/40"
           >
-            <ArrowLeftIcon />
+            <CloseIcon />
           </button>
-          <span className="text-[0.7rem] uppercase tracking-widest text-ink-faint">
+          <span className="rounded-full bg-black/25 px-3 py-1 text-[0.68rem] tabular-nums tracking-widest text-linen/80 ring-1 ring-white/10 backdrop-blur-md">
             {index + 1} / {list.length}
           </span>
-          <FavoriteButton artworkId={artwork.id} />
+          <div className="flex items-center gap-1">
+            <FavoriteButton artworkId={artwork.id} variant="overlay" />
+            <ShareButton title={`${artwork.title} — ${artwork.artist}`} variant="overlay" />
+          </div>
         </div>
       </div>
 
-      {/* Swipeable image */}
+      {/* Swipeable spotlit artwork */}
       <motion.div
         drag="x"
         dragConstraints={{ left: 0, right: 0 }}
         dragElastic={0.18}
         onDragEnd={onDragEnd}
-        className="-mt-12 cursor-grab touch-pan-y px-4 active:cursor-grabbing"
+        className="safe-top flex min-h-[78vh] cursor-grab touch-pan-y items-center px-5 pb-4 pt-20 active:cursor-grabbing"
       >
         <AnimatePresence custom={direction} mode="popLayout" initial={false}>
           <motion.div
@@ -109,78 +114,82 @@ export function ArtworkViewer({ startId }: { startId: string }) {
             initial="enter"
             animate="center"
             exit="exit"
-            transition={{ duration: 0.32, ease: [0.22, 1, 0.36, 1] }}
+            transition={{ duration: 0.34, ease: [0.22, 1, 0.36, 1] }}
+            className="w-full"
           >
             <ArtworkImage
               src={artwork.thumbnail}
               alt={artwork.title}
               priority
               fit="contain"
-              className="mx-auto max-h-[64vh] min-h-[44vh] w-full rounded-lg"
+              className="mx-auto max-h-[68vh] w-full !bg-transparent drop-shadow-[0_30px_60px_rgba(0,0,0,0.7)]"
               imgClassName="pointer-events-none select-none"
             />
           </motion.div>
         </AnimatePresence>
       </motion.div>
 
-      {/* Desktop / keyboard navigation hint */}
-      <div className="mt-3 flex items-center justify-center gap-6 text-ink-ghost">
-        <button onClick={() => go(-1)} aria-label="Previous artwork" className="tap-clear rotate-180 p-2 hover:text-ink">
+      {/* Navigation affordance */}
+      <div className="flex items-center justify-center gap-7 pb-2 text-linen-faint">
+        <button onClick={() => go(-1)} aria-label="Previous artwork" className="tap-clear rotate-180 p-2 transition-colors hover:text-linen">
           <ChevronIcon className="text-[1.1rem]" />
         </button>
-        <span className="text-[0.65rem] uppercase tracking-widest">Swipe</span>
-        <button onClick={() => go(1)} aria-label="Next artwork" className="tap-clear p-2 hover:text-ink">
+        <span className="eyebrow">Swipe</span>
+        <button onClick={() => go(1)} aria-label="Next artwork" className="tap-clear p-2 transition-colors hover:text-linen">
           <ChevronIcon className="text-[1.1rem]" />
         </button>
       </div>
 
-      {/* Details */}
+      {/* The museum label */}
       <motion.div
         key={`${artwork.id}-text`}
-        initial={{ opacity: 0, y: 8 }}
+        initial={{ opacity: 0, y: 10 }}
         animate={{ opacity: 1, y: 0 }}
-        transition={{ duration: 0.4, ease: [0.22, 1, 0.36, 1] }}
-        className="px-5 pb-16 pt-6"
+        transition={{ duration: 0.45, ease: [0.22, 1, 0.36, 1] }}
+        className="rounded-t-[1.75rem] bg-gallery-raised/60 px-6 pb-20 pt-8"
       >
-        <h1 className="font-serif text-[1.7rem] leading-tight text-ink">{artwork.title}</h1>
-        <p className="mt-1.5 text-ink-soft">
-          <Link href={`/artist/${artwork.artistId}`} className="underline-offset-2 hover:underline">
-            {artwork.artist}
-          </Link>
-          {artwork.year && artwork.year !== 'Date unknown' ? `, ${artwork.year}` : ''}
-        </p>
+        <p className="eyebrow text-gilt/90">{artwork.movement}</p>
+        <h1 className="mt-3 font-serif text-[2rem] font-light leading-[1.08] tracking-tight text-linen">
+          {artwork.title}
+        </h1>
 
-        <dl className="mt-4 space-y-1 text-sm text-ink-faint">
-          <div className="flex gap-2">
-            <dt className="sr-only">Museum</dt>
-            <dd>
-              <Link href={`/museum/${artwork.museumId}`} className="underline-offset-2 hover:underline">
+        <Link href={`/artist/${artwork.artistId}`} className="tap-clear mt-4 flex items-center gap-3">
+          <span className="flex h-9 w-9 shrink-0 items-center justify-center rounded-full bg-gallery text-[0.65rem] font-medium tracking-wide text-linen-dim ring-1 ring-white/[0.07]">
+            {monogram(artwork.artist)}
+          </span>
+          <span>
+            <span className="block text-[0.95rem] text-linen">{artwork.artist}</span>
+            {artwork.year && artwork.year !== 'Date unknown' && (
+              <span className="block text-xs text-linen-faint">{artwork.year}</span>
+            )}
+          </span>
+        </Link>
+
+        <dl className="mt-6 space-y-2.5 border-t border-white/[0.07] pt-5 text-sm">
+          <div className="flex gap-3">
+            <dt className="w-24 shrink-0 text-linen-faint">Museum</dt>
+            <dd className="text-linen-dim">
+              <Link href={`/museum/${artwork.museumId}`} className="transition-colors hover:text-linen">
                 {artwork.museum}
               </Link>
               {artwork.museumLocation ? `, ${artwork.museumLocation}` : ''}
             </dd>
           </div>
-          {artwork.movement && (
-            <div className="flex gap-2">
-              <dt className="text-ink-ghost">Movement</dt>
-              <dd>{artwork.movement}</dd>
-            </div>
-          )}
           {artwork.medium && artwork.medium !== 'Medium unknown' && (
-            <div className="flex gap-2">
-              <dt className="text-ink-ghost">Medium</dt>
-              <dd>{artwork.medium}</dd>
+            <div className="flex gap-3">
+              <dt className="w-24 shrink-0 text-linen-faint">Medium</dt>
+              <dd className="text-linen-dim">{artwork.medium}</dd>
             </div>
           )}
         </dl>
 
         {enrichmentNote && (
-          <p className="mt-4 rounded-lg bg-paper-dim px-3 py-2 text-xs leading-relaxed text-ink-faint">
+          <p className="mt-5 border-l-2 border-gilt/40 pl-3 text-xs leading-relaxed text-linen-faint">
             {enrichmentNote}
           </p>
         )}
 
-        <div className="mt-6">
+        <div className="mt-7">
           <ExpandableSection title="Overview" defaultOpen>
             <p>{artwork.overview}</p>
           </ExpandableSection>
@@ -195,25 +204,25 @@ export function ArtworkViewer({ startId }: { startId: string }) {
           </ExpandableSection>
           {artwork.interestingFacts.length > 0 && (
             <ExpandableSection title="Interesting Facts">
-              <ul className="list-disc space-y-2 pl-5">
+              <ul className="list-disc space-y-2.5 pl-5 marker:text-gilt/60">
                 {artwork.interestingFacts.map((fact, i) => (
                   <li key={i}>{fact}</li>
                 ))}
               </ul>
             </ExpandableSection>
           )}
-          <div className="border-t border-ink/10" />
+          <div className="border-t border-white/[0.07]" />
         </div>
 
         {artwork.sourceLinks.length > 0 && (
-          <div className="mt-6 flex flex-wrap gap-3">
+          <div className="mt-7 flex flex-wrap gap-4">
             {artwork.sourceLinks.map((link) => (
               <a
                 key={link.url}
                 href={link.url}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="text-sm text-accent underline-offset-2 hover:underline"
+                className="text-sm text-gilt underline-offset-4 transition-colors hover:underline"
               >
                 {link.label} ↗
               </a>

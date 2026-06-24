@@ -17,9 +17,9 @@ export default function SearchPage() {
     <div>
       <PageHeader title="Search" />
 
-      <div className="px-5 pt-3">
-        <div className="flex items-center gap-2 rounded-full border border-ink/15 bg-paper-dim px-4 py-2.5 focus-within:border-ink/40">
-          <span className="text-[1.2rem] text-ink-faint">
+      <div className="px-6 pt-4">
+        <div className="flex items-center gap-3 rounded-2xl bg-gallery-raised px-4 py-3 ring-1 ring-white/[0.06] transition-shadow focus-within:ring-white/20">
+          <span className="text-[1.2rem] text-linen-faint">
             <SearchIcon />
           </span>
           <input
@@ -31,22 +31,22 @@ export default function SearchPage() {
             onChange={(e) => setQuery(e.target.value)}
             placeholder="Title, artist, museum, movement…"
             aria-label="Search the collection"
-            className="w-full bg-transparent text-base text-ink outline-none placeholder:text-ink-ghost"
+            className="w-full bg-transparent text-base text-linen outline-none placeholder:text-linen-faint"
           />
         </div>
       </div>
 
-      <div className="px-5 pb-8 pt-6">
+      <div className="px-6 pb-10 pt-7">
         {!trimmed ? (
           <div>
-            <p className="text-sm text-ink-faint">Try searching for</p>
-            <div className="mt-3 flex flex-wrap gap-2">
+            <p className="eyebrow">Try searching for</p>
+            <div className="mt-4 flex flex-wrap gap-2.5">
               {SUGGESTIONS.map((s) => (
                 <button
                   key={s}
                   type="button"
                   onClick={() => setQuery(s)}
-                  className="tap-clear rounded-full border border-ink/15 px-4 py-1.5 text-sm text-ink-soft hover:border-ink/30"
+                  className="tap-clear rounded-full px-4 py-2 text-sm text-linen-dim ring-1 ring-white/10 transition-colors hover:text-linen hover:ring-white/20"
                 >
                   {s}
                 </button>
@@ -54,12 +54,10 @@ export default function SearchPage() {
             </div>
           </div>
         ) : results.length === 0 ? (
-          <p className="pt-10 text-center text-ink-faint">
-            No works found for “{trimmed}”.
-          </p>
+          <p className="pt-12 text-center text-linen-faint">No works found for “{trimmed}”.</p>
         ) : (
           <>
-            <p className="mb-5 text-xs text-ink-ghost">
+            <p className="eyebrow mb-5">
               {results.length} {results.length === 1 ? 'result' : 'results'}
             </p>
             <ArtworkGrid artworks={results} />

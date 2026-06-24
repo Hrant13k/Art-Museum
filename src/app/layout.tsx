@@ -36,7 +36,7 @@ export const metadata: Metadata = {
 };
 
 export const viewport: Viewport = {
-  themeColor: '#f6f4ef',
+  themeColor: '#100e0c',
   width: 'device-width',
   initialScale: 1,
   maximumScale: 5,
@@ -46,10 +46,10 @@ export const viewport: Viewport = {
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="en" className={`${serif.variable} ${sans.variable}`}>
-      <body className="min-h-dvh bg-paper text-ink">
+      <body className="min-h-dvh bg-gallery text-linen antialiased">
         <ServiceWorkerRegister />
         <div className="mx-auto flex min-h-dvh w-full max-w-2xl flex-col">
-          <main className="flex-1 pb-24">{children}</main>
+          <main className="flex-1 pb-28">{children}</main>
         </div>
         <BottomNav />
       </body>

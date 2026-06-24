@@ -70,3 +70,20 @@ export function ShuffleIcon({ className }: IconProps) {
     </svg>
   );
 }
+
+export function ShareIcon({ className }: IconProps) {
+  return (
+    <svg {...base} className={className} aria-hidden>
+      <path d="M12 15V4M8.5 7.5 12 4l3.5 3.5" />
+      <path d="M6 12v6.5A1.5 1.5 0 0 0 7.5 20h9a1.5 1.5 0 0 0 1.5-1.5V12" />
+    </svg>
+  );
+}
+
+export function CloseIcon({ className }: IconProps) {
+  return (
+    <svg {...base} className={className} aria-hidden>
+      <path d="M6 6l12 12M18 6 6 18" />
+    </svg>
+  );
+}

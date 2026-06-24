@@ -15,7 +15,7 @@ export function ExpandableSection({ title, children, defaultOpen = false }: Prop
   const panelId = useId();
 
   return (
-    <div className="border-t border-ink/10">
+    <div className="border-t border-white/[0.07]">
       <button
         type="button"
         onClick={() => setOpen((o) => !o)}
@@ -23,11 +23,11 @@ export function ExpandableSection({ title, children, defaultOpen = false }: Prop
         aria-controls={panelId}
         className="tap-clear flex w-full items-center justify-between gap-3 py-4 text-left"
       >
-        <span className="font-serif text-lg text-ink">{title}</span>
+        <span className="font-serif text-[1.18rem] font-normal text-linen">{title}</span>
         <motion.span
           animate={{ rotate: open ? 90 : 0 }}
-          transition={{ duration: 0.25, ease: [0.22, 1, 0.36, 1] }}
-          className="text-[1.2rem] text-ink-faint"
+          transition={{ duration: 0.3, ease: [0.22, 1, 0.36, 1] }}
+          className={`text-[1.1rem] ${open ? 'text-gilt' : 'text-linen-faint'}`}
         >
           <ChevronIcon />
         </motion.span>
@@ -39,10 +39,12 @@ export function ExpandableSection({ title, children, defaultOpen = false }: Prop
             initial={{ height: 0, opacity: 0 }}
             animate={{ height: 'auto', opacity: 1 }}
             exit={{ height: 0, opacity: 0 }}
-            transition={{ duration: 0.3, ease: [0.22, 1, 0.36, 1] }}
+            transition={{ duration: 0.34, ease: [0.22, 1, 0.36, 1] }}
             className="overflow-hidden"
           >
-            <div className="pb-5 text-[0.98rem] leading-relaxed text-ink-soft">{children}</div>
+            <div className="max-w-reading pb-6 text-[1.02rem] leading-[1.75] text-linen-dim">
+              {children}
+            </div>
           </motion.div>
         )}
       </AnimatePresence>
