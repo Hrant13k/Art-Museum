@@ -66,7 +66,7 @@ export default function ExplorePage() {
         variants={{ show: { transition: { staggerChildren: 0.06, delayChildren: 0.05 } } }}
         className="flex flex-col gap-5 px-6 pb-12 pt-5"
       >
-        {collections.map((c) => (
+        {collections.map((c, i) => (
           <motion.div
             key={c.id}
             variants={{
@@ -81,6 +81,7 @@ export default function ExplorePage() {
               count={c.count}
               image={c.image}
               alt={c.alt}
+              priority={i < 2}
             />
           </motion.div>
         ))}

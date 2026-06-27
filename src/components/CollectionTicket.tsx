@@ -26,9 +26,11 @@ type Props = {
   /** Representative artwork image for the ticket face. */
   image?: string;
   alt?: string;
+  /** Eagerly load the face — set for the above-the-fold tickets (LCP). */
+  priority?: boolean;
 };
 
-export function CollectionTicket({ id, index, label, count, image, alt }: Props) {
+export function CollectionTicket({ id, index, label, count, image, alt, priority }: Props) {
   const router = useRouter();
   const reduce = useReducedMotion();
   const [torn, setTorn] = useState(false);
@@ -117,7 +119,7 @@ export function CollectionTicket({ id, index, label, count, image, alt }: Props)
           className="relative min-w-0 flex-1 overflow-hidden rounded-l-[15px] bg-gallery-raised ring-1 ring-white/[0.06]"
         >
           {image ? (
-            <ArtworkImage src={image} alt={alt ?? label} fit="cover" className="h-full w-full" />
+            <ArtworkImage src={image} alt={alt ?? label} fit="cover" priority={priority} className="h-full w-full" />
           ) : (
             <div className="h-full w-full bg-gallery-raised" />
           )}

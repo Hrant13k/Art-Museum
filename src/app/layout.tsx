@@ -47,6 +47,13 @@ export const viewport: Viewport = {
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="en" className={`${serif.variable} ${sans.variable}`}>
+      <head>
+        {/* Warm up TLS to the museum image CDNs so the first artwork paints sooner. */}
+        <link rel="preconnect" href="https://images.metmuseum.org" />
+        <link rel="preconnect" href="https://upload.wikimedia.org" />
+        <link rel="preconnect" href="https://commons.wikimedia.org" />
+        <link rel="preconnect" href="https://openaccess-cdn.clevelandart.org" />
+      </head>
       <body className="min-h-dvh bg-gallery text-linen antialiased">
         <ServiceWorkerRegister />
         <div className="mx-auto flex min-h-dvh w-full max-w-2xl flex-col">

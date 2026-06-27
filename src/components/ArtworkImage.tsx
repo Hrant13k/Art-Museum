@@ -42,6 +42,8 @@ export function ArtworkImage({
           src={src}
           alt={alt}
           loading={priority ? 'eager' : 'lazy'}
+          // eslint-disable-next-line @typescript-eslint/no-explicit-any
+          {...({ fetchpriority: priority ? 'high' : undefined } as any)}
           decoding="async"
           onLoad={() => setLoaded(true)}
           onError={() => setErrored(true)}
