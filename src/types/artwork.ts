@@ -117,4 +117,6 @@ export interface Category {
   label: string;
   /** Predicate keys matched against an artwork's tags/movement/medium. */
   match: string[];
+  /** A special, not-yet-filled collection shown as a "coming soon" pass. */
+  comingSoon?: boolean;
 }

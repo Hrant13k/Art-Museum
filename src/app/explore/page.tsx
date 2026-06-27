@@ -5,6 +5,7 @@ import { motion } from 'framer-motion';
 import { CATEGORIES } from '@/lib/categories';
 import { artworksInCategory } from '@/lib/db';
 import { CollectionTicket } from '@/components/CollectionTicket';
+import { ComingSoonTicket } from '@/components/ComingSoonTicket';
 import { PageHeader } from '@/components/PageHeader';
 
 // A couple of categories read better as named "exhibitions" on their pass.
@@ -16,7 +17,7 @@ const TITLE_OVERRIDE: Record<string, string> = {
 export default function ExplorePage() {
   const collections = useMemo(() => {
     const visible = CATEGORIES.filter(
-      (c) => c.id === 'all' || c.id === 'random' || artworksInCategory(c).length > 0,
+      (c) => c.comingSoon || c.id === 'all' || c.id === 'random' || artworksInCategory(c).length > 0,
     );
     // Give each ticket a distinct face: walk in order and pick the first work an
     // earlier ticket hasn't already claimed (some works match several
@@ -38,13 +39,19 @@ export default function ExplorePage() {
       return works[from] ?? works[0];
     };
 
-    return visible.map((c, i) => {
+    let plate = 0; // plate numbers count only the real exhibitions
+    return visible.map((c) => {
+      if (c.comingSoon) {
+        return { kind: 'soon' as const, id: c.id, label: c.label };
+      }
       const works = artworksInCategory(c);
       // A representative face for the ticket — deterministic so prerender matches.
       const face = pickFace(works, c.id === 'random' ? Math.floor(works.length / 2) : 0);
+      plate += 1;
       return {
+        kind: 'ticket' as const,
         id: c.id,
-        index: i + 1,
+        index: plate,
         label: TITLE_OVERRIDE[c.id] ?? c.label,
         count: works.length,
         image: face?.thumbnail,
@@ -66,7 +73,7 @@ export default function ExplorePage() {
         variants={{ show: { transition: { staggerChildren: 0.06, delayChildren: 0.05 } } }}
         className="flex flex-col gap-5 px-6 pb-12 pt-5"
       >
-        {collections.map((c, i) => (
+        {collections.map((c) => (
           <motion.div
             key={c.id}
             variants={{
@@ -74,15 +81,19 @@ export default function ExplorePage() {
               show: { opacity: 1, y: 0, transition: { duration: 0.5, ease: [0.22, 1, 0.36, 1] } },
             }}
           >
-            <CollectionTicket
-              id={c.id}
-              index={c.index}
-              label={c.label}
-              count={c.count}
-              image={c.image}
-              alt={c.alt}
-              priority={i < 2}
-            />
+            {c.kind === 'soon' ? (
+              <ComingSoonTicket id={c.id} label={c.label} />
+            ) : (
+              <CollectionTicket
+                id={c.id}
+                index={c.index}
+                label={c.label}
+                count={c.count}
+                image={c.image}
+                alt={c.alt}
+                priority={c.index <= 2}
+              />
+            )}
           </motion.div>
         ))}
       </motion.div>

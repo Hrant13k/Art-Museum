@@ -5,6 +5,11 @@ import type { Category } from '@/types/artwork';
 // Categories that end up with no works are hidden automatically by the page,
 // so it's safe to list aspirational ones here.
 export const CATEGORIES: Category[] = [
+  // A special, personal collection — empty for now. To fill it in later, add the
+  // chosen artwork tags/movements to `match` (or wire up specific ids) and remove
+  // `comingSoon`. It will then behave like any other exhibition.
+  { id: 'her-collection', label: "A Beautiful Girl's Collection", match: [], comingSoon: true },
+
   { id: 'all', label: 'All Works', match: [] },
   { id: 'random', label: 'Random', match: [] },
 
