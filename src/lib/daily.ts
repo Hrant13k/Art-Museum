@@ -23,3 +23,10 @@ export function todayLabel(date = new Date()): string {
     year: 'numeric',
   });
 }
+
+/** A compact ticket-style date, e.g. "SAT 27 JUN". */
+export function todayShort(date = new Date()): string {
+  const weekday = date.toLocaleDateString(undefined, { weekday: 'short' });
+  const month = date.toLocaleDateString(undefined, { month: 'short' });
+  return `${weekday} ${date.getDate()} ${month}`.toUpperCase();
+}
