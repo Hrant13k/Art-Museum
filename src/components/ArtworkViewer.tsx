@@ -1,10 +1,10 @@
 'use client';
 
-import { useCallback, useEffect, useMemo, useState } from 'react';
+import { useCallback, useEffect, useMemo, useRef, useState } from 'react';
 import { useRouter } from 'next/navigation';
 import Link from 'next/link';
 import { AnimatePresence, motion, type PanInfo } from 'framer-motion';
-import { orderedArtworks } from '@/lib/db';
+import { orderedArtworks, getArtist } from '@/lib/db';
 import { monogram } from '@/lib/format';
 import { ArtworkImage } from './ArtworkImage';
 import { ExpandableSection } from './ExpandableSection';
@@ -21,6 +21,7 @@ export function ArtworkViewer({ startId }: { startId: string }) {
   const [[index, direction], setState] = useState<[number, number]>([startIndex, 0]);
 
   const artwork = list[index];
+  const artistRec = getArtist(artwork.artistId);
 
   const go = useCallback(
     (dir: 1 | -1) => {
@@ -38,13 +39,30 @@ export function ArtworkViewer({ startId }: { startId: string }) {
     return () => window.removeEventListener('keydown', onKey);
   }, [go]);
 
-  // When the artwork changes: keep the URL in sync (smooth, shareable, offline)
-  // and scroll back to the top. Done in an effect so the side effect never runs
-  // during render.
+  // Remember the position within this deck so that returning here (browser back
+  // from an artist/museum page) lands on the artwork you left from — not the one
+  // you originally entered on. Keyed by entry point so opening a different
+  // artwork starts fresh. (We deliberately do NOT rewrite the URL on swipe: that
+  // desynced Next's router state and made "back" jump to the entry artwork.)
+  const sessionKey = `am:viewer:${startId}`;
   useEffect(() => {
-    window.history.replaceState(null, '', `/artwork/${list[index].id}/`);
+    const saved = sessionStorage.getItem(sessionKey);
+    if (saved) {
+      const i = list.findIndex((a) => a.id === saved);
+      if (i >= 0) setState([i, 0]);
+    }
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, []);
+
+  const firstPersist = useRef(true);
+  useEffect(() => {
+    if (firstPersist.current) {
+      firstPersist.current = false;
+      return; // don't overwrite the saved position before restore runs
+    }
+    sessionStorage.setItem(sessionKey, list[index].id);
     window.scrollTo({ top: 0, behavior: 'auto' });
-  }, [index, list]);
+  }, [index, list, sessionKey]);
 
   // Preload the neighbouring images so swiping in either direction is instant.
   useEffect(() => {
@@ -154,9 +172,19 @@ export function ArtworkViewer({ startId }: { startId: string }) {
         </h1>
 
         <Link href={`/artist/${artwork.artistId}`} className="tap-clear mt-4 flex items-center gap-3">
-          <span className="flex h-9 w-9 shrink-0 items-center justify-center rounded-full bg-gallery text-[0.65rem] font-medium tracking-wide text-linen-dim ring-1 ring-white/[0.07]">
-            {monogram(artwork.artist)}
-          </span>
+          {artistRec?.portrait ? (
+            // eslint-disable-next-line @next/next/no-img-element
+            <img
+              src={artistRec.portrait}
+              alt={artwork.artist}
+              loading="lazy"
+              className="h-9 w-9 shrink-0 rounded-full object-cover ring-1 ring-white/[0.07]"
+            />
+          ) : (
+            <span className="flex h-9 w-9 shrink-0 items-center justify-center rounded-full bg-gallery text-[0.65rem] font-medium tracking-wide text-linen-dim ring-1 ring-white/[0.07]">
+              {monogram(artwork.artist)}
+            </span>
+          )}
           <span>
             <span className="block text-[0.95rem] text-linen">{artwork.artist}</span>
             {artwork.year && artwork.year !== 'Date unknown' && (

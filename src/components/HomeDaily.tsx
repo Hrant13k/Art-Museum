@@ -5,6 +5,7 @@ import Link from 'next/link';
 import { motion } from 'framer-motion';
 import type { Artwork } from '@/types/artwork';
 import { dailyArtwork, todayLabel } from '@/lib/daily';
+import { getArtist } from '@/lib/db';
 import { monogram } from '@/lib/format';
 import { ArtworkImage } from './ArtworkImage';
 import { FavoriteButton } from './FavoriteButton';
@@ -86,9 +87,19 @@ export function HomeDaily() {
       >
         <div className="flex items-center justify-between gap-3">
           <Link href={`/artist/${artwork.artistId}`} className="tap-clear flex min-w-0 items-center gap-3">
-            <span className="flex h-10 w-10 shrink-0 items-center justify-center rounded-full bg-gallery-raised text-[0.7rem] font-medium tracking-wide text-linen-dim ring-1 ring-white/[0.06]">
-              {monogram(artwork.artist)}
-            </span>
+            {getArtist(artwork.artistId)?.portrait ? (
+              // eslint-disable-next-line @next/next/no-img-element
+              <img
+                src={getArtist(artwork.artistId)!.portrait!}
+                alt={artwork.artist}
+                loading="lazy"
+                className="h-10 w-10 shrink-0 rounded-full object-cover ring-1 ring-white/[0.06]"
+              />
+            ) : (
+              <span className="flex h-10 w-10 shrink-0 items-center justify-center rounded-full bg-gallery-raised text-[0.7rem] font-medium tracking-wide text-linen-dim ring-1 ring-white/[0.06]">
+                {monogram(artwork.artist)}
+              </span>
+            )}
             <span className="min-w-0">
               <span className="block truncate text-[0.95rem] text-linen">{artwork.artist}</span>
               {artwork.year && artwork.year !== 'Date unknown' && (
