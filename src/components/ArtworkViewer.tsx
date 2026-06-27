@@ -190,18 +190,26 @@ export function ArtworkViewer({ startId }: { startId: string }) {
         )}
 
         <div className="mt-7">
-          <ExpandableSection title="Overview" defaultOpen>
-            <p>{artwork.overview}</p>
-          </ExpandableSection>
-          <ExpandableSection title="Creation Story">
-            <p>{artwork.creationStory}</p>
-          </ExpandableSection>
-          <ExpandableSection title="Who Is Depicted">
-            <p>{artwork.whoIsDepicted}</p>
-          </ExpandableSection>
-          <ExpandableSection title="Historical Context">
-            <p>{artwork.historicalContext}</p>
-          </ExpandableSection>
+          {artwork.overview?.trim() && (
+            <ExpandableSection title="Overview" defaultOpen>
+              <p>{artwork.overview}</p>
+            </ExpandableSection>
+          )}
+          {artwork.creationStory?.trim() && (
+            <ExpandableSection title="Creation Story">
+              <p>{artwork.creationStory}</p>
+            </ExpandableSection>
+          )}
+          {artwork.whoIsDepicted?.trim() && (
+            <ExpandableSection title="Who Is Depicted">
+              <p>{artwork.whoIsDepicted}</p>
+            </ExpandableSection>
+          )}
+          {artwork.historicalContext?.trim() && (
+            <ExpandableSection title="Historical Context">
+              <p>{artwork.historicalContext}</p>
+            </ExpandableSection>
+          )}
           {artwork.interestingFacts.length > 0 && (
             <ExpandableSection title="Interesting Facts">
               <ul className="list-disc space-y-2.5 pl-5 marker:text-gilt/60">

@@ -17,15 +17,25 @@ import { join, dirname } from 'node:path';
 import { fileURLToPath } from 'node:url';
 
 import { PLANS, TARGET_SIZE } from './config.js';
-import { fetchMetObjects, searchMet } from './sources/met.js';
+import { ALL_ARTISTS, PER_ARTIST_LIMIT, type ArtistSeed } from './artists.js';
+import { searchMet } from './sources/met.js';
 import { searchAic } from './sources/aic.js';
 import { searchCma } from './sources/cma.js';
 import { enrichFromWikidata, type WdArtistFacts } from './sources/wikidata.js';
+import {
+  resolveArtistQid,
+  fetchWorksByArtist,
+  enrichArtistProfile,
+  type WdArtistProfile,
+} from './sources/wikidata-artworks.js';
 import { findArtworkQid, MUSEUM_QID } from './lib/wikidata.js';
-import { resolveCommonsImage } from './sources/commons.js';
+import { resolveCommonsImage, commonsUrl } from './sources/commons.js';
 import { slugify, cleanYear, parseYearValue, uniqueBy, sleep } from './lib/util.js';
 import type { NormalizedRaw } from './lib/normalized.js';
 import type { Artwork, Artist, Museum } from '../src/types/artwork.js';
+
+/** A resolved artist profile keyed for reuse during artist derivation. */
+export type ArtistProfile = WdArtistProfile & { portrait: string | null };
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const DATA_DIR = join(__dirname, '..', 'data');
@@ -38,19 +48,22 @@ const NO_HOTLINK = new Set(['aic']);
 
 const IMAGE_LICENSE: Record<string, string> = { met: 'Public Domain', cma: 'CC0' };
 
-// — metadata-only fallback content (upgraded later by enrichment) —
-function metadataFallback(raw: NormalizedRaw, movement: string, depicts: string[]) {
-  const bits = [raw.medium, raw.culture].filter(Boolean);
+// Factual one-line overview assembled from verified metadata only. Other prose
+// fields are left EMPTY unless a verified source (Wikidata) or the enrichment
+// step can fill them — we never generate unsupported content.
+function factualOverview(title: string, artist: string, year: string, medium: string, museum: string) {
+  const bits = [medium].filter((b) => b && b !== 'Medium unknown');
   const detail = bits.length ? ` ${bits.join(', ')}.` : '';
+  const date = year && year !== 'Date unknown' ? `, ${year}` : '';
+  return `${title} by ${artist}${date}.${detail}${museum ? ` Held by ${museum}.` : ''}`;
+}
+
+function emptyContent(depicts: string[]) {
   return {
-    overview:
-      `${raw.title} by ${raw.artist}${raw.yearDisplay ? `, ${raw.yearDisplay}` : ''}.${detail} ` +
-      `Held by ${raw.museum}.`,
-    creationStory: 'A detailed creation story is not yet available for this work.',
-    whoIsDepicted: depicts.length
-      ? `Depicts ${depicts.slice(0, 6).join(', ')}.`
-      : 'Information about the subject is not yet available for this work.',
-    historicalContext: movement ? `Associated with ${movement}.` : 'Historical context is not yet available.',
+    overview: '',
+    creationStory: '',
+    whoIsDepicted: depicts.length ? `Depicts ${depicts.slice(0, 6).join(', ')}.` : '',
+    historicalContext: '',
     interestingFacts: [] as string[],
   };
 }
@@ -97,7 +110,9 @@ async function gather(): Promise<{ raw: NormalizedRaw; movement: string; tags: s
 
 // — 2/3. base records + Wikidata enrichment —
 function baseArtwork(raw: NormalizedRaw, movement: string, tags: string[]): Artwork {
-  const fallback = metadataFallback(raw, movement, []);
+  const year = cleanYear(raw.yearDisplay);
+  const content = emptyContent([]);
+  content.overview = factualOverview(raw.title, raw.artist, year, raw.medium, raw.museum);
   return {
     id: `${raw.source}-${raw.sourceId}`,
     source: raw.source,
@@ -121,7 +136,7 @@ function baseArtwork(raw: NormalizedRaw, movement: string, tags: string[]): Artw
     sourceLinks: [{ label: `View at ${raw.museum}`, url: raw.sourceUrl }],
     externalIds: raw.qid ? { wikidata: raw.qid, [raw.source]: raw.sourceId } : { [raw.source]: raw.sourceId },
     provenance: { title: raw.source, artist: raw.source, movement: raw.styles[0] ? raw.source : 'curation' },
-    ...fallback,
+    ...content,
   };
 }
 
@@ -201,10 +216,6 @@ async function imageLoads(url: string): Promise<boolean> {
   }
 }
 
-function commonsThumb(thumb1200: string, width: number): string {
-  return thumb1200.replace(/\/\d+px-/, `/${width}px-`);
-}
-
 async function resolveImages(items: EnrichResult[]): Promise<Artwork[]> {
   console.log(`\nResolving images (museum first, Wikimedia Commons fallback)…`);
   const kept: Artwork[] = [];
@@ -224,10 +235,10 @@ async function resolveImages(items: EnrichResult[]): Promise<Artwork[]> {
     // Commons fallback (also the primary path for AIC).
     if (!ok && commonsFile) {
       const ci = await resolveCommonsImage(commonsFile).catch(() => null);
-      await sleep(150);
+      await sleep(450); // Commons API throttles aggressively — stay gentle
       if (ci) {
-        art.image = ci.thumb;
-        art.thumbnail = commonsThumb(ci.thumb, 500);
+        art.image = commonsUrl(ci.file, 1200);
+        art.thumbnail = commonsUrl(ci.file, 500);
         art.imageSource = 'commons';
         art.imageLicense = ci.license;
         art.imageAttribution = ci.attribution ?? undefined;
@@ -249,29 +260,143 @@ async function resolveImages(items: EnrichResult[]): Promise<Artwork[]> {
   return kept;
 }
 
+// — Wikidata artist path: build artworks directly from an artist's works —
+function makeWikidataRaw(qid: string, title: string): NormalizedRaw {
+  return {
+    source: 'wikidata', sourceId: qid, title, artist: '', yearDisplay: '',
+    museum: '', museumLocation: '', image: '', thumbnail: '', medium: '',
+    culture: '', department: '', classification: '', styles: [], sourceUrl: '',
+    accession: '', qid,
+  };
+}
+
+function buildWikidataArtwork(seed: ArtistSeed, w: import('./sources/wikidata-artworks.js').WdWork): Artwork {
+  const year = w.year ? cleanYear(w.year) : 'Date unknown';
+  const tags = new Set<string>(seed.tags ?? []);
+  if (w.movement) tags.add(slugify(w.movement));
+  for (const d of w.depicts) tags.add(slugify(d));
+  const blob = w.material.toLowerCase();
+  if (/sculpt|marble|bronze/.test(blob)) tags.add('sculpture');
+  if (/print|woodcut|woodblock|etching|engraving|lithograph/.test(blob)) tags.add('print');
+  if (/oil|canvas|tempera|panel|fresco|watercolou?r|paint/.test(blob)) tags.add('painting');
+  return {
+    id: `wikidata-${w.qid}`,
+    source: 'wikidata',
+    sourceId: w.qid,
+    title: w.title,
+    artist: seed.name,
+    artistId: slugify(seed.name),
+    year,
+    yearValue: parseYearValue(w.year ?? ''),
+    museum: w.collection || 'Various collections',
+    museumId: slugify(w.collection || 'various-collections'),
+    museumLocation: '',
+    image: '',
+    thumbnail: '',
+    movement: w.movement || '',
+    medium: w.material || 'Medium unknown',
+    culture: '',
+    department: '',
+    tags: [...tags].filter(Boolean),
+    enrichmentStatus: 'metadata-fallback',
+    sourceLinks: [{ label: 'Wikidata', url: `https://www.wikidata.org/wiki/${w.qid}` }],
+    externalIds: { wikidata: w.qid },
+    depicts: w.depicts,
+    provenance: { title: 'wikidata', artist: 'curation', movement: w.movement ? 'wikidata' : '' },
+    overview: factualOverview(w.title, seed.name, year, w.material, w.collection),
+    creationStory: '',
+    whoIsDepicted: w.depicts.length ? `Depicts ${w.depicts.slice(0, 6).join(', ')}.` : '',
+    historicalContext: '',
+    interestingFacts: [],
+  };
+}
+
+async function gatherFromWikidata(
+  seeds: ArtistSeed[],
+  limit: number,
+): Promise<{ results: EnrichResult[]; artistQids: Map<string, string> }> {
+  console.log(`\nCollecting from Wikidata for ${seeds.length} artists…`);
+  const results: EnrichResult[] = [];
+  const artistQids = new Map<string, string>();
+  for (const seed of seeds) {
+    let qid = await resolveArtistQid(seed.name);
+    if (!qid && seed.alt) qid = await resolveArtistQid(seed.alt);
+    await sleep(200);
+    if (!qid) {
+      console.log(`  • ${seed.name}: artist not found`);
+      continue;
+    }
+    artistQids.set(slugify(seed.name), qid);
+    const works = await fetchWorksByArtist(qid, limit).catch(() => []);
+    console.log(`  • ${seed.name} (${qid}): ${works.length} works with a free image`);
+    for (const w of works) {
+      results.push({
+        artwork: buildWikidataArtwork(seed, w),
+        raw: makeWikidataRaw(w.qid, w.title),
+        commonsFile: w.imageFile,
+        artistFacts: null,
+      });
+    }
+    await sleep(300);
+  }
+  return { results, artistQids };
+}
+
+// Build a rich profile (portrait, influences, dates) for every artist in the set.
+async function enrichArtistProfiles(
+  artistQidById: Map<string, string>,
+): Promise<Map<string, ArtistProfile>> {
+  const byQid = new Map<string, string[]>();
+  for (const [aid, qid] of artistQidById) {
+    if (!byQid.has(qid)) byQid.set(qid, []);
+    byQid.get(qid)!.push(aid);
+  }
+  console.log(`\nEnriching ${byQid.size} artist profiles (portraits, influences)…`);
+  const out = new Map<string, ArtistProfile>();
+  let portraits = 0;
+  for (const [qid, aids] of byQid) {
+    const prof = await enrichArtistProfile(qid).catch(() => null);
+    await sleep(400);
+    if (!prof) continue;
+    let portrait: string | null = null;
+    if (prof.portraitFile) {
+      const ci = await resolveCommonsImage(prof.portraitFile).catch(() => null);
+      await sleep(450);
+      if (ci) {
+        portrait = commonsUrl(ci.file, 400);
+        portraits++;
+      }
+    }
+    const full: ArtistProfile = { ...prof, portrait };
+    for (const aid of aids) out.set(aid, full);
+  }
+  console.log(`  ${out.size} profiles, ${portraits} with portraits`);
+  return out;
+}
+
 // — 5. derive artists & museums —
 function deriveArtistsAndMuseums(
   artworks: Artwork[],
-  artistFactsById: Map<string, WdArtistFacts>,
+  profilesById: Map<string, ArtistProfile>,
 ): { artists: Artist[]; museums: Museum[] } {
   // Merge artists by Wikidata QID — the same artist arrives under different name
   // strings across sources (e.g. "Titian" vs "Titian (Tiziano Vecellio)").
   const qidOf = new Map<string, string>();
-  for (const [aid, f] of artistFactsById) if (f.qid) qidOf.set(aid, f.qid);
+  for (const [aid, p] of profilesById) if (p.qid) qidOf.set(aid, p.qid);
   const groupKey = (aid: string) => qidOf.get(aid) ?? `id:${aid}`;
 
   const namesByGroup = new Map<string, Set<string>>();
-  const factsByGroup = new Map<string, WdArtistFacts>();
+  const profileByGroup = new Map<string, ArtistProfile>();
   const movementByGroup = new Map<string, string>();
   for (const a of artworks) {
     const k = groupKey(a.artistId);
     if (!namesByGroup.has(k)) namesByGroup.set(k, new Set());
     namesByGroup.get(k)!.add(a.artist);
-    if (!factsByGroup.has(k)) {
-      const f = artistFactsById.get(a.artistId);
-      if (f) factsByGroup.set(k, f);
+    if (!profileByGroup.has(k)) {
+      const p = profilesById.get(a.artistId);
+      if (p) profileByGroup.set(k, p);
     }
-    if (!movementByGroup.has(k)) movementByGroup.set(k, a.movement);
+    if (!movementByGroup.has(k) && a.movement) movementByGroup.set(k, a.movement);
   }
 
   // Choose a canonical name (prefer one without parentheses, then shortest).
@@ -297,19 +422,20 @@ function deriveArtistsAndMuseums(
   const artists: Artist[] = [];
   for (const [id, ids] of artworkIdsByCanon) {
     const k = groupKeyByCanonId.get(id)!;
-    const f = factsByGroup.get(k);
+    const p = profileByGroup.get(k);
     artists.push({
       id,
       name: canon.get(k)!.name,
-      portrait: null,
-      birthYear: f?.birthYear ?? null,
-      deathYear: f?.deathYear ?? null,
-      nationality: f?.nationality ?? null,
-      bio: f?.bio ?? null,
+      portrait: p?.portrait ?? null,
+      birthYear: p?.birthYear ?? null,
+      deathYear: p?.deathYear ?? null,
+      nationality: p?.nationality ?? null,
+      bio: p?.bio ?? null,
       bioStatus: 'metadata-fallback',
-      movement: f?.movement ?? movementByGroup.get(k) ?? null,
+      movement: p?.movement ?? movementByGroup.get(k) ?? null,
       artworkIds: ids,
       relatedArtistIds: [],
+      influencedBy: p?.influencedBy?.length ? p.influencedBy : undefined,
       externalIds: canon.get(k)!.qid ? { wikidata: canon.get(k)!.qid! } : undefined,
     });
   }
@@ -364,37 +490,42 @@ function deriveArtistsAndMuseums(
 async function main() {
   console.log('Collecting artworks from multiple open sources…\n');
 
-  // 1. collect + dedupe (by source id, then by title+artist across sources).
+  // Path A — museum APIs (Met, Cleveland, AIC).
   const rows = await gather();
-  const deduped = uniqueBy(
-    uniqueBy(rows, (r) => `${r.raw.source}-${r.raw.sourceId}`),
-    (r) => `${slugify(r.raw.title)}::${slugify(r.raw.artist)}`,
-  ).slice(0, TARGET_SIZE);
+  const museumDedup = uniqueBy(rows, (r) => `${r.raw.source}-${r.raw.sourceId}`);
+  const museumEnriched = await resolveAndEnrich(museumDedup);
 
-  // 2/3. resolve Wikidata identity + enrich.
-  const enriched = await resolveAndEnrich(deduped);
+  // Path B — Wikidata, by artist (masters + Armenian roster).
+  const seeds = process.env.MAX_ARTISTS ? ALL_ARTISTS.slice(0, Number(process.env.MAX_ARTISTS)) : ALL_ARTISTS;
+  const { results: wikiEnriched, artistQids } = await gatherFromWikidata(seeds, PER_ARTIST_LIMIT);
 
-  // 4. resolve + verify images.
-  const artworks = await resolveImages(enriched);
+  // Merge + dedupe: by record id, then by Wikidata QID, then by title+artist.
+  let enriched = uniqueBy([...museumEnriched, ...wikiEnriched], (e) => e.artwork.id);
+  const seenQid = new Set<string>();
+  enriched = enriched.filter((e) => {
+    const q = e.artwork.externalIds?.wikidata;
+    if (!q) return true;
+    if (seenQid.has(q)) return false;
+    seenQid.add(q);
+    return true;
+  });
+  enriched = uniqueBy(enriched, (e) => `${slugify(e.artwork.title)}::${slugify(e.artwork.artist)}`);
+  console.log(`\nMerged → ${enriched.length} unique candidates (capped at ${TARGET_SIZE}).`);
+  enriched = enriched.slice(0, TARGET_SIZE);
 
-  // Dedupe again by Wikidata QID (merges the same work across sources/records).
-  const byQid = new Map<string, Artwork>();
-  const finalArtworks: Artwork[] = [];
-  for (const a of artworks) {
-    const qid = a.externalIds?.wikidata;
-    if (qid) {
-      if (byQid.has(qid)) continue;
-      byQid.set(qid, a);
+  // Resolve + verify images (museum first, Commons fallback / primary for Wikidata).
+  const finalArtworks = await resolveImages(enriched);
+
+  // Artist profiles: gather every artist QID we know, then enrich once each.
+  const artistQidById = new Map<string, string>(artistQids);
+  for (const e of museumEnriched) {
+    if (e.artistFacts?.qid && !artistQidById.has(e.artwork.artistId)) {
+      artistQidById.set(e.artwork.artistId, e.artistFacts.qid);
     }
-    finalArtworks.push(a);
   }
+  const profiles = await enrichArtistProfiles(artistQidById);
 
-  // 5. derive artists (with Wikidata facts) + museums.
-  const artistFactsById = new Map<string, WdArtistFacts>();
-  for (const e of enriched) {
-    if (e.artistFacts) artistFactsById.set(e.artwork.artistId, e.artistFacts);
-  }
-  const { artists, museums } = deriveArtistsAndMuseums(finalArtworks, artistFactsById);
+  const { artists, museums } = deriveArtistsAndMuseums(finalArtworks, profiles);
 
   await mkdir(DATA_DIR, { recursive: true });
   await writeFile(join(DATA_DIR, 'artworks.json'), JSON.stringify(finalArtworks, null, 2));
@@ -405,7 +536,8 @@ async function main() {
     m[a.imageSource ?? '?'] = (m[a.imageSource ?? '?'] ?? 0) + 1;
     return m;
   }, {});
-  console.log(`\n✓ Wrote ${finalArtworks.length} artworks, ${artists.length} artists, ${museums.length} museums`);
+  const withPortrait = artists.filter((a) => a.portrait).length;
+  console.log(`\n✓ Wrote ${finalArtworks.length} artworks, ${artists.length} artists (${withPortrait} with portraits), ${museums.length} museums`);
   console.log(`  images: ${JSON.stringify(imgStats)}`);
   console.log('  Next: `npm run data:enrich` (set ANTHROPIC_API_KEY) for rich prose.');
 }

@@ -5,10 +5,21 @@ import { fetchJson } from '../lib/util.js';
 const API = 'https://commons.wikimedia.org/w/api.php';
 
 export interface CommonsImage {
-  thumb: string; // ~1200px display image
+  file: string; // Commons filename (without the "File:" prefix)
+  thumb: string; // ~1200px display image (via Special:FilePath, always resolves)
   original: string;
   license: string;
   attribution: string | null;
+}
+
+/**
+ * Build a stable, correctly-sized Commons image URL. Special:FilePath redirects
+ * to a valid generated thumbnail size (capped at the original), which avoids the
+ * "invalid thumbnail width" 400s you get from hand-built /thumb/ URLs.
+ */
+export function commonsUrl(filename: string, width: number): string {
+  const f = encodeURIComponent(filename.replace(/^File:/i, '').replace(/ /g, '_'));
+  return `https://commons.wikimedia.org/wiki/Special:FilePath/${f}?width=${width}`;
 }
 
 // Licenses we are willing to store + redistribute for an offline app.
@@ -46,8 +57,10 @@ export async function resolveCommonsImage(filename: string): Promise<CommonsImag
     stripHtml(meta.Artist?.value) ||
     null;
 
+  const file = title.replace(/^File:/i, '');
   return {
-    thumb: info.thumburl || info.url,
+    file,
+    thumb: commonsUrl(file, 1200),
     original: info.url,
     license,
     attribution,

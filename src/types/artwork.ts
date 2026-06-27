@@ -78,6 +78,8 @@ export interface Artist {
   artworkIds: string[];
   relatedArtistIds: string[];
 
+  /** Other artists this one was influenced by (Wikidata P737). */
+  influencedBy?: string[];
   /** Cross-source identifiers: { wikidata, ulan }. */
   externalIds?: Record<string, string>;
 }

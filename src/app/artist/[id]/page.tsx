@@ -69,6 +69,12 @@ export default async function ArtistPage({ params }: { params: Promise<{ id: str
         </p>
       )}
 
+      {artist.influencedBy && artist.influencedBy.length > 0 && (
+        <p className="mt-5 text-sm text-linen-faint">
+          <span className="text-linen-dim">Influenced by</span> {artist.influencedBy.join(', ')}
+        </p>
+      )}
+
       <section className="mt-10">
         <div className="mb-5 flex items-baseline gap-3">
           <h2 className="eyebrow">In the collection</h2>

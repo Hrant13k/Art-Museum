@@ -20,7 +20,7 @@ export interface FetchPlan {
 
 // Target ceiling after de-duplication. Raise this to scale the collection.
 // Override per-run with TARGET_SIZE=40 npm run data:collect
-export const TARGET_SIZE = Number(process.env.TARGET_SIZE) || 120;
+export const TARGET_SIZE = Number(process.env.TARGET_SIZE) || 520;
 
 export const PLANS: FetchPlan[] = [
   // — Renaissance —

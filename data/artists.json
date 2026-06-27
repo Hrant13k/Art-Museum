@@ -1,8 +1,8 @@
 [
   {
-    "id": "botticelli-alessandro-di-mariano-filipepi",
-    "name": "Botticelli (Alessandro di Mariano Filipepi)",
-    "portrait": null,
+    "id": "sandro-botticelli",
+    "name": "Sandro Botticelli",
+    "portrait": "https://commons.wikimedia.org/wiki/Special:FilePath/Sandro_Botticelli_Self-portrait_ca_1475.jpg?width=400",
     "birthYear": "1445",
     "deathYear": "1510",
     "nationality": "Italy",
@@ -11,7 +11,21 @@
     "movement": "Early Renaissance",
     "artworkIds": [
       "met-459016",
-      "met-435729"
+      "met-435729",
+      "wikidata-Q151047",
+      "wikidata-Q549847",
+      "wikidata-Q2293953",
+      "wikidata-Q488825",
+      "wikidata-Q2551625",
+      "wikidata-Q1217187",
+      "wikidata-Q2426058",
+      "wikidata-Q2268725",
+      "wikidata-Q4373363",
+      "wikidata-Q974674",
+      "wikidata-Q1131272",
+      "wikidata-Q2268688",
+      "wikidata-Q2269291",
+      "wikidata-Q2714237"
     ],
     "relatedArtistIds": [],
     "externalIds": {
@@ -31,31 +45,44 @@
     "artworkIds": [
       "met-361524"
     ],
-    "relatedArtistIds": [
-      "raphael"
-    ]
+    "relatedArtistIds": []
   },
   {
     "id": "raphael",
     "name": "Raphael",
-    "portrait": null,
-    "birthYear": null,
-    "deathYear": null,
-    "nationality": null,
-    "bio": null,
+    "portrait": "https://commons.wikimedia.org/wiki/Special:FilePath/Raffaello_Sanzio.jpg?width=400",
+    "birthYear": "1483",
+    "deathYear": "1520",
+    "nationality": "Holy Roman Empire",
+    "bio": "Italian painter and architect (1483–1520)",
     "bioStatus": "metadata-fallback",
-    "movement": "Renaissance",
+    "movement": "Italian Renaissance",
     "artworkIds": [
-      "met-437373"
+      "met-437373",
+      "wikidata-Q186953",
+      "wikidata-Q328079",
+      "wikidata-Q875686",
+      "wikidata-Q249449",
+      "wikidata-Q153441",
+      "wikidata-Q2344505",
+      "wikidata-Q2030685",
+      "wikidata-Q549953",
+      "wikidata-Q2344368",
+      "wikidata-Q254923",
+      "wikidata-Q948034",
+      "wikidata-Q2035209",
+      "wikidata-Q2344437",
+      "wikidata-Q2360329"
     ],
-    "relatedArtistIds": [
-      "wenceslaus-hollar"
-    ]
+    "relatedArtistIds": [],
+    "externalIds": {
+      "wikidata": "Q5597"
+    }
   },
   {
     "id": "albrecht-durer",
     "name": "Albrecht Dürer",
-    "portrait": null,
+    "portrait": "https://commons.wikimedia.org/wiki/Special:FilePath/D%C3%BCrer_Alte_Pinakothek.jpg?width=400",
     "birthYear": "1471",
     "deathYear": "1528",
     "nationality": "Duchy of Bavaria",
@@ -68,6 +95,10 @@
       "met-459211"
     ],
     "relatedArtistIds": [],
+    "influencedBy": [
+      "Michael Wolgemut",
+      "Jacopo de' Barbari"
+    ],
     "externalIds": {
       "wikidata": "Q5580"
     }
@@ -75,7 +106,7 @@
   {
     "id": "titian",
     "name": "Titian",
-    "portrait": null,
+    "portrait": "https://commons.wikimedia.org/wiki/Special:FilePath/Vecellio_di_Gregorio_Tiziano_-_autoritratto.jpg?width=400",
     "birthYear": "1488",
     "deathYear": "1576",
     "nationality": "Republic of Venice",
@@ -85,7 +116,21 @@
     "artworkIds": [
       "met-437827",
       "met-437826",
-      "met-437823"
+      "met-437823",
+      "wikidata-Q727875",
+      "wikidata-Q500812",
+      "wikidata-Q1899740",
+      "wikidata-Q794077",
+      "wikidata-Q1123378",
+      "wikidata-Q2046100",
+      "wikidata-Q15008032",
+      "wikidata-Q2528145",
+      "wikidata-Q1206860",
+      "wikidata-Q2528177",
+      "wikidata-Q572697",
+      "wikidata-Q18002417",
+      "wikidata-Q23922",
+      "wikidata-Q2665840"
     ],
     "relatedArtistIds": [],
     "externalIds": {
@@ -95,7 +140,7 @@
   {
     "id": "rembrandt",
     "name": "Rembrandt",
-    "portrait": null,
+    "portrait": "https://commons.wikimedia.org/wiki/Special:FilePath/Rembrandt_van_Rijn_-_Self-Portrait_-_Google_Art_Project.jpg?width=400",
     "birthYear": "1606",
     "deathYear": "1669",
     "nationality": "Dutch Republic",
@@ -107,7 +152,20 @@
       "met-459082",
       "met-437392",
       "met-437397",
-      "met-437394"
+      "met-437394",
+      "wikidata-Q219831",
+      "wikidata-Q661378",
+      "wikidata-Q766782",
+      "wikidata-Q2246489",
+      "wikidata-Q512755",
+      "wikidata-Q2294441",
+      "wikidata-Q1167932",
+      "wikidata-Q1170480",
+      "wikidata-Q32496",
+      "wikidata-Q325267",
+      "wikidata-Q1111394",
+      "wikidata-Q1243299",
+      "wikidata-Q2225699"
     ],
     "relatedArtistIds": [
       "johannes-vermeer"
@@ -119,7 +177,7 @@
   {
     "id": "johannes-vermeer",
     "name": "Johannes Vermeer",
-    "portrait": null,
+    "portrait": "https://commons.wikimedia.org/wiki/Special:FilePath/Cropped_version_of_Jan_Vermeer_van_Delft_002.jpg?width=400",
     "birthYear": "1632",
     "deathYear": "1675",
     "nationality": "Dutch Republic",
@@ -128,10 +186,30 @@
     "movement": "Dutch Golden Age painting",
     "artworkIds": [
       "met-437881",
-      "met-437877"
+      "met-437877",
+      "wikidata-Q185372",
+      "wikidata-Q167605",
+      "wikidata-Q523974",
+      "wikidata-Q544315",
+      "wikidata-Q588695",
+      "wikidata-Q586035",
+      "wikidata-Q700251",
+      "wikidata-Q969367",
+      "wikidata-Q45130",
+      "wikidata-Q166937",
+      "wikidata-Q1169395",
+      "wikidata-Q2336984",
+      "wikidata-Q63692",
+      "wikidata-Q467376"
     ],
     "relatedArtistIds": [
       "rembrandt"
+    ],
+    "influencedBy": [
+      "Carel Fabritius",
+      "Gabriel Metsu",
+      "Dirck van Baburen",
+      "Leonaert Bramer"
     ],
     "externalIds": {
       "wikidata": "Q41264"
@@ -140,7 +218,7 @@
   {
     "id": "peter-paul-rubens",
     "name": "Peter Paul Rubens",
-    "portrait": null,
+    "portrait": "https://commons.wikimedia.org/wiki/Special:FilePath/Sir_Peter_Paul_Rubens_-_Portrait_of_the_Artist_-_Google_Art_Project.jpg?width=400",
     "birthYear": "1577",
     "deathYear": "1640",
     "nationality": "Spanish Netherlands",
@@ -153,6 +231,10 @@
       "met-437532"
     ],
     "relatedArtistIds": [],
+    "influencedBy": [
+      "Paolo Veronese",
+      "Pieter Brueghel the Elder"
+    ],
     "externalIds": {
       "wikidata": "Q5599"
     }
@@ -160,7 +242,7 @@
   {
     "id": "caravaggio",
     "name": "Caravaggio",
-    "portrait": null,
+    "portrait": "https://commons.wikimedia.org/wiki/Special:FilePath/Bild-Ottavio_Leoni%2C_Caravaggio.jpg?width=400",
     "birthYear": "1571",
     "deathYear": "1610",
     "nationality": "Duchy of Milan",
@@ -168,7 +250,21 @@
     "bioStatus": "metadata-fallback",
     "movement": "Baroque",
     "artworkIds": [
-      "cma-148758"
+      "cma-148758",
+      "wikidata-Q969377",
+      "wikidata-Q2727560",
+      "wikidata-Q318947",
+      "wikidata-Q2470123",
+      "wikidata-Q474024",
+      "wikidata-Q2293905",
+      "wikidata-Q2293936",
+      "wikidata-Q597114",
+      "wikidata-Q2011510",
+      "wikidata-Q2610675",
+      "wikidata-Q2627056",
+      "wikidata-Q663133",
+      "wikidata-Q685916",
+      "wikidata-Q2338417"
     ],
     "relatedArtistIds": [],
     "externalIds": {
@@ -178,7 +274,7 @@
   {
     "id": "anthony-van-dyck",
     "name": "Anthony van Dyck",
-    "portrait": null,
+    "portrait": "https://commons.wikimedia.org/wiki/Special:FilePath/Sir_Anthony_van_Dyck_-_Self-portrait.jpg?width=400",
     "birthYear": "1599",
     "deathYear": "1641",
     "nationality": "Spanish Netherlands",
@@ -189,6 +285,9 @@
       "cma-131819"
     ],
     "relatedArtistIds": [],
+    "influencedBy": [
+      "Peter Paul Rubens"
+    ],
     "externalIds": {
       "wikidata": "Q150679"
     }
@@ -196,7 +295,7 @@
   {
     "id": "andrea-del-sarto",
     "name": "Andrea del Sarto",
-    "portrait": null,
+    "portrait": "https://commons.wikimedia.org/wiki/Special:FilePath/Andredelsartoselfportrait.jpeg?width=400",
     "birthYear": "1487",
     "deathYear": "1530",
     "nationality": "Italy",
@@ -206,7 +305,10 @@
     "artworkIds": [
       "cma-117032"
     ],
-    "relatedArtistIds": [],
+    "relatedArtistIds": [
+      "leonardo-da-vinci",
+      "michelangelo"
+    ],
     "externalIds": {
       "wikidata": "Q5571"
     }
@@ -214,7 +316,7 @@
   {
     "id": "eugene-delacroix",
     "name": "Eugène Delacroix",
-    "portrait": null,
+    "portrait": "https://commons.wikimedia.org/wiki/Special:FilePath/Autoportrait_-_Eug%C3%A8ne_Delacroix_-_Mus%C3%A9e_du_Louvre_Peintures_RF_25.jpg?width=400",
     "birthYear": "1798",
     "deathYear": "1863",
     "nationality": "France",
@@ -227,17 +329,18 @@
       "met-336046"
     ],
     "relatedArtistIds": [
-      "goya-francisco-de-goya-y-lucientes",
-      "joseph-mallord-william-turner"
+      "francisco-goya",
+      "j-m-w-turner",
+      "ivan-aivazovsky"
     ],
     "externalIds": {
       "wikidata": "Q33477"
     }
   },
   {
-    "id": "goya-francisco-de-goya-y-lucientes",
-    "name": "Goya (Francisco de Goya y Lucientes)",
-    "portrait": null,
+    "id": "francisco-goya",
+    "name": "Francisco Goya",
+    "portrait": "https://commons.wikimedia.org/wiki/Special:FilePath/Vicente_L%C3%B3pez_Porta%C3%B1a_-_el_pintor_Francisco_de_Goya.jpg?width=400",
     "birthYear": "1746",
     "deathYear": "1828",
     "nationality": "Spain",
@@ -247,20 +350,38 @@
     "artworkIds": [
       "met-436544",
       "met-436546",
-      "met-436541"
+      "met-436541",
+      "wikidata-Q152867",
+      "wikidata-Q1091086",
+      "wikidata-Q1150997",
+      "wikidata-Q920030",
+      "wikidata-Q1988253",
+      "wikidata-Q2735507",
+      "wikidata-Q1200522",
+      "wikidata-Q1163663",
+      "wikidata-Q2983399",
+      "wikidata-Q671237",
+      "wikidata-Q500936",
+      "wikidata-Q2528477",
+      "wikidata-Q3213069",
+      "wikidata-Q2413468"
     ],
     "relatedArtistIds": [
       "eugene-delacroix",
-      "joseph-mallord-william-turner"
+      "j-m-w-turner",
+      "ivan-aivazovsky"
+    ],
+    "influencedBy": [
+      "Hieronymus Bosch"
     ],
     "externalIds": {
       "wikidata": "Q5432"
     }
   },
   {
-    "id": "joseph-mallord-william-turner",
-    "name": "Joseph Mallord William Turner",
-    "portrait": null,
+    "id": "j-m-w-turner",
+    "name": "J. M. W. Turner",
+    "portrait": "https://commons.wikimedia.org/wiki/Special:FilePath/Joseph_Mallord_William_Turner_auto-retrato.jpg?width=400",
     "birthYear": "1775",
     "deathYear": "1851",
     "nationality": "Kingdom of Great Britain",
@@ -269,11 +390,29 @@
     "movement": "Romanticism",
     "artworkIds": [
       "met-437853",
-      "met-437854"
+      "met-437854",
+      "wikidata-Q2339059",
+      "wikidata-Q257580",
+      "wikidata-Q3027255",
+      "wikidata-Q1772871",
+      "wikidata-Q3646554",
+      "wikidata-Q16038731",
+      "wikidata-Q1652056",
+      "wikidata-Q3412132",
+      "wikidata-Q4003071",
+      "wikidata-Q22977128",
+      "wikidata-Q219271",
+      "wikidata-Q6888851",
+      "wikidata-Q80974590"
     ],
     "relatedArtistIds": [
       "eugene-delacroix",
-      "goya-francisco-de-goya-y-lucientes"
+      "francisco-goya",
+      "ivan-aivazovsky"
+    ],
+    "influencedBy": [
+      "Claude Lorrain",
+      "Thomas Girtin"
     ],
     "externalIds": {
       "wikidata": "Q159758"
@@ -282,7 +421,7 @@
   {
     "id": "auguste-renoir",
     "name": "Auguste Renoir",
-    "portrait": null,
+    "portrait": "https://commons.wikimedia.org/wiki/Special:FilePath/Pierre_Auguste_Renoir%2C_uncropped_image.jpg?width=400",
     "birthYear": "1841",
     "deathYear": "1919",
     "nationality": "France",
@@ -291,14 +430,29 @@
     "movement": "Impressionism",
     "artworkIds": [
       "met-459112",
-      "met-438815",
-      "met-438011"
+      "met-438011",
+      "met-437432",
+      "wikidata-Q683274",
+      "wikidata-Q1167907",
+      "wikidata-Q1118456",
+      "wikidata-Q2501284",
+      "wikidata-Q3808227",
+      "wikidata-Q74339",
+      "wikidata-Q630121",
+      "wikidata-Q1114571",
+      "wikidata-Q1114718",
+      "wikidata-Q1659469",
+      "wikidata-Q2783729",
+      "wikidata-Q3633456",
+      "wikidata-Q3937570",
+      "wikidata-Q4451145"
     ],
     "relatedArtistIds": [
       "edgar-degas",
       "camille-pissarro",
       "claude-monet",
-      "gustave-caillebotte"
+      "gustave-caillebotte",
+      "henri-matisse"
     ],
     "externalIds": {
       "wikidata": "Q39931"
@@ -307,7 +461,7 @@
   {
     "id": "edgar-degas",
     "name": "Edgar Degas",
-    "portrait": null,
+    "portrait": "https://commons.wikimedia.org/wiki/Special:FilePath/Edgar_Degas_self_portrait_1855FXD.jpg?width=400",
     "birthYear": "1834",
     "deathYear": "1917",
     "nationality": "France",
@@ -318,13 +472,28 @@
       "met-436155",
       "met-438817",
       "met-436135",
-      "met-436122"
+      "met-436122",
+      "wikidata-Q1239950",
+      "wikidata-Q2622172",
+      "wikidata-Q2734209",
+      "wikidata-Q3633419",
+      "wikidata-Q3821820",
+      "wikidata-Q6046671",
+      "wikidata-Q3842349",
+      "wikidata-Q3874376",
+      "wikidata-Q1016012",
+      "wikidata-Q2912117",
+      "wikidata-Q3794660",
+      "wikidata-Q4025363",
+      "wikidata-Q111962908",
+      "wikidata-Q7200240"
     ],
     "relatedArtistIds": [
       "auguste-renoir",
       "camille-pissarro",
       "claude-monet",
-      "gustave-caillebotte"
+      "gustave-caillebotte",
+      "henri-matisse"
     ],
     "externalIds": {
       "wikidata": "Q46373"
@@ -333,7 +502,7 @@
   {
     "id": "camille-pissarro",
     "name": "Camille Pissarro",
-    "portrait": null,
+    "portrait": "https://commons.wikimedia.org/wiki/Special:FilePath/Pissarro-portrait-c1900.jpg?width=400",
     "birthYear": "1830",
     "deathYear": "1903",
     "nationality": "France",
@@ -348,7 +517,11 @@
       "auguste-renoir",
       "edgar-degas",
       "claude-monet",
-      "gustave-caillebotte"
+      "gustave-caillebotte",
+      "henri-matisse"
+    ],
+    "influencedBy": [
+      "Fritz Melbye"
     ],
     "externalIds": {
       "wikidata": "Q134741"
@@ -357,7 +530,7 @@
   {
     "id": "vincent-van-gogh",
     "name": "Vincent van Gogh",
-    "portrait": null,
+    "portrait": "https://commons.wikimedia.org/wiki/Special:FilePath/Self-portrait_-_Vincent_van_Gogh.jpg?width=400",
     "birthYear": "1853",
     "deathYear": "1890",
     "nationality": "Kingdom of the Netherlands",
@@ -372,11 +545,34 @@
       "met-436535",
       "met-436529",
       "aic-28560",
-      "aic-80607"
+      "aic-80607",
+      "wikidata-Q45585",
+      "wikidata-Q154469",
+      "wikidata-Q157541",
+      "wikidata-Q17023954",
+      "wikidata-Q634122",
+      "wikidata-Q724377",
+      "wikidata-Q1025704",
+      "wikidata-Q674846",
+      "wikidata-Q1464531",
+      "wikidata-Q1213917",
+      "wikidata-Q1926628",
+      "wikidata-Q2200610",
+      "wikidata-Q14866847"
     ],
     "relatedArtistIds": [
       "paul-cezanne",
-      "paul-gauguin"
+      "paul-gauguin",
+      "henri-de-toulouse-lautrec"
+    ],
+    "influencedBy": [
+      "Anton Mauve",
+      "Paul Gauguin",
+      "Willem Roelofs",
+      "Paul Cézanne",
+      "Peter Paul Rubens",
+      "Jean-François Millet",
+      "Katsushika Hokusai"
     ],
     "externalIds": {
       "wikidata": "Q5582"
@@ -385,7 +581,7 @@
   {
     "id": "paul-cezanne",
     "name": "Paul Cézanne",
-    "portrait": null,
+    "portrait": "https://commons.wikimedia.org/wiki/Special:FilePath/Paul-Cezanne.jpg?width=400",
     "birthYear": "1839",
     "deathYear": "1906",
     "nationality": "France",
@@ -396,11 +592,29 @@
       "met-435882",
       "met-435868",
       "met-459092",
-      "met-435876"
+      "met-435876",
+      "wikidata-Q2270938",
+      "wikidata-Q3494409",
+      "wikidata-Q3138984",
+      "wikidata-Q2270805",
+      "wikidata-Q3956440",
+      "wikidata-Q3824214",
+      "wikidata-Q3929306",
+      "wikidata-Q2349666",
+      "wikidata-Q3210778",
+      "wikidata-Q3821663",
+      "wikidata-Q5914606",
+      "wikidata-Q3873324",
+      "wikidata-Q6903108"
     ],
     "relatedArtistIds": [
       "vincent-van-gogh",
-      "paul-gauguin"
+      "paul-gauguin",
+      "henri-de-toulouse-lautrec"
+    ],
+    "influencedBy": [
+      "Eugène Delacroix",
+      "Gustave Courbet"
     ],
     "externalIds": {
       "wikidata": "Q35548"
@@ -409,7 +623,7 @@
   {
     "id": "georges-seurat",
     "name": "Georges Seurat",
-    "portrait": null,
+    "portrait": "https://commons.wikimedia.org/wiki/Special:FilePath/Georges_Seurat_1888_(cropped).jpg?width=400",
     "birthYear": "1859",
     "deathYear": "1891",
     "nationality": "France",
@@ -430,7 +644,7 @@
   {
     "id": "paul-gauguin",
     "name": "Paul Gauguin",
-    "portrait": null,
+    "portrait": "https://commons.wikimedia.org/wiki/Special:FilePath/Paul_Gauguin_1891.png?width=400",
     "birthYear": "1848",
     "deathYear": "1903",
     "nationality": "France",
@@ -444,7 +658,16 @@
     ],
     "relatedArtistIds": [
       "vincent-van-gogh",
-      "paul-cezanne"
+      "paul-cezanne",
+      "henri-de-toulouse-lautrec"
+    ],
+    "influencedBy": [
+      "Katsushika Hokusai",
+      "Eugène Delacroix",
+      "Paul Cézanne",
+      "Claude Monet",
+      "Camille Pissarro",
+      "Edgar Degas"
     ],
     "externalIds": {
       "wikidata": "Q37693"
@@ -453,7 +676,7 @@
   {
     "id": "gustav-klimt",
     "name": "Gustav Klimt",
-    "portrait": null,
+    "portrait": "https://commons.wikimedia.org/wiki/Special:FilePath/Klimt.jpg?width=400",
     "birthYear": "1862",
     "deathYear": "1918",
     "nationality": "Austrian Empire",
@@ -461,9 +684,28 @@
     "bioStatus": "metadata-fallback",
     "movement": "Symbolism",
     "artworkIds": [
-      "met-436819"
+      "met-436819",
+      "wikidata-Q698487",
+      "wikidata-Q354396",
+      "wikidata-Q1445107",
+      "wikidata-Q2324643",
+      "wikidata-Q3829156",
+      "wikidata-Q106522623",
+      "wikidata-Q5967091",
+      "wikidata-Q17001535",
+      "wikidata-Q4681871",
+      "wikidata-Q136433749",
+      "wikidata-Q684689",
+      "wikidata-Q28442857",
+      "wikidata-Q4311873",
+      "wikidata-Q19883512"
     ],
-    "relatedArtistIds": [],
+    "relatedArtistIds": [
+      "edvard-munch"
+    ],
+    "influencedBy": [
+      "George Minne"
+    ],
     "externalIds": {
       "wikidata": "Q34661"
     }
@@ -471,7 +713,7 @@
   {
     "id": "amedeo-modigliani",
     "name": "Amedeo Modigliani",
-    "portrait": null,
+    "portrait": "https://commons.wikimedia.org/wiki/Special:FilePath/Amedeo_Modigliani_1918_restored.jpg?width=400",
     "birthYear": "1884",
     "deathYear": "1920",
     "nationality": "Kingdom of Italy",
@@ -485,6 +727,12 @@
     "relatedArtistIds": [
       "auguste-rodin"
     ],
+    "influencedBy": [
+      "Henri de Toulouse-Lautrec",
+      "Paul Cézanne",
+      "Constantin Brâncuși",
+      "Pablo Picasso"
+    ],
     "externalIds": {
       "wikidata": "Q120993"
     }
@@ -492,7 +740,7 @@
   {
     "id": "katsushika-hokusai",
     "name": "Katsushika Hokusai",
-    "portrait": null,
+    "portrait": "https://commons.wikimedia.org/wiki/Special:FilePath/Hokusai_as_an_old_man.jpg?width=400",
     "birthYear": "1760",
     "deathYear": "1849",
     "nationality": "Japan",
@@ -501,7 +749,21 @@
     "movement": "Japonisme",
     "artworkIds": [
       "met-39799",
-      "met-48886"
+      "met-48886",
+      "wikidata-Q252485",
+      "wikidata-Q227494",
+      "wikidata-Q2717022",
+      "wikidata-Q3565037",
+      "wikidata-Q2489747",
+      "wikidata-Q18173384",
+      "wikidata-Q2944321",
+      "wikidata-Q17227585",
+      "wikidata-Q60520610",
+      "wikidata-Q18173387",
+      "wikidata-Q18173402",
+      "wikidata-Q2963437",
+      "wikidata-Q18173386",
+      "wikidata-Q60228610"
     ],
     "relatedArtistIds": [],
     "externalIds": {
@@ -548,7 +810,7 @@
   {
     "id": "kitagawa-utamaro",
     "name": "Kitagawa Utamaro",
-    "portrait": null,
+    "portrait": "https://commons.wikimedia.org/wiki/Special:FilePath/Kitagawa_Utamaro_portrait_(cropped).jpg?width=400",
     "birthYear": "1753",
     "deathYear": "1806",
     "nationality": "Japan",
@@ -560,6 +822,9 @@
       "met-37338"
     ],
     "relatedArtistIds": [],
+    "influencedBy": [
+      "Torii Kiyonaga"
+    ],
     "externalIds": {
       "wikidata": "Q272045"
     }
@@ -630,7 +895,7 @@
   {
     "id": "auguste-rodin",
     "name": "Auguste Rodin",
-    "portrait": null,
+    "portrait": "https://commons.wikimedia.org/wiki/Special:FilePath/Auguste_Rodin_fotografato_da_Nadar_nel_1891.jpg?width=400",
     "birthYear": "1840",
     "deathYear": "1917",
     "nationality": "France",
@@ -643,6 +908,10 @@
     ],
     "relatedArtistIds": [
       "amedeo-modigliani"
+    ],
+    "influencedBy": [
+      "Michelangelo",
+      "Jean-Baptiste Carpeaux"
     ],
     "externalIds": {
       "wikidata": "Q30755"
@@ -715,8 +984,8 @@
     ],
     "relatedArtistIds": [
       "robert-demachy",
-      "adrien-tournachon",
       "camille-dolard",
+      "adrien-tournachon",
       "henry-white",
       "john-burke",
       "william-b-post"
@@ -737,30 +1006,8 @@
     ],
     "relatedArtistIds": [
       "john-i-smart",
+      "camille-dolard",
       "adrien-tournachon",
-      "camille-dolard",
-      "henry-white",
-      "john-burke",
-      "william-b-post"
-    ]
-  },
-  {
-    "id": "adrien-tournachon",
-    "name": "Adrien Tournachon",
-    "portrait": null,
-    "birthYear": null,
-    "deathYear": null,
-    "nationality": null,
-    "bio": null,
-    "bioStatus": "metadata-fallback",
-    "movement": "Photography",
-    "artworkIds": [
-      "cma-161864"
-    ],
-    "relatedArtistIds": [
-      "john-i-smart",
-      "robert-demachy",
-      "camille-dolard",
       "henry-white",
       "john-burke",
       "william-b-post"
@@ -789,6 +1036,28 @@
     ]
   },
   {
+    "id": "adrien-tournachon",
+    "name": "Adrien Tournachon",
+    "portrait": null,
+    "birthYear": null,
+    "deathYear": null,
+    "nationality": null,
+    "bio": null,
+    "bioStatus": "metadata-fallback",
+    "movement": "Photography",
+    "artworkIds": [
+      "cma-161864"
+    ],
+    "relatedArtistIds": [
+      "john-i-smart",
+      "robert-demachy",
+      "camille-dolard",
+      "henry-white",
+      "john-burke",
+      "william-b-post"
+    ]
+  },
+  {
     "id": "henry-white",
     "name": "Henry White",
     "portrait": null,
@@ -804,8 +1073,8 @@
     "relatedArtistIds": [
       "john-i-smart",
       "robert-demachy",
-      "adrien-tournachon",
       "camille-dolard",
+      "adrien-tournachon",
       "john-burke",
       "william-b-post"
     ]
@@ -826,8 +1095,8 @@
     "relatedArtistIds": [
       "john-i-smart",
       "robert-demachy",
-      "adrien-tournachon",
       "camille-dolard",
+      "adrien-tournachon",
       "henry-white",
       "william-b-post"
     ]
@@ -848,8 +1117,8 @@
     "relatedArtistIds": [
       "john-i-smart",
       "robert-demachy",
-      "adrien-tournachon",
       "camille-dolard",
+      "adrien-tournachon",
       "henry-white",
       "john-burke"
     ]
@@ -857,7 +1126,7 @@
   {
     "id": "carleton-e-watkins",
     "name": "Carleton E. Watkins",
-    "portrait": null,
+    "portrait": "https://commons.wikimedia.org/wiki/Special:FilePath/Carleton_E._Watkins_self-portrait%2C_c._1883%2C_albumen_silver_print%2C_from_the_National_Portrait_Gallery_-_NPG-NPG_2007_123WatkinsM-000001_(cropped).jpg?width=400",
     "birthYear": "1829",
     "deathYear": "1916",
     "nationality": "United States",
@@ -871,8 +1140,8 @@
     "relatedArtistIds": [
       "john-i-smart",
       "robert-demachy",
-      "adrien-tournachon",
       "camille-dolard",
+      "adrien-tournachon",
       "henry-white",
       "john-burke"
     ],
@@ -883,7 +1152,7 @@
   {
     "id": "claude-monet",
     "name": "Claude Monet",
-    "portrait": null,
+    "portrait": "https://commons.wikimedia.org/wiki/Special:FilePath/Claude_Monet_1899_Nadar_crop.jpg?width=400",
     "birthYear": "1840",
     "deathYear": "1926",
     "nationality": "France",
@@ -893,13 +1162,34 @@
     "artworkIds": [
       "aic-16568",
       "aic-16571",
-      "aic-64818"
+      "aic-64818",
+      "wikidata-Q328523",
+      "wikidata-Q637414",
+      "wikidata-Q432253",
+      "wikidata-Q2395218",
+      "wikidata-Q2734892",
+      "wikidata-Q557000",
+      "wikidata-Q681876",
+      "wikidata-Q1167912",
+      "wikidata-Q941549",
+      "wikidata-Q468623",
+      "wikidata-Q734082",
+      "wikidata-Q3454959",
+      "wikidata-Q3794124"
     ],
     "relatedArtistIds": [
       "auguste-renoir",
       "edgar-degas",
       "camille-pissarro",
-      "gustave-caillebotte"
+      "gustave-caillebotte",
+      "henri-matisse"
+    ],
+    "influencedBy": [
+      "Gustave Courbet",
+      "Jean-François Millet",
+      "Édouard Manet",
+      "J. M. W. Turner",
+      "Katsushika Hokusai"
     ],
     "externalIds": {
       "wikidata": "Q296"
@@ -908,7 +1198,7 @@
   {
     "id": "gustave-caillebotte",
     "name": "Gustave Caillebotte",
-    "portrait": null,
+    "portrait": "https://commons.wikimedia.org/wiki/Special:FilePath/Caillebotteautoportrait.jpg?width=400",
     "birthYear": "1848",
     "deathYear": "1894",
     "nationality": "France",
@@ -923,7 +1213,8 @@
       "auguste-renoir",
       "edgar-degas",
       "camille-pissarro",
-      "claude-monet"
+      "claude-monet",
+      "henri-matisse"
     ],
     "externalIds": {
       "wikidata": "Q295144"
@@ -993,7 +1284,7 @@
   {
     "id": "bada-shanren",
     "name": "Bada Shanren",
-    "portrait": null,
+    "portrait": "https://commons.wikimedia.org/wiki/Special:FilePath/%E4%B8%AA%E5%B1%B1%E5%B0%8F%E5%83%8F%EF%BC%88%E5%B1%80%E9%83%A8%EF%BC%89.jpg?width=400",
     "birthYear": "1626",
     "deathYear": "1705",
     "nationality": "Qing dynasty",
@@ -1007,6 +1298,9 @@
       "xiao-yuncong",
       "chen-hongshou"
     ],
+    "influencedBy": [
+      "Dong Qichang"
+    ],
     "externalIds": {
       "wikidata": "Q198097"
     }
@@ -1015,10 +1309,10 @@
     "id": "chen-hongshou",
     "name": "Chen Hongshou",
     "portrait": null,
-    "birthYear": "1598",
-    "deathYear": "1652",
-    "nationality": "Qing dynasty",
-    "bio": "Chinese artist (1598-1652)",
+    "birthYear": null,
+    "deathYear": null,
+    "nationality": null,
+    "bio": null,
     "bioStatus": "metadata-fallback",
     "movement": "Chinese Art",
     "artworkIds": [
@@ -1027,9 +1321,677 @@
     "relatedArtistIds": [
       "xiao-yuncong",
       "bada-shanren"
+    ]
+  },
+  {
+    "id": "ivan-aivazovsky",
+    "name": "Ivan Aivazovsky",
+    "portrait": "https://commons.wikimedia.org/wiki/Special:FilePath/Aivazovsky_-_Self-portrait_1874.jpg?width=400",
+    "birthYear": "1817",
+    "deathYear": "1900",
+    "nationality": "Russian Empire",
+    "bio": "Russian marine painter (1817–1900)",
+    "bioStatus": "metadata-fallback",
+    "movement": "Romanticism",
+    "artworkIds": [
+      "wikidata-Q1070896",
+      "wikidata-Q1982719",
+      "wikidata-Q4518724",
+      "wikidata-Q4387907",
+      "wikidata-Q7234368",
+      "wikidata-Q60674337",
+      "wikidata-Q4110560",
+      "wikidata-Q4384735",
+      "wikidata-Q16699900",
+      "wikidata-Q135653132",
+      "wikidata-Q6677931",
+      "wikidata-Q16698908",
+      "wikidata-Q105221629",
+      "wikidata-Q3918559"
+    ],
+    "relatedArtistIds": [
+      "eugene-delacroix",
+      "francisco-goya",
+      "j-m-w-turner"
+    ],
+    "influencedBy": [
+      "J. M. W. Turner",
+      "Théodore Géricault"
     ],
     "externalIds": {
-      "wikidata": "Q588110"
+      "wikidata": "Q181568"
+    }
+  },
+  {
+    "id": "martiros-saryan",
+    "name": "Martiros Saryan",
+    "portrait": "https://commons.wikimedia.org/wiki/Special:FilePath/Martiros_Saryan.jpg?width=400",
+    "birthYear": "1880",
+    "deathYear": "1972",
+    "nationality": "Russian Empire",
+    "bio": "Armenian painter (1880–1972)",
+    "bioStatus": "metadata-fallback",
+    "movement": null,
+    "artworkIds": [
+      "wikidata-Q28925577",
+      "wikidata-Q28966350",
+      "wikidata-Q34993777",
+      "wikidata-Q28854839",
+      "wikidata-Q28871584",
+      "wikidata-Q28933638",
+      "wikidata-Q28966281",
+      "wikidata-Q28969509",
+      "wikidata-Q42807110",
+      "wikidata-Q77339890",
+      "wikidata-Q77340354",
+      "wikidata-Q77340363"
+    ],
+    "relatedArtistIds": [
+      "hakob-hovnatanian",
+      "vardges-sureniants",
+      "panos-terlemezian",
+      "yeghishe-tadevosyan",
+      "stepanos-nersisian",
+      "yervand-kochar"
+    ],
+    "influencedBy": [
+      "Paul Gauguin",
+      "Henri Matisse"
+    ],
+    "externalIds": {
+      "wikidata": "Q718409"
+    }
+  },
+  {
+    "id": "arshile-gorky",
+    "name": "Arshile Gorky",
+    "portrait": "https://commons.wikimedia.org/wiki/Special:FilePath/Archives_of_American_Art_-_Arshile_Gorky_-_3044.jpg?width=400",
+    "birthYear": "1904",
+    "deathYear": "1948",
+    "nationality": "Ottoman Empire",
+    "bio": "Armenian-American painter (1904–1948)",
+    "bioStatus": "metadata-fallback",
+    "movement": "abstract expressionism",
+    "artworkIds": [
+      "wikidata-Q50318886",
+      "wikidata-Q19883979",
+      "wikidata-Q19885024",
+      "wikidata-Q19885056",
+      "wikidata-Q20263327",
+      "wikidata-Q20268024",
+      "wikidata-Q20268409",
+      "wikidata-Q20816425",
+      "wikidata-Q21711765",
+      "wikidata-Q21712182",
+      "wikidata-Q28036843",
+      "wikidata-Q64506673",
+      "wikidata-Q64536490",
+      "wikidata-Q69415262"
+    ],
+    "relatedArtistIds": [
+      "minas-avetisyan"
+    ],
+    "externalIds": {
+      "wikidata": "Q165648"
+    }
+  },
+  {
+    "id": "minas-avetisyan",
+    "name": "Minas Avetisyan",
+    "portrait": "https://commons.wikimedia.org/wiki/Special:FilePath/%D5%84%D5%AB%D5%B6%D5%A1%D5%BD_%D4%B1%D5%BE%D5%A5%D5%BF%D5%AB%D5%BD%D5%B5%D5%A1%D5%B6.jpg?width=400",
+    "birthYear": "1928",
+    "deathYear": "1975",
+    "nationality": "Soviet Union",
+    "bio": "Armenian artist (1928-1975)",
+    "bioStatus": "metadata-fallback",
+    "movement": "abstract expressionism",
+    "artworkIds": [
+      "wikidata-Q43089702",
+      "wikidata-Q53634999"
+    ],
+    "relatedArtistIds": [
+      "arshile-gorky"
+    ],
+    "externalIds": {
+      "wikidata": "Q1971520"
+    }
+  },
+  {
+    "id": "hakob-hovnatanian",
+    "name": "Hakob Hovnatanian",
+    "portrait": "https://commons.wikimedia.org/wiki/Special:FilePath/Hakob_hovnatanyan.jpg?width=400",
+    "birthYear": "1806",
+    "deathYear": "1881",
+    "nationality": "Russian Empire",
+    "bio": "Armenian artist (1806-1881)",
+    "bioStatus": "metadata-fallback",
+    "movement": null,
+    "artworkIds": [
+      "wikidata-Q28008626"
+    ],
+    "relatedArtistIds": [
+      "martiros-saryan",
+      "vardges-sureniants",
+      "panos-terlemezian",
+      "yeghishe-tadevosyan",
+      "stepanos-nersisian",
+      "yervand-kochar"
+    ],
+    "externalIds": {
+      "wikidata": "Q4330727"
+    }
+  },
+  {
+    "id": "vardges-sureniants",
+    "name": "Vardges Sureniants",
+    "portrait": "https://commons.wikimedia.org/wiki/Special:FilePath/Surenyants.jpg?width=400",
+    "birthYear": "1860",
+    "deathYear": "1921",
+    "nationality": "Georgia",
+    "bio": "Armenian painter (1860-1921)",
+    "bioStatus": "metadata-fallback",
+    "movement": null,
+    "artworkIds": [
+      "wikidata-Q118899735",
+      "wikidata-Q28772466",
+      "wikidata-Q28813115",
+      "wikidata-Q28758249",
+      "wikidata-Q28772072",
+      "wikidata-Q28772082",
+      "wikidata-Q28772175",
+      "wikidata-Q28772809",
+      "wikidata-Q28810823",
+      "wikidata-Q28813058",
+      "wikidata-Q28813248",
+      "wikidata-Q28845534"
+    ],
+    "relatedArtistIds": [
+      "martiros-saryan",
+      "hakob-hovnatanian",
+      "panos-terlemezian",
+      "yeghishe-tadevosyan",
+      "stepanos-nersisian",
+      "yervand-kochar"
+    ],
+    "externalIds": {
+      "wikidata": "Q4446492"
+    }
+  },
+  {
+    "id": "panos-terlemezian",
+    "name": "Panos Terlemezian",
+    "portrait": "https://commons.wikimedia.org/wiki/Special:FilePath/Terlemezian-Selfportrait.jpg?width=400",
+    "birthYear": "1865",
+    "deathYear": "1941",
+    "nationality": "Soviet Union",
+    "bio": "Soviet Armenian painter (1865-1941)",
+    "bioStatus": "metadata-fallback",
+    "movement": null,
+    "artworkIds": [
+      "wikidata-Q28865420",
+      "wikidata-Q28865467",
+      "wikidata-Q28865473"
+    ],
+    "relatedArtistIds": [
+      "martiros-saryan",
+      "hakob-hovnatanian",
+      "vardges-sureniants",
+      "yeghishe-tadevosyan",
+      "stepanos-nersisian",
+      "yervand-kochar"
+    ],
+    "externalIds": {
+      "wikidata": "Q4455843"
+    }
+  },
+  {
+    "id": "gevorg-bashinjaghian",
+    "name": "Gevorg Bashinjaghian",
+    "portrait": "https://commons.wikimedia.org/wiki/Special:FilePath/%D0%91%D0%B0%D1%88%D0%B8%D0%BD%D0%B4%D0%B6%D0%B0%D0%B3%D1%8F%D0%BD_%D0%93%D0%B5%D0%B2%D0%BE%D1%80%D0%BA_%D0%97%D0%B0%D1%85%D0%B0%D1%80%D0%BE%D0%B2%D0%B8%D1%87.jpg?width=400",
+    "birthYear": "1857",
+    "deathYear": "1925",
+    "nationality": "Russian Empire",
+    "bio": "Russian painter (1857-1925)",
+    "bioStatus": "metadata-fallback",
+    "movement": "French Realism",
+    "artworkIds": [
+      "wikidata-Q131574840",
+      "wikidata-Q28813368",
+      "wikidata-Q28813435",
+      "wikidata-Q28813512",
+      "wikidata-Q28819785",
+      "wikidata-Q29169610",
+      "wikidata-Q29203229",
+      "wikidata-Q29372191",
+      "wikidata-Q29535180",
+      "wikidata-Q29550458"
+    ],
+    "relatedArtistIds": [],
+    "externalIds": {
+      "wikidata": "Q2064083"
+    }
+  },
+  {
+    "id": "yeghishe-tadevosyan",
+    "name": "Yeghishe Tadevosyan",
+    "portrait": "https://commons.wikimedia.org/wiki/Special:FilePath/Tadevosyan_EM.png?width=400",
+    "birthYear": "1870",
+    "deathYear": "1936",
+    "nationality": "Russian Empire",
+    "bio": "Russian Armenian painter (1870-1936)",
+    "bioStatus": "metadata-fallback",
+    "movement": null,
+    "artworkIds": [
+      "wikidata-Q25486604",
+      "wikidata-Q25486607",
+      "wikidata-Q26247521",
+      "wikidata-Q26247580",
+      "wikidata-Q28920766",
+      "wikidata-Q117774348"
+    ],
+    "relatedArtistIds": [
+      "martiros-saryan",
+      "hakob-hovnatanian",
+      "vardges-sureniants",
+      "panos-terlemezian",
+      "stepanos-nersisian",
+      "yervand-kochar"
+    ],
+    "externalIds": {
+      "wikidata": "Q2598681"
+    }
+  },
+  {
+    "id": "stepanos-nersisian",
+    "name": "Stepanos Nersisian",
+    "portrait": "https://commons.wikimedia.org/wiki/Special:FilePath/%D0%9C%D0%B8%D1%85%D0%B0%D0%B8%D0%BB_%D0%98%D0%B2%D0%B0%D0%BD%D0%BE%D0%B2%D0%B8%D1%87_%D0%A1%D0%BA%D0%BE%D1%82%D1%82%D0%B8._%D0%9F%D0%BE%D1%80%D1%82%D1%80%D0%B5%D1%82_%D0%B0%D1%80%D0%BC%D1%8F%D0%BD%D0%B8%D0%BD%D0%B0_%D0%9D%D0%B5%D1%80%D1%81%D0%B5%D1%81%D0%BE%D0%B2%D0%B0.jpg?width=400",
+    "birthYear": "1815",
+    "deathYear": "1884",
+    "nationality": "Russian Empire",
+    "bio": "Armenian artist (1815–1884)",
+    "bioStatus": "metadata-fallback",
+    "movement": null,
+    "artworkIds": [
+      "wikidata-Q43286169"
+    ],
+    "relatedArtistIds": [
+      "martiros-saryan",
+      "hakob-hovnatanian",
+      "vardges-sureniants",
+      "panos-terlemezian",
+      "yeghishe-tadevosyan",
+      "yervand-kochar"
+    ],
+    "externalIds": {
+      "wikidata": "Q20510561"
+    }
+  },
+  {
+    "id": "yervand-kochar",
+    "name": "Yervand Kochar",
+    "portrait": "https://commons.wikimedia.org/wiki/Special:FilePath/Kochar_Igityan_Cropped.jpg?width=400",
+    "birthYear": "1899",
+    "deathYear": "1979",
+    "nationality": "Russian Empire",
+    "bio": "Armenian artist, sculptor (1899–1979)",
+    "bioStatus": "metadata-fallback",
+    "movement": null,
+    "artworkIds": [
+      "wikidata-Q16364238",
+      "wikidata-Q16400495",
+      "wikidata-Q20511420",
+      "wikidata-Q20511080",
+      "wikidata-Q31195330",
+      "wikidata-Q42888735",
+      "wikidata-Q53340059"
+    ],
+    "relatedArtistIds": [
+      "martiros-saryan",
+      "hakob-hovnatanian",
+      "vardges-sureniants",
+      "panos-terlemezian",
+      "yeghishe-tadevosyan",
+      "stepanos-nersisian"
+    ],
+    "externalIds": {
+      "wikidata": "Q782127"
+    }
+  },
+  {
+    "id": "mariam-aslamazian",
+    "name": "Mariam Aslamazian",
+    "portrait": "https://commons.wikimedia.org/wiki/Special:FilePath/Mariam_Aslamazian.jpg?width=400",
+    "birthYear": "1907",
+    "deathYear": "2006",
+    "nationality": "Soviet Union",
+    "bio": "Soviet Armenian artist (1907-2006)",
+    "bioStatus": "metadata-fallback",
+    "movement": null,
+    "artworkIds": [
+      "wikidata-Q102174436",
+      "wikidata-Q102175806"
+    ],
+    "relatedArtistIds": [
+      "martiros-saryan",
+      "hakob-hovnatanian",
+      "vardges-sureniants",
+      "panos-terlemezian",
+      "yeghishe-tadevosyan",
+      "stepanos-nersisian"
+    ],
+    "externalIds": {
+      "wikidata": "Q6761777"
+    }
+  },
+  {
+    "id": "hieronymus-bosch",
+    "name": "Hieronymus Bosch",
+    "portrait": "https://commons.wikimedia.org/wiki/Special:FilePath/Jheronimus_Bosch_(cropped).jpg?width=400",
+    "birthYear": "1450",
+    "deathYear": "1516",
+    "nationality": "Northern Low Countries",
+    "bio": "Dutch painter (c. 1450–1516)",
+    "bioStatus": "metadata-fallback",
+    "movement": "Early Netherlandish painting",
+    "artworkIds": [
+      "wikidata-Q321303",
+      "wikidata-Q405814",
+      "wikidata-Q1217288",
+      "wikidata-Q2304870",
+      "wikidata-Q2213811",
+      "wikidata-Q680128",
+      "wikidata-Q2400652",
+      "wikidata-Q2203011",
+      "wikidata-Q430069",
+      "wikidata-Q2270768",
+      "wikidata-Q2276130",
+      "wikidata-Q1387483",
+      "wikidata-Q2091114"
+    ],
+    "relatedArtistIds": [],
+    "externalIds": {
+      "wikidata": "Q130531"
+    }
+  },
+  {
+    "id": "leonardo-da-vinci",
+    "name": "Leonardo da Vinci",
+    "portrait": "https://commons.wikimedia.org/wiki/Special:FilePath/Francesco_Melzi_-_Portrait_of_Leonardo.png?width=400",
+    "birthYear": "1452",
+    "deathYear": "1519",
+    "nationality": "Republic of Florence",
+    "bio": "Italian Renaissance polymath (1452−1519)",
+    "bioStatus": "metadata-fallback",
+    "movement": "High Renaissance",
+    "artworkIds": [
+      "wikidata-Q12418",
+      "wikidata-Q128910",
+      "wikidata-Q215486",
+      "wikidata-Q474338",
+      "wikidata-Q1892745",
+      "wikidata-Q269342",
+      "wikidata-Q1267893",
+      "wikidata-Q563727",
+      "wikidata-Q1142058",
+      "wikidata-Q656434",
+      "wikidata-Q783215",
+      "wikidata-Q1638622",
+      "wikidata-Q698015",
+      "wikidata-Q1059211"
+    ],
+    "relatedArtistIds": [
+      "andrea-del-sarto",
+      "michelangelo"
+    ],
+    "externalIds": {
+      "wikidata": "Q762"
+    }
+  },
+  {
+    "id": "michelangelo",
+    "name": "Michelangelo",
+    "portrait": "https://commons.wikimedia.org/wiki/Special:FilePath/Michelangelo_Daniele_da_Volterra_(dettaglio).jpg?width=400",
+    "birthYear": "1475",
+    "deathYear": "1564",
+    "nationality": "Republic of Florence",
+    "bio": "Italian artist and architect (1475-1564)",
+    "bioStatus": "metadata-fallback",
+    "movement": "High Renaissance",
+    "artworkIds": [
+      "wikidata-Q2943",
+      "wikidata-Q179900",
+      "wikidata-Q500242",
+      "wikidata-Q235242",
+      "wikidata-Q567861",
+      "wikidata-Q844675",
+      "wikidata-Q567833",
+      "wikidata-Q1989744",
+      "wikidata-Q1473546",
+      "wikidata-Q1144620",
+      "wikidata-Q2327759",
+      "wikidata-Q83862",
+      "wikidata-Q1213160",
+      "wikidata-Q1878666"
+    ],
+    "relatedArtistIds": [
+      "andrea-del-sarto",
+      "leonardo-da-vinci"
+    ],
+    "externalIds": {
+      "wikidata": "Q5592"
+    }
+  },
+  {
+    "id": "caspar-david-friedrich",
+    "name": "Caspar David Friedrich",
+    "portrait": "https://commons.wikimedia.org/wiki/Special:FilePath/Carl_Johann_Baehr_-_Bildnis_des_Malers_Caspar_David_Friedrich.jpg?width=400",
+    "birthYear": "1774",
+    "deathYear": "1840",
+    "nationality": "Kingdom of Prussia",
+    "bio": "German Romantic landscape painter (1774–1840)",
+    "bioStatus": "metadata-fallback",
+    "movement": "German Romanticism",
+    "artworkIds": [
+      "wikidata-Q311243",
+      "wikidata-Q334360",
+      "wikidata-Q194137",
+      "wikidata-Q1787143",
+      "wikidata-Q693746",
+      "wikidata-Q1214313",
+      "wikidata-Q232087",
+      "wikidata-Q507120",
+      "wikidata-Q884782",
+      "wikidata-Q1198515",
+      "wikidata-Q4531523",
+      "wikidata-Q24213",
+      "wikidata-Q1197913",
+      "wikidata-Q1451490"
+    ],
+    "relatedArtistIds": [],
+    "externalIds": {
+      "wikidata": "Q104884"
+    }
+  },
+  {
+    "id": "edvard-munch",
+    "name": "Edvard Munch",
+    "portrait": "https://commons.wikimedia.org/wiki/Special:FilePath/Edvard_Munch_1933-2.jpg?width=400",
+    "birthYear": "1863",
+    "deathYear": "1944",
+    "nationality": "Norway",
+    "bio": "Norwegian painter (1863–1944)",
+    "bioStatus": "metadata-fallback",
+    "movement": "Symbolism",
+    "artworkIds": [
+      "wikidata-Q471379",
+      "wikidata-Q1989780",
+      "wikidata-Q1683743",
+      "wikidata-Q17041052",
+      "wikidata-Q2267579",
+      "wikidata-Q3208135",
+      "wikidata-Q18891111",
+      "wikidata-Q3432673",
+      "wikidata-Q16939042",
+      "wikidata-Q18208623",
+      "wikidata-Q28802071",
+      "wikidata-Q18748731",
+      "wikidata-Q18209775",
+      "wikidata-Q3955717"
+    ],
+    "relatedArtistIds": [
+      "gustav-klimt"
+    ],
+    "influencedBy": [
+      "Christian Krohg"
+    ],
+    "externalIds": {
+      "wikidata": "Q41406"
+    }
+  },
+  {
+    "id": "salvador-dali",
+    "name": "Salvador Dalí",
+    "portrait": "https://commons.wikimedia.org/wiki/Special:FilePath/Salvador_Dal%C3%AD_1939.jpg?width=400",
+    "birthYear": "1904",
+    "deathYear": "1989",
+    "nationality": "Spain",
+    "bio": "Spanish artist (1904–1989)",
+    "bioStatus": "metadata-fallback",
+    "movement": "surrealism",
+    "artworkIds": [
+      "wikidata-Q167536",
+      "wikidata-Q2663568",
+      "wikidata-Q2990594",
+      "wikidata-Q17986845",
+      "wikidata-Q211293",
+      "wikidata-Q17530764",
+      "wikidata-Q3462260",
+      "wikidata-Q18175799",
+      "wikidata-Q122397949",
+      "wikidata-Q61944806",
+      "wikidata-Q98399009",
+      "wikidata-Q50225924"
+    ],
+    "relatedArtistIds": [],
+    "influencedBy": [
+      "Friedrich Nietzsche",
+      "Pablo Picasso",
+      "Hieronymus Bosch"
+    ],
+    "externalIds": {
+      "wikidata": "Q5577"
+    }
+  },
+  {
+    "id": "pablo-picasso",
+    "name": "Pablo Picasso",
+    "portrait": "https://commons.wikimedia.org/wiki/Special:FilePath/Pablo_picasso_1.jpg?width=400",
+    "birthYear": "1881",
+    "deathYear": "1973",
+    "nationality": "Spain",
+    "bio": "Spanish painter and sculptor (1881–1973)",
+    "bioStatus": "metadata-fallback",
+    "movement": "cubism",
+    "artworkIds": [
+      "wikidata-Q175036",
+      "wikidata-Q4429116",
+      "wikidata-Q5095736",
+      "wikidata-Q7940348",
+      "wikidata-Q28681534",
+      "wikidata-Q24572909",
+      "wikidata-Q5792254",
+      "wikidata-Q18245084",
+      "wikidata-Q29351056",
+      "wikidata-Q56696086",
+      "wikidata-Q3713986",
+      "wikidata-Q18239012",
+      "wikidata-Q29736128",
+      "wikidata-Q60935829"
+    ],
+    "relatedArtistIds": [],
+    "influencedBy": [
+      "Henri Rousseau",
+      "Paul Cézanne",
+      "African sculpture",
+      "Maria Prymachenko"
+    ],
+    "externalIds": {
+      "wikidata": "Q5593"
+    }
+  },
+  {
+    "id": "henri-matisse",
+    "name": "Henri Matisse",
+    "portrait": "https://commons.wikimedia.org/wiki/Special:FilePath/Portrait_of_Henri_Matisse_1933_May_20.jpg?width=400",
+    "birthYear": "1869",
+    "deathYear": "1954",
+    "nationality": "France",
+    "bio": "French artist (1869-1954)",
+    "bioStatus": "metadata-fallback",
+    "movement": "Impressionism",
+    "artworkIds": [
+      "wikidata-Q164517",
+      "wikidata-Q921429",
+      "wikidata-Q1437492",
+      "wikidata-Q2538580",
+      "wikidata-Q2902188",
+      "wikidata-Q1999166",
+      "wikidata-Q3745698",
+      "wikidata-Q3773123",
+      "wikidata-Q882584",
+      "wikidata-Q3268045",
+      "wikidata-Q1062726",
+      "wikidata-Q119188441",
+      "wikidata-Q3203218",
+      "wikidata-Q3651370"
+    ],
+    "relatedArtistIds": [
+      "auguste-renoir",
+      "edgar-degas",
+      "camille-pissarro",
+      "claude-monet",
+      "gustave-caillebotte"
+    ],
+    "externalIds": {
+      "wikidata": "Q5589"
+    }
+  },
+  {
+    "id": "henri-de-toulouse-lautrec",
+    "name": "Henri de Toulouse-Lautrec",
+    "portrait": "https://commons.wikimedia.org/wiki/Special:FilePath/Photolautrec.jpg?width=400",
+    "birthYear": "1864",
+    "deathYear": "1901",
+    "nationality": "France",
+    "bio": "French painter and illustrator (1864–1901)",
+    "bioStatus": "metadata-fallback",
+    "movement": "Post-impressionism",
+    "artworkIds": [
+      "wikidata-Q3607521",
+      "wikidata-Q3633443",
+      "wikidata-Q3824633",
+      "wikidata-Q17429571",
+      "wikidata-Q3607539",
+      "wikidata-Q3607561",
+      "wikidata-Q3630732",
+      "wikidata-Q12899487",
+      "wikidata-Q3612977",
+      "wikidata-Q4212198",
+      "wikidata-Q12015473",
+      "wikidata-Q17026577",
+      "wikidata-Q19883438",
+      "wikidata-Q19905264"
+    ],
+    "relatedArtistIds": [
+      "vincent-van-gogh",
+      "paul-cezanne",
+      "paul-gauguin"
+    ],
+    "influencedBy": [
+      "Edgar Degas"
+    ],
+    "externalIds": {
+      "wikidata": "Q82445"
     }
   }
 ]

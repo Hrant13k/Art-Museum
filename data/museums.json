@@ -36,8 +36,8 @@
       "met-437853",
       "met-437854",
       "met-459112",
-      "met-438815",
       "met-438011",
+      "met-437432",
       "met-436155",
       "met-438817",
       "met-436135",
@@ -108,14 +108,15 @@
       "cma-125575",
       "cma-120846",
       "cma-152349",
-      "cma-161864",
       "cma-160087",
+      "cma-161864",
       "cma-157013",
       "cma-667960",
       "cma-157126",
       "cma-132837",
       "cma-132908",
-      "cma-149603"
+      "cma-149603",
+      "wikidata-Q18173387"
     ],
     "mapUrl": "https://maps.google.com/?q=Cleveland+Museum+of+Art"
   },
@@ -135,8 +136,1706 @@
       "aic-20684",
       "aic-154121",
       "aic-28560",
-      "aic-80607"
+      "aic-80607",
+      "wikidata-Q20263327",
+      "wikidata-Q20268024",
+      "wikidata-Q20268409",
+      "wikidata-Q630121",
+      "wikidata-Q3956440",
+      "wikidata-Q3874376",
+      "wikidata-Q3607521",
+      "wikidata-Q3607561"
     ],
     "mapUrl": "https://maps.google.com/?q=Art+Institute+of+Chicago"
+  },
+  {
+    "id": "russian-museum",
+    "name": "Russian Museum",
+    "location": "",
+    "foundedYear": null,
+    "history": null,
+    "historyStatus": "unavailable",
+    "artworkIds": [
+      "wikidata-Q1070896",
+      "wikidata-Q105221629"
+    ],
+    "mapUrl": "https://maps.google.com/?q=Russian%20Museum"
+  },
+  {
+    "id": "feodosia-national-gallery-i-k-aivazovsky",
+    "name": "Feodosia National Gallery I. K. Aivazovsky",
+    "location": "",
+    "foundedYear": null,
+    "history": null,
+    "historyStatus": "unavailable",
+    "artworkIds": [
+      "wikidata-Q1982719"
+    ],
+    "mapUrl": "https://maps.google.com/?q=Feodosia%20National%20Gallery%20I.%20K.%20Aivazovsky"
+  },
+  {
+    "id": "tretyakov-gallery",
+    "name": "Tretyakov Gallery",
+    "location": "",
+    "foundedYear": null,
+    "history": null,
+    "historyStatus": "unavailable",
+    "artworkIds": [
+      "wikidata-Q4518724",
+      "wikidata-Q4387907",
+      "wikidata-Q7234368",
+      "wikidata-Q4110560",
+      "wikidata-Q34993777"
+    ],
+    "mapUrl": "https://maps.google.com/?q=Tretyakov%20Gallery"
+  },
+  {
+    "id": "various-collections",
+    "name": "Various collections",
+    "location": "",
+    "foundedYear": null,
+    "history": null,
+    "historyStatus": "unavailable",
+    "artworkIds": [
+      "wikidata-Q60674337",
+      "wikidata-Q6677931",
+      "wikidata-Q42807110",
+      "wikidata-Q43089702",
+      "wikidata-Q53634999",
+      "wikidata-Q118899735",
+      "wikidata-Q131574840",
+      "wikidata-Q43286169",
+      "wikidata-Q16364238",
+      "wikidata-Q16400495",
+      "wikidata-Q20511420",
+      "wikidata-Q20511080",
+      "wikidata-Q31195330",
+      "wikidata-Q42888735",
+      "wikidata-Q53340059",
+      "wikidata-Q4681871",
+      "wikidata-Q136433749",
+      "wikidata-Q157541",
+      "wikidata-Q17023954",
+      "wikidata-Q724377",
+      "wikidata-Q14866847",
+      "wikidata-Q637414",
+      "wikidata-Q557000",
+      "wikidata-Q468623",
+      "wikidata-Q663133",
+      "wikidata-Q2338417",
+      "wikidata-Q269342",
+      "wikidata-Q2943",
+      "wikidata-Q1989744",
+      "wikidata-Q2327759",
+      "wikidata-Q875686",
+      "wikidata-Q249449",
+      "wikidata-Q1200522",
+      "wikidata-Q1163663",
+      "wikidata-Q3213069",
+      "wikidata-Q80974590",
+      "wikidata-Q17041052",
+      "wikidata-Q28802071",
+      "wikidata-Q17530764",
+      "wikidata-Q18175799",
+      "wikidata-Q122397949",
+      "wikidata-Q98399009",
+      "wikidata-Q5095736",
+      "wikidata-Q7940348",
+      "wikidata-Q24572909",
+      "wikidata-Q18245084",
+      "wikidata-Q29351056",
+      "wikidata-Q3713986",
+      "wikidata-Q18239012",
+      "wikidata-Q164517",
+      "wikidata-Q1062726",
+      "wikidata-Q119188441",
+      "wikidata-Q3494409",
+      "wikidata-Q5914606",
+      "wikidata-Q111962908",
+      "wikidata-Q17429571",
+      "wikidata-Q227494",
+      "wikidata-Q2717022",
+      "wikidata-Q2489747",
+      "wikidata-Q18173384",
+      "wikidata-Q2944321",
+      "wikidata-Q17227585",
+      "wikidata-Q60520610",
+      "wikidata-Q18173402",
+      "wikidata-Q2963437",
+      "wikidata-Q60228610"
+    ],
+    "mapUrl": "https://maps.google.com/?q=Various%20collections"
+  },
+  {
+    "id": "v-v-vereshchagin-mykolaiv-art-museum",
+    "name": "V. V. Vereshchagin Mykolaiv Art Museum",
+    "location": "",
+    "foundedYear": null,
+    "history": null,
+    "historyStatus": "unavailable",
+    "artworkIds": [
+      "wikidata-Q4384735"
+    ],
+    "mapUrl": "https://maps.google.com/?q=V.%20V.%20Vereshchagin%20Mykolaiv%20Art%20Museum"
+  },
+  {
+    "id": "national-gallery-of-armenia",
+    "name": "National Gallery of Armenia",
+    "location": "",
+    "foundedYear": null,
+    "history": null,
+    "historyStatus": "unavailable",
+    "artworkIds": [
+      "wikidata-Q16699900",
+      "wikidata-Q28966350",
+      "wikidata-Q28969509",
+      "wikidata-Q77339890",
+      "wikidata-Q77340354",
+      "wikidata-Q77340363",
+      "wikidata-Q28772466",
+      "wikidata-Q28813115",
+      "wikidata-Q28758249",
+      "wikidata-Q28772072",
+      "wikidata-Q28772082",
+      "wikidata-Q28772175",
+      "wikidata-Q28772809",
+      "wikidata-Q28810823",
+      "wikidata-Q28813058",
+      "wikidata-Q28813248",
+      "wikidata-Q28845534",
+      "wikidata-Q28865420",
+      "wikidata-Q28865467",
+      "wikidata-Q28865473",
+      "wikidata-Q28813368",
+      "wikidata-Q28813435",
+      "wikidata-Q28813512",
+      "wikidata-Q28819785",
+      "wikidata-Q29169610",
+      "wikidata-Q29203229",
+      "wikidata-Q29372191",
+      "wikidata-Q29535180",
+      "wikidata-Q29550458",
+      "wikidata-Q25486604",
+      "wikidata-Q25486607",
+      "wikidata-Q26247521",
+      "wikidata-Q26247580",
+      "wikidata-Q28920766",
+      "wikidata-Q117774348"
+    ],
+    "mapUrl": "https://maps.google.com/?q=National%20Gallery%20of%20Armenia"
+  },
+  {
+    "id": "national-art-museum-of-azerbaijan",
+    "name": "National Art Museum of Azerbaijan",
+    "location": "",
+    "foundedYear": null,
+    "history": null,
+    "historyStatus": "unavailable",
+    "artworkIds": [
+      "wikidata-Q135653132"
+    ],
+    "mapUrl": "https://maps.google.com/?q=National%20Art%20Museum%20of%20Azerbaijan"
+  },
+  {
+    "id": "central-naval-museum",
+    "name": "Central Naval Museum",
+    "location": "",
+    "foundedYear": null,
+    "history": null,
+    "historyStatus": "unavailable",
+    "artworkIds": [
+      "wikidata-Q16698908"
+    ],
+    "mapUrl": "https://maps.google.com/?q=Central%20Naval%20Museum"
+  },
+  {
+    "id": "belarusian-national-arts-museum",
+    "name": "Belarusian National Arts Museum",
+    "location": "",
+    "foundedYear": null,
+    "history": null,
+    "historyStatus": "unavailable",
+    "artworkIds": [
+      "wikidata-Q3918559"
+    ],
+    "mapUrl": "https://maps.google.com/?q=Belarusian%20National%20Arts%20Museum"
+  },
+  {
+    "id": "martiros-saryan-museum",
+    "name": "Martiros Saryan Museum",
+    "location": "",
+    "foundedYear": null,
+    "history": null,
+    "historyStatus": "unavailable",
+    "artworkIds": [
+      "wikidata-Q28925577",
+      "wikidata-Q28854839",
+      "wikidata-Q28871584",
+      "wikidata-Q28933638",
+      "wikidata-Q28966281"
+    ],
+    "mapUrl": "https://maps.google.com/?q=Martiros%20Saryan%20Museum"
+  },
+  {
+    "id": "san-francisco-museum-of-modern-art",
+    "name": "San Francisco Museum of Modern Art",
+    "location": "",
+    "foundedYear": null,
+    "history": null,
+    "historyStatus": "unavailable",
+    "artworkIds": [
+      "wikidata-Q50318886",
+      "wikidata-Q69415262",
+      "wikidata-Q1437492"
+    ],
+    "mapUrl": "https://maps.google.com/?q=San%20Francisco%20Museum%20of%20Modern%20Art"
+  },
+  {
+    "id": "museum-of-modern-art",
+    "name": "Museum of Modern Art",
+    "location": "",
+    "foundedYear": null,
+    "history": null,
+    "historyStatus": "unavailable",
+    "artworkIds": [
+      "wikidata-Q19883979",
+      "wikidata-Q19885024",
+      "wikidata-Q19885056",
+      "wikidata-Q19883512",
+      "wikidata-Q45585",
+      "wikidata-Q19883438"
+    ],
+    "mapUrl": "https://maps.google.com/?q=Museum%20of%20Modern%20Art"
+  },
+  {
+    "id": "philadelphia-museum-of-art",
+    "name": "Philadelphia Museum of Art",
+    "location": "",
+    "foundedYear": null,
+    "history": null,
+    "historyStatus": "unavailable",
+    "artworkIds": [
+      "wikidata-Q20816425",
+      "wikidata-Q2501284",
+      "wikidata-Q2270938",
+      "wikidata-Q6046671",
+      "wikidata-Q3633443"
+    ],
+    "mapUrl": "https://maps.google.com/?q=Philadelphia%20Museum%20of%20Art"
+  },
+  {
+    "id": "thyssen-bornemisza-museum",
+    "name": "Thyssen-Bornemisza Museum",
+    "location": "",
+    "foundedYear": null,
+    "history": null,
+    "historyStatus": "unavailable",
+    "artworkIds": [
+      "wikidata-Q21711765",
+      "wikidata-Q21712182"
+    ],
+    "mapUrl": "https://maps.google.com/?q=Thyssen-Bornemisza%20Museum"
+  },
+  {
+    "id": "museum-of-fine-arts-houston",
+    "name": "Museum of Fine Arts, Houston",
+    "location": "",
+    "foundedYear": null,
+    "history": null,
+    "historyStatus": "unavailable",
+    "artworkIds": [
+      "wikidata-Q28036843"
+    ],
+    "mapUrl": "https://maps.google.com/?q=Museum%20of%20Fine%20Arts%2C%20Houston"
+  },
+  {
+    "id": "whitney-museum-of-american-art",
+    "name": "Whitney Museum of American Art",
+    "location": "",
+    "foundedYear": null,
+    "history": null,
+    "historyStatus": "unavailable",
+    "artworkIds": [
+      "wikidata-Q64506673",
+      "wikidata-Q2349666"
+    ],
+    "mapUrl": "https://maps.google.com/?q=Whitney%20Museum%20of%20American%20Art"
+  },
+  {
+    "id": "national-gallery-of-art-washington-dc",
+    "name": "National Gallery of Art (Washington, D.C.)",
+    "location": "",
+    "foundedYear": null,
+    "history": null,
+    "historyStatus": "unavailable",
+    "artworkIds": [
+      "wikidata-Q64536490",
+      "wikidata-Q2203011",
+      "wikidata-Q2395218",
+      "wikidata-Q15008032",
+      "wikidata-Q969367",
+      "wikidata-Q1267893",
+      "wikidata-Q254923",
+      "wikidata-Q3745698",
+      "wikidata-Q2734209"
+    ],
+    "mapUrl": "https://maps.google.com/?q=National%20Gallery%20of%20Art%20(Washington%2C%20D.C.)"
+  },
+  {
+    "id": "belvedere",
+    "name": "Belvedere",
+    "location": "",
+    "foundedYear": null,
+    "history": null,
+    "historyStatus": "unavailable",
+    "artworkIds": [
+      "wikidata-Q28008626",
+      "wikidata-Q698487",
+      "wikidata-Q2324643",
+      "wikidata-Q684689"
+    ],
+    "mapUrl": "https://maps.google.com/?q=Belvedere"
+  },
+  {
+    "id": "gallery-of-aslamazyan-sisters",
+    "name": "Gallery of Aslamazyan sisters",
+    "location": "",
+    "foundedYear": null,
+    "history": null,
+    "historyStatus": "unavailable",
+    "artworkIds": [
+      "wikidata-Q102174436",
+      "wikidata-Q102175806"
+    ],
+    "mapUrl": "https://maps.google.com/?q=Gallery%20of%20Aslamazyan%20sisters"
+  },
+  {
+    "id": "museo-del-prado",
+    "name": "Museo del Prado",
+    "location": "",
+    "foundedYear": null,
+    "history": null,
+    "historyStatus": "unavailable",
+    "artworkIds": [
+      "wikidata-Q321303",
+      "wikidata-Q2304870",
+      "wikidata-Q2213811",
+      "wikidata-Q2270768",
+      "wikidata-Q2276130",
+      "wikidata-Q1123378",
+      "wikidata-Q152867",
+      "wikidata-Q1091086",
+      "wikidata-Q1150997",
+      "wikidata-Q920030",
+      "wikidata-Q1988253",
+      "wikidata-Q2735507",
+      "wikidata-Q2983399",
+      "wikidata-Q500936",
+      "wikidata-Q2528477",
+      "wikidata-Q2413468"
+    ],
+    "mapUrl": "https://maps.google.com/?q=Museo%20del%20Prado"
+  },
+  {
+    "id": "department-of-paintings-of-the-louvre",
+    "name": "Department of Paintings of the Louvre",
+    "location": "",
+    "foundedYear": null,
+    "history": null,
+    "historyStatus": "unavailable",
+    "artworkIds": [
+      "wikidata-Q405814",
+      "wikidata-Q683274",
+      "wikidata-Q23922",
+      "wikidata-Q32496",
+      "wikidata-Q544315",
+      "wikidata-Q597114",
+      "wikidata-Q2610675",
+      "wikidata-Q12418",
+      "wikidata-Q563727",
+      "wikidata-Q656434",
+      "wikidata-Q783215",
+      "wikidata-Q24213",
+      "wikidata-Q12015473"
+    ],
+    "mapUrl": "https://maps.google.com/?q=Department%20of%20Paintings%20of%20the%20Louvre"
+  },
+  {
+    "id": "national-museum-of-ancient-art",
+    "name": "National Museum of Ancient Art",
+    "location": "",
+    "foundedYear": null,
+    "history": null,
+    "historyStatus": "unavailable",
+    "artworkIds": [
+      "wikidata-Q1217288"
+    ],
+    "mapUrl": "https://maps.google.com/?q=National%20Museum%20of%20Ancient%20Art"
+  },
+  {
+    "id": "museum-of-fine-arts-ghent-msk",
+    "name": "Museum of Fine Arts Ghent (MSK)",
+    "location": "",
+    "foundedYear": null,
+    "history": null,
+    "historyStatus": "unavailable",
+    "artworkIds": [
+      "wikidata-Q680128"
+    ],
+    "mapUrl": "https://maps.google.com/?q=Museum%20of%20Fine%20Arts%20Ghent%20(MSK)"
+  },
+  {
+    "id": "jacques-goudstikker-collection",
+    "name": "Jacques Goudstikker collection",
+    "location": "",
+    "foundedYear": null,
+    "history": null,
+    "historyStatus": "unavailable",
+    "artworkIds": [
+      "wikidata-Q2400652"
+    ],
+    "mapUrl": "https://maps.google.com/?q=Jacques%20Goudstikker%20collection"
+  },
+  {
+    "id": "stadel-museum",
+    "name": "Städel Museum",
+    "location": "",
+    "foundedYear": null,
+    "history": null,
+    "historyStatus": "unavailable",
+    "artworkIds": [
+      "wikidata-Q430069",
+      "wikidata-Q45130",
+      "wikidata-Q4373363"
+    ],
+    "mapUrl": "https://maps.google.com/?q=St%C3%A4del%20Museum"
+  },
+  {
+    "id": "academy-of-fine-arts-vienna",
+    "name": "Academy of Fine Arts Vienna",
+    "location": "",
+    "foundedYear": null,
+    "history": null,
+    "historyStatus": "unavailable",
+    "artworkIds": [
+      "wikidata-Q1387483"
+    ],
+    "mapUrl": "https://maps.google.com/?q=Academy%20of%20Fine%20Arts%20Vienna"
+  },
+  {
+    "id": "yale-university-art-gallery",
+    "name": "Yale University Art Gallery",
+    "location": "",
+    "foundedYear": null,
+    "history": null,
+    "historyStatus": "unavailable",
+    "artworkIds": [
+      "wikidata-Q2091114",
+      "wikidata-Q674846"
+    ],
+    "mapUrl": "https://maps.google.com/?q=Yale%20University%20Art%20Gallery"
+  },
+  {
+    "id": "neue-galerie",
+    "name": "Neue Galerie",
+    "location": "",
+    "foundedYear": null,
+    "history": null,
+    "historyStatus": "unavailable",
+    "artworkIds": [
+      "wikidata-Q354396"
+    ],
+    "mapUrl": "https://maps.google.com/?q=Neue%20Galerie"
+  },
+  {
+    "id": "leopold-museum",
+    "name": "Leopold Museum",
+    "location": "",
+    "foundedYear": null,
+    "history": null,
+    "historyStatus": "unavailable",
+    "artworkIds": [
+      "wikidata-Q1445107",
+      "wikidata-Q106522623",
+      "wikidata-Q17001535"
+    ],
+    "mapUrl": "https://maps.google.com/?q=Leopold%20Museum"
+  },
+  {
+    "id": "galleria-nazionale-darte-moderna-e-contemporanea-di-roma",
+    "name": "Galleria Nazionale d'Arte Moderna e Contemporanea di Roma",
+    "location": "",
+    "foundedYear": null,
+    "history": null,
+    "historyStatus": "unavailable",
+    "artworkIds": [
+      "wikidata-Q3829156"
+    ],
+    "mapUrl": "https://maps.google.com/?q=Galleria%20Nazionale%20d'Arte%20Moderna%20e%20Contemporanea%20di%20Roma"
+  },
+  {
+    "id": "national-gallery-prague",
+    "name": "National Gallery Prague",
+    "location": "",
+    "foundedYear": null,
+    "history": null,
+    "historyStatus": "unavailable",
+    "artworkIds": [
+      "wikidata-Q5967091"
+    ],
+    "mapUrl": "https://maps.google.com/?q=National%20Gallery%20Prague"
+  },
+  {
+    "id": "galleria-darte-moderna-ricci-oddi",
+    "name": "Galleria d'arte moderna Ricci Oddi",
+    "location": "",
+    "foundedYear": null,
+    "history": null,
+    "historyStatus": "unavailable",
+    "artworkIds": [
+      "wikidata-Q28442857"
+    ],
+    "mapUrl": "https://maps.google.com/?q=Galleria%20d'arte%20moderna%20Ricci%20Oddi"
+  },
+  {
+    "id": "national-gallery-of-canada",
+    "name": "National Gallery of Canada",
+    "location": "",
+    "foundedYear": null,
+    "history": null,
+    "historyStatus": "unavailable",
+    "artworkIds": [
+      "wikidata-Q4311873"
+    ],
+    "mapUrl": "https://maps.google.com/?q=National%20Gallery%20of%20Canada"
+  },
+  {
+    "id": "van-gogh-museum",
+    "name": "Van Gogh Museum",
+    "location": "",
+    "foundedYear": null,
+    "history": null,
+    "historyStatus": "unavailable",
+    "artworkIds": [
+      "wikidata-Q154469",
+      "wikidata-Q634122",
+      "wikidata-Q2200610"
+    ],
+    "mapUrl": "https://maps.google.com/?q=Van%20Gogh%20Museum"
+  },
+  {
+    "id": "kroller-muller-museum",
+    "name": "Kröller-Müller Museum",
+    "location": "",
+    "foundedYear": null,
+    "history": null,
+    "historyStatus": "unavailable",
+    "artworkIds": [
+      "wikidata-Q1025704"
+    ],
+    "mapUrl": "https://maps.google.com/?q=Kr%C3%B6ller-M%C3%BCller%20Museum"
+  },
+  {
+    "id": "musee-dorsay",
+    "name": "Musée d'Orsay",
+    "location": "",
+    "foundedYear": null,
+    "history": null,
+    "historyStatus": "unavailable",
+    "artworkIds": [
+      "wikidata-Q1464531",
+      "wikidata-Q1213917",
+      "wikidata-Q2734892",
+      "wikidata-Q1167912",
+      "wikidata-Q3454959",
+      "wikidata-Q3794124",
+      "wikidata-Q1118456",
+      "wikidata-Q3808227",
+      "wikidata-Q1114718",
+      "wikidata-Q3633456",
+      "wikidata-Q4429116",
+      "wikidata-Q3821663",
+      "wikidata-Q3873324",
+      "wikidata-Q1239950",
+      "wikidata-Q2622172",
+      "wikidata-Q3821820",
+      "wikidata-Q2912117",
+      "wikidata-Q3824633"
+    ],
+    "mapUrl": "https://maps.google.com/?q=Mus%C3%A9e%20d'Orsay"
+  },
+  {
+    "id": "pushkin-museum-of-fine-arts",
+    "name": "Pushkin Museum of Fine Arts",
+    "location": "",
+    "foundedYear": null,
+    "history": null,
+    "historyStatus": "unavailable",
+    "artworkIds": [
+      "wikidata-Q1926628",
+      "wikidata-Q3138984",
+      "wikidata-Q3633419"
+    ],
+    "mapUrl": "https://maps.google.com/?q=Pushkin%20Museum%20of%20Fine%20Arts"
+  },
+  {
+    "id": "musee-marmottan-monet",
+    "name": "Musée Marmottan Monet",
+    "location": "",
+    "foundedYear": null,
+    "history": null,
+    "historyStatus": "unavailable",
+    "artworkIds": [
+      "wikidata-Q328523"
+    ],
+    "mapUrl": "https://maps.google.com/?q=Mus%C3%A9e%20Marmottan%20Monet"
+  },
+  {
+    "id": "metropolitan-museum-of-art",
+    "name": "Metropolitan Museum of Art",
+    "location": "",
+    "foundedYear": null,
+    "history": null,
+    "historyStatus": "unavailable",
+    "artworkIds": [
+      "wikidata-Q432253",
+      "wikidata-Q941549",
+      "wikidata-Q734082",
+      "wikidata-Q17026577",
+      "wikidata-Q19905264"
+    ],
+    "mapUrl": "https://maps.google.com/?q=Metropolitan%20Museum%20of%20Art"
+  },
+  {
+    "id": "hermitage-museum",
+    "name": "Hermitage Museum",
+    "location": "",
+    "foundedYear": null,
+    "history": null,
+    "historyStatus": "unavailable",
+    "artworkIds": [
+      "wikidata-Q681876",
+      "wikidata-Q512755",
+      "wikidata-Q2294441",
+      "wikidata-Q2225699",
+      "wikidata-Q1142058",
+      "wikidata-Q4531523",
+      "wikidata-Q921429",
+      "wikidata-Q1999166",
+      "wikidata-Q3824214",
+      "wikidata-Q3929306",
+      "wikidata-Q7200240"
+    ],
+    "mapUrl": "https://maps.google.com/?q=Hermitage%20Museum"
+  },
+  {
+    "id": "the-phillips-collection",
+    "name": "The Phillips Collection",
+    "location": "",
+    "foundedYear": null,
+    "history": null,
+    "historyStatus": "unavailable",
+    "artworkIds": [
+      "wikidata-Q1167907"
+    ],
+    "mapUrl": "https://maps.google.com/?q=The%20Phillips%20Collection"
+  },
+  {
+    "id": "courtauld-institute-of-art",
+    "name": "Courtauld Institute of Art",
+    "location": "",
+    "foundedYear": null,
+    "history": null,
+    "historyStatus": "unavailable",
+    "artworkIds": [
+      "wikidata-Q74339",
+      "wikidata-Q6903108"
+    ],
+    "mapUrl": "https://maps.google.com/?q=Courtauld%20Institute%20of%20Art"
+  },
+  {
+    "id": "national-gallery",
+    "name": "National Gallery",
+    "location": "",
+    "foundedYear": null,
+    "history": null,
+    "historyStatus": "unavailable",
+    "artworkIds": [
+      "wikidata-Q1114571",
+      "wikidata-Q2528145",
+      "wikidata-Q1206860",
+      "wikidata-Q2528177",
+      "wikidata-Q1167932",
+      "wikidata-Q318947",
+      "wikidata-Q1213160",
+      "wikidata-Q2293953",
+      "wikidata-Q974674",
+      "wikidata-Q2339059",
+      "wikidata-Q257580",
+      "wikidata-Q3027255",
+      "wikidata-Q4003071",
+      "wikidata-Q3842349"
+    ],
+    "mapUrl": "https://maps.google.com/?q=National%20Gallery"
+  },
+  {
+    "id": "alte-nationalgalerie",
+    "name": "Alte Nationalgalerie",
+    "location": "",
+    "foundedYear": null,
+    "history": null,
+    "historyStatus": "unavailable",
+    "artworkIds": [
+      "wikidata-Q1659469",
+      "wikidata-Q334360",
+      "wikidata-Q693746",
+      "wikidata-Q1198515",
+      "wikidata-Q1197913",
+      "wikidata-Q1451490"
+    ],
+    "mapUrl": "https://maps.google.com/?q=Alte%20Nationalgalerie"
+  },
+  {
+    "id": "museum-folkwang",
+    "name": "Museum Folkwang",
+    "location": "",
+    "foundedYear": null,
+    "history": null,
+    "historyStatus": "unavailable",
+    "artworkIds": [
+      "wikidata-Q2783729",
+      "wikidata-Q507120"
+    ],
+    "mapUrl": "https://maps.google.com/?q=Museum%20Folkwang"
+  },
+  {
+    "id": "foundation-eg-buhrle-collection",
+    "name": "Foundation E.G. Bührle Collection",
+    "location": "",
+    "foundedYear": null,
+    "history": null,
+    "historyStatus": "unavailable",
+    "artworkIds": [
+      "wikidata-Q3937570",
+      "wikidata-Q2270805",
+      "wikidata-Q1016012"
+    ],
+    "mapUrl": "https://maps.google.com/?q=Foundation%20E.G.%20B%C3%BChrle%20Collection"
+  },
+  {
+    "id": "museum-of-fine-arts-boston",
+    "name": "Museum of Fine Arts Boston",
+    "location": "",
+    "foundedYear": null,
+    "history": null,
+    "historyStatus": "unavailable",
+    "artworkIds": [
+      "wikidata-Q4451145"
+    ],
+    "mapUrl": "https://maps.google.com/?q=Museum%20of%20Fine%20Arts%20Boston"
+  },
+  {
+    "id": "uffizi-gallery",
+    "name": "Uffizi Gallery",
+    "location": "",
+    "foundedYear": null,
+    "history": null,
+    "historyStatus": "unavailable",
+    "artworkIds": [
+      "wikidata-Q727875",
+      "wikidata-Q2046100",
+      "wikidata-Q2293905",
+      "wikidata-Q2011510",
+      "wikidata-Q1638622",
+      "wikidata-Q1059211",
+      "wikidata-Q1473546",
+      "wikidata-Q2344505",
+      "wikidata-Q151047",
+      "wikidata-Q549847",
+      "wikidata-Q488825",
+      "wikidata-Q2551625",
+      "wikidata-Q1217187",
+      "wikidata-Q2426058",
+      "wikidata-Q2269291",
+      "wikidata-Q2714237"
+    ],
+    "mapUrl": "https://maps.google.com/?q=Uffizi%20Gallery"
+  },
+  {
+    "id": "staatliche-kunstsammlungen-dresden",
+    "name": "Staatliche Kunstsammlungen Dresden",
+    "location": "",
+    "foundedYear": null,
+    "history": null,
+    "historyStatus": "unavailable",
+    "artworkIds": [
+      "wikidata-Q500812",
+      "wikidata-Q1111394",
+      "wikidata-Q700251",
+      "wikidata-Q63692",
+      "wikidata-Q328079",
+      "wikidata-Q232087",
+      "wikidata-Q884782"
+    ],
+    "mapUrl": "https://maps.google.com/?q=Staatliche%20Kunstsammlungen%20Dresden"
+  },
+  {
+    "id": "santa-maria-gloriosa-dei-frari",
+    "name": "Santa Maria Gloriosa dei Frari",
+    "location": "",
+    "foundedYear": null,
+    "history": null,
+    "historyStatus": "unavailable",
+    "artworkIds": [
+      "wikidata-Q1899740",
+      "wikidata-Q572697"
+    ],
+    "mapUrl": "https://maps.google.com/?q=Santa%20Maria%20Gloriosa%20dei%20Frari"
+  },
+  {
+    "id": "galleria-borghese",
+    "name": "Galleria Borghese",
+    "location": "",
+    "foundedYear": null,
+    "history": null,
+    "historyStatus": "unavailable",
+    "artworkIds": [
+      "wikidata-Q794077",
+      "wikidata-Q2293936",
+      "wikidata-Q2627056"
+    ],
+    "mapUrl": "https://maps.google.com/?q=Galleria%20Borghese"
+  },
+  {
+    "id": "isabella-stewart-gardner-museum",
+    "name": "Isabella Stewart Gardner Museum",
+    "location": "",
+    "foundedYear": null,
+    "history": null,
+    "historyStatus": "unavailable",
+    "artworkIds": [
+      "wikidata-Q18002417",
+      "wikidata-Q2246489",
+      "wikidata-Q1169395"
+    ],
+    "mapUrl": "https://maps.google.com/?q=Isabella%20Stewart%20Gardner%20Museum"
+  },
+  {
+    "id": "gallerie-dellaccademia",
+    "name": "Gallerie dell'Accademia",
+    "location": "",
+    "foundedYear": null,
+    "history": null,
+    "historyStatus": "unavailable",
+    "artworkIds": [
+      "wikidata-Q2665840",
+      "wikidata-Q215486"
+    ],
+    "mapUrl": "https://maps.google.com/?q=Gallerie%20dell'Accademia"
+  },
+  {
+    "id": "rijksmuseum",
+    "name": "Rijksmuseum",
+    "location": "",
+    "foundedYear": null,
+    "history": null,
+    "historyStatus": "unavailable",
+    "artworkIds": [
+      "wikidata-Q219831",
+      "wikidata-Q766782",
+      "wikidata-Q1170480",
+      "wikidata-Q167605",
+      "wikidata-Q586035",
+      "wikidata-Q166937"
+    ],
+    "mapUrl": "https://maps.google.com/?q=Rijksmuseum"
+  },
+  {
+    "id": "mauritshuis",
+    "name": "Mauritshuis",
+    "location": "",
+    "foundedYear": null,
+    "history": null,
+    "historyStatus": "unavailable",
+    "artworkIds": [
+      "wikidata-Q661378",
+      "wikidata-Q185372",
+      "wikidata-Q523974"
+    ],
+    "mapUrl": "https://maps.google.com/?q=Mauritshuis"
+  },
+  {
+    "id": "gemaldegalerie-berlin",
+    "name": "Gemäldegalerie Berlin",
+    "location": "",
+    "foundedYear": null,
+    "history": null,
+    "historyStatus": "unavailable",
+    "artworkIds": [
+      "wikidata-Q325267",
+      "wikidata-Q474024"
+    ],
+    "mapUrl": "https://maps.google.com/?q=Gem%C3%A4ldegalerie%20Berlin"
+  },
+  {
+    "id": "j-paul-getty-museum",
+    "name": "J. Paul Getty Museum",
+    "location": "",
+    "foundedYear": null,
+    "history": null,
+    "historyStatus": "unavailable",
+    "artworkIds": [
+      "wikidata-Q1243299",
+      "wikidata-Q6888851",
+      "wikidata-Q18209775"
+    ],
+    "mapUrl": "https://maps.google.com/?q=J.%20Paul%20Getty%20Museum"
+  },
+  {
+    "id": "kunsthistorisches-museum",
+    "name": "Kunsthistorisches Museum",
+    "location": "",
+    "foundedYear": null,
+    "history": null,
+    "historyStatus": "unavailable",
+    "artworkIds": [
+      "wikidata-Q588695"
+    ],
+    "mapUrl": "https://maps.google.com/?q=Kunsthistorisches%20Museum"
+  },
+  {
+    "id": "royal-collection",
+    "name": "Royal Collection",
+    "location": "",
+    "foundedYear": null,
+    "history": null,
+    "historyStatus": "unavailable",
+    "artworkIds": [
+      "wikidata-Q2336984"
+    ],
+    "mapUrl": "https://maps.google.com/?q=Royal%20Collection"
+  },
+  {
+    "id": "the-frick-collection",
+    "name": "The Frick Collection",
+    "location": "",
+    "foundedYear": null,
+    "history": null,
+    "historyStatus": "unavailable",
+    "artworkIds": [
+      "wikidata-Q467376"
+    ],
+    "mapUrl": "https://maps.google.com/?q=The%20Frick%20Collection"
+  },
+  {
+    "id": "san-luigi-dei-francesi",
+    "name": "San Luigi dei Francesi",
+    "location": "",
+    "foundedYear": null,
+    "history": null,
+    "historyStatus": "unavailable",
+    "artworkIds": [
+      "wikidata-Q969377"
+    ],
+    "mapUrl": "https://maps.google.com/?q=San%20Luigi%20dei%20Francesi"
+  },
+  {
+    "id": "st-johns-co-cathedral",
+    "name": "St. John's Co-Cathedral",
+    "location": "",
+    "foundedYear": null,
+    "history": null,
+    "historyStatus": "unavailable",
+    "artworkIds": [
+      "wikidata-Q2727560"
+    ],
+    "mapUrl": "https://maps.google.com/?q=St.%20John's%20Co-Cathedral"
+  },
+  {
+    "id": "galleria-nazionale-darte-antica",
+    "name": "Galleria Nazionale d'Arte Antica",
+    "location": "",
+    "foundedYear": null,
+    "history": null,
+    "historyStatus": "unavailable",
+    "artworkIds": [
+      "wikidata-Q2470123",
+      "wikidata-Q153441"
+    ],
+    "mapUrl": "https://maps.google.com/?q=Galleria%20Nazionale%20d'Arte%20Antica"
+  },
+  {
+    "id": "santa-maria-del-popolo",
+    "name": "Santa Maria del Popolo",
+    "location": "",
+    "foundedYear": null,
+    "history": null,
+    "historyStatus": "unavailable",
+    "artworkIds": [
+      "wikidata-Q685916"
+    ],
+    "mapUrl": "https://maps.google.com/?q=Santa%20Maria%20del%20Popolo"
+  },
+  {
+    "id": "santa-maria-delle-grazie",
+    "name": "Santa Maria delle Grazie",
+    "location": "",
+    "foundedYear": null,
+    "history": null,
+    "historyStatus": "unavailable",
+    "artworkIds": [
+      "wikidata-Q128910"
+    ],
+    "mapUrl": "https://maps.google.com/?q=Santa%20Maria%20delle%20Grazie"
+  },
+  {
+    "id": "munich-central-collecting-point",
+    "name": "Munich Central Collecting Point",
+    "location": "",
+    "foundedYear": null,
+    "history": null,
+    "historyStatus": "unavailable",
+    "artworkIds": [
+      "wikidata-Q474338"
+    ],
+    "mapUrl": "https://maps.google.com/?q=Munich%20Central%20Collecting%20Point"
+  },
+  {
+    "id": "louvre-abu-dhabi",
+    "name": "Louvre Abu Dhabi",
+    "location": "",
+    "foundedYear": null,
+    "history": null,
+    "historyStatus": "unavailable",
+    "artworkIds": [
+      "wikidata-Q1892745"
+    ],
+    "mapUrl": "https://maps.google.com/?q=Louvre%20Abu%20Dhabi"
+  },
+  {
+    "id": "bavarian-state-painting-collections",
+    "name": "Bavarian State Painting Collections",
+    "location": "",
+    "foundedYear": null,
+    "history": null,
+    "historyStatus": "unavailable",
+    "artworkIds": [
+      "wikidata-Q698015"
+    ],
+    "mapUrl": "https://maps.google.com/?q=Bavarian%20State%20Painting%20Collections"
+  },
+  {
+    "id": "piazza-della-signoria",
+    "name": "piazza della Signoria",
+    "location": "",
+    "foundedYear": null,
+    "history": null,
+    "historyStatus": "unavailable",
+    "artworkIds": [
+      "wikidata-Q179900"
+    ],
+    "mapUrl": "https://maps.google.com/?q=piazza%20della%20Signoria"
+  },
+  {
+    "id": "vatican-museums",
+    "name": "Vatican Museums",
+    "location": "",
+    "foundedYear": null,
+    "history": null,
+    "historyStatus": "unavailable",
+    "artworkIds": [
+      "wikidata-Q500242",
+      "wikidata-Q567861",
+      "wikidata-Q844675",
+      "wikidata-Q186953",
+      "wikidata-Q549953"
+    ],
+    "mapUrl": "https://maps.google.com/?q=Vatican%20Museums"
+  },
+  {
+    "id": "st-peters-basilica",
+    "name": "St. Peter's Basilica",
+    "location": "",
+    "foundedYear": null,
+    "history": null,
+    "historyStatus": "unavailable",
+    "artworkIds": [
+      "wikidata-Q235242"
+    ],
+    "mapUrl": "https://maps.google.com/?q=St.%20Peter's%20Basilica"
+  },
+  {
+    "id": "church-of-our-lady",
+    "name": "Church of Our Lady",
+    "location": "",
+    "foundedYear": null,
+    "history": null,
+    "historyStatus": "unavailable",
+    "artworkIds": [
+      "wikidata-Q567833"
+    ],
+    "mapUrl": "https://maps.google.com/?q=Church%20of%20Our%20Lady"
+  },
+  {
+    "id": "bargello-national-museum",
+    "name": "Bargello National Museum",
+    "location": "",
+    "foundedYear": null,
+    "history": null,
+    "historyStatus": "unavailable",
+    "artworkIds": [
+      "wikidata-Q1144620"
+    ],
+    "mapUrl": "https://maps.google.com/?q=Bargello%20National%20Museum"
+  },
+  {
+    "id": "department-of-sculptures-of-the-louvre",
+    "name": "Department of Sculptures of the Louvre",
+    "location": "",
+    "foundedYear": null,
+    "history": null,
+    "historyStatus": "unavailable",
+    "artworkIds": [
+      "wikidata-Q83862"
+    ],
+    "mapUrl": "https://maps.google.com/?q=Department%20of%20Sculptures%20of%20the%20Louvre"
+  },
+  {
+    "id": "sforza-castle",
+    "name": "Sforza Castle",
+    "location": "",
+    "foundedYear": null,
+    "history": null,
+    "historyStatus": "unavailable",
+    "artworkIds": [
+      "wikidata-Q1878666"
+    ],
+    "mapUrl": "https://maps.google.com/?q=Sforza%20Castle"
+  },
+  {
+    "id": "pinacoteca-di-brera",
+    "name": "Pinacoteca di Brera",
+    "location": "",
+    "foundedYear": null,
+    "history": null,
+    "historyStatus": "unavailable",
+    "artworkIds": [
+      "wikidata-Q2030685"
+    ],
+    "mapUrl": "https://maps.google.com/?q=Pinacoteca%20di%20Brera"
+  },
+  {
+    "id": "villa-farnesina",
+    "name": "Villa Farnesina",
+    "location": "",
+    "foundedYear": null,
+    "history": null,
+    "historyStatus": "unavailable",
+    "artworkIds": [
+      "wikidata-Q2344368"
+    ],
+    "mapUrl": "https://maps.google.com/?q=Villa%20Farnesina"
+  },
+  {
+    "id": "galleria-palatina",
+    "name": "Galleria Palatina",
+    "location": "",
+    "foundedYear": null,
+    "history": null,
+    "historyStatus": "unavailable",
+    "artworkIds": [
+      "wikidata-Q948034",
+      "wikidata-Q2035209"
+    ],
+    "mapUrl": "https://maps.google.com/?q=Galleria%20Palatina"
+  },
+  {
+    "id": "pinacoteca-vaticana",
+    "name": "Pinacoteca Vaticana",
+    "location": "",
+    "foundedYear": null,
+    "history": null,
+    "historyStatus": "unavailable",
+    "artworkIds": [
+      "wikidata-Q2344437"
+    ],
+    "mapUrl": "https://maps.google.com/?q=Pinacoteca%20Vaticana"
+  },
+  {
+    "id": "conde-museum",
+    "name": "Condé Museum",
+    "location": "",
+    "foundedYear": null,
+    "history": null,
+    "historyStatus": "unavailable",
+    "artworkIds": [
+      "wikidata-Q2360329"
+    ],
+    "mapUrl": "https://maps.google.com/?q=Cond%C3%A9%20Museum"
+  },
+  {
+    "id": "sistine-chapel",
+    "name": "Sistine Chapel",
+    "location": "",
+    "foundedYear": null,
+    "history": null,
+    "historyStatus": "unavailable",
+    "artworkIds": [
+      "wikidata-Q2268725",
+      "wikidata-Q1131272",
+      "wikidata-Q2268688"
+    ],
+    "mapUrl": "https://maps.google.com/?q=Sistine%20Chapel"
+  },
+  {
+    "id": "biblioteca-nacional-de-espana",
+    "name": "Biblioteca Nacional de España",
+    "location": "",
+    "foundedYear": null,
+    "history": null,
+    "historyStatus": "unavailable",
+    "artworkIds": [
+      "wikidata-Q671237"
+    ],
+    "mapUrl": "https://maps.google.com/?q=Biblioteca%20Nacional%20de%20Espa%C3%B1a"
+  },
+  {
+    "id": "royal-museums-greenwich",
+    "name": "Royal Museums Greenwich",
+    "location": "",
+    "foundedYear": null,
+    "history": null,
+    "historyStatus": "unavailable",
+    "artworkIds": [
+      "wikidata-Q1772871"
+    ],
+    "mapUrl": "https://maps.google.com/?q=Royal%20Museums%20Greenwich"
+  },
+  {
+    "id": "tate",
+    "name": "Tate",
+    "location": "",
+    "foundedYear": null,
+    "history": null,
+    "historyStatus": "unavailable",
+    "artworkIds": [
+      "wikidata-Q3646554",
+      "wikidata-Q16038731",
+      "wikidata-Q1652056",
+      "wikidata-Q3412132",
+      "wikidata-Q219271",
+      "wikidata-Q3203218"
+    ],
+    "mapUrl": "https://maps.google.com/?q=Tate"
+  },
+  {
+    "id": "national-library-of-wales",
+    "name": "National Library of Wales",
+    "location": "",
+    "foundedYear": null,
+    "history": null,
+    "historyStatus": "unavailable",
+    "artworkIds": [
+      "wikidata-Q22977128"
+    ],
+    "mapUrl": "https://maps.google.com/?q=National%20Library%20of%20Wales"
+  },
+  {
+    "id": "hamburger-kunsthalle",
+    "name": "Hamburger Kunsthalle",
+    "location": "",
+    "foundedYear": null,
+    "history": null,
+    "historyStatus": "unavailable",
+    "artworkIds": [
+      "wikidata-Q311243",
+      "wikidata-Q194137"
+    ],
+    "mapUrl": "https://maps.google.com/?q=Hamburger%20Kunsthalle"
+  },
+  {
+    "id": "kunst-museum-winterthur-reinhart-am-stadtgarten",
+    "name": "Kunst Museum Winterthur | Reinhart am Stadtgarten",
+    "location": "",
+    "foundedYear": null,
+    "history": null,
+    "historyStatus": "unavailable",
+    "artworkIds": [
+      "wikidata-Q1787143"
+    ],
+    "mapUrl": "https://maps.google.com/?q=Kunst%20Museum%20Winterthur%20%7C%20Reinhart%20am%20Stadtgarten"
+  },
+  {
+    "id": "museum-der-bildenden-kunste",
+    "name": "Museum der bildenden Künste",
+    "location": "",
+    "foundedYear": null,
+    "history": null,
+    "historyStatus": "unavailable",
+    "artworkIds": [
+      "wikidata-Q1214313"
+    ],
+    "mapUrl": "https://maps.google.com/?q=Museum%20der%20bildenden%20K%C3%BCnste"
+  },
+  {
+    "id": "national-museum-of-art-architecture-and-design",
+    "name": "National Museum of Art, Architecture and Design",
+    "location": "",
+    "foundedYear": null,
+    "history": null,
+    "historyStatus": "unavailable",
+    "artworkIds": [
+      "wikidata-Q471379",
+      "wikidata-Q3208135"
+    ],
+    "mapUrl": "https://maps.google.com/?q=National%20Museum%20of%20Art%2C%20Architecture%20and%20Design"
+  },
+  {
+    "id": "munch-museum",
+    "name": "Munch Museum",
+    "location": "",
+    "foundedYear": null,
+    "history": null,
+    "historyStatus": "unavailable",
+    "artworkIds": [
+      "wikidata-Q1989780",
+      "wikidata-Q1683743",
+      "wikidata-Q18891111",
+      "wikidata-Q18208623"
+    ],
+    "mapUrl": "https://maps.google.com/?q=Munch%20Museum"
+  },
+  {
+    "id": "gothenburg-museum-of-art",
+    "name": "Gothenburg Museum of Art",
+    "location": "",
+    "foundedYear": null,
+    "history": null,
+    "historyStatus": "unavailable",
+    "artworkIds": [
+      "wikidata-Q2267579"
+    ],
+    "mapUrl": "https://maps.google.com/?q=Gothenburg%20Museum%20of%20Art"
+  },
+  {
+    "id": "national-gallery-of-norway",
+    "name": "National Gallery of Norway",
+    "location": "",
+    "foundedYear": null,
+    "history": null,
+    "historyStatus": "unavailable",
+    "artworkIds": [
+      "wikidata-Q3432673"
+    ],
+    "mapUrl": "https://maps.google.com/?q=National%20Gallery%20of%20Norway"
+  },
+  {
+    "id": "art-museums-of-bergen",
+    "name": "Art Museums of Bergen",
+    "location": "",
+    "foundedYear": null,
+    "history": null,
+    "historyStatus": "unavailable",
+    "artworkIds": [
+      "wikidata-Q16939042",
+      "wikidata-Q18748731",
+      "wikidata-Q3955717"
+    ],
+    "mapUrl": "https://maps.google.com/?q=Art%20Museums%20of%20Bergen"
+  },
+  {
+    "id": "museo-nacional-centro-de-arte-reina-sofia",
+    "name": "Museo Nacional Centro de Arte Reina Sofía",
+    "location": "",
+    "foundedYear": null,
+    "history": null,
+    "historyStatus": "unavailable",
+    "artworkIds": [
+      "wikidata-Q167536",
+      "wikidata-Q211293",
+      "wikidata-Q175036"
+    ],
+    "mapUrl": "https://maps.google.com/?q=Museo%20Nacional%20Centro%20de%20Arte%20Reina%20Sof%C3%ADa"
+  },
+  {
+    "id": "museum-boijmans-van-beuningen",
+    "name": "Museum Boijmans Van Beuningen",
+    "location": "",
+    "foundedYear": null,
+    "history": null,
+    "historyStatus": "unavailable",
+    "artworkIds": [
+      "wikidata-Q2663568",
+      "wikidata-Q17986845"
+    ],
+    "mapUrl": "https://maps.google.com/?q=Museum%20Boijmans%20Van%20Beuningen"
+  },
+  {
+    "id": "minneapolis-institute-of-art",
+    "name": "Minneapolis Institute of Art",
+    "location": "",
+    "foundedYear": null,
+    "history": null,
+    "historyStatus": "unavailable",
+    "artworkIds": [
+      "wikidata-Q2990594"
+    ],
+    "mapUrl": "https://maps.google.com/?q=Minneapolis%20Institute%20of%20Art"
+  },
+  {
+    "id": "chateau-de-pommard",
+    "name": "Château de Pommard",
+    "location": "",
+    "foundedYear": null,
+    "history": null,
+    "historyStatus": "unavailable",
+    "artworkIds": [
+      "wikidata-Q3462260"
+    ],
+    "mapUrl": "https://maps.google.com/?q=Ch%C3%A2teau%20de%20Pommard"
+  },
+  {
+    "id": "gala-salvador-dali-foundation",
+    "name": "Gala-Salvador Dalí Foundation",
+    "location": "",
+    "foundedYear": null,
+    "history": null,
+    "historyStatus": "unavailable",
+    "artworkIds": [
+      "wikidata-Q61944806"
+    ],
+    "mapUrl": "https://maps.google.com/?q=Gala-Salvador%20Dal%C3%AD%20Foundation"
+  },
+  {
+    "id": "mt-abraham-center-for-the-visual-arts",
+    "name": "M.T. Abraham Center for the Visual Arts",
+    "location": "",
+    "foundedYear": null,
+    "history": null,
+    "historyStatus": "unavailable",
+    "artworkIds": [
+      "wikidata-Q50225924"
+    ],
+    "mapUrl": "https://maps.google.com/?q=M.T.%20Abraham%20Center%20for%20the%20Visual%20Arts"
+  },
+  {
+    "id": "unesco",
+    "name": "UNESCO",
+    "location": "",
+    "foundedYear": null,
+    "history": null,
+    "historyStatus": "unavailable",
+    "artworkIds": [
+      "wikidata-Q28681534"
+    ],
+    "mapUrl": "https://maps.google.com/?q=UNESCO"
+  },
+  {
+    "id": "museu-picasso",
+    "name": "Museu Picasso",
+    "location": "",
+    "foundedYear": null,
+    "history": null,
+    "historyStatus": "unavailable",
+    "artworkIds": [
+      "wikidata-Q5792254"
+    ],
+    "mapUrl": "https://maps.google.com/?q=Museu%20Picasso"
+  },
+  {
+    "id": "israel-museum",
+    "name": "Israel Museum",
+    "location": "",
+    "foundedYear": null,
+    "history": null,
+    "historyStatus": "unavailable",
+    "artworkIds": [
+      "wikidata-Q56696086"
+    ],
+    "mapUrl": "https://maps.google.com/?q=Israel%20Museum"
+  },
+  {
+    "id": "international-sculpture-collection",
+    "name": "International Sculpture Collection",
+    "location": "",
+    "foundedYear": null,
+    "history": null,
+    "historyStatus": "unavailable",
+    "artworkIds": [
+      "wikidata-Q29736128"
+    ],
+    "mapUrl": "https://maps.google.com/?q=International%20Sculpture%20Collection"
+  },
+  {
+    "id": "musee-picasso",
+    "name": "Musée Picasso",
+    "location": "",
+    "foundedYear": null,
+    "history": null,
+    "historyStatus": "unavailable",
+    "artworkIds": [
+      "wikidata-Q60935829"
+    ],
+    "mapUrl": "https://maps.google.com/?q=Mus%C3%A9e%20Picasso"
+  },
+  {
+    "id": "barnes-foundation",
+    "name": "Barnes Foundation",
+    "location": "",
+    "foundedYear": null,
+    "history": null,
+    "historyStatus": "unavailable",
+    "artworkIds": [
+      "wikidata-Q2538580",
+      "wikidata-Q3210778"
+    ],
+    "mapUrl": "https://maps.google.com/?q=Barnes%20Foundation"
+  },
+  {
+    "id": "statens-museum-for-kunst",
+    "name": "Statens Museum for Kunst",
+    "location": "",
+    "foundedYear": null,
+    "history": null,
+    "historyStatus": "unavailable",
+    "artworkIds": [
+      "wikidata-Q2902188"
+    ],
+    "mapUrl": "https://maps.google.com/?q=Statens%20Museum%20for%20Kunst"
+  },
+  {
+    "id": "musee-national-dart-moderne",
+    "name": "Musée National d'Art Moderne",
+    "location": "",
+    "foundedYear": null,
+    "history": null,
+    "historyStatus": "unavailable",
+    "artworkIds": [
+      "wikidata-Q3773123",
+      "wikidata-Q3268045",
+      "wikidata-Q3651370"
+    ],
+    "mapUrl": "https://maps.google.com/?q=Mus%C3%A9e%20National%20d'Art%20Moderne"
+  },
+  {
+    "id": "baltimore-museum-of-art",
+    "name": "Baltimore Museum of Art",
+    "location": "",
+    "foundedYear": null,
+    "history": null,
+    "historyStatus": "unavailable",
+    "artworkIds": [
+      "wikidata-Q882584"
+    ],
+    "mapUrl": "https://maps.google.com/?q=Baltimore%20Museum%20of%20Art"
+  },
+  {
+    "id": "musee-des-beaux-arts-de-pau",
+    "name": "Musée des Beaux-Arts de Pau",
+    "location": "",
+    "foundedYear": null,
+    "history": null,
+    "historyStatus": "unavailable",
+    "artworkIds": [
+      "wikidata-Q3794660"
+    ],
+    "mapUrl": "https://maps.google.com/?q=Mus%C3%A9e%20des%20Beaux-Arts%20de%20Pau"
+  },
+  {
+    "id": "kitakyushu-municipal-museum-of-art",
+    "name": "Kitakyushu Municipal Museum of Art",
+    "location": "",
+    "foundedYear": null,
+    "history": null,
+    "historyStatus": "unavailable",
+    "artworkIds": [
+      "wikidata-Q4025363"
+    ],
+    "mapUrl": "https://maps.google.com/?q=Kitakyushu%20Municipal%20Museum%20of%20Art"
+  },
+  {
+    "id": "musee-toulouse-lautrec",
+    "name": "Musée Toulouse-Lautrec",
+    "location": "",
+    "foundedYear": null,
+    "history": null,
+    "historyStatus": "unavailable",
+    "artworkIds": [
+      "wikidata-Q3607539",
+      "wikidata-Q3630732"
+    ],
+    "mapUrl": "https://maps.google.com/?q=Mus%C3%A9e%20Toulouse-Lautrec"
+  },
+  {
+    "id": "fogg-museum",
+    "name": "Fogg Museum",
+    "location": "",
+    "foundedYear": null,
+    "history": null,
+    "historyStatus": "unavailable",
+    "artworkIds": [
+      "wikidata-Q12899487"
+    ],
+    "mapUrl": "https://maps.google.com/?q=Fogg%20Museum"
+  },
+  {
+    "id": "musee-des-beaux-arts-de-la-ville-de-paris",
+    "name": "Musée des Beaux-Arts de la ville de Paris",
+    "location": "",
+    "foundedYear": null,
+    "history": null,
+    "historyStatus": "unavailable",
+    "artworkIds": [
+      "wikidata-Q3612977"
+    ],
+    "mapUrl": "https://maps.google.com/?q=Mus%C3%A9e%20des%20Beaux-Arts%20de%20la%20ville%20de%20Paris"
+  },
+  {
+    "id": "nationalmuseum",
+    "name": "Nationalmuseum",
+    "location": "",
+    "foundedYear": null,
+    "history": null,
+    "historyStatus": "unavailable",
+    "artworkIds": [
+      "wikidata-Q4212198"
+    ],
+    "mapUrl": "https://maps.google.com/?q=Nationalmuseum"
+  },
+  {
+    "id": "tokyo-national-museum",
+    "name": "Tokyo National Museum",
+    "location": "",
+    "foundedYear": null,
+    "history": null,
+    "historyStatus": "unavailable",
+    "artworkIds": [
+      "wikidata-Q252485"
+    ],
+    "mapUrl": "https://maps.google.com/?q=Tokyo%20National%20Museum"
+  },
+  {
+    "id": "tokyo-fuji-art-museum",
+    "name": "Tokyo Fuji Art Museum",
+    "location": "",
+    "foundedYear": null,
+    "history": null,
+    "historyStatus": "unavailable",
+    "artworkIds": [
+      "wikidata-Q3565037"
+    ],
+    "mapUrl": "https://maps.google.com/?q=Tokyo%20Fuji%20Art%20Museum"
+  },
+  {
+    "id": "cooper-hewitt-smithsonian-design-museum",
+    "name": "Cooper Hewitt, Smithsonian Design Museum",
+    "location": "",
+    "foundedYear": null,
+    "history": null,
+    "historyStatus": "unavailable",
+    "artworkIds": [
+      "wikidata-Q18173386"
+    ],
+    "mapUrl": "https://maps.google.com/?q=Cooper%20Hewitt%2C%20Smithsonian%20Design%20Museum"
   }
 ]
