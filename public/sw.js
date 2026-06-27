@@ -1,17 +1,25 @@
 /* Art Museum service worker — offline support via runtime caching.
  *
- * The entire artwork collection ships inside the app's JavaScript bundle, so
- * caching the app shell + static chunks is enough to make browsing, search,
- * favorites, artist and museum pages all work offline. Museum images are cached
- * separately as they are viewed.
+ * The light artwork index ships inside the app's JavaScript bundle, so caching
+ * the app shell + static chunks makes browsing, search, favorites, artist and
+ * museum pages all work offline. The heavy detail prose lives in
+ * /data/details.json, which we precache so the full artwork stories work offline
+ * too. Museum images are cached separately as they are viewed.
  */
-const VERSION = 'v1';
+const VERSION = 'v2';
 const SHELL_CACHE = `am-shell-${VERSION}`;
 const ASSET_CACHE = `am-assets-${VERSION}`;
 const IMAGE_CACHE = `am-images-${VERSION}`;
 const IMAGE_MAX = 300;
 
-const PRECACHE = ['/', '/explore/', '/search/', '/favorites/', '/manifest.webmanifest'];
+const PRECACHE = [
+  '/',
+  '/explore/',
+  '/search/',
+  '/favorites/',
+  '/manifest.webmanifest',
+  '/data/details.json',
+];
 
 self.addEventListener('install', (event) => {
   event.waitUntil(

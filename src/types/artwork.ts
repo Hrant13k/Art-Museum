@@ -22,6 +22,22 @@ export interface SourceLink {
   url: string;
 }
 
+/**
+ * The heavy, detail-only fields of an artwork. These are read solely by the
+ * expanded artwork viewer, so they are kept out of the bundled light index and
+ * loaded separately (see lib/details.ts). Splitting them out keeps the data
+ * that every page parses on first load small.
+ */
+export interface ArtworkDetail {
+  creationStory: string;
+  whoIsDepicted: string;
+  historicalContext: string;
+  interestingFacts: string[];
+  sourceLinks: SourceLink[];
+  depicts?: string[];
+  provenance?: Record<string, string>;
+}
+
 export interface Artwork extends EnrichedContent {
   /** Stable internal id: `${source}-${sourceId}`. */
   id: string;

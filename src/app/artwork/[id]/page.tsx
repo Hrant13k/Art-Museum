@@ -1,6 +1,7 @@
 import type { Metadata } from 'next';
 import { notFound } from 'next/navigation';
 import { artworks, getArtwork } from '@/lib/db';
+import { getArtworkDetail } from '@/lib/db.server';
 import { ArtworkViewer } from '@/components/ArtworkViewer';
 
 export function generateStaticParams() {
@@ -24,5 +25,7 @@ export async function generateMetadata({
 export default async function ArtworkPage({ params }: { params: Promise<{ id: string }> }) {
   const { id } = await params;
   if (!getArtwork(id)) notFound();
-  return <ArtworkViewer startId={id} />;
+  // Pass the entry artwork's detail as a prop so it is part of this page's
+  // static HTML (instant, SEO-friendly) rather than the shared client bundle.
+  return <ArtworkViewer startId={id} initialDetail={getArtworkDetail(id)} />;
 }

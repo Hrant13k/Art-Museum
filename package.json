@@ -5,12 +5,14 @@
   "description": "A calm, mobile-first digital museum PWA for meaningful art discovery.",
   "scripts": {
     "dev": "next dev",
+    "prebuild": "tsx scripts/split-data.ts",
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
     "data:collect": "tsx scripts/collect.ts",
     "data:enrich": "tsx scripts/enrich.ts",
-    "data:build": "tsx scripts/collect.ts && tsx scripts/enrich.ts"
+    "data:split": "tsx scripts/split-data.ts",
+    "data:build": "tsx scripts/collect.ts && tsx scripts/enrich.ts && tsx scripts/split-data.ts"
   },
   "dependencies": {
     "@vercel/analytics": "^2.0.1",

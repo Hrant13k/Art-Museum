@@ -5,6 +5,8 @@ import { useRouter } from 'next/navigation';
 import Link from 'next/link';
 import { AnimatePresence, motion, type PanInfo } from 'framer-motion';
 import { orderedArtworks, getArtist } from '@/lib/db';
+import { loadDetails } from '@/lib/details';
+import type { ArtworkDetail } from '@/types/artwork';
 import { monogram } from '@/lib/format';
 import { ArtworkImage } from './ArtworkImage';
 import { ExpandableSection } from './ExpandableSection';
@@ -14,7 +16,13 @@ import { ChevronIcon, CloseIcon } from './icons';
 
 const SWIPE_THRESHOLD = 70;
 
-export function ArtworkViewer({ startId }: { startId: string }) {
+export function ArtworkViewer({
+  startId,
+  initialDetail,
+}: {
+  startId: string;
+  initialDetail: ArtworkDetail | null;
+}) {
   const router = useRouter();
   const list = useMemo(() => orderedArtworks(), []);
   const startIndex = Math.max(0, list.findIndex((a) => a.id === startId));
@@ -22,6 +30,22 @@ export function ArtworkViewer({ startId }: { startId: string }) {
 
   const artwork = list[index];
   const artistRec = getArtist(artwork.artistId);
+
+  // Detail prose loads lazily. The entry artwork is seeded from a prop (so it is
+  // in the static HTML); swiped-to artworks fill in from the fetched detail map.
+  const [details, setDetails] = useState<Record<string, ArtworkDetail>>(
+    initialDetail ? { [startId]: initialDetail } : {},
+  );
+  useEffect(() => {
+    let alive = true;
+    loadDetails()
+      .then((map) => alive && setDetails((prev) => ({ ...map, ...prev })))
+      .catch(() => {});
+    return () => {
+      alive = false;
+    };
+  }, []);
+  const detail = details[artwork.id];
 
   const go = useCallback(
     (dir: 1 | -1) => {
@@ -223,25 +247,25 @@ export function ArtworkViewer({ startId }: { startId: string }) {
               <p>{artwork.overview}</p>
             </ExpandableSection>
           )}
-          {artwork.creationStory?.trim() && (
+          {detail?.creationStory?.trim() && (
             <ExpandableSection title="Creation Story">
-              <p>{artwork.creationStory}</p>
+              <p>{detail.creationStory}</p>
             </ExpandableSection>
           )}
-          {artwork.whoIsDepicted?.trim() && (
+          {detail?.whoIsDepicted?.trim() && (
             <ExpandableSection title="Who Is Depicted">
-              <p>{artwork.whoIsDepicted}</p>
+              <p>{detail.whoIsDepicted}</p>
             </ExpandableSection>
           )}
-          {artwork.historicalContext?.trim() && (
+          {detail?.historicalContext?.trim() && (
             <ExpandableSection title="Historical Context">
-              <p>{artwork.historicalContext}</p>
+              <p>{detail.historicalContext}</p>
             </ExpandableSection>
           )}
-          {artwork.interestingFacts.length > 0 && (
+          {(detail?.interestingFacts?.length ?? 0) > 0 && (
             <ExpandableSection title="Interesting Facts">
               <ul className="list-disc space-y-2.5 pl-5 marker:text-gilt/60">
-                {artwork.interestingFacts.map((fact, i) => (
+                {detail!.interestingFacts.map((fact, i) => (
                   <li key={i}>{fact}</li>
                 ))}
               </ul>
@@ -250,9 +274,9 @@ export function ArtworkViewer({ startId }: { startId: string }) {
           <div className="border-t border-white/[0.07]" />
         </div>
 
-        {artwork.sourceLinks.length > 0 && (
+        {(detail?.sourceLinks?.length ?? 0) > 0 && (
           <div className="mt-7 flex flex-wrap gap-4">
-            {artwork.sourceLinks.map((link) => (
+            {detail!.sourceLinks.map((link) => (
               <a
                 key={link.url}
                 href={link.url}
