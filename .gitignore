@@ -151,3 +151,8 @@ next-env.d.ts
 
 # Local-only deployment guide
 DEPLOY_TO_VERCEL.md
+
+# Local-only case study (slides, deck, screenshots)
+case-study/
+CASE_STUDY.md
+CASE_STUDY_BEHANCE.txt
