@@ -1,12 +1,25 @@
 'use client';
 
-import { useRef, useState } from 'react';
+import { useEffect, useRef, useState } from 'react';
+import { createPortal } from 'react-dom';
 import { useRouter } from 'next/navigation';
 import { motion, useReducedMotion, type Variants } from 'framer-motion';
 import { ArtworkImage } from './ArtworkImage';
 
 const STUB_W = 66; // px — width of the tear-off stub
 const NOTCH = 15; // px — diameter of the punched notches on the seam
+
+// — Tear timing —
+// Two distinct beats: a slow, savored RIP so the physical separation reads,
+// then a FAST handoff — the veil snaps up and we navigate the instant it
+// covers. Navigation is decoupled from the rip's end: it fires at
+// VEIL_DELAY + VEIL_DUR, so the prefetched exhibition renders behind the cover
+// (Next keeps the opaque veil up through the transition) instead of only
+// starting once the whole animation finishes.
+const DUR = 0.6; // s — the savored rip
+const VEIL_DELAY = 0.34; // s — veil stays clear while the rip is seen
+const VEIL_DUR = 0.16; // s — then snaps up fast
+const NAV_MS = Math.round((VEIL_DELAY + VEIL_DUR) * 1000) + 20; // navigate just after covered
 
 // Deterministic hash → stable serial/barcode per collection (no hydration drift).
 function hash(s: string): number {
@@ -39,7 +52,12 @@ export function CollectionTicket({ id, index, label, count, image, alt, objectPo
   const reduce = useReducedMotion();
   const [torn, setTorn] = useState(false);
   const navigated = useRef(false);
+  const navTimer = useRef<ReturnType<typeof setTimeout> | null>(null);
   const href = `/explore/${id}`;
+
+  useEffect(() => () => {
+    if (navTimer.current) clearTimeout(navTimer.current);
+  }, []);
 
   const serial = String(hash(id)).padStart(12, '0').slice(0, 12);
   const serialText = `${serial.slice(0, 3)} ${serial.slice(3, 7)} ${serial.slice(7, 12)}`;
@@ -62,7 +80,12 @@ export function CollectionTicket({ id, index, label, count, image, alt, objectPo
       go();
       return;
     }
-    setTorn(true); // tear plays, then onAnimationComplete navigates
+    setTorn(true);
+    // Don't wait for the tear to finish — navigate the instant the veil covers
+    // the screen. Next keeps the opaque veil up (current tree stays mounted in
+    // the transition) until the prefetched exhibition is ready, so the page
+    // swaps in seamlessly underneath while the tear's tail plays unseen.
+    navTimer.current = setTimeout(go, NAV_MS);
   };
 
   // The stub rips off along the perforation and drops away while the face lifts
@@ -72,29 +95,36 @@ export function CollectionTicket({ id, index, label, count, image, alt, objectPo
   const face: Variants = {
     idle: { x: 0, rotate: 0, opacity: 1 },
     torn: {
-      x: [0, -3, -14],
-      rotate: [0, 0.6, -1.6],
+      x: [0, -3, -16],
+      rotate: [0, 0.6, -1.8],
       opacity: [1, 1, 0],
-      transition: { duration: 0.52, times: [0, 0.4, 1], ease },
+      transition: { duration: DUR, times: [0, 0.45, 1], ease },
     },
   };
   const stub: Variants = {
     idle: { x: 0, y: 0, rotate: 0, opacity: 1 },
     torn: {
-      x: [0, 6, 30],
-      y: [0, -3, 42],
-      rotate: [0, -3, 12],
+      x: [0, 7, 34],
+      y: [0, -3, 48],
+      rotate: [0, -3, 13],
       opacity: [1, 1, 0],
-      transition: { duration: 0.58, times: [0, 0.32, 1], ease },
+      transition: { duration: DUR + 0.04, times: [0, 0.36, 1], ease },
     },
   };
   const shell: Variants = {
     idle: { scale: 1 },
-    torn: { scale: [1, 1.015, 1.03], transition: { duration: 0.58, times: [0, 0.3, 1], ease } },
+    torn: { scale: [1, 1.014, 1.03], transition: { duration: DUR, times: [0, 0.34, 1], ease } },
   };
+  // Holds clear while the rip is seen (VEIL_DELAY), then snaps up fast to cover —
+  // we navigate the moment it's opaque, so the swap underneath never flashes.
+  // Keyframed [0,1] so it always plays from clear (a single target would jump
+  // to opaque on mount).
   const veil: Variants = {
     idle: { opacity: 0 },
-    torn: { opacity: [0, 0, 1], transition: { duration: 0.58, times: [0, 0.5, 1], ease } },
+    torn: {
+      opacity: [0, 1],
+      transition: { delay: VEIL_DELAY, duration: VEIL_DUR, ease: [0.4, 0, 0.2, 1] },
+    },
   };
   const state = torn ? 'torn' : 'idle';
 
@@ -215,16 +245,23 @@ export function CollectionTicket({ id, index, label, count, image, alt, objectPo
         />
       </div>
 
-      {/* Transition veil — bridges the tear into the exhibition page. */}
-      {torn && (
-        <motion.div
-          variants={veil}
-          animate={state}
-          className="fixed inset-0 z-50 bg-gallery"
-          style={{ pointerEvents: 'none' }}
-          aria-hidden
-        />
-      )}
+      {/* Transition veil — bridges the tear into the exhibition page. Portaled to
+          <body> so it covers the viewport: the ticket's own transform (shell
+          scale / whileTap) would otherwise make this `fixed` element resolve
+          against the ticket instead of the screen. */}
+      {torn &&
+        typeof document !== 'undefined' &&
+        createPortal(
+          <motion.div
+            variants={veil}
+            initial="idle"
+            animate="torn"
+            className="fixed inset-0 z-[60] bg-gallery"
+            style={{ pointerEvents: 'none' }}
+            aria-hidden
+          />,
+          document.body,
+        )}
     </motion.a>
   );
 }
