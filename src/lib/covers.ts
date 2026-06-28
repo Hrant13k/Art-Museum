@@ -22,7 +22,7 @@ export const COVERS: Record<string, Cover> = {
   realism: { id: 'met-436544', position: '60% 22%', zoom: 1.25 }, // Tiburcio Pérez (Goya) — frame + dark margin
   impressionism: { id: 'wikidata-Q328523' }, // Impression, Sunrise
   'post-impressionism': { id: 'wikidata-Q45585', position: 'center 45%' }, // The Starry Night
-  symbolism: { id: 'wikidata-Q698487', position: 'center 28%' }, // The Kiss (Klimt)
+  symbolism: { id: 'wikidata-Q698487', position: 'center 14%' }, // The Kiss (Klimt) — keep the faces in frame
   modern: { id: 'wikidata-Q471379', position: 'center 42%' }, // The Scream
   surrealism: { id: 'wikidata-Q17986845' }, // Mae West Lips Sofa (Dalí)
   japanese: { id: 'met-39799', zoom: 1.26 }, // The Great Wave off Kanagawa (paper border)
