@@ -10,6 +10,8 @@ type Props = {
   priority?: boolean;
   /** object-fit; 'contain' for the immersive viewer, 'cover' for heroes/grids. */
   fit?: 'cover' | 'contain';
+  /** CSS object-position for focal-point cropping, e.g. 'center 30%'. */
+  objectPosition?: string;
 };
 
 /** Remote museum image with a quiet fade-in and graceful error state. */
@@ -20,6 +22,7 @@ export function ArtworkImage({
   imgClassName = '',
   priority = false,
   fit = 'cover',
+  objectPosition,
 }: Props) {
   const [loaded, setLoaded] = useState(false);
   const [errored, setErrored] = useState(false);
@@ -46,6 +49,7 @@ export function ArtworkImage({
           decoding="async"
           onLoad={() => setLoaded(true)}
           onError={() => setErrored(true)}
+          style={objectPosition ? { objectPosition } : undefined}
           className={`h-full w-full transition-opacity duration-[900ms] ease-soft ${
             fit === 'contain' ? 'object-contain' : 'object-cover'
           } ${loaded ? 'opacity-100' : 'opacity-0'} ${imgClassName}`}

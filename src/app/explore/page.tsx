@@ -3,7 +3,8 @@
 import { useMemo } from 'react';
 import { motion } from 'framer-motion';
 import { CATEGORIES } from '@/lib/categories';
-import { artworksInCategory } from '@/lib/db';
+import { artworksInCategory, getArtwork } from '@/lib/db';
+import { COVERS } from '@/lib/covers';
 import { CollectionTicket } from '@/components/CollectionTicket';
 import { ComingSoonTicket } from '@/components/ComingSoonTicket';
 import { PageHeader } from '@/components/PageHeader';
@@ -23,6 +24,9 @@ export default function ExplorePage() {
     // earlier ticket hasn't already claimed (some works match several
     // collections). Deterministic, so prerender and client agree.
     const used = new Set<string>();
+    // Curated covers take precedence; reserve them so the dedup fallback below
+    // never re-uses a hand-picked work on another ticket.
+    for (const c of Object.values(COVERS)) used.add(c.id);
     const pickFace = (works: ReturnType<typeof artworksInCategory>, from = 0) => {
       for (let i = from; i < works.length; i++) {
         if (!used.has(works[i].id)) {
@@ -45,17 +49,25 @@ export default function ExplorePage() {
         return { kind: 'soon' as const, id: c.id, label: c.label };
       }
       const works = artworksInCategory(c);
-      // A representative face for the ticket — deterministic so prerender matches.
-      const face = pickFace(works, c.id === 'random' ? Math.floor(works.length / 2) : 0);
       plate += 1;
+
+      // Prefer a hand-curated cover with a focal-point crop; otherwise fall back
+      // to a deterministic, de-duplicated pick from the collection's works.
+      const curated = COVERS[c.id];
+      const curatedArt = curated ? getArtwork(curated.id) : null;
+      const face = curatedArt
+        ? null
+        : pickFace(works, c.id === 'random' ? Math.floor(works.length / 2) : 0);
+
       return {
         kind: 'ticket' as const,
         id: c.id,
         index: plate,
         label: TITLE_OVERRIDE[c.id] ?? c.label,
         count: works.length,
-        image: face?.thumbnail,
-        alt: face?.title,
+        image: curatedArt?.thumbnail ?? face?.thumbnail,
+        alt: curatedArt?.title ?? face?.title,
+        objectPosition: curatedArt ? curated?.position : undefined,
       };
     });
   }, []);
@@ -91,6 +103,7 @@ export default function ExplorePage() {
                 count={c.count}
                 image={c.image}
                 alt={c.alt}
+                objectPosition={c.objectPosition}
                 priority={c.index <= 2}
               />
             )}
