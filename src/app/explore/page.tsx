@@ -68,6 +68,7 @@ export default function ExplorePage() {
         image: curatedArt?.thumbnail ?? face?.thumbnail,
         alt: curatedArt?.title ?? face?.title,
         objectPosition: curatedArt ? curated?.position : undefined,
+        zoom: curatedArt ? curated?.zoom : undefined,
       };
     });
   }, []);
@@ -104,6 +105,7 @@ export default function ExplorePage() {
                 image={c.image}
                 alt={c.alt}
                 objectPosition={c.objectPosition}
+                zoom={c.zoom}
                 priority={c.index <= 2}
               />
             )}

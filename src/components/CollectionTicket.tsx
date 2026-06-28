@@ -28,11 +28,13 @@ type Props = {
   alt?: string;
   /** Focal-point crop for the face, e.g. 'center 30%'. */
   objectPosition?: string;
+  /** Scale the face past the frame to crop away a baked-in border. */
+  zoom?: number;
   /** Eagerly load the face — set for the above-the-fold tickets (LCP). */
   priority?: boolean;
 };
 
-export function CollectionTicket({ id, index, label, count, image, alt, objectPosition, priority }: Props) {
+export function CollectionTicket({ id, index, label, count, image, alt, objectPosition, zoom, priority }: Props) {
   const router = useRouter();
   const reduce = useReducedMotion();
   const [torn, setTorn] = useState(false);
@@ -126,6 +128,7 @@ export function CollectionTicket({ id, index, label, count, image, alt, objectPo
               alt={alt ?? label}
               fit="cover"
               objectPosition={objectPosition}
+              zoom={zoom}
               priority={priority}
               className="h-full w-full"
             />
