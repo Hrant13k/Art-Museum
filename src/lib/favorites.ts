@@ -1,28 +1,9 @@
 // Favorites persistence using IndexedDB. We store only artwork ids — the full
 // artwork records live in the app bundle — so favorites work fully offline and
 // without any account or network.
-import { openDB, type IDBPDatabase } from 'idb';
+import { getDB, STORE_FAVORITES as STORE } from './idb';
 
-const DB_NAME = 'art-museum';
-const STORE = 'favorites';
-
-let dbPromise: Promise<IDBPDatabase> | null = null;
-
-function db(): Promise<IDBPDatabase> {
-  if (typeof window === 'undefined') {
-    return Promise.reject(new Error('IndexedDB is only available in the browser.'));
-  }
-  if (!dbPromise) {
-    dbPromise = openDB(DB_NAME, 1, {
-      upgrade(database) {
-        if (!database.objectStoreNames.contains(STORE)) {
-          database.createObjectStore(STORE, { keyPath: 'id' });
-        }
-      },
-    });
-  }
-  return dbPromise;
-}
+const db = getDB;
 
 export async function getFavoriteIds(): Promise<string[]> {
   try {

@@ -9,6 +9,7 @@ import { getArtist } from '@/lib/db';
 import { monogram } from '@/lib/format';
 import { ArtworkImage } from './ArtworkImage';
 import { FavoriteButton } from './FavoriteButton';
+import { AddToCollectionButton } from './AddToCollectionButton';
 import { ShareButton } from './ShareButton';
 import { ChevronIcon } from './icons';
 
@@ -161,6 +162,7 @@ export function HomeDaily() {
             </Link>
             <div className="flex shrink-0 items-center">
               <FavoriteButton artworkId={artwork.id} />
+              <AddToCollectionButton artworkId={artwork.id} />
               <ShareButton title={`${artwork.title} — ${artwork.artist}`} />
             </div>
           </motion.div>

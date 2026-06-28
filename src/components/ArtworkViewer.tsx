@@ -11,6 +11,7 @@ import { monogram } from '@/lib/format';
 import { ArtworkImage } from './ArtworkImage';
 import { ExpandableSection } from './ExpandableSection';
 import { FavoriteButton } from './FavoriteButton';
+import { AddToCollectionButton } from './AddToCollectionButton';
 import { ShareButton } from './ShareButton';
 import { ChevronIcon, CloseIcon } from './icons';
 
@@ -135,6 +136,7 @@ export function ArtworkViewer({
           </span>
           <div className="flex items-center gap-1">
             <FavoriteButton artworkId={artwork.id} variant="overlay" />
+            <AddToCollectionButton artworkId={artwork.id} variant="overlay" />
             <ShareButton title={`${artwork.title} — ${artwork.artist}`} variant="overlay" />
           </div>
         </div>

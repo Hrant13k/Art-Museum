@@ -9,7 +9,7 @@ const TABS = [
   { href: '/', label: 'Today', Icon: TodayIcon, match: (p: string) => p === '/' },
   { href: '/explore', label: 'Explore', Icon: ExploreIcon, match: (p: string) => p.startsWith('/explore') },
   { href: '/search', label: 'Search', Icon: SearchIcon, match: (p: string) => p.startsWith('/search') },
-  { href: '/favorites', label: 'Saved', Icon: HeartIcon, match: (p: string) => p.startsWith('/favorites') },
+  { href: '/favorites', label: 'Saved', Icon: HeartIcon, match: (p: string) => p.startsWith('/favorites') || p.startsWith('/collection') },
 ];
 
 export function BottomNav() {
